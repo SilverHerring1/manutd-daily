@@ -1,0 +1,260 @@
+﻿<!doctype html>
+<!--
+  editorial-html / page-skeleton.html
+  语义骨架。复制这个文件当起点，配合 design-tokens.css + layout.css + app.js。
+
+  三条使用规则：
+  1. 所有 id 都是 app.js 的接线点，改名要同步改 JS。
+  2. 内容的实体（标题、正文、来源）一律由 data/*.json 提供，HTML 里不写死。
+  3. 新增块之前先问：它属于「版头 / 要点 / 正文 / 侧栏」哪一层？不属于就别加。
+
+  注意：本文件旁边没有 data/ 目录，直接打开会提示「目录载入失败」，这是预期。
+  可跑的样例在同目录 demo/，复制本文件过去再接上自己的 data/ 即可。
+-->
+<html lang="zh-CN" data-theme="evening" data-font-size="standard">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0e0f11" />
+  <meta name="description" content="曼联近一个月的比赛与要闻，一天两期。" />
+  <title>曼联日报 · 近一个月</title>
+
+  <!-- 图标用内联 SVG，省一次请求，也省 favicon.ico 的 404 -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23faf9f6'/%3E%3Ctext x='9' y='50' font-family='Georgia' font-size='54' fill='%231c1d1b'%3EA%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="./design-tokens.css?v=7" />
+  <link rel="stylesheet" href="./layout.css?v=7" />
+
+  <!-- 首选预连接数据源（跨域时才有意义） -->
+  <link rel="preconnect" href="/" />
+
+  <script type="module" src="./app.js?v=7"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#articleContent">跳到正文</a>
+
+  <div class="shell">
+    <!-- ============ 吸顶栏 ============ -->
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="返回到最新一期">
+        <img class="brand-avatar" src="./aria-avatar.svg" alt="" width="36" height="36" />
+        <span class="brand-text">曼联日报<small>The Red Daily</small></span>
+      </a>
+
+      <div class="topbar-tools">
+        <button type="button" class="tool-button" data-open-search aria-label="搜索最近七天的新闻">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
+          <span class="tool-text">搜索</span>
+          <kbd class="key-hint" aria-hidden="true">Ctrl K</kbd>
+        </button>
+        <button type="button" class="tool-button" id="fontSizeButton" aria-label="调整阅读字号">
+          <span class="aa" aria-hidden="true">Aa</span>
+          <span class="tool-text" id="fontSizeLabel">标准</span>
+        </button>
+        <button type="button" class="tool-button" id="shareButton">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V4" /><path d="m7.5 8.5 4.5-4.5 4.5 4.5" /><path d="M5 14v4.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V14" /></svg>
+          <span class="tool-text">分享</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ 版头：整页只有一个 h1 ============ -->
+      <section class="edition-head" aria-labelledby="editionTitle">
+        <div class="edition-id">
+          <p class="kicker" id="editionKicker">第 — 期</p>
+          <h1 id="editionTitle">正在载入</h1>
+        </div>
+
+        <div class="edition-side">
+          <div class="edition-controls">
+            <button type="button" class="date-trigger" id="dateTrigger"
+                    aria-haspopup="dialog" aria-expanded="false" aria-controls="dateMenu" disabled>
+              <span class="date-full" id="dateFull">—</span>
+              <span class="date-weekday" id="dateWeekday"></span>
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+            </button>
+
+            <div class="period-switch" role="group" aria-label="切换早晚报">
+              <button type="button" data-period="morning" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" /><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" /></svg>
+                早报
+              </button>
+              <button type="button" data-period="evening" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8.2 8.2 0 1 0 10.5 10.5Z" /></svg>
+                晚报
+              </button>
+            </div>
+          </div>
+
+          <p class="edition-meta" id="editionMeta">—</p>
+          <a class="edition-video" id="videoLink" target="_blank" rel="noopener noreferrer" hidden>观看本期视频 ↗</a>
+        </div>
+      </section>
+
+      <!-- 载入失败、回退提示都在这里，用 role=status 让读屏念出来 -->
+      <p class="notice" id="pageNotice" role="status" hidden></p>
+
+      <!-- ============ 今日要点 ============ -->
+      <section class="digest" id="digest" aria-labelledby="digestLabel">
+        <p class="digest-label" id="digestLabel"><span class="mark-dot"></span>今日要点</p>
+        <div class="digest-layout" id="digestLayout">
+          <figure class="digest-hero" id="digestHero" hidden>
+            <img id="digestHeroImage" alt="" width="1200" height="900" />
+          </figure>
+          <ol class="digest-list" id="digestList"></ol>
+        </div>
+      </section>
+
+      <!-- ============ 正文：目录 + 阅读列 + 侧栏 ============ -->
+      <section class="reader" id="reader" aria-label="本期正文">
+        <aside class="rail" aria-label="本期目录">
+          <p class="rail-label">本期目录</p>
+          <nav id="directory"></nav>
+          <button type="button" class="rail-top" id="backToTop">回到顶部</button>
+        </aside>
+
+        <div class="reader-main">
+          <div id="articleContent"></div>
+          <div class="read-end" id="readEnd" hidden>
+            <nav class="issue-nav" id="issueNav" aria-label="期次导航"></nav>
+            <p id="readEndText">这一期读完了。</p>
+          </div>
+        </div>
+
+        <aside class="side" aria-label="侧栏">
+          <div class="side-card" id="sideCard">
+            <p class="side-label">关于</p>
+            <p>近一个月 8 场，逐场复盘。</p>
+            <p class="side-hint">比分以官网为准，评论只代表编辑判断。</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-brand">曼联日报</p>
+      <p class="footer-note">赛果与数据来自曼联官网、懂球帝与公开赛程；时间统一为北京时间。<span class="build-tag" id="buildTag"></span></p>
+    </footer>
+  </div>
+
+  <!-- ============ 手机迷你条：滚过版头才出现 ============ -->
+  <div class="mini-bar" id="miniBar" hidden>
+    <button type="button" id="miniEdition">
+      <span id="miniEditionText">—</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+    </button>
+    <span class="mini-sep" aria-hidden="true"></span>
+    <button type="button" id="miniSection">
+      <span>目录</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+    </button>
+    <span class="mini-progress" aria-hidden="true"><i id="miniProgress"></i></span>
+  </div>
+
+  <!-- ============ 期次选择：7 天 × 早晚 ============ -->
+  <div class="sheet" id="dateMenu" hidden>
+    <div class="sheet-panel" role="dialog" aria-modal="false" aria-labelledby="dateMenuTitle">
+      <div class="sheet-head">
+        <p class="sheet-title" id="dateMenuTitle">最近七天</p>
+        <button type="button" class="sheet-close" data-close-sheet aria-label="关闭" onclick="document.getElementById('dateMenu').hidden=true;document.getElementById('dateTrigger').setAttribute('aria-expanded','false')">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </div>
+      <div class="edition-grid" id="dateGrid"></div>
+      <p class="sheet-foot">灰色为尚未发布的期次</p>
+    </div>
+  </div>
+
+  <!-- ============ 搜索 ============ -->
+  <dialog class="dialog" id="searchDialog" aria-labelledby="searchTitle">
+    <div class="dialog-head">
+      <div>
+        <p class="dialog-kicker">最近七天</p>
+        <h2 id="searchTitle">在新闻里找一件事</h2>
+      </div>
+      <button type="button" class="dialog-close" data-close-dialog aria-label="关闭搜索">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+    </div>
+    <label class="search-field">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
+      <input id="searchInput" type="search" placeholder="模型名、公司、产品或你关心的事" autocomplete="off" />
+    </label>
+    <p class="search-hint" id="searchHint" role="status">搜索最近 7 天的标题、摘要与正文。</p>
+    <div class="search-results" id="searchResults"></div>
+  </dialog>
+
+  <!-- ============ 分享本期链接 ============ -->
+  <dialog class="dialog" id="shareDialog" aria-labelledby="shareTitle">
+    <div class="dialog-head">
+      <div>
+        <p class="dialog-kicker">把这一期分享给朋友</p>
+        <h2 id="shareTitle">分享本期</h2>
+      </div>
+      <button type="button" class="dialog-close" data-close-dialog aria-label="关闭分享">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+    </div>
+    <div class="share-content">
+      <label for="shareLink">本期链接</label>
+      <input id="shareLink" type="text" readonly spellcheck="false" />
+      <p class="share-message" id="shareMessage" role="status">链接已选中，可按 Ctrl+C 或长按复制。</p>
+      <button type="button" class="ghost-button" id="copyShareLink">复制链接</button>
+    </div>
+  </dialog>
+
+  <!-- ============ 单条新闻海报：画布在浏览器本地生成 ============ -->
+  <dialog class="dialog" id="posterDialog" aria-labelledby="posterTitle">
+    <div class="dialog-head">
+      <div>
+        <p class="dialog-kicker">把这一条分享给朋友</p>
+        <h2 id="posterTitle">新闻分享海报</h2>
+      </div>
+      <button type="button" class="dialog-close" data-close-dialog aria-label="关闭海报">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+    </div>
+    <p class="poster-status" id="posterStatus" role="status" aria-live="polite">正在生成…</p>
+    <div class="poster-stage">
+      <img id="posterPreview" alt="新闻分享海报，可长按保存" hidden />
+    </div>
+    <div class="poster-actions">
+      <button type="button" class="ghost-button" id="sharePosterImage" disabled>分享图片</button>
+      <a class="ghost-button" id="downloadPoster" hidden>下载图片</a>
+      <button type="button" class="ghost-button" id="retryPoster" hidden>重新生成</button>
+      <button type="button" class="ghost-button" id="closePoster" data-close-dialog>关闭</button>
+    </div>
+  </dialog>
+
+  <!-- ============ 大图查看 ============ -->
+  <dialog class="dialog image-dialog" id="imageDialog" aria-label="查看配图">
+    <div class="image-stage"><img id="largeImage" alt="" /></div>
+    <div class="image-actions">
+      <p class="image-position" id="imagePosition" aria-live="polite"></p>
+      <button type="button" class="ghost-button" id="previousImage" aria-label="上一张配图" hidden>上一张</button>
+      <button type="button" class="ghost-button" id="nextImage" aria-label="下一张配图" hidden>下一张</button>
+      <button type="button" class="ghost-button" data-close-dialog>关闭</button>
+    </div>
+  </dialog>
+  <script>
+  (function () {
+    var isFile = location.protocol === "file:";
+    var tag = document.getElementById("buildTag");
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v7";
+    if (!isFile) return;
+    var bar = document.createElement("div");
+    bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");
+    bar.innerHTML =
+      '<div style="max-width:680px;margin:0 auto">' +
+      '<p style="color:#ff4b3a;letter-spacing:.14em;font-size:12px;margin:0 0 10px">MANCHESTER UNITED · THE RED DAILY</p>' +
+      '<h1 style="margin:0 0 18px;font-size:28px;line-height:1.35">双击 index.html 是打不开的</h1>' +
+      '<p>你现在打开的是 <code style="background:#1b2027;padding:2px 6px;border-radius:2px">file://</code>。浏览器会拦掉模块脚本和读取 JSON 的请求，所以页面只会停在「正在载入」。</p>' +
+      '<p style="margin:22px 0"><b style="font-size:18px">正确做法：双击项目里的「启动.cmd」</b><br>它会起一个本地服务器，两秒后自动打开 http://127.0.0.1:8131/</p>' +
+      '<p style="opacity:.55;font-size:13px;word-break:break-all">当前地址：' + location.href + '</p>' +
+      '</div>';
+    document.body.appendChild(bar);
+  })();
+  </script></body>
+</html>

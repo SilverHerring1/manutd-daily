@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-19-morning",
+  "date": "2026-10-19",
+  "period": "morning",
+  "issue_number": 3,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/leeds.jpg",
+    "alt": "利兹联 1-1 曼联",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "leeds",
+          "title": "利兹联 1-1 曼联：姆贝乌莫又救了一分",
+          "summary": "客场第 35 分钟扳平，曼联拿到 1 分，联赛仍第 13 位。",
+          "body_html": "<p>姆贝乌莫是这段时间里状态最好的球员，联赛进球数来到 4 个，与 B 费并列队内最多。</p><p>但球队的问题没变：控球不少，禁区内真正有威胁的机会太少。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/report-leeds-1-united-1-18-oct-2026"
+            }
+          ],
+          "source_name": "英超第 7 轮",
+          "published_at": "10-19 00:30",
+          "image": {
+            "src": "./media/leeds2.jpg",
+            "alt": "利兹联 1-1 曼联",
+            "width": 1200,
+            "height": 1800
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "七轮 7 分，联赛还是第 13。周中欧冠客场科莫，不能再丢。"
+  }
+}

@@ -1,0 +1,290 @@
+/* ============================================================
+   editorial-html / design-tokens.css
+   设计变量 + 基础排版 + 打印 + 无障碍基线。
+
+   规矩：组件样式里不写裸像素和裸颜色，一切走变量。
+   换品牌只改 :root，换期次只改 <html data-theme>。
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* —— 曼联红白：早报是白纸黑墨，红只做强调 —— */
+  --paper: #ffffff;          /* 纯白纸 */
+  --surface: #f5f4f1;        /* 卡片/提示底色，比纸深一档 */
+  --ink: #0b0b0c;            /* 标题墨色 */
+  --body-text: #1c1d1f;      /* 正文 */
+  --summary: #4a4f57;        /* 摘要/导语 */
+  --muted: #6b7078;          /* 次要信息 */
+  --faint: #8b9097;          /* 极弱信息、未发布状态 */
+  --line: #e3e1dc;           /* 分隔线 */
+  --line-strong: #0b0b0c;    /* 强调线，报纸的分栏线 */
+  --accent: #da291c;         /* 曼联红 */
+  --highlight: rgb(218 41 28 / 16%);  /* 关键词底色 */
+  --radius: 2px;             /* 视觉上几乎直角，报纸质感 */
+
+  /* —— 字族 —— */
+  --serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", STSong, SimSun, serif;
+  --sans: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Microsoft YaHei", "PingFang SC", sans-serif;
+  --num: Georgia, "Times New Roman", serif;   /* 日期与期号用衬线数字 */
+
+  /* —— 字号阶梯：只允许这四档 —— */
+  --body-size: 17px;
+  --ui: 14px;
+  --cap: 12px;               /* caption：期号、来源、时间 */
+  --display: 44px;           /* 版头大标题 */
+  --h2: 30px;
+  --h3: 24px;
+  --leading: 1.75;           /* 中文正文行高，别低于 1.7 */
+
+  /* —— 版式尺寸 —— */
+  --shell: 1176px;           /* 整页最大宽 */
+  --gutter: 40px;            /* 页边距 */
+  --measure: 38em;           /* 阅读列宽：一屏 30~40 字，中文别超 40em */
+  --rail: 176px;             /* 左侧目录栏 */
+  --side: 240px;             /* 右侧侧栏 */
+  --gap: 56px;               /* 栏间距 */
+  --topbar-h: 64px;          /* 吸顶栏高度，也是锚点偏移量 */
+
+  /* —— 动效 —— */
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+  --dur: 180ms;
+}
+
+/* 晚报：夜纸。主题跟内容走，不跟系统设置走。 */
+[data-theme="evening"] {
+  color-scheme: dark;
+  --paper: #0e0f11;          /* 接近纯黑的夜纸 */
+  --surface: #17181b;
+  --ink: #f4f1ec;
+  --body-text: #d9d5cd;
+  --summary: #bdb8ae;
+  --muted: #96918a;
+  --faint: #7c7770;
+  --line: #2c2d31;
+  --line-strong: #f4f1ec;
+  --accent: #ff4b3a;         /* 深底上用更亮的红，保证对比度 */
+  --highlight: rgb(255 75 58 / 22%);
+}
+
+/* 阅读字号三档：正文、界面、标注同步放大，保持比例 */
+[data-font-size="large"] {
+  --body-size: 19px;
+  --ui: 15px;
+  --cap: 13px;
+  --display: 46px;
+  --h2: 32px;
+  --h3: 26px;
+}
+
+[data-font-size="extra"] {
+  --body-size: 21px;
+  --ui: 16px;
+  --cap: 14px;
+  --display: 48px;
+  --h2: 34px;
+  --h3: 28px;
+}
+
+/* 窄屏收紧栏宽与间距 */
+@media (max-width: 1179px) {
+  :root { --rail: 168px; --gap: 44px; }
+}
+
+/* ============================================================
+   基础重置
+   ============================================================ */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  /* 锚点跳转时标题不被吸顶栏盖住 —— 少一个都要出事 */
+  scroll-padding-top: calc(var(--topbar-h) + 8px);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body-text);
+  font-family: var(--serif);
+  font-size: var(--body-size);
+  line-height: var(--leading);
+  /* 中文排版三件套：避头尾、断词规则、标点挤压 */
+  line-break: strict;
+  word-break: normal;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg,
+video { max-width: 100%; height: auto; }
+
+img { display: block; }
+
+button,
+input,
+select,
+textarea { font: inherit; color: inherit; }
+
+a { color: inherit; }
+
+::selection { background: var(--highlight); }
+
+/* ============================================================
+   无障碍基线
+   ============================================================ */
+
+/* 键盘焦点必须可见，且不能改变布局 */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--radius);
+}
+
+/* 跳到正文：Tab 第一下就出现 */
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: var(--ui);
+  border-radius: var(--radius);
+  transform: translateY(-200%);
+  transition: transform var(--dur) var(--ease);
+}
+.skip-link:focus-visible { transform: translateY(0); }
+
+/* 只给读屏的文本 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* 尊重系统的减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================
+   正文排版（.prose）
+   ============================================================ */
+
+.prose p { margin: 0 0 1.1em; }
+
+.prose h2,
+.prose h3 {
+  margin: 2em 0 0.6em;
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.prose h2 { font-size: var(--h2); }
+.prose h3 { font-size: var(--h3); }
+
+/* 引用块用左线，不用引号 */
+.prose blockquote {
+  margin: 1.6em 0;
+  padding: 2px 0 2px 18px;
+  border-left: 2px solid var(--line-strong);
+  color: var(--summary);
+}
+
+/* 行内代码与关键词 */
+.prose code {
+  padding: 2px 5px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+.prose strong { color: var(--ink); font-weight: 700; }
+
+/* 链接：下划线下沉，不靠颜色区分 */
+.prose a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--faint);
+  transition: text-decoration-color var(--dur) var(--ease);
+}
+.prose a:hover { text-decoration-color: var(--accent); }
+
+/* 正文配图：宽度撑满阅读列，图注在下方 */
+.prose figure { margin: 1.8em 0; }
+.prose figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: var(--cap);
+  line-height: 1.6;
+}
+
+/* 日期、期号、数字一律等宽，避免抖动 */
+.num { font-family: var(--num); font-variant-numeric: tabular-nums; }
+
+/* ============================================================
+   打印：一条新闻存成 PDF 的最低成本
+   ============================================================ */
+
+@media print {
+  :root {
+    --paper: #fff;
+    --ink: #000;
+    --body-text: #111;
+    --line: #bbb;
+  }
+
+  html { scroll-padding-top: 0; }
+
+  body { font-size: 11pt; line-height: 1.6; }
+
+  /* 壳、导航、对话框、浮层全部不打印 */
+  .topbar,
+  .rail,
+  .side,
+  .mini-bar,
+  .streak-pill,
+  .sheet,
+  dialog,
+  .skip-link,
+  .site-footer { display: none !important; }
+
+  .reader-main { max-width: none !important; }
+
+  /* 标题和图片不要被切成两半 */
+  h1, h2, h3, figure, li { break-inside: avoid; }
+
+  /* 打印出来也要知道链接去哪了 */
+  .prose a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+    word-break: break-all;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-11-morning",
+  "date": "2026-10-11",
+  "period": "morning",
+  "issue_number": 1,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/spurs.jpg",
+    "alt": "曼联 1-1 热刺",
+    "width": 1200,
+    "height": 802
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "spurs",
+          "title": "曼联 1-1 热刺：姆贝乌莫 73 分钟扳平",
+          "summary": "主场只拿 1 分。卢克·肖在这场拉伤，此后一直没有回到一线队训练。",
+          "body_html": "<p>开场曼联占据主动但没有进球，姆贝乌莫在下半场第 73 分钟把比分扳平。</p><p>这场之后，曼联的联赛不胜开始了——从那到现在一共九场没赢，是 1988/89 赛季以来最长的一次。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026"
+            }
+          ],
+          "source_name": "英超第 6 轮",
+          "published_at": "10-10 22:00",
+          "image": {
+            "src": "./media/spurs2.jpg",
+            "alt": "曼联 1-1 热刺",
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "六轮 6 分，联赛第 13。国际比赛日回来先去利兹，然后是欧冠客场科莫。"
+  }
+}

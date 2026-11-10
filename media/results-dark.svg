@@ -1,0 +1,52 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' width='1200' height='260' role='img' aria-label='近八场战绩'>
+  <text x='20' y='46' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#96918a' letter-spacing='2'>近八场 · 1 胜 3 平 4 负</text>
+  <g opacity='1'>
+    <rect x='20' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='36' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.10</text>
+    <text x='36' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>热刺</text>
+    <text x='36' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>1-1</text>
+  </g>
+  <g opacity='0.45'>
+    <rect x='162' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='178' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.14</text>
+    <text x='178' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>马竞</text>
+    <text x='178' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>0-2</text>
+  </g>
+  <g opacity='1'>
+    <rect x='304' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='320' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.19</text>
+    <text x='320' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>利兹</text>
+    <text x='320' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>1-1</text>
+  </g>
+  <g opacity='0.45'>
+    <rect x='446' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='462' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.22</text>
+    <text x='462' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>科莫</text>
+    <text x='462' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>1-4</text>
+  </g>
+  <g opacity='0.45'>
+    <rect x='588' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='604' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.25</text>
+    <text x='604' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>伯恩茅斯</text>
+    <text x='604' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>0-3</text>
+  </g>
+  <g opacity='0.45'>
+    <rect x='730' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='746' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>10.31</text>
+    <text x='746' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>切尔西</text>
+    <text x='746' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>0-2</text>
+  </g>
+  <g opacity='1'>
+    <rect x='872' y='90' width='130' height='118' rx='2' fill='#ff4b3a' stroke='#ff4b3a' stroke-width='1.5'/>
+    <text x='888' y='120' font-family='Georgia, serif' font-size='19' fill='#ffffff'>11.04</text>
+    <text x='888' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#ffffff'>罗马</text>
+    <text x='888' y='192' font-family='Georgia, serif' font-size='26' fill='#ffffff'>3-2</text>
+  </g>
+  <g opacity='1'>
+    <rect x='1014' y='90' width='130' height='118' rx='2' fill='none' stroke='#96918a' stroke-width='1.5'/>
+    <text x='1030' y='120' font-family='Georgia, serif' font-size='19' fill='#f4f1ec'>11.09</text>
+    <text x='1030' y='154' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='24' fill='#f4f1ec'>维拉</text>
+    <text x='1030' y='192' font-family='Georgia, serif' font-size='26' fill='#f4f1ec'>4-4</text>
+  </g>
+  <text x='20' y='248' font-family='PingFang SC, Microsoft YaHei, sans-serif' font-size='18' fill='#96918a'>红底为胜 · 描边为平 · 淡色为负 · 时间均为北京时间</text>
+</svg>

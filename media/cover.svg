@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="曼联近一个月封面">
+  <rect width="1200" height="900" fill="#da291c"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#ffffff"/>
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="0" y="640" width="1200" height="2"/>
+    <rect x="0" y="700" width="1200" height="2"/>
+    <rect x="0" y="760" width="1200" height="2"/>
+    <rect x="0" y="820" width="1200" height="2"/>
+  </g>
+  <text x="80" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="10" fill="#ffffff" opacity="0.85">THE RED DAILY</text>
+  <text x="76" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" fill="#ffffff">MAN</text>
+  <text x="76" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" fill="#ffffff">UNITED</text>
+  <rect x="80" y="530" width="240" height="8" fill="#ffffff"/>
+  <text x="80" y="620" font-family="'Songti SC', 'Noto Serif SC', SimSun, serif" font-size="48" fill="#ffffff">近一个月 · 8 场 1 胜</text>
+  <text x="80" y="700" font-family="Georgia, serif" font-size="44" fill="#ffffff" opacity="0.9">2026.10.10 — 11.10</text>
+  <text x="80" y="800" font-family="'Songti SC', 'Noto Serif SC', SimSun, serif" font-size="30" fill="#ffffff" opacity="0.7">英超第 18 位 · 跌入降级区 · 帅位待定</text>
+</svg>
