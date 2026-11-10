@@ -289,6 +289,7 @@ function renderArticles(issue) {
     .join("");
 
   renderIssueNav(issue);
+  void renderBoard();
 }
 
 /** 期次导航：按「日期升序 + 早报在前」排队，取前后各一期 */
@@ -363,6 +364,44 @@ function renderEmpty(date, period) {
 function latestIssue() {
   const issues = state.index?.issues ?? [];
   return issues.find((i) => i.date === state.index?.as_of) ?? issues[0] ?? null;
+}
+
+/** 积分榜：单独一个 data/boards.json，随抓取脚本更新，不占每期的 JSON */
+async function renderBoard() {
+  const host = $("articleContent");
+  if (!host) return;
+  let board;
+  try {
+    board = await fetchJson(new URL("./boards.json", DATA_BASE).href);
+  } catch {
+    return; // 没有榜单文件就当这段不存在
+  }
+  if (!board?.rows?.length) return;
+
+  const row = (r) => `<tr${r.united ? ' class="is-united"' : ""}>
+      <td class="b-rank">${r.rank}</td>
+      <td class="b-team">${r.badge ? `<img src="${esc(r.badge)}" alt="" width="20" height="15" loading="lazy" />` : ""}<span>${esc(r.cn)}</span></td>
+      <td>${r.played}</td><td>${r.win}</td><td>${r.draw}</td><td>${r.loss}</td>
+      <td class="b-wide">${r.gf}</td><td class="b-wide">${r.ga}</td>
+      <td class="b-wide">${r.gd > 0 ? "+" + r.gd : r.gd}</td>
+      <td class="b-pts">${r.pts}</td>
+    </tr>`;
+
+  host.insertAdjacentHTML("beforeend", `
+    <section class="board" aria-label="${esc(board.title || "积分榜")}">
+      <div class="board-head">
+        <h2 class="board-title">${esc(board.title || "积分榜")}</h2>
+        <span class="board-meta">更新于 ${esc(board.updated || "")}</span>
+      </div>
+      <table class="board-table">
+        <thead><tr>
+          <th>#</th><th class="b-team">球队</th><th>场</th><th>胜</th><th>平</th><th>负</th>
+          <th class="b-wide">进</th><th class="b-wide">失</th><th class="b-wide">净</th><th class="b-pts">分</th>
+        </tr></thead>
+        <tbody>${board.rows.map(row).join("")}</tbody>
+      </table>
+      <p class="board-src">数据：${esc(board.source || "")}</p>
+    </section>`);
 }
 
 async function choose(date, period, { scroll = "smooth" } = {}) {

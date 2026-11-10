@@ -1016,6 +1016,83 @@ dialog.image-dialog { width: min(1080px, 96vw); }
   font-size: var(--cap);
 }
 
+/* 积分榜：20 行压在一个窄表里，曼联行标红 */
+.board {
+  margin: 40px 0 8px;
+  padding-top: 24px;
+  border-top: 2px solid var(--line-strong);
+}
+.board-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.board-title {
+  margin: 0;
+  color: var(--ink);
+  font-size: var(--h3);
+}
+.board-meta {
+  color: var(--faint);
+  font-family: var(--sans);
+  font-size: var(--cap);
+}
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+.board-table th {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--line-strong);
+  color: var(--muted);
+  font-weight: 400;
+  text-align: right;
+  white-space: nowrap;
+}
+.board-table th:first-child,
+.board-table th.b-team { text-align: left; }
+.board-table td {
+  padding: 5px 4px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+  color: var(--body-text);
+}
+.board-table td.b-rank {
+  width: 24px;
+  color: var(--faint);
+  text-align: left;
+}
+.board-table td.b-team {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  white-space: nowrap;
+}
+.board-table td.b-team img { height: 15px; width: auto; flex: 0 0 auto; }
+.board-table td.b-pts { font-weight: 700; color: var(--ink); }
+.board-table tr.is-united td {
+  background: var(--highlight);
+  color: var(--ink);
+  font-weight: 600;
+}
+.board-table tr.is-united td.b-rank,
+.board-table tr.is-united td.b-pts { color: var(--accent); }
+.board-src {
+  margin: 10px 0 0;
+  color: var(--faint);
+  font-family: var(--sans);
+  font-size: var(--cap);
+}
+@media (max-width: 560px) {
+  .board-table .b-wide { display: none; }
+}
+
 /* ---------------- 提示条 ---------------- */
 
 .notice {
