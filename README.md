@@ -4,7 +4,15 @@
 
 🔗 **在线阅读** → https://silverherring1.github.io/manutd-daily/
 
-![截图](screenshot.png)
+同一份内容，**早报是纸白、晚报是夜黑**——配色跟着时段走，不跟系统深色模式走。
+
+**早报 · 白天，浅色**
+
+![早报](screenshot-morning.png)
+
+**晚报 · 夜间，深色**
+
+![晚报](screenshot-evening.png)
 
 ---
 
