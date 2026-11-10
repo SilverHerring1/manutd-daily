@@ -1,0 +1,82 @@
+{
+  "Arsenal": {
+    "cn": "阿森纳",
+    "badge": "arsenal"
+  },
+  "Aston Villa": {
+    "cn": "阿斯顿维拉",
+    "badge": "aston-villa"
+  },
+  "AFC Bournemouth": {
+    "cn": "伯恩茅斯",
+    "badge": "bournemouth"
+  },
+  "Brighton & Hove Albion": {
+    "cn": "布莱顿",
+    "badge": "brighton"
+  },
+  "Brentford": {
+    "cn": "布伦特福德",
+    "badge": "brentford"
+  },
+  "Chelsea": {
+    "cn": "切尔西",
+    "badge": "chelsea"
+  },
+  "Coventry City": {
+    "cn": "考文垂",
+    "badge": "coventry"
+  },
+  "Crystal Palace": {
+    "cn": "水晶宫",
+    "badge": "crystal-palace"
+  },
+  "Everton": {
+    "cn": "埃弗顿",
+    "badge": "everton"
+  },
+  "Fulham": {
+    "cn": "富勒姆",
+    "badge": "fulham"
+  },
+  "Ipswich Town": {
+    "cn": "伊普斯维奇",
+    "badge": "ipswich"
+  },
+  "Leeds United": {
+    "cn": "利兹联",
+    "badge": "leeds"
+  },
+  "Liverpool": {
+    "cn": "利物浦",
+    "badge": "liverpool"
+  },
+  "Manchester City": {
+    "cn": "曼城",
+    "badge": "man-city"
+  },
+  "Manchester United": {
+    "cn": "曼联",
+    "badge": "man-utd"
+  },
+  "Newcastle United": {
+    "cn": "纽卡斯尔",
+    "badge": "newcastle"
+  },
+  "Nottingham Forest": {
+    "cn": "诺丁汉森林",
+    "badge": "nottm-forest"
+  },
+  "Sunderland": {
+    "cn": "桑德兰",
+    "badge": "sunderland"
+  },
+  "Tottenham Hotspur": {
+    "cn": "托特纳姆热刺",
+    "badge": "tottenham"
+  },
+  "Hull City": {
+    "cn": "赫尔城",
+    "badge": "hull"
+  }
+}
