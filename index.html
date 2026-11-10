@@ -20,6 +20,7 @@
   <title>曼联日报 · 近一个月</title>
 
   <!-- 图标用内联 SVG，省一次请求，也省 favicon.ico 的 404 -->
+  <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23faf9f6'/%3E%3Ctext x='9' y='50' font-family='Georgia' font-size='54' fill='%231c1d1b'%3EA%3C/text%3E%3C/svg%3E" />
 
   <link rel="stylesheet" href="./design-tokens.css?v=7" />
@@ -171,8 +172,8 @@
   <dialog class="dialog" id="searchDialog" aria-labelledby="searchTitle">
     <div class="dialog-head">
       <div>
-        <p class="dialog-kicker">最近七天</p>
-        <h2 id="searchTitle">在新闻里找一件事</h2>
+        <p class="dialog-kicker">全部期次</p>
+        <h2 id="searchTitle">在日报里找一件事</h2>
       </div>
       <button type="button" class="dialog-close" data-close-dialog aria-label="关闭搜索">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
@@ -180,9 +181,9 @@
     </div>
     <label class="search-field">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
-      <input id="searchInput" type="search" placeholder="模型名、公司、产品或你关心的事" autocomplete="off" />
+      <input id="searchInput" type="search" placeholder="球员、对手、赛事或你关心的事" autocomplete="off" />
     </label>
-    <p class="search-hint" id="searchHint" role="status">搜索最近 7 天的标题、摘要与正文。</p>
+    <p class="search-hint" id="searchHint" role="status">搜索所有期次的标题、摘要与正文。</p>
     <div class="search-results" id="searchResults"></div>
   </dialog>
 

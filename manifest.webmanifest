@@ -1,0 +1,14 @@
+﻿{
+  "name": "曼联日报",
+  "short_name": "曼联日报",
+  "description": "曼联近一个月的比赛与要闻",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e0f11",
+  "theme_color": "#da291c",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "./media/avatar.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
