@@ -968,9 +968,20 @@ function bind() {
 
   // 面板外点击关闭。遮罩层不接点击（见 .sheet.is-popover），所以这里统一判断：
   // 点到的不是面板本身、也不是日期按钮，就收起来。
+  // 注意：点年/月会重渲染面板，真实的鼠标点击在 mouseup 时原按钮已被替换，
+  // 冒泡上来的 target 会变成 body——用「刚刚按在面板里」这个时间戳挡掉这种情况。
+  let panelPointerAt = 0;
+  document.addEventListener(
+    "pointerdown",
+    (event) => {
+      if (event.target.closest?.(".sheet-panel")) panelPointerAt = Date.now();
+    },
+    true,
+  );
   document.addEventListener("click", (event) => {
     const menu = $("dateMenu");
     if (menu.hidden || !menu.classList.contains("is-popover")) return;
+    if (Date.now() - panelPointerAt < 700) return;
     if (event.target.closest(".sheet-panel") || event.target.closest("#dateTrigger")) return;
     menu.hidden = true;
     $("dateTrigger").setAttribute("aria-expanded", "false");
