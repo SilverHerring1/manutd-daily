@@ -1,0 +1,45 @@
+{
+  "id": "2019-10-04-morning",
+  "date": "2019-10-04",
+  "period": "morning",
+  "issue_number": 66,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m557299",
+          "title": "阿尔克马尔 0-0 曼联：互交白卷",
+          "summary": "欧联，客场（WerkTalent Stadion）。这一季各项赛事第 10 场，3 胜 5 平 2 负。",
+          "body_html": "<p>2019/20 欧联，客场（WerkTalent Stadion）对阵阿尔克马尔，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/557299"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "10-04 00:55",
+          "badge": "./media/badges/az-alkmaar.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 2 次。"
+  },
+  "match_no": 10,
+  "hero": {
+    "src": "./media/archive/archive-2019-10-04-AZAlkmaar.jpg",
+    "alt": "阿尔克马尔 0-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

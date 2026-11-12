@@ -1,0 +1,2386 @@
+{
+  "season": "2023/24",
+  "imported": "2026-11-12",
+  "source": "ESPN",
+  "count": 52,
+  "record": {
+    "W": 25,
+    "D": 8,
+    "L": 19,
+    "gf": 88,
+    "ga": 85
+  },
+  "matches": [
+    {
+      "id": "671040",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-08-15",
+      "time": "03:00",
+      "dateUTC": "2023-08-14T19:00:00.000Z",
+      "home": true,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Wolverhampton Wanderers at Manchester United",
+      "goals": [
+        {
+          "minute": "76'",
+          "name": "Raphaël Varane",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671048",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-08-20",
+      "time": "00:30",
+      "dateUTC": "2023-08-19T16:30:00.000Z",
+      "home": false,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Tottenham Hotspur Stadium",
+      "name": "Manchester United at Tottenham Hotspur",
+      "goals": [
+        {
+          "minute": "49'",
+          "name": "Pape Matar Sarr",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Lisandro Martínez",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671058",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-08-26",
+      "time": "22:00",
+      "dateUTC": "2023-08-26T14:00:00.000Z",
+      "home": true,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Nottingham Forest at Manchester United",
+      "goals": [
+        {
+          "minute": "2'",
+          "name": "Taiwo Awoniyi",
+          "team": "Nottingham Forest",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "4'",
+          "name": "Willy Boly",
+          "team": "Nottingham Forest",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "17'",
+          "name": "Christian Eriksen",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671065",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-09-03",
+      "time": "23:30",
+      "dateUTC": "2023-09-03T15:30:00.000Z",
+      "home": false,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Emirates Stadium",
+      "name": "Manchester United at Arsenal",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "28'",
+          "name": "Martin Ødegaard",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Declan Rice",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+11'",
+          "name": "Gabriel Jesus",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671075",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-09-16",
+      "time": "22:00",
+      "dateUTC": "2023-09-16T14:00:00.000Z",
+      "home": true,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Brighton & Hove Albion at Manchester United",
+      "goals": [
+        {
+          "minute": "20'",
+          "name": "Danny Welbeck",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Pascal Gross",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "João Pedro",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Hannibal Mejbri",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687551",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-09-21",
+      "time": "03:00",
+      "dateUTC": "2023-09-20T19:00:00.000Z",
+      "home": false,
+      "opponent": "Bayern Munich",
+      "opponentAbbr": "MUN",
+      "scoreFor": 3,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Allianz Arena",
+      "name": "Manchester United at Bayern Munich",
+      "goals": [
+        {
+          "minute": "28'",
+          "name": "Leroy Sané",
+          "team": "Bayern Munich",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "32'",
+          "name": "Serge Gnabry",
+          "team": "Bayern Munich",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Harry Kane",
+          "team": "Bayern Munich",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Mathys Tel",
+          "team": "Bayern Munich",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671088",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-09-24",
+      "time": "03:00",
+      "dateUTC": "2023-09-23T19:00:00.000Z",
+      "home": false,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Turf Moor",
+      "name": "Manchester United at Burnley",
+      "goals": [
+        {
+          "minute": "45'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687493",
+      "season": "2023/24",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-09-27",
+      "time": "03:00",
+      "dateUTC": "2023-09-26T19:00:00.000Z",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Crystal Palace at Manchester United",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "27'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671092",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-09-30",
+      "time": "22:00",
+      "dateUTC": "2023-09-30T14:00:00.000Z",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Crystal Palace at Manchester United",
+      "goals": [
+        {
+          "minute": "25'",
+          "name": "Joachim Andersen",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687556",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-10-04",
+      "time": "03:00",
+      "dateUTC": "2023-10-03T19:00:00.000Z",
+      "home": true,
+      "opponent": "Galatasaray",
+      "opponentAbbr": "GAL",
+      "scoreFor": 2,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Galatasaray at Manchester United",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "23'",
+          "name": "Wilfried Zaha",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Kerem Aktürkoglu",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Mauro Icardi",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671108",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-10-07",
+      "time": "22:00",
+      "dateUTC": "2023-10-07T14:00:00.000Z",
+      "home": true,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Brentford at Manchester United",
+      "goals": [
+        {
+          "minute": "26'",
+          "name": "Mathias Jensen",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+7'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671119",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-10-22",
+      "time": "03:00",
+      "dateUTC": "2023-10-21T19:00:00.000Z",
+      "home": false,
+      "opponent": "Sheffield United",
+      "opponentAbbr": "SHU",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Bramall Lane",
+      "name": "Manchester United at Sheffield United",
+      "goals": [
+        {
+          "minute": "28'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "34'",
+          "name": "Oliver McBurnie",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687574",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-10-25",
+      "time": "03:00",
+      "dateUTC": "2023-10-24T19:00:00.000Z",
+      "home": true,
+      "opponent": "F.C. København",
+      "opponentAbbr": "KBH",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "F.C. København at Manchester United",
+      "goals": [
+        {
+          "minute": "72'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671128",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-10-29",
+      "time": "23:30",
+      "dateUTC": "2023-10-29T15:30:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 0,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "26'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "80'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "688413",
+      "season": "2023/24",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-11-02",
+      "time": "04:15",
+      "dateUTC": "2023-11-01T20:15:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 0,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Newcastle United at Manchester United",
+      "goals": [
+        {
+          "minute": "29'",
+          "name": "Miguel Almirón",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Lewis Hall",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Joe Willock",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671131",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-11-04",
+      "time": "20:30",
+      "dateUTC": "2023-11-04T12:30:00.000Z",
+      "home": false,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Craven Cottage",
+      "name": "Manchester United at Fulham",
+      "goals": [
+        {
+          "minute": "90'+1'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687596",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-11-09",
+      "time": "04:00",
+      "dateUTC": "2023-11-08T20:00:00.000Z",
+      "home": false,
+      "opponent": "F.C. København",
+      "opponentAbbr": "KBH",
+      "scoreFor": 3,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Parken",
+      "name": "Manchester United at F.C. København",
+      "goals": [
+        {
+          "minute": "3'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "28'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Mohamed Elyounoussi",
+          "team": "F.C. København",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+9'",
+          "name": "Diogo Gonçalves",
+          "team": "F.C. København",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "69'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Lukas Lerager",
+          "team": "F.C. København",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "87'",
+          "name": "Roony Bardghji",
+          "team": "F.C. København",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671142",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-11-11",
+      "time": "23:00",
+      "dateUTC": "2023-11-11T15:00:00.000Z",
+      "home": true,
+      "opponent": "Luton Town",
+      "opponentAbbr": "LTN",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Luton Town at Manchester United",
+      "goals": [
+        {
+          "minute": "59'",
+          "name": "Victor Lindelöf",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671157",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-11-27",
+      "time": "00:30",
+      "dateUTC": "2023-11-26T16:30:00.000Z",
+      "home": false,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Goodison Park",
+      "name": "Manchester United at Everton",
+      "goals": [
+        {
+          "minute": "3'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687609",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-11-30",
+      "time": "01:45",
+      "dateUTC": "2023-11-29T17:45:00.000Z",
+      "home": false,
+      "opponent": "Galatasaray",
+      "opponentAbbr": "GAL",
+      "scoreFor": 3,
+      "scoreAgainst": 3,
+      "result": "D",
+      "venue": "RAMS Park",
+      "name": "Manchester United at Galatasaray",
+      "goals": [
+        {
+          "minute": "11'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "18'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "29'",
+          "name": "Hakim Ziyech",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Hakim Ziyech",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Kerem Aktürkoglu",
+          "team": "Galatasaray",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671165",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-03",
+      "time": "04:00",
+      "dateUTC": "2023-12-02T20:00:00.000Z",
+      "home": false,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "St. James' Park",
+      "name": "Manchester United at Newcastle United",
+      "goals": [
+        {
+          "minute": "55'",
+          "name": "Anthony Gordon",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671180",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-07",
+      "time": "04:15",
+      "dateUTC": "2023-12-06T20:15:00.000Z",
+      "home": true,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Chelsea at Manchester United",
+      "goals": [
+        {
+          "minute": "19'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Cole Palmer",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "69'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671184",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-09",
+      "time": "23:00",
+      "dateUTC": "2023-12-09T15:00:00.000Z",
+      "home": true,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 0,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "AFC Bournemouth at Manchester United",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Dominic Solanke",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Philip Billing",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Marcos Senesi",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "687621",
+      "season": "2023/24",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2023-12-13",
+      "time": "04:00",
+      "dateUTC": "2023-12-12T20:00:00.000Z",
+      "home": true,
+      "opponent": "Bayern Munich",
+      "opponentAbbr": "MUN",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Bayern Munich at Manchester United",
+      "goals": [
+        {
+          "minute": "71'",
+          "name": "Kingsley Coman",
+          "team": "Bayern Munich",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671195",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-18",
+      "time": "00:30",
+      "dateUTC": "2023-12-17T16:30:00.000Z",
+      "home": false,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Anfield",
+      "name": "Manchester United at Liverpool",
+      "goals": []
+    },
+    {
+      "id": "671206",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-23",
+      "time": "20:30",
+      "dateUTC": "2023-12-23T12:30:00.000Z",
+      "home": false,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "London Stadium",
+      "name": "Manchester United at West Ham United",
+      "goals": [
+        {
+          "minute": "72'",
+          "name": "Jarrod Bowen",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Mohammed Kudus",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671215",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-27",
+      "time": "04:00",
+      "dateUTC": "2023-12-26T20:00:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "John McGinn",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "26'",
+          "name": "Leander Dendoncker",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "59'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671230",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-12-31",
+      "time": "01:30",
+      "dateUTC": "2023-12-30T17:30:00.000Z",
+      "home": false,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "The City Ground",
+      "name": "Manchester United at Nottingham Forest",
+      "goals": [
+        {
+          "minute": "64'",
+          "name": "Nicolás Domínguez",
+          "team": "Nottingham Forest",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Morgan Gibbs-White",
+          "team": "Nottingham Forest",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "690663",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-01-09",
+      "time": "04:15",
+      "dateUTC": "2024-01-08T20:15:00.000Z",
+      "home": false,
+      "opponent": "Wigan Athletic",
+      "opponentAbbr": "WGA",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "The Brick Community Stadium",
+      "name": "Manchester United at Wigan Athletic",
+      "goals": [
+        {
+          "minute": "22'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "74'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671238",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-01-15",
+      "time": "00:30",
+      "dateUTC": "2024-01-14T16:30:00.000Z",
+      "home": true,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Tottenham Hotspur at Manchester United",
+      "goals": [
+        {
+          "minute": "3'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "19'",
+          "name": "Richarlison",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "40'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "46'",
+          "name": "Rodrigo Bentancur",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "694704",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-01-29",
+      "time": "00:30",
+      "dateUTC": "2024-01-28T16:30:00.000Z",
+      "home": false,
+      "opponent": "Newport County",
+      "opponentAbbr": "NEW",
+      "scoreFor": 4,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Rodney Parade",
+      "name": "Manchester United at Newport County",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "13'",
+          "name": "Kobbie Mainoo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Bryn Morris",
+          "team": "Newport County",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "47'",
+          "name": "Will Evans",
+          "team": "Newport County",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+4'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671246",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-02-02",
+      "time": "04:15",
+      "dateUTC": "2024-02-01T20:15:00.000Z",
+      "home": false,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 4,
+      "scoreAgainst": 3,
+      "result": "W",
+      "venue": "Molineux Stadium",
+      "name": "Manchester United at Wolverhampton Wanderers",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "22'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Pablo Sarabia",
+          "team": "Wolverhampton Wanderers",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Max Kilman",
+          "team": "Wolverhampton Wanderers",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Pedro Neto",
+          "team": "Wolverhampton Wanderers",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+7'",
+          "name": "Kobbie Mainoo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671252",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-02-04",
+      "time": "22:00",
+      "dateUTC": "2024-02-04T14:00:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671266",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-02-12",
+      "time": "00:30",
+      "dateUTC": "2024-02-11T16:30:00.000Z",
+      "home": false,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Villa Park",
+      "name": "Manchester United at Aston Villa",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Douglas Luiz",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "86'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671278",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-02-19",
+      "time": "00:30",
+      "dateUTC": "2024-02-18T16:30:00.000Z",
+      "home": false,
+      "opponent": "Luton Town",
+      "opponentAbbr": "LTN",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Kenilworth Road",
+      "name": "Manchester United at Luton Town",
+      "goals": [
+        {
+          "minute": "1'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "7'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "14'",
+          "name": "Carlton Morris",
+          "team": "Luton Town",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671290",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-02-24",
+      "time": "23:00",
+      "dateUTC": "2024-02-24T15:00:00.000Z",
+      "home": true,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Fulham at Manchester United",
+      "goals": [
+        {
+          "minute": "65'",
+          "name": "Calvin Bassey",
+          "team": "Fulham",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+7'",
+          "name": "Alex Iwobi",
+          "team": "Fulham",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "698134",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-02-29",
+      "time": "03:45",
+      "dateUTC": "2024-02-28T19:45:00.000Z",
+      "home": false,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "The City Ground",
+      "name": "Manchester United at Nottingham Forest",
+      "goals": [
+        {
+          "minute": "89'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671292",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-03-03",
+      "time": "23:30",
+      "dateUTC": "2024-03-03T15:30:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Etihad Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "80'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671308",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-03-09",
+      "time": "20:30",
+      "dateUTC": "2024-03-09T12:30:00.000Z",
+      "home": true,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Everton at Manchester United",
+      "goals": [
+        {
+          "minute": "12'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "699283",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-03-17",
+      "time": "23:30",
+      "dateUTC": "2024-03-17T15:30:00.000Z",
+      "home": true,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 4,
+      "scoreAgainst": 3,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Liverpool at Manchester United",
+      "goals": [
+        {
+          "minute": "10'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Alexis Mac Allister",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+2'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "87'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "105'",
+          "name": "Harvey Elliott",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "112'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "120'+1'",
+          "name": "Amad Diallo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671324",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-03-31",
+      "time": "04:00",
+      "dateUTC": "2024-03-30T20:00:00.000Z",
+      "home": false,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Gtech Community Stadium",
+      "name": "Manchester United at Brentford",
+      "goals": [
+        {
+          "minute": "90'+6'",
+          "name": "Mason Mount",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+9'",
+          "name": "Kristoffer Ajer",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671337",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-04-05",
+      "time": "03:15",
+      "dateUTC": "2024-04-04T19:15:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 3,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Stamford Bridge",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "4'",
+          "name": "Conor Gallagher",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "19'",
+          "name": "Cole Palmer",
+          "team": "Chelsea",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "34'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+10'",
+          "name": "Cole Palmer",
+          "team": "Chelsea",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "90'+11'",
+          "name": "Cole Palmer",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671347",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-04-07",
+      "time": "22:30",
+      "dateUTC": "2024-04-07T14:30:00.000Z",
+      "home": true,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Liverpool at Manchester United",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Luis Díaz",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Kobbie Mainoo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671352",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-04-14",
+      "time": "00:30",
+      "dateUTC": "2024-04-13T16:30:00.000Z",
+      "home": false,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Vitality Stadium",
+      "name": "Manchester United at AFC Bournemouth",
+      "goals": [
+        {
+          "minute": "16'",
+          "name": "Dominic Solanke",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "31'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Justin Kluivert",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "65'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "700836",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-04-21",
+      "time": "22:30",
+      "dateUTC": "2024-04-21T14:30:00.000Z",
+      "home": false,
+      "opponent": "Coventry City",
+      "opponentAbbr": "COV",
+      "scoreFor": 3,
+      "scoreAgainst": 3,
+      "result": "D",
+      "venue": "Wembley Stadium",
+      "name": "Manchester United at Coventry City",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+1'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Ellis Simms",
+          "team": "Coventry City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "79'",
+          "name": "Callum O'Hare",
+          "team": "Coventry City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Haji Wright",
+          "team": "Coventry City",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671311",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-04-25",
+      "time": "03:00",
+      "dateUTC": "2024-04-24T19:00:00.000Z",
+      "home": true,
+      "opponent": "Sheffield United",
+      "opponentAbbr": "SHU",
+      "scoreFor": 4,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Sheffield United at Manchester United",
+      "goals": [
+        {
+          "minute": "35'",
+          "name": "Jayden Bogle",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "42'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Ben Brereton Díaz",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671371",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-04-27",
+      "time": "22:00",
+      "dateUTC": "2024-04-27T14:00:00.000Z",
+      "home": true,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Burnley at Manchester United",
+      "goals": [
+        {
+          "minute": "79'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "87'",
+          "name": "Zeki Amdouni",
+          "team": "Burnley",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671386",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-05-07",
+      "time": "03:00",
+      "dateUTC": "2024-05-06T19:00:00.000Z",
+      "home": false,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 0,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Selhurst Park",
+      "name": "Manchester United at Crystal Palace",
+      "goals": [
+        {
+          "minute": "12'",
+          "name": "Michael Olise",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "40'",
+          "name": "Jean-Philippe Mateta",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Tyrick Mitchell",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Michael Olise",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671395",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-05-12",
+      "time": "23:30",
+      "dateUTC": "2024-05-12T15:30:00.000Z",
+      "home": true,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Arsenal at Manchester United",
+      "goals": [
+        {
+          "minute": "20'",
+          "name": "Leandro Trossard",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671362",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-05-16",
+      "time": "03:00",
+      "dateUTC": "2024-05-15T19:00:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Newcastle United at Manchester United",
+      "goals": [
+        {
+          "minute": "31'",
+          "name": "Kobbie Mainoo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Anthony Gordon",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "57'",
+          "name": "Amad Diallo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Lewis Hall",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "671403",
+      "season": "2023/24",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2024-05-19",
+      "time": "23:00",
+      "dateUTC": "2024-05-19T15:00:00.000Z",
+      "home": false,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "American Express Stadium",
+      "name": "Manchester United at Brighton & Hove Albion",
+      "goals": [
+        {
+          "minute": "73'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Rasmus Højlund",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "702151",
+      "season": "2023/24",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2024-05-25",
+      "time": "22:00",
+      "dateUTC": "2024-05-25T14:00:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Wembley Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Kobbie Mainoo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "87'",
+          "name": "Jérémy Doku",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

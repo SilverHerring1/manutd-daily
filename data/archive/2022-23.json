@@ -1,0 +1,2558 @@
+{
+  "season": "2022/23",
+  "imported": "2026-11-12",
+  "source": "ESPN",
+  "count": 62,
+  "record": {
+    "W": 41,
+    "D": 9,
+    "L": 12,
+    "gf": 108,
+    "ga": 63
+  },
+  "matches": [
+    {
+      "id": "638207",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-08-07",
+      "time": "21:00",
+      "dateUTC": "2022-08-07T13:00:00.000Z",
+      "home": true,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Brighton & Hove Albion at Manchester United",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Pascal Gross",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Pascal Gross",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Alexis Mac Allister",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638211",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-08-14",
+      "time": "00:30",
+      "dateUTC": "2022-08-13T16:30:00.000Z",
+      "home": false,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 0,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Gtech Community Stadium",
+      "name": "Manchester United at Brentford",
+      "goals": [
+        {
+          "minute": "10'",
+          "name": "Josh Dasilva",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "18'",
+          "name": "Mathias Jensen",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "30'",
+          "name": "Ben Mee",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "35'",
+          "name": "Bryan Mbeumo",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638225",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-08-23",
+      "time": "03:00",
+      "dateUTC": "2022-08-22T19:00:00.000Z",
+      "home": true,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Liverpool at Manchester United",
+      "goals": [
+        {
+          "minute": "16'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638237",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-08-27",
+      "time": "19:30",
+      "dateUTC": "2022-08-27T11:30:00.000Z",
+      "home": false,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "St. Mary's Stadium",
+      "name": "Manchester United at Southampton",
+      "goals": [
+        {
+          "minute": "55'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638243",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-09-02",
+      "time": "03:00",
+      "dateUTC": "2022-09-01T19:00:00.000Z",
+      "home": false,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "King Power Stadium",
+      "name": "Manchester United at Leicester City",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638254",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-09-04",
+      "time": "23:30",
+      "dateUTC": "2022-09-04T15:30:00.000Z",
+      "home": true,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Arsenal at Manchester United",
+      "goals": [
+        {
+          "minute": "35'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "60'",
+          "name": "Bukayo Saka",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652692",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-09-09",
+      "time": "03:00",
+      "dateUTC": "2022-09-08T19:00:00.000Z",
+      "home": true,
+      "opponent": "Real Sociedad",
+      "opponentAbbr": "RSO",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Real Sociedad at Manchester United",
+      "goals": [
+        {
+          "minute": "59'",
+          "name": "Brais Méndez",
+          "team": "Real Sociedad",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652705",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-09-16",
+      "time": "00:45",
+      "dateUTC": "2022-09-15T16:45:00.000Z",
+      "home": false,
+      "opponent": "Sheriff Tiraspol",
+      "opponentAbbr": "SHE",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Stadionul Zimbru",
+      "name": "Manchester United at Sheriff Tiraspol",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637903",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-02",
+      "time": "21:00",
+      "dateUTC": "2022-10-02T13:00:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 3,
+      "scoreAgainst": 6,
+      "result": "L",
+      "venue": "Etihad Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "34'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "37'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Phil Foden",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652719",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-10-07",
+      "time": "00:45",
+      "dateUTC": "2022-10-06T16:45:00.000Z",
+      "home": false,
+      "opponent": "Omonia Nicosia",
+      "opponentAbbr": "OMON",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "GSP Stadium",
+      "name": "Manchester United at Omonia Nicosia",
+      "goals": [
+        {
+          "minute": "34'",
+          "name": "Karim Ansarifard",
+          "team": "Omonia Nicosia",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "63'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Nikolas Panagiotou",
+          "team": "Omonia Nicosia",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637918",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-10",
+      "time": "02:00",
+      "dateUTC": "2022-10-09T18:00:00.000Z",
+      "home": false,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Goodison Park",
+      "name": "Manchester United at Everton",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Alex Iwobi",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "15'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652743",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-10-14",
+      "time": "03:00",
+      "dateUTC": "2022-10-13T19:00:00.000Z",
+      "home": true,
+      "opponent": "Omonia Nicosia",
+      "opponentAbbr": "OMON",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Omonia Nicosia at Manchester United",
+      "goals": [
+        {
+          "minute": "90'+3'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637925",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-16",
+      "time": "21:00",
+      "dateUTC": "2022-10-16T13:00:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Newcastle United at Manchester United",
+      "goals": []
+    },
+    {
+      "id": "637937",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-20",
+      "time": "03:15",
+      "dateUTC": "2022-10-19T19:15:00.000Z",
+      "home": true,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Tottenham Hotspur at Manchester United",
+      "goals": [
+        {
+          "minute": "47'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "69'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637947",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-23",
+      "time": "00:30",
+      "dateUTC": "2022-10-22T16:30:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Stamford Bridge",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "87'",
+          "name": "Jorginho",
+          "team": "Chelsea",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "90'+4'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652756",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-10-28",
+      "time": "03:00",
+      "dateUTC": "2022-10-27T19:00:00.000Z",
+      "home": true,
+      "opponent": "Sheriff Tiraspol",
+      "opponentAbbr": "SHE",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Sheriff Tiraspol at Manchester United",
+      "goals": [
+        {
+          "minute": "44'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "65'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637957",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-10-31",
+      "time": "00:15",
+      "dateUTC": "2022-10-30T16:15:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "38'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652766",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2022-11-04",
+      "time": "01:45",
+      "dateUTC": "2022-11-03T17:45:00.000Z",
+      "home": false,
+      "opponent": "Real Sociedad",
+      "opponentAbbr": "RSO",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Estadio Municipal de Anoeta",
+      "name": "Manchester United at Real Sociedad",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637959",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-11-06",
+      "time": "22:00",
+      "dateUTC": "2022-11-06T14:00:00.000Z",
+      "home": false,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Villa Park",
+      "name": "Manchester United at Aston Villa",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Leon Bailey",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "11'",
+          "name": "Lucas Digne",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Jacob Ramsey",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Jacob Ramsey",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "652266",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2022-11-11",
+      "time": "04:00",
+      "dateUTC": "2022-11-10T20:00:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 4,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "48'",
+          "name": "Ollie Watkins",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Diogo Dalot",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637976",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-11-14",
+      "time": "00:30",
+      "dateUTC": "2022-11-13T16:30:00.000Z",
+      "home": false,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Craven Cottage",
+      "name": "Manchester United at Fulham",
+      "goals": [
+        {
+          "minute": "14'",
+          "name": "Christian Eriksen",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Daniel James",
+          "team": "Fulham",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "657010",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2022-12-22",
+      "time": "04:00",
+      "dateUTC": "2022-12-21T20:00:00.000Z",
+      "home": true,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Burnley at Manchester United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Christian Eriksen",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "57'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637982",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-12-28",
+      "time": "04:00",
+      "dateUTC": "2022-12-27T20:00:00.000Z",
+      "home": true,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Nottingham Forest at Manchester United",
+      "goals": [
+        {
+          "minute": "19'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "23'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "87'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637993",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-12-31",
+      "time": "20:30",
+      "dateUTC": "2022-12-31T12:30:00.000Z",
+      "home": false,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Molineux Stadium",
+      "name": "Manchester United at Wolverhampton Wanderers",
+      "goals": [
+        {
+          "minute": "76'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638007",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-01-04",
+      "time": "04:00",
+      "dateUTC": "2023-01-03T20:00:00.000Z",
+      "home": true,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "AFC Bournemouth at Manchester United",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Luke Shaw",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "86'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "658306",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-01-07",
+      "time": "04:00",
+      "dateUTC": "2023-01-06T20:00:00.000Z",
+      "home": true,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Everton at Manchester United",
+      "goals": [
+        {
+          "minute": "4'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "14'",
+          "name": "Conor Coady",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Conor Coady",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "90'+7'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "660275",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-01-11",
+      "time": "04:00",
+      "dateUTC": "2023-01-10T20:00:00.000Z",
+      "home": true,
+      "opponent": "Charlton Athletic",
+      "opponentAbbr": "CHA",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Charlton Athletic at Manchester United",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+4'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638015",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-01-14",
+      "time": "20:30",
+      "dateUTC": "2023-01-14T12:30:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "60'",
+          "name": "Jack Grealish",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637886",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-01-19",
+      "time": "04:00",
+      "dateUTC": "2023-01-18T20:00:00.000Z",
+      "home": false,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Selhurst Park",
+      "name": "Manchester United at Crystal Palace",
+      "goals": [
+        {
+          "minute": "44'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Michael Olise",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638019",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-01-23",
+      "time": "00:30",
+      "dateUTC": "2023-01-22T16:30:00.000Z",
+      "home": false,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 2,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Emirates Stadium",
+      "name": "Manchester United at Arsenal",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "24'",
+          "name": "Eddie Nketiah",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Bukayo Saka",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "59'",
+          "name": "Lisandro Martínez",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'",
+          "name": "Eddie Nketiah",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "662162",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-01-26",
+      "time": "04:00",
+      "dateUTC": "2023-01-25T20:00:00.000Z",
+      "home": false,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "The City Ground",
+      "name": "Manchester United at Nottingham Forest",
+      "goals": [
+        {
+          "minute": "6'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Wout Weghorst",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "661508",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-01-29",
+      "time": "04:00",
+      "dateUTC": "2023-01-28T20:00:00.000Z",
+      "home": true,
+      "opponent": "Reading",
+      "opponentAbbr": "REA",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Reading at Manchester United",
+      "goals": [
+        {
+          "minute": "54'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "72'",
+          "name": "Amadou Salif Mbengue",
+          "team": "Reading",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "662165",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-02-02",
+      "time": "04:00",
+      "dateUTC": "2023-02-01T20:00:00.000Z",
+      "home": true,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Nottingham Forest at Manchester United",
+      "goals": [
+        {
+          "minute": "73'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638032",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-02-04",
+      "time": "23:00",
+      "dateUTC": "2023-02-04T15:00:00.000Z",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Crystal Palace at Manchester United",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Jeff Schlupp",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "637889",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-02-09",
+      "time": "04:00",
+      "dateUTC": "2023-02-08T20:00:00.000Z",
+      "home": true,
+      "opponent": "Leeds United",
+      "opponentAbbr": "LEE",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Leeds United at Manchester United",
+      "goals": [
+        {
+          "minute": "1'",
+          "name": "Wilfried Gnonto",
+          "team": "Leeds United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "48'",
+          "name": "Raphaël Varane",
+          "team": "Leeds United",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638043",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-02-12",
+      "time": "22:00",
+      "dateUTC": "2023-02-12T14:00:00.000Z",
+      "home": false,
+      "opponent": "Leeds United",
+      "opponentAbbr": "LEE",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Elland Road",
+      "name": "Manchester United at Leeds United",
+      "goals": [
+        {
+          "minute": "80'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "656879",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-02-17",
+      "time": "01:45",
+      "dateUTC": "2023-02-16T17:45:00.000Z",
+      "home": false,
+      "opponent": "Barcelona",
+      "opponentAbbr": "BAR",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Spotify Camp Nou",
+      "name": "Manchester United at Barcelona",
+      "goals": [
+        {
+          "minute": "50'",
+          "name": "Marcos Alonso",
+          "team": "Barcelona",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "59'",
+          "name": "Jules Koundé",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Raphinha",
+          "team": "Barcelona",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638055",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-02-19",
+      "time": "22:00",
+      "dateUTC": "2023-02-19T14:00:00.000Z",
+      "home": true,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Leicester City at Manchester United",
+      "goals": [
+        {
+          "minute": "25'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "656892",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-02-24",
+      "time": "04:00",
+      "dateUTC": "2023-02-23T20:00:00.000Z",
+      "home": true,
+      "opponent": "Barcelona",
+      "opponentAbbr": "BAR",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Barcelona at Manchester United",
+      "goals": [
+        {
+          "minute": "18'",
+          "name": "Robert Lewandowski",
+          "team": "Barcelona",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "47'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "664857",
+      "season": "2022/23",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2023-02-27",
+      "time": "00:30",
+      "dateUTC": "2023-02-26T16:30:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Wembley Stadium",
+      "name": "Newcastle United at Manchester United",
+      "goals": [
+        {
+          "minute": "33'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "664628",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-03-02",
+      "time": "03:45",
+      "dateUTC": "2023-03-01T19:45:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "54'",
+          "name": "Saïd Benrahma",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Nayef Aguerd",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "90'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638074",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-03-06",
+      "time": "00:30",
+      "dateUTC": "2023-03-05T16:30:00.000Z",
+      "home": false,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 0,
+      "scoreAgainst": 7,
+      "result": "L",
+      "venue": "Anfield",
+      "name": "Manchester United at Liverpool",
+      "goals": [
+        {
+          "minute": "43'",
+          "name": "Cody Gakpo",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "47'",
+          "name": "Darwin Núñez",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Cody Gakpo",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Darwin Núñez",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Roberto Firmino",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "666730",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-03-10",
+      "time": "04:00",
+      "dateUTC": "2023-03-09T20:00:00.000Z",
+      "home": true,
+      "opponent": "Real Betis",
+      "opponentAbbr": "BET",
+      "scoreFor": 4,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Real Betis at Manchester United",
+      "goals": [
+        {
+          "minute": "6'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "32'",
+          "name": "Ayoze Pérez",
+          "team": "Real Betis",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Wout Weghorst",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638087",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-03-12",
+      "time": "22:00",
+      "dateUTC": "2023-03-12T14:00:00.000Z",
+      "home": true,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Southampton at Manchester United",
+      "goals": []
+    },
+    {
+      "id": "666739",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-03-17",
+      "time": "01:45",
+      "dateUTC": "2023-03-16T17:45:00.000Z",
+      "home": false,
+      "opponent": "Real Betis",
+      "opponentAbbr": "BET",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Benito Villamarín",
+      "name": "Manchester United at Real Betis",
+      "goals": [
+        {
+          "minute": "56'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "666826",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-03-20",
+      "time": "00:30",
+      "dateUTC": "2023-03-19T16:30:00.000Z",
+      "home": true,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Fulham at Manchester United",
+      "goals": [
+        {
+          "minute": "50'",
+          "name": "Aleksandar Mitrovic",
+          "team": "Fulham",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Marcel Sabitzer",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638100",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-02",
+      "time": "23:30",
+      "dateUTC": "2023-04-02T15:30:00.000Z",
+      "home": false,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "St. James' Park",
+      "name": "Manchester United at Newcastle United",
+      "goals": [
+        {
+          "minute": "65'",
+          "name": "Joe Willock",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Callum Wilson",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638062",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-06",
+      "time": "03:00",
+      "dateUTC": "2023-04-05T19:00:00.000Z",
+      "home": true,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Brentford at Manchester United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638112",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-08",
+      "time": "19:30",
+      "dateUTC": "2023-04-08T11:30:00.000Z",
+      "home": true,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Everton at Manchester United",
+      "goals": [
+        {
+          "minute": "36'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "667488",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-04-14",
+      "time": "03:00",
+      "dateUTC": "2023-04-13T19:00:00.000Z",
+      "home": true,
+      "opponent": "Sevilla",
+      "opponentAbbr": "SEV",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Sevilla at Manchester United",
+      "goals": [
+        {
+          "minute": "14'",
+          "name": "Marcel Sabitzer",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "21'",
+          "name": "Marcel Sabitzer",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Tyrell Malacia",
+          "team": "Sevilla",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Harry Maguire",
+          "team": "Sevilla",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638122",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-16",
+      "time": "23:30",
+      "dateUTC": "2023-04-16T15:30:00.000Z",
+      "home": false,
+      "opponent": "Nottingham Forest",
+      "opponentAbbr": "NFO",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "The City Ground",
+      "name": "Manchester United at Nottingham Forest",
+      "goals": [
+        {
+          "minute": "32'",
+          "name": "Antony",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "667490",
+      "season": "2022/23",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2023-04-21",
+      "time": "03:00",
+      "dateUTC": "2023-04-20T19:00:00.000Z",
+      "home": false,
+      "opponent": "Sevilla",
+      "opponentAbbr": "SEV",
+      "scoreFor": 0,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Ramón Sánchez-Pizjuán",
+      "name": "Manchester United at Sevilla",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Youssef En-Nesyri",
+          "team": "Sevilla",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "47'",
+          "name": "Loïc Badé",
+          "team": "Sevilla",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Youssef En-Nesyri",
+          "team": "Sevilla",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "667518",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-04-23",
+      "time": "23:30",
+      "dateUTC": "2023-04-23T15:30:00.000Z",
+      "home": false,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Wembley Stadium",
+      "name": "Manchester United at Brighton & Hove Albion",
+      "goals": []
+    },
+    {
+      "id": "638139",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-28",
+      "time": "03:15",
+      "dateUTC": "2023-04-27T19:15:00.000Z",
+      "home": false,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Tottenham Hotspur Stadium",
+      "name": "Manchester United at Tottenham Hotspur",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Pedro Porro",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "79'",
+          "name": "Son Heung-Min",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638157",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-04-30",
+      "time": "21:00",
+      "dateUTC": "2023-04-30T13:00:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "39'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638092",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-05",
+      "time": "03:00",
+      "dateUTC": "2023-05-04T19:00:00.000Z",
+      "home": false,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "American Express Stadium",
+      "name": "Manchester United at Brighton & Hove Albion",
+      "goals": [
+        {
+          "minute": "90'+9'",
+          "name": "Alexis Mac Allister",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638159",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-08",
+      "time": "02:00",
+      "dateUTC": "2023-05-07T18:00:00.000Z",
+      "home": false,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "London Stadium",
+      "name": "Manchester United at West Ham United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Saïd Benrahma",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638169",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-13",
+      "time": "22:00",
+      "dateUTC": "2023-05-13T14:00:00.000Z",
+      "home": true,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Wolverhampton Wanderers at Manchester United",
+      "goals": [
+        {
+          "minute": "32'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+4'",
+          "name": "Alejandro Garnacho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638179",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-20",
+      "time": "22:00",
+      "dateUTC": "2023-05-20T14:00:00.000Z",
+      "home": false,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Vitality Stadium",
+      "name": "Manchester United at AFC Bournemouth",
+      "goals": [
+        {
+          "minute": "9'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638137",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-26",
+      "time": "03:00",
+      "dateUTC": "2023-05-25T19:00:00.000Z",
+      "home": true,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 4,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Chelsea at Manchester United",
+      "goals": [
+        {
+          "minute": "6'",
+          "name": "Casemiro",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+6'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "João Félix",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "638190",
+      "season": "2022/23",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2023-05-28",
+      "time": "23:30",
+      "dateUTC": "2023-05-28T15:30:00.000Z",
+      "home": true,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Fulham at Manchester United",
+      "goals": [
+        {
+          "minute": "19'",
+          "name": "Kenny Tete",
+          "team": "Fulham",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "668583",
+      "season": "2022/23",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2023-06-03",
+      "time": "22:00",
+      "dateUTC": "2023-06-03T14:00:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Wembley Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "1'",
+          "name": "Ilkay Gündogan",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "33'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "51'",
+          "name": "Ilkay Gündogan",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

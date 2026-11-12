@@ -1,0 +1,54 @@
+{
+  "competition": "欧冠",
+  "name": "Group A",
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Bayern Munich",
+      "played": 6,
+      "win": 5,
+      "draw": 1,
+      "loss": 0,
+      "gf": 12,
+      "ga": 6,
+      "pts": 16,
+      "united": false
+    },
+    {
+      "rank": 2,
+      "team": "F.C. København",
+      "played": 6,
+      "win": 2,
+      "draw": 2,
+      "loss": 2,
+      "gf": 8,
+      "ga": 8,
+      "pts": 8,
+      "united": false
+    },
+    {
+      "rank": 3,
+      "team": "Galatasaray",
+      "played": 6,
+      "win": 1,
+      "draw": 2,
+      "loss": 3,
+      "gf": 10,
+      "ga": 13,
+      "pts": 5,
+      "united": false
+    },
+    {
+      "rank": 4,
+      "team": "Manchester United",
+      "played": 6,
+      "win": 1,
+      "draw": 1,
+      "loss": 4,
+      "gf": 12,
+      "ga": 15,
+      "pts": 4,
+      "united": true
+    }
+  ]
+}

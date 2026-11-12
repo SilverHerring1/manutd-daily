@@ -1,0 +1,2475 @@
+{
+  "season": "2019/20",
+  "imported": "2026-11-12",
+  "source": "ESPN",
+  "count": 61,
+  "record": {
+    "W": 33,
+    "D": 16,
+    "L": 12,
+    "gf": 112,
+    "ga": 51
+  },
+  "matches": [
+    {
+      "id": "541835",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-08-11",
+      "time": "23:30",
+      "dateUTC": "2019-08-11T15:30:00.000Z",
+      "home": true,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 4,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "",
+      "name": "Chelsea at Manchester United",
+      "goals": [
+        {
+          "minute": "18'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "65'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Daniel James",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541830",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-08-20",
+      "time": "03:00",
+      "dateUTC": "2019-08-19T19:00:00.000Z",
+      "home": false,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Molineux Stadium",
+      "name": "Manchester United at Wolverhampton Wanderers",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Rúben Neves",
+          "team": "Wolverhampton Wanderers",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541818",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-08-24",
+      "time": "22:00",
+      "dateUTC": "2019-08-24T14:00:00.000Z",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Crystal Palace at Manchester United",
+      "goals": [
+        {
+          "minute": "32'",
+          "name": "Jordan Ayew",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "Daniel James",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Patrick van Aanholt",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541809",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-08-31",
+      "time": "19:30",
+      "dateUTC": "2019-08-31T11:30:00.000Z",
+      "home": false,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "St. Mary's Stadium",
+      "name": "Manchester United at Southampton",
+      "goals": [
+        {
+          "minute": "10'",
+          "name": "Daniel James",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Jannik Vestergaard",
+          "team": "Southampton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541800",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-09-14",
+      "time": "22:00",
+      "dateUTC": "2019-09-14T14:00:00.000Z",
+      "home": true,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Leicester City at Manchester United",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557311",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-09-20",
+      "time": "03:00",
+      "dateUTC": "2019-09-19T19:00:00.000Z",
+      "home": true,
+      "opponent": "FC Astana",
+      "opponentAbbr": "AST",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "FC Astana at Manchester United",
+      "goals": [
+        {
+          "minute": "73'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541789",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-09-22",
+      "time": "21:00",
+      "dateUTC": "2019-09-22T13:00:00.000Z",
+      "home": false,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "London Stadium",
+      "name": "Manchester United at West Ham United",
+      "goals": [
+        {
+          "minute": "44'",
+          "name": "Andriy Yarmolenko",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "84'",
+          "name": "Aaron Cresswell",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557045",
+      "season": "2019/20",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2019-09-26",
+      "time": "03:00",
+      "dateUTC": "2019-09-25T19:00:00.000Z",
+      "home": true,
+      "opponent": "Rochdale",
+      "opponentAbbr": "RCH",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Rochdale at Manchester United",
+      "goals": [
+        {
+          "minute": "68'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Luke Matheson",
+          "team": "Rochdale",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541775",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-10-01",
+      "time": "03:00",
+      "dateUTC": "2019-09-30T19:00:00.000Z",
+      "home": true,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Arsenal at Manchester United",
+      "goals": [
+        {
+          "minute": "45'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Pierre-Emerick Aubameyang",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557299",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-10-04",
+      "time": "00:55",
+      "dateUTC": "2019-10-03T16:55:00.000Z",
+      "home": false,
+      "opponent": "AZ Alkmaar",
+      "opponentAbbr": "AZ",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "WerkTalent Stadion",
+      "name": "Manchester United at AZ Alkmaar",
+      "goals": []
+    },
+    {
+      "id": "541771",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-10-06",
+      "time": "23:30",
+      "dateUTC": "2019-10-06T15:30:00.000Z",
+      "home": false,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "St. James' Park",
+      "name": "Manchester United at Newcastle United",
+      "goals": [
+        {
+          "minute": "72'",
+          "name": "Matthew Longstaff",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541758",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-10-20",
+      "time": "23:30",
+      "dateUTC": "2019-10-20T15:30:00.000Z",
+      "home": true,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Liverpool at Manchester United",
+      "goals": [
+        {
+          "minute": "36'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Adam Lallana",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557278",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-10-25",
+      "time": "00:55",
+      "dateUTC": "2019-10-24T16:55:00.000Z",
+      "home": false,
+      "opponent": "Partizan Belgrade",
+      "opponentAbbr": "PART",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "FK Partizan Stadium",
+      "name": "Manchester United at Partizan Belgrade",
+      "goals": [
+        {
+          "minute": "43'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541751",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-10-28",
+      "time": "00:30",
+      "dateUTC": "2019-10-27T16:30:00.000Z",
+      "home": false,
+      "opponent": "Norwich City",
+      "opponentAbbr": "NOR",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Carrow Road",
+      "name": "Manchester United at Norwich City",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "30'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Onel Hernández",
+          "team": "Norwich City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557914",
+      "season": "2019/20",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2019-10-31",
+      "time": "04:05",
+      "dateUTC": "2019-10-30T20:05:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Stamford Bridge",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "25'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Michy Batshuayi",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "73'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541739",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-11-02",
+      "time": "20:30",
+      "dateUTC": "2019-11-02T12:30:00.000Z",
+      "home": false,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Vitality Stadium",
+      "name": "Manchester United at AFC Bournemouth",
+      "goals": [
+        {
+          "minute": "45'",
+          "name": "Joshua King",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557238",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-11-08",
+      "time": "04:00",
+      "dateUTC": "2019-11-07T20:00:00.000Z",
+      "home": true,
+      "opponent": "Partizan Belgrade",
+      "opponentAbbr": "PART",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Partizan Belgrade at Manchester United",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "33'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541728",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-11-10",
+      "time": "22:00",
+      "dateUTC": "2019-11-10T14:00:00.000Z",
+      "home": true,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Brighton & Hove Albion at Manchester United",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Andreas Pereira",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "19'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Lewis Dunk",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541719",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-11-25",
+      "time": "00:30",
+      "dateUTC": "2019-11-24T16:30:00.000Z",
+      "home": false,
+      "opponent": "Sheffield United",
+      "opponentAbbr": "SHU",
+      "scoreFor": 3,
+      "scoreAgainst": 3,
+      "result": "D",
+      "venue": "Bramall Lane",
+      "name": "Manchester United at Sheffield United",
+      "goals": [
+        {
+          "minute": "19'",
+          "name": "John Fleck",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Lys Mousset",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "72'",
+          "name": "Brandon Williams",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "79'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'",
+          "name": "Oliver McBurnie",
+          "team": "Sheffield United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557233",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-11-28",
+      "time": "23:50",
+      "dateUTC": "2019-11-28T15:50:00.000Z",
+      "home": false,
+      "opponent": "FC Astana",
+      "opponentAbbr": "AST",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Astana Arena",
+      "name": "Manchester United at FC Astana",
+      "goals": [
+        {
+          "minute": "10'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Dmitri Shomko",
+          "team": "FC Astana",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Di'Shon Bernard",
+          "team": "FC Astana",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541706",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-02",
+      "time": "00:30",
+      "dateUTC": "2019-12-01T16:30:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "11'",
+          "name": "Jack Grealish",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "42'",
+          "name": "Tom Heaton",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Victor Lindelöf",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Tyrone Mings",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541699",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-05",
+      "time": "03:30",
+      "dateUTC": "2019-12-04T19:30:00.000Z",
+      "home": true,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Tottenham Hotspur at Manchester United",
+      "goals": [
+        {
+          "minute": "6'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "39'",
+          "name": "Dele Alli",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541691",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-08",
+      "time": "01:30",
+      "dateUTC": "2019-12-07T17:30:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Etihad Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "23'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "29'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Nicolás Otamendi",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "557187",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2019-12-13",
+      "time": "04:00",
+      "dateUTC": "2019-12-12T20:00:00.000Z",
+      "home": true,
+      "opponent": "AZ Alkmaar",
+      "opponentAbbr": "AZ",
+      "scoreFor": 4,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "AZ Alkmaar at Manchester United",
+      "goals": [
+        {
+          "minute": "53'",
+          "name": "Ashley Young",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Juan Mata",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541678",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-15",
+      "time": "22:00",
+      "dateUTC": "2019-12-15T14:00:00.000Z",
+      "home": true,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Everton at Manchester United",
+      "goals": [
+        {
+          "minute": "36'",
+          "name": "Victor Lindelöf",
+          "team": "Everton",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "558872",
+      "season": "2019/20",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2019-12-19",
+      "time": "04:00",
+      "dateUTC": "2019-12-18T20:00:00.000Z",
+      "home": true,
+      "opponent": "Colchester United",
+      "opponentAbbr": "COL",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Colchester United at Manchester United",
+      "goals": [
+        {
+          "minute": "51'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Ryan Jackson",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541671",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-22",
+      "time": "22:00",
+      "dateUTC": "2019-12-22T14:00:00.000Z",
+      "home": false,
+      "opponent": "Watford",
+      "opponentAbbr": "WAT",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Vicarage Road",
+      "name": "Manchester United at Watford",
+      "goals": [
+        {
+          "minute": "50'",
+          "name": "Ismaïla Sarr",
+          "team": "Watford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Troy Deeney",
+          "team": "Watford",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541660",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-27",
+      "time": "01:30",
+      "dateUTC": "2019-12-26T17:30:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 4,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Newcastle United at Manchester United",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Matthew Longstaff",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "24'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "41'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "51'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541651",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2019-12-29",
+      "time": "03:45",
+      "dateUTC": "2019-12-28T19:45:00.000Z",
+      "home": false,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Turf Moor",
+      "name": "Manchester United at Burnley",
+      "goals": [
+        {
+          "minute": "44'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541641",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-01-02",
+      "time": "04:00",
+      "dateUTC": "2020-01-01T20:00:00.000Z",
+      "home": false,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Emirates Stadium",
+      "name": "Manchester United at Arsenal",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Nicolas Pépé",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "42'",
+          "name": "Sokratis Papastathopoulos",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "560377",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-01-05",
+      "time": "01:31",
+      "dateUTC": "2020-01-04T17:31:00.000Z",
+      "home": false,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Molineux Stadium",
+      "name": "Manchester United at Wolverhampton Wanderers",
+      "goals": []
+    },
+    {
+      "id": "561398",
+      "season": "2019/20",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2020-01-08",
+      "time": "04:00",
+      "dateUTC": "2020-01-07T20:00:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Bernardo Silva",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "33'",
+          "name": "Riyad Mahrez",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "38'",
+          "name": "Andreas Pereira",
+          "team": "Manchester City",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541631",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-01-11",
+      "time": "23:00",
+      "dateUTC": "2020-01-11T15:00:00.000Z",
+      "home": true,
+      "opponent": "Norwich City",
+      "opponentAbbr": "NOR",
+      "scoreFor": 4,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Norwich City at Manchester United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "563545",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-01-16",
+      "time": "03:45",
+      "dateUTC": "2020-01-15T19:45:00.000Z",
+      "home": true,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Wolverhampton Wanderers at Manchester United",
+      "goals": [
+        {
+          "minute": "67'",
+          "name": "Juan Mata",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541621",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-01-20",
+      "time": "00:30",
+      "dateUTC": "2020-01-19T16:30:00.000Z",
+      "home": false,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Anfield",
+      "name": "Manchester United at Liverpool",
+      "goals": [
+        {
+          "minute": "14'",
+          "name": "Virgil van Dijk",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541608",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-01-23",
+      "time": "04:15",
+      "dateUTC": "2020-01-22T20:15:00.000Z",
+      "home": true,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Burnley at Manchester United",
+      "goals": [
+        {
+          "minute": "39'",
+          "name": "Chris Wood",
+          "team": "Burnley",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Jay Rodríguez",
+          "team": "Burnley",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "565599",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-01-26",
+      "time": "23:00",
+      "dateUTC": "2020-01-26T15:00:00.000Z",
+      "home": false,
+      "opponent": "Tranmere Rovers",
+      "opponentAbbr": "TRN",
+      "scoreFor": 6,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Prenton Park",
+      "name": "Manchester United at Tranmere Rovers",
+      "goals": [
+        {
+          "minute": "10'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "13'",
+          "name": "Diogo Dalot",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "16'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "41'",
+          "name": "Phil Jones",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "561396",
+      "season": "2019/20",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2020-01-30",
+      "time": "03:45",
+      "dateUTC": "2020-01-29T19:45:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Etihad Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "35'",
+          "name": "Nemanja Matic",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541604",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-02-02",
+      "time": "01:30",
+      "dateUTC": "2020-02-01T17:30:00.000Z",
+      "home": true,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Wolverhampton Wanderers at Manchester United",
+      "goals": []
+    },
+    {
+      "id": "541590",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-02-18",
+      "time": "04:00",
+      "dateUTC": "2020-02-17T20:00:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "45'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "561005",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-02-21",
+      "time": "01:55",
+      "dateUTC": "2020-02-20T17:55:00.000Z",
+      "home": false,
+      "opponent": "Club Brugge",
+      "opponentAbbr": "BRU",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Jan Breydelstadion",
+      "name": "Manchester United at Club Brugge",
+      "goals": [
+        {
+          "minute": "15'",
+          "name": "Emmanuel Dennis",
+          "team": "Club Brugge",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "36'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541583",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-02-23",
+      "time": "22:00",
+      "dateUTC": "2020-02-23T14:00:00.000Z",
+      "home": true,
+      "opponent": "Watford",
+      "opponentAbbr": "WAT",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Watford at Manchester United",
+      "goals": [
+        {
+          "minute": "42'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "560977",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-02-28",
+      "time": "04:00",
+      "dateUTC": "2020-02-27T20:00:00.000Z",
+      "home": true,
+      "opponent": "Club Brugge",
+      "opponentAbbr": "BRU",
+      "scoreFor": 5,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Club Brugge at Manchester United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "34'",
+          "name": "Odion Ighalo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "41'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541571",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-03-01",
+      "time": "22:00",
+      "dateUTC": "2020-03-01T14:00:00.000Z",
+      "home": false,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Goodison Park",
+      "name": "Manchester United at Everton",
+      "goals": [
+        {
+          "minute": "3'",
+          "name": "Dominic Calvert-Lewin",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "31'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "567647",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-03-06",
+      "time": "03:45",
+      "dateUTC": "2020-03-05T19:45:00.000Z",
+      "home": false,
+      "opponent": "Derby County",
+      "opponentAbbr": "DER",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Pride Park Stadium",
+      "name": "Manchester United at Derby County",
+      "goals": [
+        {
+          "minute": "33'",
+          "name": "Luke Shaw",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "41'",
+          "name": "Odion Ighalo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Odion Ighalo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541559",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-03-09",
+      "time": "00:30",
+      "dateUTC": "2020-03-08T16:30:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "569590",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-03-13",
+      "time": "01:55",
+      "dateUTC": "2020-03-12T17:55:00.000Z",
+      "home": false,
+      "opponent": "LASK Linz",
+      "opponentAbbr": "LAS",
+      "scoreFor": 5,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Linzer Stadion",
+      "name": "Manchester United at LASK Linz",
+      "goals": [
+        {
+          "minute": "28'",
+          "name": "Odion Ighalo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Daniel James",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Juan Mata",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+3'",
+          "name": "Andreas Pereira",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541551",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-06-20",
+      "time": "03:15",
+      "dateUTC": "2020-06-19T19:15:00.000Z",
+      "home": false,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Tottenham Hotspur Stadium",
+      "name": "Manchester United at Tottenham Hotspur",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Steven Bergwijn",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541542",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-06-25",
+      "time": "01:00",
+      "dateUTC": "2020-06-24T17:00:00.000Z",
+      "home": true,
+      "opponent": "Sheffield United",
+      "opponentAbbr": "SHU",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Sheffield United at Manchester United",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "74'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "570800",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-06-28",
+      "time": "00:30",
+      "dateUTC": "2020-06-27T16:30:00.000Z",
+      "home": false,
+      "opponent": "Norwich City",
+      "opponentAbbr": "NOR",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Carrow Road",
+      "name": "Manchester United at Norwich City",
+      "goals": [
+        {
+          "minute": "51'",
+          "name": "Odion Ighalo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Todd Cantwell",
+          "team": "Norwich City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "118'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541529",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-01",
+      "time": "03:15",
+      "dateUTC": "2020-06-30T19:15:00.000Z",
+      "home": false,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "American Express Stadium",
+      "name": "Manchester United at Brighton & Hove Albion",
+      "goals": [
+        {
+          "minute": "16'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "29'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541517",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-04",
+      "time": "22:00",
+      "dateUTC": "2020-07-04T14:00:00.000Z",
+      "home": true,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 5,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "AFC Bournemouth at Manchester United",
+      "goals": [
+        {
+          "minute": "15'",
+          "name": "Junior Stanislas",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "29'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "35'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "45'+2'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Joshua King",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "59'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541509",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-10",
+      "time": "03:15",
+      "dateUTC": "2020-07-09T19:15:00.000Z",
+      "home": false,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Villa Park",
+      "name": "Manchester United at Aston Villa",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "45'+5'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Paul Pogba",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541503",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-14",
+      "time": "03:00",
+      "dateUTC": "2020-07-13T19:00:00.000Z",
+      "home": true,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Southampton at Manchester United",
+      "goals": [
+        {
+          "minute": "12'",
+          "name": "Stuart Armstrong",
+          "team": "Southampton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "20'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "23'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Michael Obafemi",
+          "team": "Southampton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541489",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-17",
+      "time": "03:15",
+      "dateUTC": "2020-07-16T19:15:00.000Z",
+      "home": false,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Selhurst Park",
+      "name": "Manchester United at Crystal Palace",
+      "goals": [
+        {
+          "minute": "45'+1'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "571915",
+      "season": "2019/20",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2020-07-20",
+      "time": "01:00",
+      "dateUTC": "2020-07-19T17:00:00.000Z",
+      "home": true,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Wembley Stadium",
+      "name": "Chelsea at Manchester United",
+      "goals": [
+        {
+          "minute": "45'+11'",
+          "name": "Olivier Giroud",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "46'",
+          "name": "Mason Mount",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "74'",
+          "name": "Harry Maguire",
+          "team": "Chelsea",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541484",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-23",
+      "time": "01:00",
+      "dateUTC": "2020-07-22T17:00:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "45'+2'",
+          "name": "Michail Antonio",
+          "team": "West Ham United",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "51'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "541469",
+      "season": "2019/20",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2020-07-26",
+      "time": "23:00",
+      "dateUTC": "2020-07-26T15:00:00.000Z",
+      "home": false,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "King Power Stadium",
+      "name": "Manchester United at Leicester City",
+      "goals": [
+        {
+          "minute": "71'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "90'+8'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "569577",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-08-06",
+      "time": "03:00",
+      "dateUTC": "2020-08-05T19:00:00.000Z",
+      "home": true,
+      "opponent": "LASK Linz",
+      "opponentAbbr": "LAS",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "LASK Linz at Manchester United",
+      "goals": [
+        {
+          "minute": "55'",
+          "name": "Philipp Wiesinger",
+          "team": "LASK Linz",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "57'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "573705",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-08-11",
+      "time": "03:00",
+      "dateUTC": "2020-08-10T19:00:00.000Z",
+      "home": true,
+      "opponent": "F.C. København",
+      "opponentAbbr": "KBH",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "RheinEnergieStadion",
+      "name": "F.C. København at Manchester United",
+      "goals": [
+        {
+          "minute": "95'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "573709",
+      "season": "2019/20",
+      "competition": "欧联",
+      "league": "uefa.europa",
+      "date": "2020-08-17",
+      "time": "03:00",
+      "dateUTC": "2020-08-16T19:00:00.000Z",
+      "home": false,
+      "opponent": "Sevilla",
+      "opponentAbbr": "SEV",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "RheinEnergieStadion",
+      "name": "Manchester United at Sevilla",
+      "goals": [
+        {
+          "minute": "9'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "26'",
+          "name": "Suso",
+          "team": "Sevilla",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Luuk de Jong",
+          "team": "Sevilla",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

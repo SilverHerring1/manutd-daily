@@ -1,0 +1,732 @@
+{
+  "season": "2026/27",
+  "imported": "2026-11-12",
+  "source": "ESPN",
+  "count": 15,
+  "record": {
+    "W": 3,
+    "D": 5,
+    "L": 7,
+    "gf": 24,
+    "ga": 30
+  },
+  "matches": [
+    {
+      "id": "401879322",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-08-22",
+      "time": "19:30",
+      "dateUTC": "2026-08-22T11:30:00.000Z",
+      "home": false,
+      "opponent": "Hull City",
+      "opponentAbbr": "HUL",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "The MKM Stadium",
+      "name": "Manchester United at Hull City",
+      "goals": [
+        {
+          "minute": "17'",
+          "name": "Semi Ajayi",
+          "team": "Hull City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "38'",
+          "name": "Nobel Mendy",
+          "team": "Hull City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879293",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-08-30",
+      "time": "23:30",
+      "dateUTC": "2026-08-30T15:30:00.000Z",
+      "home": true,
+      "opponent": "Ipswich Town",
+      "opponentAbbr": "IPS",
+      "scoreFor": 5,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Ipswich Town at Manchester United",
+      "goals": [
+        {
+          "minute": "29'",
+          "name": "Leif Davis",
+          "team": "Ipswich Town",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "40'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Jacob Greaves",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Bryan Mbeumo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Chuba Akpom",
+          "team": "Ipswich Town",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879291",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-09-06",
+      "time": "21:00",
+      "dateUTC": "2026-09-06T13:00:00.000Z",
+      "home": false,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Hill Dickinson Stadium",
+      "name": "Manchester United at Everton",
+      "goals": [
+        {
+          "minute": "46'",
+          "name": "Bryan Mbeumo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Tyrique George",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Benjamin Sesko",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Ainsley Maitland-Niles",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401915442",
+      "season": "2026/27",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2026-09-11",
+      "time": "03:00",
+      "dateUTC": "2026-09-10T19:00:00.000Z",
+      "home": true,
+      "opponent": "Sabah FK",
+      "opponentAbbr": "SAB",
+      "scoreFor": 4,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Sabah FK at Manchester United",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Matheus Cunha",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "42'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Benjamin Sesko",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Lisandro Martínez",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879278",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-09-13",
+      "time": "23:30",
+      "dateUTC": "2026-09-13T15:30:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "60'",
+          "name": "Erling Haaland",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401914261",
+      "season": "2026/27",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2026-09-17",
+      "time": "03:00",
+      "dateUTC": "2026-09-16T19:00:00.000Z",
+      "home": true,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 2,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Brighton & Hove Albion at Manchester United",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Shea Lacey",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "10'",
+          "name": "Mason Mount",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+1'",
+          "name": "Charalambos Kostoulas",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "65'",
+          "name": "Pascal Gross",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "69'",
+          "name": "Maxim De Cuyper",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401878777",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-09-20",
+      "time": "23:30",
+      "dateUTC": "2026-09-20T15:30:00.000Z",
+      "home": false,
+      "opponent": "Fulham",
+      "opponentAbbr": "FUL",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Craven Cottage",
+      "name": "Manchester United at Fulham",
+      "goals": [
+        {
+          "minute": "63'",
+          "name": "Lisandro Martínez",
+          "team": "Fulham",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "Matheus Cunha",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401878773",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-10-11",
+      "time": "00:30",
+      "dateUTC": "2026-10-10T16:30:00.000Z",
+      "home": true,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Tottenham Hotspur at Manchester United",
+      "goals": [
+        {
+          "minute": "73'",
+          "name": "Bryan Mbeumo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Dominic Solanke",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401915412",
+      "season": "2026/27",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2026-10-14",
+      "time": "03:00",
+      "dateUTC": "2026-10-13T19:00:00.000Z",
+      "home": false,
+      "opponent": "Atlético Madrid",
+      "opponentAbbr": "ATM",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Riyadh Air Metropolitano",
+      "name": "Manchester United at Atlético Madrid",
+      "goals": [
+        {
+          "minute": "1'",
+          "name": "Pablo Barrios",
+          "team": "Atlético Madrid",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "79'",
+          "name": "Ademola Lookman",
+          "team": "Atlético Madrid",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879260",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-10-18",
+      "time": "21:00",
+      "dateUTC": "2026-10-18T13:00:00.000Z",
+      "home": false,
+      "opponent": "Leeds United",
+      "opponentAbbr": "LEE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Elland Road",
+      "name": "Manchester United at Leeds United",
+      "goals": [
+        {
+          "minute": "35'",
+          "name": "Bryan Mbeumo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "51'",
+          "name": "Dominic Calvert-Lewin",
+          "team": "Leeds United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401915395",
+      "season": "2026/27",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2026-10-22",
+      "time": "00:45",
+      "dateUTC": "2026-10-21T16:45:00.000Z",
+      "home": false,
+      "opponent": "Como",
+      "opponentAbbr": "COMO",
+      "scoreFor": 1,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Giuseppe Sinigaglia",
+      "name": "Manchester United at Como",
+      "goals": [
+        {
+          "minute": "2'",
+          "name": "Nico Paz",
+          "team": "Como",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Tasos Douvikas",
+          "team": "Como",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "57'",
+          "name": "Nico Paz",
+          "team": "Como",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Jacobo Ramón",
+          "team": "Como",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Joshua Zirkzee",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879252",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-10-25",
+      "time": "22:00",
+      "dateUTC": "2026-10-25T14:00:00.000Z",
+      "home": true,
+      "opponent": "AFC Bournemouth",
+      "opponentAbbr": "BOU",
+      "scoreFor": 0,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "AFC Bournemouth at Manchester United",
+      "goals": [
+        {
+          "minute": "38'",
+          "name": "Rayan",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "43'",
+          "name": "Marcus Tavernier",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Evanilson",
+          "team": "AFC Bournemouth",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879248",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-10-31",
+      "time": "20:30",
+      "dateUTC": "2026-10-31T12:30:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Stamford Bridge",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "50'",
+          "name": "Morgan Rogers",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Cole Palmer",
+          "team": "Chelsea",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401915308",
+      "season": "2026/27",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2026-11-04",
+      "time": "04:00",
+      "dateUTC": "2026-11-03T20:00:00.000Z",
+      "home": true,
+      "opponent": "AS Roma",
+      "opponentAbbr": "ROMA",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "AS Roma at Manchester United",
+      "goals": [
+        {
+          "minute": "11'",
+          "name": "Matìas Soulè",
+          "team": "AS Roma",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "17'",
+          "name": "Donyell Malen",
+          "team": "AS Roma",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "58'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Matheus Cunha",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "86'",
+          "name": "Matheus Cunha",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "401879240",
+      "season": "2026/27",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2026-11-09",
+      "time": "00:30",
+      "dateUTC": "2026-11-08T16:30:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 4,
+      "scoreAgainst": 4,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "1'",
+          "name": "Alysson",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "4'",
+          "name": "Nicolas Jackson",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "16'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Youri Tielemans",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "48'",
+          "name": "John McGinn",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Leon Goretzka",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Joshua Zirkzee",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Patrick Dorgu",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2065 @@
+{
+  "season": "2021/22",
+  "imported": "2026-11-12",
+  "source": "ESPN",
+  "count": 49,
+  "record": {
+    "W": 20,
+    "D": 14,
+    "L": 15,
+    "gf": 71,
+    "ga": 69
+  },
+  "matches": [
+    {
+      "id": "606033",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-08-14",
+      "time": "19:30",
+      "dateUTC": "2021-08-14T11:30:00.000Z",
+      "home": true,
+      "opponent": "Leeds United",
+      "opponentAbbr": "LEE",
+      "scoreFor": 5,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Leeds United at Manchester United",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Luke Ayling",
+          "team": "Leeds United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "60'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "606024",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-08-22",
+      "time": "21:00",
+      "dateUTC": "2021-08-22T13:00:00.000Z",
+      "home": false,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "St. Mary's Stadium",
+      "name": "Manchester United at Southampton",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Fred",
+          "team": "Southampton",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "55'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "606016",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-08-29",
+      "time": "23:30",
+      "dateUTC": "2021-08-29T15:30:00.000Z",
+      "home": false,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Molineux Stadium",
+      "name": "Manchester United at Wolverhampton Wanderers",
+      "goals": [
+        {
+          "minute": "80'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "606004",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-09-11",
+      "time": "22:00",
+      "dateUTC": "2021-09-11T14:00:00.000Z",
+      "home": true,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 4,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Newcastle United at Manchester United",
+      "goals": [
+        {
+          "minute": "45'+2'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Javier Manquillo",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "80'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618790",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-09-15",
+      "time": "00:45",
+      "dateUTC": "2021-09-14T16:45:00.000Z",
+      "home": false,
+      "opponent": "Young Boys",
+      "opponentAbbr": "YB",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Stadion Wankdorf",
+      "name": "Manchester United at Young Boys",
+      "goals": [
+        {
+          "minute": "13'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Moumi Ngamaleu",
+          "team": "Young Boys",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Jordan Pefok",
+          "team": "Young Boys",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605996",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-09-19",
+      "time": "21:00",
+      "dateUTC": "2021-09-19T13:00:00.000Z",
+      "home": false,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "London Stadium",
+      "name": "Manchester United at West Ham United",
+      "goals": [
+        {
+          "minute": "30'",
+          "name": "Saïd Benrahma",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "35'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "89'",
+          "name": "Jesse Lingard",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618689",
+      "season": "2021/22",
+      "competition": "联赛杯",
+      "league": "eng.league_cup",
+      "date": "2021-09-23",
+      "time": "02:45",
+      "dateUTC": "2021-09-22T18:45:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "9'",
+          "name": "Manuel Lanzini",
+          "team": "West Ham United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605979",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-09-25",
+      "time": "19:30",
+      "dateUTC": "2021-09-25T11:30:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "88'",
+          "name": "Kortney Hause",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618765",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-09-30",
+      "time": "03:00",
+      "dateUTC": "2021-09-29T19:00:00.000Z",
+      "home": true,
+      "opponent": "Villarreal",
+      "opponentAbbr": "VIL",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Villarreal at Manchester United",
+      "goals": [
+        {
+          "minute": "53'",
+          "name": "Paco Alcácer",
+          "team": "Villarreal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "60'",
+          "name": "Alex Telles",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+5'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605972",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-10-02",
+      "time": "19:30",
+      "dateUTC": "2021-10-02T11:30:00.000Z",
+      "home": true,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Everton at Manchester United",
+      "goals": [
+        {
+          "minute": "43'",
+          "name": "Anthony Martial",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "65'",
+          "name": "Andros Townsend",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605965",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-10-16",
+      "time": "22:00",
+      "dateUTC": "2021-10-16T14:00:00.000Z",
+      "home": false,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 2,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "King Power Stadium",
+      "name": "Manchester United at Leicester City",
+      "goals": [
+        {
+          "minute": "19'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "31'",
+          "name": "Youri Tielemans",
+          "team": "Leicester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "78'",
+          "name": "Çaglar Söyüncü",
+          "team": "Leicester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "82'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "83'",
+          "name": "Jamie Vardy",
+          "team": "Leicester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Patson Daka",
+          "team": "Leicester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618744",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-10-21",
+      "time": "03:00",
+      "dateUTC": "2021-10-20T19:00:00.000Z",
+      "home": true,
+      "opponent": "Atalanta",
+      "opponentAbbr": "ATA",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Atalanta at Manchester United",
+      "goals": [
+        {
+          "minute": "15'",
+          "name": "Mario Pasalic",
+          "team": "Atalanta",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "28'",
+          "name": "Merih Demiral",
+          "team": "Atalanta",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "75'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605952",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-10-24",
+      "time": "23:30",
+      "dateUTC": "2021-10-24T15:30:00.000Z",
+      "home": true,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 0,
+      "scoreAgainst": 5,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Liverpool at Manchester United",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Naby Keïta",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "13'",
+          "name": "Diogo Jota",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "38'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+5'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605946",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-10-31",
+      "time": "00:30",
+      "dateUTC": "2021-10-30T16:30:00.000Z",
+      "home": false,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Tottenham Hotspur Stadium",
+      "name": "Manchester United at Tottenham Hotspur",
+      "goals": [
+        {
+          "minute": "39'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Edinson Cavani",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "86'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618739",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-11-03",
+      "time": "04:00",
+      "dateUTC": "2021-11-02T20:00:00.000Z",
+      "home": false,
+      "opponent": "Atalanta",
+      "opponentAbbr": "ATA",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "New Balance Arena",
+      "name": "Manchester United at Atalanta",
+      "goals": [
+        {
+          "minute": "12'",
+          "name": "Josip Ilicic",
+          "team": "Atalanta",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+1'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "56'",
+          "name": "Duván Zapata",
+          "team": "Atalanta",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605933",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-11-06",
+      "time": "20:30",
+      "dateUTC": "2021-11-06T12:30:00.000Z",
+      "home": true,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Manchester City at Manchester United",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Eric Bailly",
+          "team": "Manchester City",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "45'",
+          "name": "Bernardo Silva",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605926",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-11-20",
+      "time": "23:00",
+      "dateUTC": "2021-11-20T15:00:00.000Z",
+      "home": false,
+      "opponent": "Watford",
+      "opponentAbbr": "WAT",
+      "scoreFor": 1,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Vicarage Road",
+      "name": "Manchester United at Watford",
+      "goals": [
+        {
+          "minute": "28'",
+          "name": "Joshua King",
+          "team": "Watford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Ismaïla Sarr",
+          "team": "Watford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "50'",
+          "name": "Donny van de Beek",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+2'",
+          "name": "João Pedro",
+          "team": "Watford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+6'",
+          "name": "Emmanuel Dennis",
+          "team": "Watford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618727",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-11-24",
+      "time": "01:45",
+      "dateUTC": "2021-11-23T17:45:00.000Z",
+      "home": false,
+      "opponent": "Villarreal",
+      "opponentAbbr": "VIL",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Estadio de la Cerámica",
+      "name": "Manchester United at Villarreal",
+      "goals": [
+        {
+          "minute": "78'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605912",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-11-29",
+      "time": "00:30",
+      "dateUTC": "2021-11-28T16:30:00.000Z",
+      "home": false,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Stamford Bridge",
+      "name": "Manchester United at Chelsea",
+      "goals": [
+        {
+          "minute": "50'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "69'",
+          "name": "Jorginho",
+          "team": "Chelsea",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605902",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-12-03",
+      "time": "04:15",
+      "dateUTC": "2021-12-02T20:15:00.000Z",
+      "home": true,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Arsenal at Manchester United",
+      "goals": [
+        {
+          "minute": "13'",
+          "name": "Emile Smith Rowe",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "44'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Martin Ødegaard",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605894",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-12-05",
+      "time": "22:00",
+      "dateUTC": "2021-12-05T14:00:00.000Z",
+      "home": true,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Crystal Palace at Manchester United",
+      "goals": [
+        {
+          "minute": "77'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "618701",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2021-12-09",
+      "time": "04:00",
+      "dateUTC": "2021-12-08T20:00:00.000Z",
+      "home": true,
+      "opponent": "Young Boys",
+      "opponentAbbr": "YB",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Young Boys at Manchester United",
+      "goals": [
+        {
+          "minute": "9'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "42'",
+          "name": "Fabian Rieder",
+          "team": "Young Boys",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605882",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-12-12",
+      "time": "01:30",
+      "dateUTC": "2021-12-11T17:30:00.000Z",
+      "home": false,
+      "opponent": "Norwich City",
+      "opponentAbbr": "NOR",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Carrow Road",
+      "name": "Manchester United at Norwich City",
+      "goals": [
+        {
+          "minute": "75'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605856",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-12-28",
+      "time": "04:00",
+      "dateUTC": "2021-12-27T20:00:00.000Z",
+      "home": false,
+      "opponent": "Newcastle United",
+      "opponentAbbr": "NEW",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "St. James' Park",
+      "name": "Manchester United at Newcastle United",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Allan Saint-Maximin",
+          "team": "Newcastle United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "71'",
+          "name": "Edinson Cavani",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605841",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2021-12-31",
+      "time": "04:15",
+      "dateUTC": "2021-12-30T20:15:00.000Z",
+      "home": true,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Burnley at Manchester United",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "27'",
+          "name": "Ben Mee",
+          "team": "Manchester United",
+          "united": true,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "35'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "38'",
+          "name": "Aaron Lennon",
+          "team": "Burnley",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605838",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-01-04",
+      "time": "01:30",
+      "dateUTC": "2022-01-03T17:30:00.000Z",
+      "home": true,
+      "opponent": "Wolverhampton Wanderers",
+      "opponentAbbr": "WOL",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Wolverhampton Wanderers at Manchester United",
+      "goals": [
+        {
+          "minute": "82'",
+          "name": "João Moutinho",
+          "team": "Wolverhampton Wanderers",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "622753",
+      "season": "2021/22",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2022-01-11",
+      "time": "03:55",
+      "dateUTC": "2022-01-10T19:55:00.000Z",
+      "home": true,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Aston Villa at Manchester United",
+      "goals": [
+        {
+          "minute": "8'",
+          "name": "Scott McTominay",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605826",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-01-16",
+      "time": "01:30",
+      "dateUTC": "2022-01-15T17:30:00.000Z",
+      "home": false,
+      "opponent": "Aston Villa",
+      "opponentAbbr": "AVL",
+      "scoreFor": 2,
+      "scoreAgainst": 2,
+      "result": "D",
+      "venue": "Villa Park",
+      "name": "Manchester United at Aston Villa",
+      "goals": [
+        {
+          "minute": "6'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "67'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Jacob Ramsey",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Philippe Coutinho",
+          "team": "Aston Villa",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605874",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-01-20",
+      "time": "04:00",
+      "dateUTC": "2022-01-19T20:00:00.000Z",
+      "home": false,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 3,
+      "scoreAgainst": 1,
+      "result": "W",
+      "venue": "Gtech Community Stadium",
+      "name": "Manchester United at Brentford",
+      "goals": [
+        {
+          "minute": "55'",
+          "name": "Anthony Elanga",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Mason Greenwood",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "77'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Ivan Toney",
+          "team": "Brentford",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605817",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-01-22",
+      "time": "23:00",
+      "dateUTC": "2022-01-22T15:00:00.000Z",
+      "home": true,
+      "opponent": "West Ham United",
+      "opponentAbbr": "WHU",
+      "scoreFor": 1,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "West Ham United at Manchester United",
+      "goals": [
+        {
+          "minute": "90'+3'",
+          "name": "Marcus Rashford",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "627171",
+      "season": "2021/22",
+      "competition": "足总杯",
+      "league": "eng.fa",
+      "date": "2022-02-05",
+      "time": "04:00",
+      "dateUTC": "2022-02-04T20:00:00.000Z",
+      "home": true,
+      "opponent": "Middlesbrough",
+      "opponentAbbr": "MID",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Middlesbrough at Manchester United",
+      "goals": [
+        {
+          "minute": "25'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "64'",
+          "name": "Matt Crooks",
+          "team": "Middlesbrough",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605807",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-02-09",
+      "time": "04:00",
+      "dateUTC": "2022-02-08T20:00:00.000Z",
+      "home": false,
+      "opponent": "Burnley",
+      "opponentAbbr": "BUR",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Turf Moor",
+      "name": "Manchester United at Burnley",
+      "goals": [
+        {
+          "minute": "18'",
+          "name": "Paul Pogba",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "47'",
+          "name": "Jay Rodríguez",
+          "team": "Burnley",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605796",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-02-12",
+      "time": "20:30",
+      "dateUTC": "2022-02-12T12:30:00.000Z",
+      "home": true,
+      "opponent": "Southampton",
+      "opponentAbbr": "SOU",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Southampton at Manchester United",
+      "goals": [
+        {
+          "minute": "21'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "48'",
+          "name": "Ché Adams",
+          "team": "Southampton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605861",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-02-16",
+      "time": "04:15",
+      "dateUTC": "2022-02-15T20:15:00.000Z",
+      "home": true,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Brighton & Hove Albion at Manchester United",
+      "goals": [
+        {
+          "minute": "51'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+7'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605784",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-02-20",
+      "time": "22:00",
+      "dateUTC": "2022-02-20T14:00:00.000Z",
+      "home": false,
+      "opponent": "Leeds United",
+      "opponentAbbr": "LEE",
+      "scoreFor": 4,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Elland Road",
+      "name": "Manchester United at Leeds United",
+      "goals": [
+        {
+          "minute": "34'",
+          "name": "Harry Maguire",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+5'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "53'",
+          "name": "Rodrigo",
+          "team": "Leeds United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "54'",
+          "name": "Raphinha",
+          "team": "Leeds United",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "88'",
+          "name": "Anthony Elanga",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "623000",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2022-02-24",
+      "time": "04:00",
+      "dateUTC": "2022-02-23T20:00:00.000Z",
+      "home": false,
+      "opponent": "Atlético Madrid",
+      "opponentAbbr": "ATM",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Riyadh Air Metropolitano",
+      "name": "Manchester United at Atlético Madrid",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "João Félix",
+          "team": "Atlético Madrid",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "80'",
+          "name": "Anthony Elanga",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605777",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-02-26",
+      "time": "23:00",
+      "dateUTC": "2022-02-26T15:00:00.000Z",
+      "home": true,
+      "opponent": "Watford",
+      "opponentAbbr": "WAT",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Watford at Manchester United",
+      "goals": []
+    },
+    {
+      "id": "605766",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-03-07",
+      "time": "00:30",
+      "dateUTC": "2022-03-06T16:30:00.000Z",
+      "home": false,
+      "opponent": "Manchester City",
+      "opponentAbbr": "MNC",
+      "scoreFor": 1,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Etihad Stadium",
+      "name": "Manchester United at Manchester City",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Kevin De Bruyne",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "22'",
+          "name": "Jadon Sancho",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "28'",
+          "name": "Kevin De Bruyne",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Riyad Mahrez",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "90'+1'",
+          "name": "Riyad Mahrez",
+          "team": "Manchester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605756",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-03-13",
+      "time": "01:30",
+      "dateUTC": "2022-03-12T17:30:00.000Z",
+      "home": true,
+      "opponent": "Tottenham Hotspur",
+      "opponentAbbr": "TOT",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Tottenham Hotspur at Manchester United",
+      "goals": [
+        {
+          "minute": "12'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "35'",
+          "name": "Harry Kane",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "38'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "72'",
+          "name": "Harry Maguire",
+          "team": "Tottenham Hotspur",
+          "united": false,
+          "type": "乌龙",
+          "shootout": false
+        },
+        {
+          "minute": "81'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "622986",
+      "season": "2021/22",
+      "competition": "欧冠",
+      "league": "uefa.champions",
+      "date": "2022-03-16",
+      "time": "04:00",
+      "dateUTC": "2022-03-15T20:00:00.000Z",
+      "home": true,
+      "opponent": "Atlético Madrid",
+      "opponentAbbr": "ATM",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Old Trafford",
+      "name": "Atlético Madrid at Manchester United",
+      "goals": [
+        {
+          "minute": "41'",
+          "name": "Renan Lodi",
+          "team": "Atlético Madrid",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605733",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-03",
+      "time": "00:30",
+      "dateUTC": "2022-04-02T16:30:00.000Z",
+      "home": true,
+      "opponent": "Leicester City",
+      "opponentAbbr": "LEI",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Leicester City at Manchester United",
+      "goals": [
+        {
+          "minute": "63'",
+          "name": "Kelechi Iheanacho",
+          "team": "Leicester City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "66'",
+          "name": "Fred",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605725",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-09",
+      "time": "19:30",
+      "dateUTC": "2022-04-09T11:30:00.000Z",
+      "home": false,
+      "opponent": "Everton",
+      "opponentAbbr": "EVE",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Goodison Park",
+      "name": "Manchester United at Everton",
+      "goals": [
+        {
+          "minute": "27'",
+          "name": "Anthony Gordon",
+          "team": "Everton",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605718",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-16",
+      "time": "22:00",
+      "dateUTC": "2022-04-16T14:00:00.000Z",
+      "home": true,
+      "opponent": "Norwich City",
+      "opponentAbbr": "NOR",
+      "scoreFor": 3,
+      "scoreAgainst": 2,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Norwich City at Manchester United",
+      "goals": [
+        {
+          "minute": "7'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "32'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "45'+1'",
+          "name": "Kieran Dowell",
+          "team": "Norwich City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "52'",
+          "name": "Teemu Pukki",
+          "team": "Norwich City",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "76'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605746",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-20",
+      "time": "03:00",
+      "dateUTC": "2022-04-19T19:00:00.000Z",
+      "home": false,
+      "opponent": "Liverpool",
+      "opponentAbbr": "LIV",
+      "scoreFor": 0,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "Anfield",
+      "name": "Manchester United at Liverpool",
+      "goals": [
+        {
+          "minute": "5'",
+          "name": "Luis Díaz",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "22'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "68'",
+          "name": "Sadio Mané",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "85'",
+          "name": "Mohamed Salah",
+          "team": "Liverpool",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605702",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-23",
+      "time": "19:30",
+      "dateUTC": "2022-04-23T11:30:00.000Z",
+      "home": false,
+      "opponent": "Arsenal",
+      "opponentAbbr": "ARS",
+      "scoreFor": 1,
+      "scoreAgainst": 3,
+      "result": "L",
+      "venue": "Emirates Stadium",
+      "name": "Manchester United at Arsenal",
+      "goals": [
+        {
+          "minute": "3'",
+          "name": "Nuno Tavares",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "32'",
+          "name": "Bukayo Saka",
+          "team": "Arsenal",
+          "united": false,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "34'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "70'",
+          "name": "Granit Xhaka",
+          "team": "Arsenal",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605673",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-04-29",
+      "time": "02:45",
+      "dateUTC": "2022-04-28T18:45:00.000Z",
+      "home": true,
+      "opponent": "Chelsea",
+      "opponentAbbr": "CHE",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "result": "D",
+      "venue": "Old Trafford",
+      "name": "Chelsea at Manchester United",
+      "goals": [
+        {
+          "minute": "60'",
+          "name": "Marcos Alonso",
+          "team": "Chelsea",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "62'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605690",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-05-03",
+      "time": "03:00",
+      "dateUTC": "2022-05-02T19:00:00.000Z",
+      "home": true,
+      "opponent": "Brentford",
+      "opponentAbbr": "BRE",
+      "scoreFor": 3,
+      "scoreAgainst": 0,
+      "result": "W",
+      "venue": "Old Trafford",
+      "name": "Brentford at Manchester United",
+      "goals": [
+        {
+          "minute": "9'",
+          "name": "Bruno Fernandes",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "61'",
+          "name": "Cristiano Ronaldo",
+          "team": "Manchester United",
+          "united": true,
+          "type": "点球",
+          "shootout": false
+        },
+        {
+          "minute": "72'",
+          "name": "Raphaël Varane",
+          "team": "Manchester United",
+          "united": true,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605682",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-05-08",
+      "time": "00:30",
+      "dateUTC": "2022-05-07T16:30:00.000Z",
+      "home": false,
+      "opponent": "Brighton & Hove Albion",
+      "opponentAbbr": "BHA",
+      "scoreFor": 0,
+      "scoreAgainst": 4,
+      "result": "L",
+      "venue": "American Express Stadium",
+      "name": "Manchester United at Brighton & Hove Albion",
+      "goals": [
+        {
+          "minute": "15'",
+          "name": "Moisés Caicedo",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "49'",
+          "name": "Marc Cucurella",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "57'",
+          "name": "Pascal Gross",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        },
+        {
+          "minute": "60'",
+          "name": "Leandro Trossard",
+          "team": "Brighton & Hove Albion",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    },
+    {
+      "id": "605662",
+      "season": "2021/22",
+      "competition": "英超",
+      "league": "eng.1",
+      "date": "2022-05-22",
+      "time": "23:00",
+      "dateUTC": "2022-05-22T15:00:00.000Z",
+      "home": false,
+      "opponent": "Crystal Palace",
+      "opponentAbbr": "CRY",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "result": "L",
+      "venue": "Selhurst Park",
+      "name": "Manchester United at Crystal Palace",
+      "goals": [
+        {
+          "minute": "37'",
+          "name": "Wilfried Zaha",
+          "team": "Crystal Palace",
+          "united": false,
+          "type": "",
+          "shootout": false
+        }
+      ]
+    }
+  ]
+}

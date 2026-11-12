@@ -1,0 +1,45 @@
+{
+  "id": "2019-10-21-morning",
+  "date": "2019-10-21",
+  "period": "morning",
+  "issue_number": 68,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541758",
+          "title": "曼联 1-1 利物浦：被扳平",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 12 场，3 胜 6 平 3 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵利物浦，比分 1-1。</p><p>进球：36' Marcus Rashford（曼联）、85' Adam Lallana（利物浦）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541758"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "10-20 23:30",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，主场的进攻够用，防守不够用。"
+  },
+  "match_no": 12,
+  "hero": {
+    "src": "./media/archive/archive-2019-10-20-Liverpool.jpg",
+    "alt": "曼联 1-1 利物浦",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "competition": "欧联",
+  "name": "UEFA EUROPA LEAGUE - GROUP L",
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Manchester United",
+      "played": 6,
+      "win": 4,
+      "draw": 1,
+      "loss": 1,
+      "gf": 10,
+      "ga": 2,
+      "pts": 13,
+      "united": true
+    },
+    {
+      "rank": 2,
+      "team": "AZ Alkmaar",
+      "played": 6,
+      "win": 2,
+      "draw": 3,
+      "loss": 1,
+      "gf": 15,
+      "ga": 8,
+      "pts": 9,
+      "united": false
+    },
+    {
+      "rank": 3,
+      "team": "Partizan Belgrade",
+      "played": 6,
+      "win": 2,
+      "draw": 2,
+      "loss": 2,
+      "gf": 10,
+      "ga": 10,
+      "pts": 8,
+      "united": false
+    },
+    {
+      "rank": 4,
+      "team": "FC Astana",
+      "played": 6,
+      "win": 1,
+      "draw": 0,
+      "loss": 5,
+      "gf": 4,
+      "ga": 19,
+      "pts": 3,
+      "united": false
+    }
+  ]
+}

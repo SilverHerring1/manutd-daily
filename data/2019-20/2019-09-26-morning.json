@@ -1,0 +1,45 @@
+{
+  "id": "2019-09-26-morning",
+  "date": "2019-09-26",
+  "period": "morning",
+  "issue_number": 64,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m557045",
+          "title": "曼联 1-1 罗奇代尔：被扳平",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 8 场，3 胜 3 平 2 负。",
+          "body_html": "<p>2019/20 联赛杯，主场（老特拉福德）对阵罗奇代尔，比分 1-1。</p><p>进球：68' Mason Greenwood（曼联）、76' Luke Matheson（罗奇代尔）。</p><p>杯赛九十分钟打平，进入加时；互射点球的结果没有记录。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/557045"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "09-26 03:00",
+          "badge": "./media/badges/rochdale.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "九十分钟扳平，把比赛拖进了加时。"
+  },
+  "match_no": 8,
+  "hero": {
+    "src": "./media/archive/archive-2019-09-26-Rochdale.jpg",
+    "alt": "曼联 1-1 罗奇代尔",
+    "width": 960,
+    "height": 540
+  }
+}

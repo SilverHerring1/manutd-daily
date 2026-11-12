@@ -1,0 +1,54 @@
+{
+  "competition": "欧冠",
+  "name": "UEFA Champions League - Group H",
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Paris Saint-Germain",
+      "played": 6,
+      "win": 4,
+      "draw": 0,
+      "loss": 2,
+      "gf": 13,
+      "ga": 6,
+      "pts": 12,
+      "united": false
+    },
+    {
+      "rank": 2,
+      "team": "RB Leipzig",
+      "played": 6,
+      "win": 4,
+      "draw": 0,
+      "loss": 2,
+      "gf": 11,
+      "ga": 12,
+      "pts": 12,
+      "united": false
+    },
+    {
+      "rank": 3,
+      "team": "Manchester United",
+      "played": 6,
+      "win": 3,
+      "draw": 0,
+      "loss": 3,
+      "gf": 15,
+      "ga": 10,
+      "pts": 9,
+      "united": true
+    },
+    {
+      "rank": 4,
+      "team": "Istanbul Basaksehir",
+      "played": 6,
+      "win": 1,
+      "draw": 0,
+      "loss": 5,
+      "gf": 7,
+      "ga": 18,
+      "pts": 3,
+      "united": false
+    }
+  ]
+}

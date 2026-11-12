@@ -1,0 +1,45 @@
+{
+  "id": "2018-09-30-morning",
+  "date": "2018-09-30",
+  "period": "morning",
+  "issue_number": 9,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513776",
+          "title": "西汉姆联 3-1 曼联：2 球落败",
+          "summary": "英超，客场（伦敦球场）。这一季各项赛事第 9 场，4 胜 2 平 3 负。",
+          "body_html": "<p>2018/19 英超，客场（伦敦球场）对阵西汉姆联，比分 1-3。</p><p>进球：5' Felipe Anderson（西汉姆联）、43' Victor Lindelöf（乌龙球，算给西汉姆联）、71' Marcus Rashford（曼联）、74' Marko Arnautovic（西汉姆联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513776"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "09-29 19:30",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 1 球，问题不在前场。"
+  },
+  "match_no": 9,
+  "hero": {
+    "src": "./media/archive/archive-2018-09-29-WestHamUnited.jpg",
+    "alt": "西汉姆联 3-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

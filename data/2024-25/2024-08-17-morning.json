@@ -1,0 +1,45 @@
+{
+  "id": "2024-08-17-morning",
+  "date": "2024-08-17",
+  "period": "morning",
+  "issue_number": 347,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704279",
+          "title": "曼联 1-0 富勒姆：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 1 场，1 胜 0 平 0 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵富勒姆，比分 1-0。</p><p>进球：87' Joshua Zirkzee（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704279"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-17 03:00",
+          "badge": "./media/badges/fulham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 1 场不丢球。"
+  },
+  "match_no": 1,
+  "hero": {
+    "src": "./media/archive/archive-2024-08-17-Fulham.jpg",
+    "alt": "曼联 1-0 富勒姆",
+    "width": 960,
+    "height": 540
+  }
+}

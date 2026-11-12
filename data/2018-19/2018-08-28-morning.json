@@ -1,0 +1,45 @@
+{
+  "id": "2018-08-28-morning",
+  "date": "2018-08-28",
+  "period": "morning",
+  "issue_number": 3,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513818",
+          "title": "曼联 0-3 托特纳姆热刺：净负 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 3 场，1 胜 0 平 2 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵托特纳姆热刺，比分 0-3。</p><p>进球：50' Harry Kane（托特纳姆热刺）、52' Lucas Moura（托特纳姆热刺）、84' Lucas Moura（托特纳姆热刺）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513818"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-28 03:00",
+          "badge": "./media/badges/tottenham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场丢 3 球，这一季最难看的比分。"
+  },
+  "match_no": 3,
+  "hero": {
+    "src": "./media/archive/archive-2018-08-28-TottenhamHotspur.jpg",
+    "alt": "曼联 0-3 托特纳姆热刺",
+    "width": 960,
+    "height": 540
+  }
+}

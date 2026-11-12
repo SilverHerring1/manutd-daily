@@ -1,0 +1,54 @@
+{
+  "competition": "欧冠",
+  "name": "Group F",
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Manchester United",
+      "played": 6,
+      "win": 3,
+      "draw": 2,
+      "loss": 1,
+      "gf": 11,
+      "ga": 8,
+      "pts": 11,
+      "united": true
+    },
+    {
+      "rank": 2,
+      "team": "Villarreal",
+      "played": 6,
+      "win": 3,
+      "draw": 1,
+      "loss": 2,
+      "gf": 12,
+      "ga": 9,
+      "pts": 10,
+      "united": false
+    },
+    {
+      "rank": 3,
+      "team": "Atalanta",
+      "played": 6,
+      "win": 1,
+      "draw": 3,
+      "loss": 2,
+      "gf": 12,
+      "ga": 13,
+      "pts": 6,
+      "united": false
+    },
+    {
+      "rank": 4,
+      "team": "Young Boys",
+      "played": 6,
+      "win": 1,
+      "draw": 2,
+      "loss": 3,
+      "gf": 7,
+      "ga": 12,
+      "pts": 5,
+      "united": false
+    }
+  ]
+}

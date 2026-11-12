@@ -1,0 +1,45 @@
+{
+  "id": "2018-09-23-morning",
+  "date": "2018-09-23",
+  "period": "morning",
+  "issue_number": 7,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513789",
+          "title": "曼联 1-1 狼队：被扳平",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 7 场，4 胜 1 平 2 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵狼队，比分 1-1。</p><p>进球：18' Fred（曼联）、53' João Moutinho（狼队）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513789"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "09-22 22:00",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 7,
+  "hero": {
+    "src": "./media/archive/archive-2018-09-22-WolverhamptonWanderers.jpg",
+    "alt": "曼联 1-1 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

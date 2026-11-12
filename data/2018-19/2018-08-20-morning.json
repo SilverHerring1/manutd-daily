@@ -1,0 +1,45 @@
+{
+  "id": "2018-08-20-morning",
+  "date": "2018-08-20",
+  "period": "morning",
+  "issue_number": 2,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513825",
+          "title": "布莱顿 3-2 曼联：一球之差",
+          "summary": "英超，客场（美国运通球场）。这一季各项赛事第 2 场，1 胜 0 平 1 负。",
+          "body_html": "<p>2018/19 英超，客场（美国运通球场）对阵布莱顿，比分 2-3。</p><p>进球：25' Glenn Murray（布莱顿）、27' Shane Duffy（布莱顿）、34' Romelu Lukaku（曼联）、44' Pascal Gross（布莱顿，点球）、90+5' Paul Pogba（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513825"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "08-19 23:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 2,
+  "hero": {
+    "src": "./media/archive/archive-2018-08-19-BrightonHoveAlbion.jpg",
+    "alt": "布莱顿 3-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

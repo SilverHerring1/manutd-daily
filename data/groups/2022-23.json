@@ -1,0 +1,54 @@
+{
+  "competition": "欧联",
+  "name": "Group E",
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Real Sociedad",
+      "played": 6,
+      "win": 5,
+      "draw": 0,
+      "loss": 1,
+      "gf": 10,
+      "ga": 2,
+      "pts": 15,
+      "united": false
+    },
+    {
+      "rank": 2,
+      "team": "Manchester United",
+      "played": 6,
+      "win": 5,
+      "draw": 0,
+      "loss": 1,
+      "gf": 10,
+      "ga": 3,
+      "pts": 15,
+      "united": true
+    },
+    {
+      "rank": 3,
+      "team": "Sheriff Tiraspol",
+      "played": 6,
+      "win": 2,
+      "draw": 0,
+      "loss": 4,
+      "gf": 4,
+      "ga": 10,
+      "pts": 6,
+      "united": false
+    },
+    {
+      "rank": 4,
+      "team": "Omonia Nicosia",
+      "played": 6,
+      "win": 0,
+      "draw": 0,
+      "loss": 6,
+      "gf": 3,
+      "ga": 12,
+      "pts": 0,
+      "united": false
+    }
+  ]
+}

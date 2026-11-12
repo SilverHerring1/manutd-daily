@@ -1,82 +1,102 @@
 {
   "Arsenal": {
     "cn": "阿森纳",
-    "badge": "arsenal"
+    "badge": "arsenal",
+    "fm": 602
   },
   "Aston Villa": {
     "cn": "阿斯顿维拉",
-    "badge": "aston-villa"
+    "badge": "aston-villa",
+    "fm": 603
   },
   "AFC Bournemouth": {
     "cn": "伯恩茅斯",
-    "badge": "bournemouth"
+    "badge": "bournemouth",
+    "fm": 600
   },
   "Brighton & Hove Albion": {
     "cn": "布莱顿",
-    "badge": "brighton"
+    "badge": "brighton",
+    "fm": 618
   },
   "Brentford": {
     "cn": "布伦特福德",
-    "badge": "brentford"
+    "badge": "brentford",
+    "fm": 617
   },
   "Chelsea": {
     "cn": "切尔西",
-    "badge": "chelsea"
+    "badge": "chelsea",
+    "fm": 630
   },
   "Coventry City": {
     "cn": "考文垂",
-    "badge": "coventry"
+    "badge": "coventry",
+    "fm": 639
   },
   "Crystal Palace": {
     "cn": "水晶宫",
-    "badge": "crystal-palace"
+    "badge": "crystal-palace",
+    "fm": 642
   },
   "Everton": {
     "cn": "埃弗顿",
-    "badge": "everton"
+    "badge": "everton",
+    "fm": 650
   },
   "Fulham": {
     "cn": "富勒姆",
-    "badge": "fulham"
+    "badge": "fulham",
+    "fm": 654
   },
   "Ipswich Town": {
     "cn": "伊普斯维奇",
-    "badge": "ipswich"
+    "badge": "ipswich",
+    "fm": 667
   },
   "Leeds United": {
     "cn": "利兹联",
-    "badge": "leeds"
+    "badge": "leeds",
+    "fm": 671
   },
   "Liverpool": {
     "cn": "利物浦",
-    "badge": "liverpool"
+    "badge": "liverpool",
+    "fm": 676
   },
   "Manchester City": {
     "cn": "曼城",
-    "badge": "man-city"
+    "badge": "man-city",
+    "fm": 679
   },
   "Manchester United": {
     "cn": "曼联",
-    "badge": "man-utd"
+    "badge": "man-utd",
+    "fm": 680
   },
   "Newcastle United": {
-    "cn": "纽卡斯尔",
-    "badge": "newcastle"
+    "cn": "纽卡斯尔联",
+    "badge": "newcastle",
+    "fm": 688
   },
   "Nottingham Forest": {
     "cn": "诺丁汉森林",
-    "badge": "nottm-forest"
+    "badge": "nottm-forest",
+    "fm": 692
   },
   "Sunderland": {
     "cn": "桑德兰",
-    "badge": "sunderland"
+    "badge": "sunderland",
+    "fm": 722
   },
   "Tottenham Hotspur": {
     "cn": "托特纳姆热刺",
-    "badge": "tottenham"
+    "badge": "tottenham",
+    "fm": 728
   },
   "Hull City": {
     "cn": "赫尔城",
-    "badge": "hull"
+    "badge": "hull",
+    "fm": 665
   }
 }

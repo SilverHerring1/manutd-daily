@@ -1,0 +1,45 @@
+{
+  "id": "2023-08-27-morning",
+  "date": "2023-08-27",
+  "period": "morning",
+  "issue_number": 296,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671058",
+          "title": "曼联 3-2 诺丁汉森林：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 3 场，2 胜 0 平 1 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵诺丁汉森林，比分 3-2。</p><p>进球：2' Taiwo Awoniyi（诺丁汉森林）、4' Willy Boly（诺丁汉森林）、17' Christian Eriksen（曼联）、52' Casemiro（曼联）、76' Bruno Fernandes（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671058"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-26 22:00",
+          "badge": "./media/badges/nottinghamforest.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 2 次单场丢两球以上。"
+  },
+  "match_no": 3,
+  "hero": {
+    "src": "./media/archive/archive-2023-08-26-NottinghamForest.jpg",
+    "alt": "曼联 3-2 诺丁汉森林",
+    "width": 960,
+    "height": 540
+  }
+}

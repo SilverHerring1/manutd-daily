@@ -1,0 +1,39 @@
+{
+  "id": "2022-08-08-morning",
+  "date": "2022-08-08",
+  "period": "morning",
+  "issue_number": 231,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638207",
+          "title": "曼联 1-2 布莱顿：一球之差",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 1 场，0 胜 0 平 1 负。",
+          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵布莱顿，比分 1-2。</p><p>进球：30' Pascal Gross（布莱顿）、39' Pascal Gross（布莱顿）、68' Alexis Mac Allister（乌龙球，算给曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638207"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-07 21:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 1
+}
