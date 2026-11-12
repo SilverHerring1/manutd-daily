@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    editorial-html / app.js
    原生 ES module，无框架、无构建。产物直接跑在静态服务器上。
 
@@ -28,6 +28,9 @@ const FONT_KEY = "editorial-html:font-size";
 
 const state = {
   index: null,
+  catalog: new Map(),    // id -> 期次元信息（主线 + 各赛季归档），带 dir
+  seasons: [],           // data/seasons.json 的赛季清单
+  picker: { year: "", month: "" },
   cache: new Map(),      // id -> Promise<issue>
   issue: null,
   searchToken: 0,
@@ -110,11 +113,15 @@ async function fetchJson(url) {
   return response.json();
 }
 
-const issueUrl = (id) => new URL(`./${id}.json`, DATA_BASE).href;
+// dir 是相对 data/ 的子目录：主线期次在根上（dir 为空），归档在各赛季目录里
+const issueUrl = (entry) =>
+  new URL(entry.dir ? `./${entry.dir}/${entry.id}.json` : `./${entry.id}.json`, DATA_BASE).href;
 
 function getIssue(id) {
+  const entry = state.catalog.get(id);
+  if (!entry) return Promise.reject(new Error("目录里没有这一期"));
   if (!state.cache.has(id)) {
-    const pending = fetchJson(issueUrl(id)).catch((error) => {
+    const pending = fetchJson(issueUrl(entry)).catch((error) => {
       state.cache.delete(id);       // 失败不缓存，重试还有机会
       throw error;
     });
@@ -123,8 +130,35 @@ function getIssue(id) {
   return state.cache.get(id);
 }
 
-const findIssue = (date, period) =>
-  state.index?.issues.find((i) => i.date === date && i.period === period) ?? null;
+const findIssue = (date, period) => state.catalog.get(`${date}-${period}`) ?? null;
+
+const catalogList = () => [...state.catalog.values()];
+
+/** 主线期次 + 各赛季归档，合成一张按 id 索引的总目。没有归档数据就只跑主线。 */
+async function loadCatalog() {
+  const catalog = new Map();
+  for (const meta of state.index?.issues ?? []) catalog.set(meta.id, { ...meta, dir: "" });
+
+  try {
+    const seasons = await fetchJson(new URL("./seasons.json", DATA_BASE).href);
+    state.seasons = seasons.seasons ?? [];
+    const lists = await Promise.all(
+      state.seasons.map(async (season) => {
+        try {
+          const index = await fetchJson(new URL(`./${season.dir}/index.json`, DATA_BASE).href);
+          return (index.issues ?? []).map((meta) => ({ ...meta, dir: season.dir, season: meta.season ?? season.season }));
+        } catch {
+          return [];                 // 某一季坏了不该拖垮整个页面
+        }
+      }),
+    );
+    for (const list of lists) for (const meta of list) catalog.set(meta.id, meta);
+  } catch {
+    state.seasons = [];              // ?data=data-weekly 这类目录没有 seasons.json，正常
+  }
+
+  state.catalog = catalog;
+}
 
 /* ---------------- 渲染 ---------------- */
 
@@ -145,23 +179,38 @@ function renderSide(issue) {
     card.innerHTML = DEFAULT_SIDE;
     return;
   }
+  // 热评：正文加引号，下面一个破折号加球迷名；自己写的那句两样都不加
+  const isQuote = Boolean(note.credit);
+  const body = isQuote ? `「${esc(pangu(note.body))}」` : esc(pangu(note.body));
+  const credit = note.credit
+    ? `<p class="side-credit">—— ${
+        safeUrl(note.url)
+          ? `<a href="${esc(safeUrl(note.url))}" target="_blank" rel="noopener noreferrer">${esc(pangu(note.credit))}</a>`
+          : esc(pangu(note.credit))
+      }</p>`
+    : "";
   card.innerHTML =
     `<p class="side-label">${esc(pangu(note.title || "编辑短评"))}</p>` +
-    `<p>${esc(pangu(note.body))}</p>`;
+    `<p class="side-body">${body}</p>` +
+    credit;
 }
 
 function renderMasthead(issue) {
-  const { month, day } = dateParts(issue.date);
+  const { year, month, day } = dateParts(issue.date);
+  // 归档期次也按期号走，抬头跟日更一致：第 N 期 · 2018/19 · 晨间版
+  const kickerParts = [issue.season, editionName(issue.period)].filter(Boolean);
   $("editionKicker").textContent = issue.issue_number
-    ? `第 ${issue.issue_number} 期 · ${editionName(issue.period)}`
-    : editionName(issue.period);
+    ? `第 ${issue.issue_number} 期 · ${kickerParts.join(" · ")}`
+    : kickerParts.join(" · ");
   $("editionTitle").textContent = issue.title || `AI ${periodName(issue.period)}`;
   $("editionMeta").textContent = `${issue.section_count ?? "—"} 个栏目 · ${issue.item_count ?? "—"} 条`;
-  $("dateFull").textContent = `${month} 月 ${day} 日`;
+  $("dateFull").textContent = issue.season ? `${year} 年 ${month} 月 ${day} 日` : `${month} 月 ${day} 日`;
   $("dateWeekday").textContent = weekdayOf(issue.date);
   $("dateTrigger").disabled = false;
   $("miniEditionText").textContent = `${pad(month)}.${pad(day)} ${periodName(issue.period)}`;
-  document.title = `${month} 月 ${day} 日 ${editionName(issue.period)} · ${state.index.name || ""}`.trim();
+  document.title = issue.season
+    ? `${issue.season} · ${month} 月 ${day} 日 ${editionName(issue.period)} · ${state.index.name || ""}`.trim()
+    : `${month} 月 ${day} 日 ${editionName(issue.period)} · ${state.index.name || ""}`.trim();
 
   document.querySelectorAll("[data-period]").forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.period === issue.period));
@@ -252,6 +301,7 @@ function storyHtml(item, index) {
   return `<article class="story" id="${esc(item.id)}">
     <p class="story-meta">
       <span class="story-no">${pad(index + 1)}</span>
+      ${item.badge ? `<img class="story-badge" src="${esc(item.badge)}" alt="" width="25" height="18" loading="lazy" />` : ""}
       <span class="story-source">${esc(pangu(item.source_name || ""))}</span>
       ${time ? `<time class="story-time">${time}</time>` : ""}
     </p>
@@ -292,19 +342,23 @@ function renderArticles(issue) {
   void renderBoard();
 }
 
-/** 期次导航：按「日期升序 + 早报在前」排队，取前后各一期 */
+/** 期次导航：同一赛季内按「日期升序 + 早报在前」排队，取前后各一期。
+    归档期次只在它自己那一季里翻，不会从 2018 直接跳到 2026。 */
 function renderIssueNav(issue) {
   const nav = $("issueNav");
-  if (!nav || !state.index) return;
+  if (!nav || !state.catalog.size) return;
 
   const rank = (i) => (i.period === "morning" ? 0 : 1);
-  const ordered = [...state.index.issues].sort(
-    (a, b) => a.date.localeCompare(b.date) || rank(a) - rank(b),
-  );
+  const seasonOf = (i) => i.season ?? "";
+  const ordered = catalogList()
+    .filter((i) => seasonOf(i) === seasonOf(issue))
+    .sort((a, b) => a.date.localeCompare(b.date) || rank(a) - rank(b));
   const at = ordered.findIndex((i) => i.id === issue.id);
   const label = (i) => {
-    const { month, day } = dateParts(i.date);
-    return `${month} 月 ${day} 日 ${periodName(i.period)}`;
+    const { year, month, day } = dateParts(i.date);
+    return issue.season
+      ? `${year} 年 ${month} 月 ${day} 日 ${periodName(i.period)}`
+      : `${month} 月 ${day} 日 ${periodName(i.period)}`;
   };
 
   const cell = (target, dir) => {
@@ -319,22 +373,47 @@ function renderIssueNav(issue) {
     cell(at >= 0 && at < ordered.length - 1 ? ordered[at + 1] : null, "下一期");
 }
 
+/* ---------------- 日期面板：年 / 月 / 日 三级 ---------------- */
+
+/** 三级筛选：年（有哪些赛季年份）→ 月 → 日（那天有哪几期） */
 function renderDateGrid(issue) {
-  const dates = state.index?.dates ?? [];
-  $("dateGrid").innerHTML = dates
+  const all = catalogList();
+  if (!all.length) return;
+
+  const years = [...new Set(all.map((i) => i.date.slice(0, 4)))].sort().reverse();
+  const wantYear = state.picker.year || issue?.date?.slice(0, 4) || "";
+  const year = years.includes(wantYear) ? wantYear : years[0];
+
+  const months = [...new Set(all.filter((i) => i.date.startsWith(year)).map((i) => i.date.slice(5, 7)))].sort();
+  const fromIssue = issue?.date?.startsWith(year) ? issue.date.slice(5, 7) : "";
+  const kept = state.picker.year === year && months.includes(state.picker.month) ? state.picker.month : "";
+  const month = kept || (months.includes(fromIssue) ? fromIssue : months.at(-1));
+  state.picker = { year, month };
+
+  $("dateYears").innerHTML = years
+    .map((y) => `<button type="button" data-pick-year="${y}" ${y === year ? 'aria-current="true"' : ""}>${y}</button>`)
+    .join("");
+  $("dateMonths").innerHTML = months
+    .map((m) => `<button type="button" data-pick-month="${m}" ${m === month ? 'aria-current="true"' : ""}>${Number(m)} 月</button>`)
+    .join("");
+
+  const days = [...new Set(all.filter((i) => i.date.startsWith(`${year}-${month}`)).map((i) => i.date))].sort();
+  $("dateGrid").innerHTML = days
     .map((date) => {
-      const { month, day } = dateParts(date);
+      const { day } = dateParts(date);
       const cells = ["morning", "evening"]
         .map((period) => {
           const target = findIssue(date, period);
-          const current = issue.date === date && issue.period === period;
+          const current = issue?.date === date && issue?.period === period;
           return `<button type="button" data-pick-date="${date}" data-pick-period="${period}"
             ${target ? "" : "disabled"} ${current ? 'aria-current="true"' : ""}>${periodName(period)}</button>`;
         })
         .join("");
-      return `<div class="edition-day"><span>${month} 月 ${day} 日</span>${cells}</div>`;
+      return `<div class="edition-day"><span>${Number(day)} 日</span>${cells}</div>`;
     })
     .join("");
+
+  $("pickerPath").textContent = `${year} 年 ${Number(month)} 月 · ${days.length} 天有稿`;
 }
 
 function renderEmpty(date, period) {
@@ -361,15 +440,19 @@ function renderEmpty(date, period) {
 
 /* ---------------- 路由 ---------------- */
 
+/** 最新一期：从总目里按日期 + 早晚报挑，不再依赖 data/index.json 的 issues */
 function latestIssue() {
-  const issues = state.index?.issues ?? [];
-  return issues.find((i) => i.date === state.index?.as_of) ?? issues[0] ?? null;
+  const list = catalogList();
+  if (!list.length) return null;
+  const rank = (i) => (i.period === "morning" ? 0 : 1);
+  return [...list].sort((a, b) => b.date.localeCompare(a.date) || rank(b) - rank(a))[0];
 }
 
-/** 积分榜：单独一个 data/boards.json，随抓取脚本更新，不占每期的 JSON */
+/** 积分榜：单独一个 data/boards.json，随抓取脚本更新，不占每期的 JSON。
+    只挂在主线上：2018 年的那一期里贴 2026 年的榜，等于用后来的事写过去。 */
 async function renderBoard() {
   const host = $("articleContent");
-  if (!host) return;
+  if (!host || state.issue?.archive) return;
   let board;
   try {
     board = await fetchJson(new URL("./boards.json", DATA_BASE).href);
@@ -380,7 +463,7 @@ async function renderBoard() {
 
   const row = (r) => `<tr${r.united ? ' class="is-united"' : ""}>
       <td class="b-rank">${r.rank}</td>
-      <td class="b-team">${r.badge ? `<img src="${esc(r.badge)}" alt="" width="20" height="15" loading="lazy" />` : ""}<span>${esc(r.cn)}</span></td>
+      <td class="b-team">${r.badge ? `<img src="${esc(r.badge)}" alt="" width="25" height="18" loading="lazy" />` : ""}<span>${esc(r.cn)}</span></td>
       <td>${r.played}</td><td>${r.win}</td><td>${r.draw}</td><td>${r.loss}</td>
       <td class="b-wide">${r.gf}</td><td class="b-wide">${r.ga}</td>
       <td class="b-wide">${r.gd > 0 ? "+" + r.gd : r.gd}</td>
@@ -436,6 +519,24 @@ async function choose(date, period, { scroll = "smooth" } = {}) {
 
 /* ---------------- 搜索 ---------------- */
 
+/** 并发上限：预览服务器不一定扛得住一口气几十个请求，慢慢来反而快 */
+async function mapLimit(list, limit, fn) {
+  const out = new Array(list.length);
+  let at = 0;
+  const workers = Array.from({ length: Math.min(limit, list.length) }, async () => {
+    while (at < list.length) {
+      const i = at++;
+      try {
+        out[i] = { status: "fulfilled", value: await fn(list[i]) };
+      } catch (error) {
+        out[i] = { status: "rejected", reason: error };
+      }
+    }
+  });
+  await Promise.all(workers);
+  return out;
+}
+
 async function runSearch() {
   const token = ++state.searchToken;
   const query = $("searchInput").value.trim().toLowerCase();
@@ -443,13 +544,13 @@ async function runSearch() {
   results.replaceChildren();
 
   if (!query) {
-    $("searchHint").textContent = "搜索最近 7 天的标题、摘要与正文。";
+    $("searchHint").textContent = "搜索全部期次（含赛季归档）的标题、摘要与正文。";
     return;
   }
 
-  $("searchHint").textContent = "正在检索最近七天…";
-  const issues = state.index?.issues ?? [];
-  const settled = await Promise.allSettled(issues.map((issue) => getIssue(issue.id)));
+  $("searchHint").textContent = "正在检索…";
+  const issues = catalogList();
+  const settled = await mapLimit(issues, 6, (issue) => getIssue(issue.id));
   if (token !== state.searchToken) return;         // 输入更快时，旧结果直接丢弃
 
   const matches = [];
@@ -471,7 +572,7 @@ async function runSearch() {
     .map(({ issue, item }, index) => {
       const snippet = esc(pangu(item.summary || "")).slice(0, 96);
       return `<button type="button" class="search-result" data-result="${index}">
-        <span class="result-meta">${esc(issue.date)} ${periodName(issue.period)}</span>
+        <span class="result-meta">${issue.season ? `${esc(issue.season)} · ` : ""}${esc(issue.date)} ${periodName(issue.period)}</span>
         <p class="result-title">${esc(pangu(item.title || ""))}</p>
         <p class="result-snippet">${snippet}${snippet.length >= 96 ? "…" : ""}</p>
       </button>`;
@@ -686,6 +787,22 @@ function bind() {
       $("dateMenu").hidden = true;
       $("dateTrigger").setAttribute("aria-expanded", "false");
       void choose(picker.dataset.pickDate, picker.dataset.pickPeriod, { scroll: "top" });
+      return;
+    }
+
+    // 三级筛选：点年/月只重画面板，不关面板
+    const yearPick = event.target.closest("[data-pick-year]");
+    if (yearPick) {
+      state.picker = { year: yearPick.dataset.pickYear, month: "" };
+      renderDateGrid(state.issue ?? {});
+      return;
+    }
+
+    const monthPick = event.target.closest("[data-pick-month]");
+    if (monthPick) {
+      state.picker = { year: state.picker.year, month: monthPick.dataset.pickMonth };
+      renderDateGrid(state.issue ?? {});
+      return;
     }
 
     const goto = event.target.closest("[data-goto]");
@@ -801,6 +918,8 @@ async function init() {
     return;
   }
 
+  await loadCatalog();
+
   const query = new URLSearchParams(location.search);
   const latest = latestIssue();
   if (!latest) {
@@ -808,16 +927,21 @@ async function init() {
     return;
   }
 
-  const explicit = query.has("date") || query.has("period");
-  let date = query.has("date") && state.index.dates?.includes(query.get("date"))
-    ? query.get("date")
-    : latest.date;
-  let period = ["morning", "evening"].includes(query.get("period"))
-    ? query.get("period")
-    : latest.period;
-
+  const wantDate = query.get("date");
+  const wantPeriod = ["morning", "evening"].includes(query.get("period")) ? query.get("period") : null;
+  let date = latest.date;
+  let period = latest.period;
   let fallback = "";
-  if (!explicit && !findIssue(date, period)) {
+
+  if (wantDate) {
+    const hit = (wantPeriod && findIssue(wantDate, wantPeriod)) || findIssue(wantDate, "morning") || findIssue(wantDate, "evening");
+    if (hit) {
+      date = hit.date;
+      period = hit.period;
+    } else {
+      fallback = `没有 ${wantDate} 这一期，先看最近一期。`;
+    }
+  } else if (!findIssue(date, period)) {
     fallback = `这一期${periodName(period)}还没发布，先看最近的${periodName(latest.period)}。`;
     date = latest.date;
     period = latest.period;

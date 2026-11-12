@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <!--
   editorial-html / page-skeleton.html
   语义骨架。复制这个文件当起点，配合 design-tokens.css + layout.css + app.js。
@@ -16,21 +16,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0e0f11" />
-  <meta name="description" content="曼联近一个月的比赛与要闻，一天两期。" />
-  <title>曼联日报 · 近一个月</title>
+  <meta name="description" content="曼联比赛与要闻，一场一期，含赛季归档。" />
+  <title>曼联日报</title>
 
   <!-- 图标用内联 SVG，省一次请求，也省 favicon.ico 的 404 -->
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./media/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./media/avatar.svg" />
 
-  <link rel="stylesheet" href="./design-tokens.css?v=7" />
-  <link rel="stylesheet" href="./layout.css?v=7" />
+  <link rel="stylesheet" href="./design-tokens.css?v=9" />
+  <link rel="stylesheet" href="./layout.css?v=9" />
 
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
 
-  <script type="module" src="./app.js?v=7"></script>
+  <script type="module" src="./app.js?v=9"></script>
 </head>
 
 <body>
@@ -44,16 +44,10 @@
         <span class="brand-text">SilverHerring1<small>Once a red always a red</small></span>
       </a>
 
-      <nav class="variant-nav" aria-label="版本切换">
-        <span>版本</span>
-        <a href="./" data-variant="data">日更</a>
-        <a href="?data=data-weekly" data-variant="data-weekly">周报</a>
-        <a href="?data=data-deep" data-variant="data-deep">单场</a>
-        <a href="?data=data-magazine" data-variant="data-magazine">杂志</a>
-      </nav>
-
+      <!-- 版本切换条已移除：现在只跑日报这一种编法 -->
       <div class="topbar-tools">
-        <button type="button" class="tool-button" data-open-search aria-label="搜索最近七天的新闻">
+        <a class="tool-button archive-link" href="./archive/">赛季归档</a>
+        <button type="button" class="tool-button" data-open-search aria-label="搜索全部期次的新闻">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
           <span class="tool-text">搜索</span>
           <kbd class="key-hint" aria-hidden="true">Ctrl K</kbd>
@@ -145,7 +139,7 @@
 
     <footer class="site-footer">
       <p class="footer-brand">曼联日报</p>
-      <p class="footer-note">赛果与数据来自曼联官网、懂球帝与公开赛程；时间统一为北京时间。<span class="build-tag" id="buildTag"></span></p>
+      <p class="footer-note">赛果与数据来自曼联官网、懂球帝与公开赛程；赛季归档的比分与进球来自 ESPN。时间统一为北京时间。<span class="build-tag" id="buildTag"></span></p>
     </footer>
   </div>
 
@@ -163,17 +157,20 @@
     <span class="mini-progress" aria-hidden="true"><i id="miniProgress"></i></span>
   </div>
 
-  <!-- ============ 期次选择：7 天 × 早晚 ============ -->
+  <!-- ============ 期次选择：年 / 月 / 日 三级 ============ -->
   <div class="sheet" id="dateMenu" hidden>
     <div class="sheet-panel" role="dialog" aria-modal="false" aria-labelledby="dateMenuTitle">
       <div class="sheet-head">
-        <p class="sheet-title" id="dateMenuTitle">最近七天</p>
+        <p class="sheet-title" id="dateMenuTitle">按日期找一期</p>
         <button type="button" class="sheet-close" data-close-sheet aria-label="关闭" onclick="document.getElementById('dateMenu').hidden=true;document.getElementById('dateTrigger').setAttribute('aria-expanded','false')">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
         </button>
       </div>
+      <div class="picker-years" id="dateYears" role="group" aria-label="选年份"></div>
+      <div class="picker-months" id="dateMonths" role="group" aria-label="选月份"></div>
+      <p class="picker-path" id="pickerPath" role="status"></p>
       <div class="edition-grid" id="dateGrid"></div>
-      <p class="sheet-foot">灰色为尚未发布的期次</p>
+      <p class="sheet-foot">灰色为尚未发布的期次。要按赛季翻全部场次，去「赛季归档」。</p>
     </div>
   </div>
 
@@ -252,7 +249,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v7";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v9";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");
