@@ -32,7 +32,9 @@
 | `carrick.jpg` | 卡里克赛前发布会 | 11-10 卡里克那条 |
 | `results-dark.svg` / `results-light.svg` | 近八场战绩条（自己画的） | 11-10 数据那条 |
 | `cover.svg` | 品牌封面（自己画的，暂时没用上） | 备用 |
+| `greenwood-psg.jpg` | 格林伍德在王子公园庆祝，粉色客场球衣，背后号码是巴黎字体（PSG 徽在号码里） | 2018/19 第 41 期「场边」 |
+| `archive/archive-<日期>-<对手>.jpg` | 2018/19 每一场的比赛头图（52 张，ESPN 图集里的 `article.images[0]`） | 归档各期的「今日要点」大图 |
 
 ## 版权
 
-比赛照片来自曼联官网战报页（版权属曼联 / Getty Images），抗议照片来自 Sporting News（Getty Images），战绩条和封面是自己画的。仅作个人阅读演示，不要公开分发。
+比赛照片来自曼联官网战报页（版权属曼联 / Getty Images），抗议照片来自 Sporting News（Getty Images），`media/archive/` 里归档各期的头图来自 ESPN 图集（授权方多为 Getty / AFP，逐张署名见 `data/images-2018-19.json` 的 `credit`），战绩条和封面是自己画的。仅作个人阅读演示，不要公开分发。
