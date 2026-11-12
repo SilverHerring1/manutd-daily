@@ -108,8 +108,12 @@ function weekdayOf(date) {
 
 /* ---------------- 取数 ---------------- */
 
+// 数据也跟着 app.js 的版本号走：改完内容把 index.html 的 ?v=N 加一，缓存立刻失效
+const ASSET_V = new URL(import.meta.url).searchParams.get("v") ?? "";
+const withV = (url) => (ASSET_V ? `${url}${url.includes("?") ? "&" : "?"}v=${ASSET_V}` : url);
+
 async function fetchJson(url) {
-  const response = await fetch(url, { cache: "no-cache" });
+  const response = await fetch(withV(url), { cache: "no-cache" });
   if (!response.ok) throw new Error(`读取失败（${response.status}）`);
   return response.json();
 }
