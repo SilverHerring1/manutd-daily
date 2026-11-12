@@ -1,0 +1,127 @@
+{
+  "id": "2026-11-10-evening",
+  "date": "2026-11-10",
+  "period": "evening",
+  "issue_number": 10,
+  "title": "曼联晚报",
+  "item_count": 5,
+  "section_count": 2,
+  "hero": {
+    "src": "./media/fans.jpg",
+    "alt": "老特拉福德外的曼联球迷",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "carrick",
+          "title": "卡里克下课进入倒计时，但俱乐部还没官宣",
+          "summary": "多家媒体称曼联已决定换帅、本周内公布；也有报道说国际比赛日期间不会动手。截至今晚，官方渠道没有任何声明。",
+          "body_html": "<p>《每日镜报》与《曼彻斯特晚报》的说法是：足球总监威尔科克斯和 CEO 贝拉达先做判断，再向所有权方提出建议，本周内给出结果。BBC 与 LiveScore 的口径更直接——下课在即。</p><p>但没有官方确认。9 日还有报道称俱乐部决定国际比赛日期间不动手，同一天傍晚又传出「已决定解雇」。唯一确定的是：他带着一支身处降级区的球队进入国际比赛日。</p><p>继任者方面，波切蒂诺被多家媒体列为头号热门，埃迪·豪与纳格尔斯曼也在候选名单里。INEOS 据报已达成一致：如果换帅，不再任命临时主帅，只找正式主帅。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · 每日镜报编译",
+              "url": "https://m.dongqiudi.com/xinwen/157870"
+            },
+            {
+              "text": "懂球帝 · LiveScore 编译",
+              "url": "https://m.dongqiudi.com/xinwen/159575"
+            }
+          ],
+          "source_name": "综合报道",
+          "published_at": "11-10 17:19",
+          "image": {
+            "src": "./media/carrick.jpg",
+            "alt": "卡里克赛前发布会",
+            "width": 1200,
+            "height": 800
+          },
+          "quote": {
+            "zh": "那不会发生。",
+            "en": "That's not going to happen.",
+            "who": "Michael Carrick（回应是否主动辞职）",
+            "when": "11 月 8 日赛后"
+          }
+        },
+        {
+          "id": "table",
+          "title": "10 轮 8 分：曼联跌进降级区",
+          "summary": "1 胜 5 平 4 负、净胜球 -5、第 18 位。这是 1986/87 赛季以来曼联第一次在 11 月身处降级区。",
+          "body_html": "<p>11 月 7 日诺丁汉森林 3-1 击败曼城，把曼联挤进降级区——英超时代第一次。1986/87 那个赛季曼联同样在 11 月留在降级区，随后弗格森接替阿特金森，最终排名第 11。</p><p>另一个角度：曼联是 73 年来第一支上赛季排名前三、下一季开局 10 轮只赢 1 场的顶级联赛球队，上一支是 1953/54 赛季的阿森纳。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · LiveScore 编译",
+              "url": "https://m.dongqiudi.com/xinwen/159575"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "11-10"
+        },
+        {
+          "id": "injury",
+          "title": "伤病名单六个人，中场最紧张",
+          "summary": "巴莱巴腿筋、马奎尔背伤、拉什福德髋、肖肌肉、谢什科年内难复出、乌加特 ACL。",
+          "body_html": "<p>拉什福德与肖的目标复出时间都是 11 月 22 日客场对利物浦。马奎尔在国际比赛日期间应该能恢复。</p><p>中场只剩梅努与蒂勒曼斯：巴莱巴至少缺阵数周，乌加特本赛季大半报销。</p>",
+          "sources": [
+            {
+              "text": "Evening Standard 伤病汇总",
+              "url": "https://www.standard.co.uk/sport/football/man-utd-injury-update-maguire-baleba-rashford-latest-news-return-dates-b1304039.html"
+            }
+          ],
+          "source_name": "伤病",
+          "published_at": "11-10"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "数据与下一场",
+      "items": [
+        {
+          "id": "season",
+          "title": "赛季体检：15 场 3 胜，丢 30 球",
+          "summary": "英超 10 场 1 胜 5 平 4 负，进 14 失 19，净胜 -5，8 分，第 18；欧冠 4 场 2 胜 2 负，进 8 失 8，第 17。",
+          "body_html": "<p>三场胜利分别是对伊普斯维奇（5-2）、对萨巴赫（4-0）和对罗马（3-2）。15 场一共丢 30 球，在欧洲五大联赛球队中并列最多。</p><p><img src=\"./media/results-dark.svg\" width=\"1200\" height=\"260\" alt=\"近八场战绩：1 胜 3 平 4 负\" loading=\"lazy\" decoding=\"async\" /></p><p>进球端：B 费各项赛事 6 球，联赛 4 球与姆贝乌莫并列队内最多。</p>",
+          "sources": [
+            {
+              "text": "Wikipedia · 2026–27 赛季",
+              "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Manchester_United_F.C._season"
+            },
+            {
+              "text": "Premier League 球队页",
+              "url": "https://www.premierleague.com/en/clubs/1/manchester-united/overview"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "11-10"
+        },
+        {
+          "id": "next",
+          "title": "接下来：11 月 22 日客场利物浦",
+          "summary": "国际比赛日之后，先客场打利物浦，三天后欧冠客场对葡萄牙体育，月底主场迎布伦特福德。",
+          "body_html": "<p>11-22 客场利物浦（英超）；11-25 客场葡萄牙体育（欧冠联赛阶段）；11-28 主场布伦特福德（英超）。</p><p>以现在的排名和伤病情况，这三场基本决定了这个赛季的走向——如果届时主教练还是卡里克的话。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 赛程",
+              "url": "https://www.manutd.com/en/matches"
+            },
+            {
+              "text": "ESPN 赛程",
+              "url": "https://www.espn.com/soccer/team/fixtures/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "赛程",
+          "published_at": "11-10"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "四十八小时内会有答案：换帅，或者继续。这一期先把账算清楚。"
+  }
+}

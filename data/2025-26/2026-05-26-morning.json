@@ -1,0 +1,66 @@
+{
+  "id": "2026-05-26-morning",
+  "date": "2026-05-26",
+  "period": "morning",
+  "issue_number": 447,
+  "season": "2025/26",
+  "archive": true,
+  "kind": "summary",
+  "title": "曼联早报",
+  "item_count": 3,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "season",
+      "title": "赛季总结",
+      "items": [
+        {
+          "id": "season-record",
+          "title": "40 场，20 胜 12 平 8 负",
+          "summary": "各项赛事进 72 球失 54 球；联赛 38 场，20 胜 11 平 7 负。",
+          "body_html": "<p>这一季一共踢了 40 场：20 胜 12 平 8 负，进 72 球、失 54 球。</p><p>联赛 38 场，20 胜 11 平 7 负，进 69 球失 50 球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 赛程",
+              "url": "https://www.espn.com/soccer/team/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "05-26"
+        },
+        {
+          "id": "season-cups",
+          "title": "四条战线：欧冠八强，联赛杯一轮游",
+          "summary": "联赛杯：第二轮打平，点球结果未记录；足总杯：止步第三轮",
+          "body_html": "<ul><li>联赛杯：第二轮打平，点球结果未记录</li><li>足总杯：止步第三轮</li></ul><p>联赛最后排第 6，下赛季没有欧冠。</p>",
+          "sources": [
+            {
+              "text": "ESPN 赛程",
+              "url": "https://www.espn.com/soccer/team/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "战线",
+          "published_at": "05-26"
+        },
+        {
+          "id": "season-focus",
+          "title": "名局 15 场",
+          "summary": "阿森纳 0-1、格林斯比 2-2、曼城 0-3、切尔西 2-1、利物浦 2-1、托特纳姆热刺 2-2 等",
+          "body_html": "<p>挑出这几场当成一季的名局（共 15 场）：</p><ul><li>阿森纳 0-1（2025-08-17）—— BIG6 内战</li><li>格林斯比 2-2（2025-08-28）—— 杯赛出局</li><li>曼城 0-3（2025-09-14）—— BIG6 内战、3 球惨败、赛季最大负</li><li>切尔西 2-1（2025-09-21）—— BIG6 内战</li><li>利物浦 2-1（2025-10-19）—— BIG6 内战</li><li>托特纳姆热刺 2-2（2025-11-08）—— BIG6 内战</li><li>狼队 4-1（2025-12-09）—— 3 球大胜、赛季最大胜</li><li>伯恩茅斯 4-4（2025-12-16）—— 8 球大战</li><li>布莱顿 1-2（2026-01-12）—— 杯赛出局</li><li>曼城 2-0（2026-01-17）—— BIG6 内战</li><li>阿森纳 3-2（2026-01-26）—— BIG6 内战</li><li>托特纳姆热刺 2-0（2026-02-07）—— BIG6 内战</li><li>切尔西 1-0（2026-04-19）—— BIG6 内战</li><li>利物浦 3-2（2026-05-03）—— BIG6 内战</li><li>布莱顿 3-0（2026-05-24）—— 3 球大胜、赛季最大胜</li></ul>",
+          "sources": [
+            {
+              "text": "data/focus.json",
+              "url": "https://github.com/SilverHerring1/manutd-daily"
+            }
+          ],
+          "source_name": "回顾",
+          "published_at": "05-26"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一季到此为止。"
+  }
+}

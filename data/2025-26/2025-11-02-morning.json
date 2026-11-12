@@ -1,0 +1,45 @@
+{
+  "id": "2025-11-02-morning",
+  "date": "2025-11-02",
+  "period": "morning",
+  "issue_number": 417,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740692",
+          "title": "诺丁汉森林 2-2 曼联：扳平",
+          "summary": "英超，客场（The City Ground）。这一季各项赛事第 11 场，5 胜 3 平 3 负。",
+          "body_html": "<p>2025/26 英超，客场（The City Ground）对阵诺丁汉森林，比分 2-2。</p><p>进球：34' Casemiro（曼联）、48' Morgan Gibbs-White（诺丁汉森林）、50' Nicolò Savona（诺丁汉森林）、81' Amad Diallo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740692"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-01 23:00",
+          "badge": "./media/badges/nottinghamforest.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，客场的进攻够用，防守不够用。"
+  },
+  "match_no": 11,
+  "hero": {
+    "src": "./media/archive/archive-2025-11-01-NottinghamForest.jpg",
+    "alt": "诺丁汉森林 2-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

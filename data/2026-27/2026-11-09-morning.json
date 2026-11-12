@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-09-morning",
+  "date": "2026-11-09",
+  "period": "morning",
+  "issue_number": 9,
+  "title": "曼联早报",
+  "item_count": 3,
+  "section_count": 2,
+  "hero": {
+    "src": "./media/villa.jpg",
+    "alt": "曼联 4-4 阿斯顿维拉",
+    "width": 1200,
+    "height": 788
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "villa",
+          "title": "曼联 4-4 阿斯顿维拉：96 分钟扳平，两次落后两球都追回来了",
+          "summary": "开场 3 分 40 秒连丢两球，是曼联英超史上最快的 0-2 落后；但两次落后两球两次追平，多古补时第 6 分钟头球破门。",
+          "body_html": "<p>进球：阿利松 2'、尼古拉斯·雅克松 4'、麦金 48'（点球）、格雷茨卡 53'；曼联一方 B 费 16'（点球）、蒂勒曼斯 44'、齐尔克泽 90+2'、多古 90+6'。</p><p>第 83 分钟替补登场的齐尔克泽接多古传中缩小分差，补时第 6 分钟多古接 B 费角球头球扳平。VAR 检查了门将铃木彩艳是否被干扰，进球判定有效。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/manchester-united-4-aston-villa-4-match-report-8-nov-2026"
+            }
+          ],
+          "source_name": "英超第 10 轮",
+          "published_at": "11-09 00:30",
+          "images": [
+            {
+              "src": "./media/villa2.jpg",
+              "alt": "姆贝乌莫",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "./media/fans.jpg",
+              "alt": "老特拉福德外的球迷",
+              "width": 1200,
+              "height": 800
+            }
+          ],
+          "quote": {
+            "zh": "我们长时间踢得更好，但一次次用丢球把自己逼进困境。",
+            "en": "We looked the better team for long parts of it and we're making it difficult for ourselves with the goals that we're giving away.",
+            "who": "Michael Carrick",
+            "when": "赛后，11 月 8 日"
+          }
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "场边",
+      "items": [
+        {
+          "id": "tielemans",
+          "title": "蒂勒曼斯面对旧主进球，成了这场逆转的支点",
+          "summary": "第 44 分钟他接阿马德回做破门，把比分扳成 2-2。",
+          "body_html": "<p>蒂勒曼斯今夏从维拉转投曼联，进球后没有庆祝。巴莱巴受伤之后，他是卡里克手里唯一稳定的出球点。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/manchester-united-4-aston-villa-4-match-report-8-nov-2026"
+            }
+          ],
+          "source_name": "球员",
+          "published_at": "11-09"
+        },
+        {
+          "id": "maguire",
+          "title": "马奎尔背伤下场，国际比赛日给他留了恢复时间",
+          "summary": "他打了半场就被希文换下。卡里克赛后说是「很严重的背部痉挛」。",
+          "body_html": "<p>「哈里背部痉挛，大概上半场最后 10 到 15 分钟开始的。我不知道有多严重，但进入国际比赛日，应该有时间恢复。」</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/michael-carrick-explains-harry-maguire-change"
+            }
+          ],
+          "source_name": "伤病",
+          "published_at": "11-09"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "10 轮 8 分，掉到第 18。国际比赛日之后客场利物浦。"
+  }
+}

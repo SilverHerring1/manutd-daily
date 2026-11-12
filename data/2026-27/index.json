@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "season": "2026/27",
+  "slug": "2026-27",
+  "kind": "main",
+  "source": "hand-written",
+  "generated_at": "2026-11-12T14:46:45+08:00",
+  "count": 10,
+  "matchCount": 10,
+  "newsCount": 0,
+  "record": null,
+  "first": "2026-10-11",
+  "last": "2026-11-10",
+  "dates": [
+    "2026-11-10",
+    "2026-11-09",
+    "2026-11-07",
+    "2026-11-04",
+    "2026-11-01",
+    "2026-10-26",
+    "2026-10-22",
+    "2026-10-19",
+    "2026-10-14",
+    "2026-10-11"
+  ],
+  "issues": [
+    {
+      "id": "2026-10-11-morning",
+      "date": "2026-10-11",
+      "period": "morning",
+      "issue_number": 1,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/spurs.jpg",
+        "alt": "曼联 1-1 热刺",
+        "width": 1200,
+        "height": 802
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-10-14-morning",
+      "date": "2026-10-14",
+      "period": "morning",
+      "issue_number": 2,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/atletico.jpg",
+        "alt": "马竞 2-0 曼联",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "period": "morning",
+      "issue_number": 3,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/leeds.jpg",
+        "alt": "利兹联 1-1 曼联",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "period": "morning",
+      "issue_number": 4,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/como.jpg",
+        "alt": "科莫 4-1 曼联",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "period": "morning",
+      "issue_number": 5,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/bournemouth.jpg",
+        "alt": "曼联 0-3 伯恩茅斯",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "period": "morning",
+      "issue_number": 6,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "hero": {
+        "src": "./media/chelsea.jpg",
+        "alt": "切尔西 2-0 曼联",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "period": "morning",
+      "issue_number": 7,
+      "title": "曼联早报",
+      "item_count": 3,
+      "section_count": 2,
+      "hero": {
+        "src": "./media/roma.jpg",
+        "alt": "曼联 3-2 罗马",
+        "width": 1200,
+        "height": 794
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-11-07-evening",
+      "date": "2026-11-07",
+      "period": "evening",
+      "issue_number": 8,
+      "title": "赛前 · 卡里克",
+      "item_count": 3,
+      "section_count": 2,
+      "hero": {
+        "src": "./media/carrick.jpg",
+        "alt": "卡里克赛前发布会",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "period": "morning",
+      "issue_number": 9,
+      "title": "曼联早报",
+      "item_count": 3,
+      "section_count": 2,
+      "hero": {
+        "src": "./media/villa.jpg",
+        "alt": "曼联 4-4 阿斯顿维拉",
+        "width": 1200,
+        "height": 788
+      },
+      "season": "2026/27",
+      "archive": false
+    },
+    {
+      "id": "2026-11-10-evening",
+      "date": "2026-11-10",
+      "period": "evening",
+      "issue_number": 10,
+      "title": "曼联晚报",
+      "item_count": 5,
+      "section_count": 2,
+      "hero": {
+        "src": "./media/fans.jpg",
+        "alt": "老特拉福德外的曼联球迷",
+        "width": 1200,
+        "height": 800
+      },
+      "season": "2026/27",
+      "archive": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-04-morning",
+  "date": "2026-11-04",
+  "period": "morning",
+  "issue_number": 7,
+  "title": "曼联早报",
+  "item_count": 3,
+  "section_count": 2,
+  "hero": {
+    "src": "./media/roma.jpg",
+    "alt": "曼联 3-2 罗马",
+    "width": 1200,
+    "height": 794
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "roma",
+          "title": "曼联 3-2 罗马：半场 0-2 到逆转，代价是两张红牌和一条腿",
+          "summary": "下半场 B 费重罚点球命中，库尼亚 83 与 86 分钟连入两球完成逆转；随后他两黄变一红被罚下，巴莱巴也在这场比赛拉伤腿筋。",
+          "body_html": "<p>进球：苏莱 11'、马伦 17'（点球）；曼联 B 费 58'（点球）、库尼亚 83'、86'。</p><p>B 费第一次主罚被瓦兹克斯扑出，因对方提前进入禁区获得重罚机会，第二次把球打进左上角。</p><p>九场不胜就此结束，也是本赛季欧冠的第二场胜利。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/match-report-manchester-united-3-roma-2-3-nov"
+            }
+          ],
+          "source_name": "欧冠联赛阶段",
+          "published_at": "11-04 04:00",
+          "images": [
+            {
+              "src": "./media/roma2.jpg",
+              "alt": "库尼亚庆祝",
+              "width": 1200,
+              "height": 1017
+            },
+            {
+              "src": "./media/bruno.jpg",
+              "alt": "B 费与裁判",
+              "width": 1200,
+              "height": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "场边",
+      "items": [
+        {
+          "id": "baleba",
+          "title": "巴莱巴拉伤腿筋，中场只剩两个人",
+          "summary": "第 51 分钟他在禁区里冲刺后倒地，被蒂勒曼斯换下。赛后确认为腿筋伤势。",
+          "body_html": "<p>卡里克赛后说需要等检查结果，但球队中场本来就没有余量：乌加特世界杯期间撕裂 ACL，本赛季大半报销。</p><p>剩下的稳定组合只有梅努和蒂勒曼斯。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 战报",
+              "url": "https://www.manutd.com/en/news/carlos-baleba-injury-confirmed-after-roma"
+            }
+          ],
+          "source_name": "伤病",
+          "published_at": "11-04"
+        },
+        {
+          "id": "protest",
+          "title": "绿金气球与网球：看台再次倒向所有权",
+          "summary": "4000 只气球、一条写着「For the love not the likes」的横幅，加上 20 分钟内 0-2 落后时被掷进场内的网球。",
+          "body_html": "<p>开赛前的那一刻，斯特雷特福德看台同时放出约 4000 只绿金气球，看台上还拉起了一条写着「For the love not the likes」的横幅。</p><p>绿金不是随手挑的颜色：那是牛顿希思（Newton Heath）的队色，曼联的前身。抗议者的意思很直接——希望俱乐部回到根上，而不是跟着流量和资本走。</p><p>比赛 20 分钟内 0-2 落后，球迷把网球掷进场内中止比赛。最终 3-2 逆转，抗议没有升级，但看台与俱乐部之间的裂缝，是这一个月里最容易被忽略的一条线。</p>",
+          "sources": [
+            {
+              "text": "Sporting News",
+              "url": "https://www.sportingnews.com/us/soccer/manchester-united/news/man-united-fans-release-balloons-protest-ownership-old-trafford/1eccd6b6aaa919989397d3b7"
+            }
+          ],
+          "source_name": "现场",
+          "published_at": "11-04",
+          "image": {
+            "src": "./media/protest.webp",
+            "alt": "斯特雷特福德看台的绿金气球",
+            "width": 1280,
+            "height": 720
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "九场不胜结束了。周日主场维拉，Unai Emery 的球队排在联赛前三。"
+  }
+}
