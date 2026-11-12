@@ -1,0 +1,45 @@
+{
+  "id": "2025-01-17-morning",
+  "date": "2025-01-17",
+  "period": "morning",
+  "issue_number": 377,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704488",
+          "title": "曼联 3-1 南安普顿：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 31 场，12 胜 9 平 10 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵南安普顿，比分 3-1。</p><p>进球：43' Manuel Ugarte（乌龙球，算给南安普顿）、82' Amad Diallo（曼联）、90' Amad Diallo（曼联）、90+4' Amad Diallo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704488"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-17 04:00",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 31 场里只有 8 场零封。"
+  },
+  "match_no": 31,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-01-17-Southampton.jpg",
+    "alt": "曼联 3-1 南安普顿",
+    "width": 960,
+    "height": 540
+  }
+}

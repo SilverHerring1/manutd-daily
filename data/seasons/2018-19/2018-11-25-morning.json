@@ -1,0 +1,45 @@
+{
+  "id": "2018-11-25-morning",
+  "date": "2018-11-25",
+  "period": "morning",
+  "issue_number": 18,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513713",
+          "title": "曼联 0-0 水晶宫：互交白卷",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 18 场，8 胜 5 平 5 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵水晶宫，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513713"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "11-24 23:00",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 4 次。"
+  },
+  "match_no": 18,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2018-11-24-CrystalPalace.jpg",
+    "alt": "曼联 0-0 水晶宫",
+    "width": 960,
+    "height": 540
+  }
+}

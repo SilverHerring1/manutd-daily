@@ -1,0 +1,39 @@
+{
+  "id": "2023-04-28-morning",
+  "date": "2023-04-28",
+  "period": "morning",
+  "issue_number": 284,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638139",
+          "title": "托特纳姆热刺 2-2 曼联：被扳平",
+          "summary": "英超，客场（Tottenham Hotspur Stadium）。这一季各项赛事第 54 场，36 胜 9 平 9 负。",
+          "body_html": "<p>2022/23 英超，客场（Tottenham Hotspur Stadium）对阵托特纳姆热刺，比分 2-2。</p><p>进球：7' Jadon Sancho（曼联）、44' Marcus Rashford（曼联）、56' Pedro Porro（托特纳姆热刺）、79' Son Heung-Min（托特纳姆热刺）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638139"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-28 03:15",
+          "badge": "./media/badges/tottenham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 54
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2020-08-17-morning",
+  "date": "2020-08-17",
+  "period": "morning",
+  "issue_number": 117,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m573709",
+          "title": "塞维利亚 2-1 曼联：一球之差",
+          "summary": "欧联，客场（RheinEnergieStadion）。这一季各项赛事第 61 场，33 胜 16 平 12 负。",
+          "body_html": "<p>2019/20 欧联，客场（RheinEnergieStadion）对阵塞维利亚，比分 1-2。</p><p>进球：9' Bruno Fernandes（曼联，点球）、26' Suso（塞维利亚）、78' Luuk de Jong（塞维利亚）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/573709"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "08-17 03:00",
+          "badge": "./media/badges/sevilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 61,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-08-17-Sevilla.jpg",
+    "alt": "塞维利亚 2-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

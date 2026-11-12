@@ -1,0 +1,45 @@
+{
+  "id": "2024-10-25-morning",
+  "date": "2024-10-25",
+  "period": "morning",
+  "issue_number": 358,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m720561",
+          "title": "费内巴切 1-1 曼联：被扳平",
+          "summary": "欧联，客场（Şükrü Saracoğlu Stadium）。这一季各项赛事第 12 场，4 胜 5 平 3 负。",
+          "body_html": "<p>2024/25 欧联，客场（Şükrü Saracoğlu Stadium）对阵费内巴切，比分 1-1。</p><p>进球：15' Christian Eriksen（曼联）、49' Youssef En-Nesyri（费内巴切）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/720561"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "10-25 03:00",
+          "badge": "./media/badges/fenerbahce.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 12,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-10-25-Fenerbahce.jpg",
+    "alt": "费内巴切 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

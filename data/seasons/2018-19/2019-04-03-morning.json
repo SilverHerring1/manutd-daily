@@ -1,0 +1,45 @@
+{
+  "id": "2019-04-03-morning",
+  "date": "2019-04-03",
+  "period": "morning",
+  "issue_number": 47,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513518",
+          "title": "狼队 2-1 曼联：一球之差",
+          "summary": "英超，客场（莫利纽克斯球场）。这一季各项赛事第 45 场，25 胜 9 平 11 负。",
+          "body_html": "<p>2018/19 英超，客场（莫利纽克斯球场）对阵狼队，比分 1-2。</p><p>进球：13' Scott McTominay（曼联）、25' Diogo Jota（狼队）、77' Chris Smalling（乌龙球，算给狼队）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513518"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-03 02:45",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 1 球，问题不在前场。"
+  },
+  "match_no": 45,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-03-WolverhamptonWanderers.jpg",
+    "alt": "狼队 2-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

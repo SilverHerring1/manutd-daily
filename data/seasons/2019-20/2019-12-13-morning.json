@@ -1,0 +1,45 @@
+{
+  "id": "2019-12-13-morning",
+  "date": "2019-12-13",
+  "period": "morning",
+  "issue_number": 80,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m557187",
+          "title": "曼联 4-0 阿尔克马尔：零封，净胜 4 球",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 24 场，11 胜 8 平 5 负。",
+          "body_html": "<p>2019/20 欧联，主场（老特拉福德）对阵阿尔克马尔，比分 4-0。</p><p>进球：53' Ashley Young（曼联）、58' Mason Greenwood（曼联）、62' Juan Mata（曼联，点球）、64' Mason Greenwood（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/557187"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "12-13 04:00",
+          "badge": "./media/badges/az-alkmaar.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场净胜 4 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 24,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-12-13-AZAlkmaar.jpg",
+    "alt": "曼联 4-0 阿尔克马尔",
+    "width": 960,
+    "height": 540
+  }
+}

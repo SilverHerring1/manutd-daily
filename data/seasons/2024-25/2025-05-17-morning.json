@@ -1,0 +1,45 @@
+{
+  "id": "2025-05-17-morning",
+  "date": "2025-05-17",
+  "period": "morning",
+  "issue_number": 403,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704643",
+          "title": "切尔西 1-0 曼联：一球之差",
+          "summary": "英超，客场（斯坦福桥）。这一季各项赛事第 57 场，22 胜 16 平 19 负。",
+          "body_html": "<p>2024/25 英超，客场（斯坦福桥）对阵切尔西，比分 0-1。</p><p>进球：71' Marc Cucurella（切尔西）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704643"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-17 03:15",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 15 次。"
+  },
+  "match_no": 57,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-05-17-Chelsea.jpg",
+    "alt": "切尔西 1-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2023-12-27-morning",
+  "date": "2023-12-27",
+  "period": "morning",
+  "issue_number": 320,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671215",
+          "title": "曼联 3-2 阿斯顿维拉：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 27 场，12 胜 2 平 13 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵阿斯顿维拉，比分 3-2。</p><p>进球：21' John McGinn（阿斯顿维拉）、26' Leander Dendoncker（阿斯顿维拉）、59' Alejandro Garnacho（曼联）、71' Alejandro Garnacho（曼联）、82' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671215"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-27 04:00",
+          "badge": "./media/badges/astonvilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 13 次单场丢两球以上。"
+  },
+  "match_no": 27,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-12-27-AstonVilla.jpg",
+    "alt": "曼联 3-2 阿斯顿维拉",
+    "width": 960,
+    "height": 540
+  }
+}

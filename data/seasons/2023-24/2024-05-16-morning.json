@@ -1,0 +1,45 @@
+{
+  "id": "2024-05-16-morning",
+  "date": "2024-05-16",
+  "period": "morning",
+  "issue_number": 343,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671362",
+          "title": "曼联 3-2 纽卡斯尔联：一球小胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 50 场，23 胜 8 平 19 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵纽卡斯尔联，比分 3-2。</p><p>进球：31' Kobbie Mainoo（曼联）、49' Anthony Gordon（纽卡斯尔联）、57' Amad Diallo（曼联）、84' Rasmus Højlund（曼联）、90+2' Lewis Hall（纽卡斯尔联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671362"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "05-16 03:00",
+          "badge": "./media/badges/newcastle.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 27 次单场丢两球以上。"
+  },
+  "match_no": 50,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-05-16-NewcastleUnited.jpg",
+    "alt": "曼联 3-2 纽卡斯尔联",
+    "width": 960,
+    "height": 540
+  }
+}

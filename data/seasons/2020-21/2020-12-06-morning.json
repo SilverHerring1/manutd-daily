@@ -1,0 +1,39 @@
+{
+  "id": "2020-12-06-morning",
+  "date": "2020-12-06",
+  "period": "morning",
+  "issue_number": 135,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578557",
+          "title": "西汉姆联 1-3 曼联：先丢球，翻盘",
+          "summary": "英超，客场（伦敦球场）。这一季各项赛事第 17 场，11 胜 1 平 5 负。",
+          "body_html": "<p>2020/21 英超，客场（伦敦球场）对阵西汉姆联，比分 3-1。</p><p>进球：38' Tomás Soucek（西汉姆联）、65' Paul Pogba（曼联）、68' Mason Greenwood（曼联）、78' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578557"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "12-06 01:30",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 17 场里只有 5 场零封。"
+  },
+  "match_no": 17
+}

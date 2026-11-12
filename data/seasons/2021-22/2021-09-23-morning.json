@@ -1,0 +1,45 @@
+{
+  "id": "2021-09-23-morning",
+  "date": "2021-09-23",
+  "period": "morning",
+  "issue_number": 187,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m618689",
+          "title": "曼联 0-1 西汉姆联：一球之差",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 7 场，4 胜 1 平 2 负。",
+          "body_html": "<p>2021/22 联赛杯，主场（老特拉福德）对阵西汉姆联，比分 0-1。</p><p>进球：9' Manuel Lanzini（西汉姆联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/618689"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "09-23 02:45",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 1 次。"
+  },
+  "match_no": 7,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-09-23-WestHamUnited.jpg",
+    "alt": "曼联 0-1 西汉姆联",
+    "width": 960,
+    "height": 540
+  }
+}

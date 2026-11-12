@@ -1,0 +1,45 @@
+{
+  "id": "2020-03-06-morning",
+  "date": "2020-03-06",
+  "period": "morning",
+  "issue_number": 101,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m567647",
+          "title": "德比郡 0-3 曼联：零封，净胜 3 球",
+          "summary": "足总杯，客场（Pride Park Stadium）。这一季各项赛事第 45 场，22 胜 13 平 10 负。",
+          "body_html": "<p>2019/20 足总杯，客场（Pride Park Stadium）对阵德比郡，比分 3-0。</p><p>进球：33' Luke Shaw（曼联）、41' Odion Ighalo（曼联）、70' Odion Ighalo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/567647"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "03-06 03:45",
+          "badge": "./media/badges/derby.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "3 个进球，这一季到目前为止少见的一次。"
+  },
+  "match_no": 45,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-03-06-DerbyCounty.jpg",
+    "alt": "德比郡 0-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2019-11-25-morning",
+  "date": "2019-11-25",
+  "period": "morning",
+  "issue_number": 75,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541719",
+          "title": "谢菲尔德联 3-3 曼联：先丢球，追成平局",
+          "summary": "英超，客场（Bramall Lane）。这一季各项赛事第 19 场，8 胜 7 平 4 负。",
+          "body_html": "<p>2019/20 英超，客场（Bramall Lane）对阵谢菲尔德联，比分 3-3。</p><p>进球：19' John Fleck（谢菲尔德联）、52' Lys Mousset（谢菲尔德联）、72' Brandon Williams（曼联）、77' Mason Greenwood（曼联）、79' Marcus Rashford（曼联）、90' Oliver McBurnie（谢菲尔德联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541719"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-25 00:30",
+          "badge": "./media/badges/sheffield-united.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 19,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-11-25-SheffieldUnited.jpg",
+    "alt": "谢菲尔德联 3-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

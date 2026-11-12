@@ -1,0 +1,45 @@
+{
+  "id": "2022-11-07-morning",
+  "date": "2022-11-07",
+  "period": "morning",
+  "issue_number": 249,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m637959",
+          "title": "阿斯顿维拉 3-1 曼联：2 球落败",
+          "summary": "英超，客场（Villa Park）。这一季各项赛事第 19 场，12 胜 2 平 5 负。",
+          "body_html": "<p>2022/23 英超，客场（Villa Park）对阵阿斯顿维拉，比分 1-3。</p><p>进球：7' Leon Bailey（阿斯顿维拉）、11' Lucas Digne（阿斯顿维拉）、45' Jacob Ramsey（乌龙球，算给曼联）、49' Jacob Ramsey（阿斯顿维拉）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/637959"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-06 22:00",
+          "badge": "./media/badges/astonvilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 19,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2022-11-06-AstonVilla.jpg",
+    "alt": "阿斯顿维拉 3-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

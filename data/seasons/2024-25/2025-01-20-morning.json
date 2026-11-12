@@ -1,0 +1,45 @@
+{
+  "id": "2025-01-20-morning",
+  "date": "2025-01-20",
+  "period": "morning",
+  "issue_number": 378,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704497",
+          "title": "曼联 1-3 布莱顿：2 球落败",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 32 场，12 胜 9 平 11 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵布莱顿，比分 1-3。</p><p>进球：5' Yankuba Minteh（布莱顿）、23' Bruno Fernandes（曼联，点球）、60' Kaoru Mitoma（布莱顿）、76' Georginio Rutter（布莱顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704497"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-19 22:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 32,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-01-19-BrightonHoveAlbion.jpg",
+    "alt": "曼联 1-3 布莱顿",
+    "width": 960,
+    "height": 540
+  }
+}

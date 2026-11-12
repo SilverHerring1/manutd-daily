@@ -1,0 +1,45 @@
+{
+  "id": "2018-12-06-morning",
+  "date": "2018-12-06",
+  "period": "morning",
+  "issue_number": 21,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513692",
+          "title": "曼联 2-2 阿森纳：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 21 场，9 胜 7 平 5 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵阿森纳，比分 2-2。</p><p>进球：26' Shkodran Mustafi（阿森纳）、30' Anthony Martial（曼联）、68' Marcos Rojo（乌龙球，算给阿森纳）、69' Jesse Lingard（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513692"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-06 04:00",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，主场的进攻够用，防守不够用。"
+  },
+  "match_no": 21,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2018-12-06-Arsenal.jpg",
+    "alt": "曼联 2-2 阿森纳",
+    "width": 960,
+    "height": 540
+  }
+}

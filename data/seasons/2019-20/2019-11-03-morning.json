@@ -1,0 +1,45 @@
+{
+  "id": "2019-11-03-morning",
+  "date": "2019-11-03",
+  "period": "morning",
+  "issue_number": 72,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541739",
+          "title": "伯恩茅斯 1-0 曼联：一球之差",
+          "summary": "英超，客场（活力球场）。这一季各项赛事第 16 场，6 胜 6 平 4 负。",
+          "body_html": "<p>2019/20 英超，客场（活力球场）对阵伯恩茅斯，比分 0-1。</p><p>进球：45' Joshua King（伯恩茅斯）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541739"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-02 20:30",
+          "badge": "./media/badges/bournemouth.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 4 次。"
+  },
+  "match_no": 16,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-11-02-AFCBournemouth.jpg",
+    "alt": "伯恩茅斯 1-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

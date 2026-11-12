@@ -1,0 +1,45 @@
+{
+  "id": "2024-03-10-morning",
+  "date": "2024-03-10",
+  "period": "morning",
+  "issue_number": 332,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671308",
+          "title": "曼联 2-0 埃弗顿：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 39 场，20 胜 3 平 16 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵埃弗顿，比分 2-0。</p><p>进球：12' Bruno Fernandes（曼联，点球）、36' Marcus Rashford（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671308"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-09 20:30",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 20 胜，防线没给对手留东西。"
+  },
+  "match_no": 39,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-03-09-Everton.jpg",
+    "alt": "曼联 2-0 埃弗顿",
+    "width": 960,
+    "height": 540
+  }
+}

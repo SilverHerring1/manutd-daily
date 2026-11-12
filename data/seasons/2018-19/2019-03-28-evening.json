@@ -1,0 +1,38 @@
+{
+  "id": "2019-03-28-evening",
+  "date": "2019-03-28",
+  "period": "evening",
+  "issue_number": 45,
+  "season": "2018/19",
+  "archive": true,
+  "kind": "news",
+  "title": "曼联晚报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "solskjaer-permanent",
+          "title": "索尔斯克亚转正，三年合同",
+          "summary": "从 12 月的临时主帅，到带满 19 场赢下 14 场，签下三年合同。",
+          "body_html": "<p>俱乐部宣布，索尔斯克亚签下三年合同，正式成为主教练。</p><p>他 12 月接手时是临时身份，带队的 19 场里赢了 14 场。</p><p>接下来是欧冠 8 强对巴塞罗那。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 官方公告",
+              "url": "https://www.manutd.com/en/news/manchester-united-announces-ole-gunnar-solskjaer-as-full-time-manager"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "03-28"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "19 场 14 胜换来三年合同。真正的考验在 4 月。"
+  }
+}

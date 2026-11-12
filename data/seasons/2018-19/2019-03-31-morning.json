@@ -1,0 +1,45 @@
+{
+  "id": "2019-03-31-morning",
+  "date": "2019-03-31",
+  "period": "morning",
+  "issue_number": 46,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513528",
+          "title": "曼联 2-1 沃特福德：一球小胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 44 场，25 胜 9 平 10 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵沃特福德，比分 2-1。</p><p>进球：28' Marcus Rashford（曼联）、72' Anthony Martial（曼联）、90' Abdoulaye Doucouré（沃特福德）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513528"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-30 23:00",
+          "badge": "./media/badges/watford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 44 场里只有 12 场零封。"
+  },
+  "match_no": 44,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-03-30-Watford.jpg",
+    "alt": "曼联 2-1 沃特福德",
+    "width": 960,
+    "height": 540
+  }
+}

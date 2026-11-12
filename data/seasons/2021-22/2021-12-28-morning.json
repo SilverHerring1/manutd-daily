@@ -1,0 +1,39 @@
+{
+  "id": "2021-12-28-morning",
+  "date": "2021-12-28",
+  "period": "morning",
+  "issue_number": 204,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605856",
+          "title": "纽卡斯尔联 1-1 曼联：先丢球，追成平局",
+          "summary": "英超，客场（圣詹姆斯公园）。这一季各项赛事第 24 场，11 胜 6 平 7 负。",
+          "body_html": "<p>2021/22 英超，客场（圣詹姆斯公园）对阵纽卡斯尔联，比分 1-1。</p><p>进球：7' Allan Saint-Maximin（纽卡斯尔联）、71' Edinson Cavani（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605856"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "12-28 04:00",
+          "badge": "./media/badges/newcastle.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，客场的进攻够用，防守不够用。"
+  },
+  "match_no": 24
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2020-08-11-morning",
+  "date": "2020-08-11",
+  "period": "morning",
+  "issue_number": 116,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m573705",
+          "title": "曼联 1-0 哥本哈根：Bruno Fernandes 95' 绝杀",
+          "summary": "欧联，主场（RheinEnergieStadion）。这一季各项赛事第 60 场，33 胜 16 平 11 负。",
+          "body_html": "<p>2019/20 欧联，主场（RheinEnergieStadion）对阵哥本哈根，比分 1-0。</p><p>进球：95' Bruno Fernandes（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/573705"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "08-11 03:00",
+          "badge": "./media/badges/copenhagen.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 27 场不丢球。"
+  },
+  "match_no": 60,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-08-11-FCKbenhavn.jpg",
+    "alt": "曼联 1-0 哥本哈根",
+    "width": 960,
+    "height": 540
+  }
+}

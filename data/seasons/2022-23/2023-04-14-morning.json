@@ -1,0 +1,45 @@
+{
+  "id": "2023-04-14-morning",
+  "date": "2023-04-14",
+  "period": "morning",
+  "issue_number": 280,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m667488",
+          "title": "曼联 2-2 塞维利亚：被扳平",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 50 场，35 胜 7 平 8 负。",
+          "body_html": "<p>2022/23 欧联，主场（老特拉福德）对阵塞维利亚，比分 2-2。</p><p>进球：14' Marcel Sabitzer（曼联）、21' Marcel Sabitzer（曼联）、84' Tyrell Malacia（乌龙球，算给塞维利亚）、90+2' Harry Maguire（乌龙球，算给塞维利亚）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/667488"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "04-14 03:00",
+          "badge": "./media/badges/sevilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，主场的进攻够用，防守不够用。"
+  },
+  "match_no": 50,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-04-14-Sevilla.jpg",
+    "alt": "曼联 2-2 塞维利亚",
+    "width": 960,
+    "height": 540
+  }
+}

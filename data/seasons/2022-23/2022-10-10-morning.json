@@ -1,0 +1,45 @@
+{
+  "id": "2022-10-10-morning",
+  "date": "2022-10-10",
+  "period": "morning",
+  "issue_number": 241,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m637918",
+          "title": "埃弗顿 1-2 曼联：先丢球，翻盘",
+          "summary": "英超，客场（古迪逊公园）。这一季各项赛事第 11 场，7 胜 0 平 4 负。",
+          "body_html": "<p>2022/23 英超，客场（古迪逊公园）对阵埃弗顿，比分 2-1。</p><p>进球：5' Alex Iwobi（埃弗顿）、15' Antony（曼联）、44' Cristiano Ronaldo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/637918"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "10-10 02:00",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 11 场里只有 3 场零封。"
+  },
+  "match_no": 11,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2022-10-10-Everton.jpg",
+    "alt": "埃弗顿 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

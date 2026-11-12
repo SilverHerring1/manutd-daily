@@ -1,0 +1,45 @@
+{
+  "id": "2025-03-10-morning",
+  "date": "2025-03-10",
+  "period": "morning",
+  "issue_number": 389,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704555",
+          "title": "曼联 1-1 阿森纳：被扳平",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 43 场，17 胜 13 平 13 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵阿森纳，比分 1-1。</p><p>进球：45+2' Bruno Fernandes（曼联）、74' Declan Rice（阿森纳）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704555"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-10 00:30",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 43,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-03-10-Arsenal.jpg",
+    "alt": "曼联 1-1 阿森纳",
+    "width": 960,
+    "height": 540
+  }
+}

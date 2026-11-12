@@ -1,0 +1,45 @@
+{
+  "id": "2023-03-06-morning",
+  "date": "2023-03-06",
+  "period": "morning",
+  "issue_number": 272,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638074",
+          "title": "利物浦 7-0 曼联：净负 7 球",
+          "summary": "英超，客场（安菲尔德）。这一季各项赛事第 42 场，30 胜 5 平 7 负。",
+          "body_html": "<p>2022/23 英超，客场（安菲尔德）对阵利物浦，比分 0-7。</p><p>进球：43' Cody Gakpo（利物浦）、47' Darwin Núñez（利物浦）、50' Cody Gakpo（利物浦）、66' Mohamed Salah（利物浦）、75' Darwin Núñez（利物浦）、83' Mohamed Salah（利物浦）、88' Roberto Firmino（利物浦）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638074"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-06 00:30",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 7 球，这一季最难看的比分。"
+  },
+  "match_no": 42,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-03-06-Liverpool.jpg",
+    "alt": "利物浦 7-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

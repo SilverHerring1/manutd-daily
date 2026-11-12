@@ -1,0 +1,45 @@
+{
+  "id": "2023-11-02-morning",
+  "date": "2023-11-02",
+  "period": "morning",
+  "issue_number": 308,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m688413",
+          "title": "曼联 0-3 纽卡斯尔联：净负 3 球",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 15 场，7 胜 0 平 8 负。",
+          "body_html": "<p>2023/24 联赛杯，主场（老特拉福德）对阵纽卡斯尔联，比分 0-3。</p><p>进球：29' Miguel Almirón（纽卡斯尔联）、36' Lewis Hall（纽卡斯尔联）、61' Joe Willock（纽卡斯尔联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/688413"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "11-02 04:15",
+          "badge": "./media/badges/newcastle.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "3 个丢球，这一季到目前为止最差的一场。"
+  },
+  "match_no": 15,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-11-02-NewcastleUnited.jpg",
+    "alt": "曼联 0-3 纽卡斯尔联",
+    "width": 960,
+    "height": 540
+  }
+}

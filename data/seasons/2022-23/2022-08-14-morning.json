@@ -1,0 +1,45 @@
+{
+  "id": "2022-08-14-morning",
+  "date": "2022-08-14",
+  "period": "morning",
+  "issue_number": 232,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638211",
+          "title": "布伦特福德 4-0 曼联：净负 4 球",
+          "summary": "英超，客场（Gtech Community Stadium）。这一季各项赛事第 2 场，0 胜 0 平 2 负。",
+          "body_html": "<p>2022/23 英超，客场（Gtech Community Stadium）对阵布伦特福德，比分 0-4。</p><p>进球：10' Josh Dasilva（布伦特福德）、18' Mathias Jensen（布伦特福德）、30' Ben Mee（布伦特福德）、35' Bryan Mbeumo（布伦特福德）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638211"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "08-14 00:30",
+          "badge": "./media/badges/brentford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "4 个丢球，这一季到目前为止最差的一场。"
+  },
+  "match_no": 2,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2022-08-14-Brentford.jpg",
+    "alt": "布伦特福德 4-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

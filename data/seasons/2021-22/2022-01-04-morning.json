@@ -1,0 +1,45 @@
+{
+  "id": "2022-01-04-morning",
+  "date": "2022-01-04",
+  "period": "morning",
+  "issue_number": 206,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605838",
+          "title": "曼联 0-1 狼队：一球之差",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 26 场，12 胜 6 平 8 负。",
+          "body_html": "<p>2021/22 英超，主场（老特拉福德）对阵狼队，比分 0-1。</p><p>进球：82' João Moutinho（狼队）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605838"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-04 01:30",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球未进，这一季第 5 次被零封。"
+  },
+  "match_no": 26,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-01-04-WolverhamptonWanderers.jpg",
+    "alt": "曼联 0-1 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

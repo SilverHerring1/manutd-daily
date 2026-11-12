@@ -1,0 +1,45 @@
+{
+  "id": "2025-04-07-morning",
+  "date": "2025-04-07",
+  "period": "morning",
+  "issue_number": 393,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704581",
+          "title": "曼联 0-0 曼城：互交白卷",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 47 场，19 胜 14 平 14 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵曼城，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704581"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-06 23:30",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 12 次。"
+  },
+  "match_no": 47,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-04-06-ManchesterCity.jpg",
+    "alt": "曼联 0-0 曼城",
+    "width": 960,
+    "height": 540
+  }
+}

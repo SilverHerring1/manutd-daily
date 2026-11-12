@@ -1,0 +1,45 @@
+{
+  "id": "2024-04-08-morning",
+  "date": "2024-04-08",
+  "period": "morning",
+  "issue_number": 336,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671347",
+          "title": "曼联 2-2 利物浦：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 43 场，21 胜 5 平 17 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵利物浦，比分 2-2。</p><p>进球：23' Luis Díaz（利物浦）、50' Bruno Fernandes（曼联）、67' Kobbie Mainoo（曼联）、84' Mohamed Salah（利物浦，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671347"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-07 22:30",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 43,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-04-07-Liverpool.jpg",
+    "alt": "曼联 2-2 利物浦",
+    "width": 960,
+    "height": 540
+  }
+}

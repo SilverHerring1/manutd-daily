@@ -1,0 +1,45 @@
+{
+  "id": "2022-10-07-morning",
+  "date": "2022-10-07",
+  "period": "morning",
+  "issue_number": 240,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m652719",
+          "title": "奥莫尼亚 2-3 曼联：先丢球，翻盘",
+          "summary": "欧联，客场（GSP Stadium）。这一季各项赛事第 10 场，6 胜 0 平 4 负。",
+          "body_html": "<p>2022/23 欧联，客场（GSP Stadium）对阵奥莫尼亚，比分 3-2。</p><p>进球：34' Karim Ansarifard（奥莫尼亚）、53' Marcus Rashford（曼联）、63' Anthony Martial（曼联）、84' Marcus Rashford（曼联）、85' Nikolas Panagiotou（奥莫尼亚）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/652719"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "10-07 00:45",
+          "badge": "./media/badges/omonia.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 2 球 —— 这一季第 4 次单场丢两球以上。"
+  },
+  "match_no": 10,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2022-10-07-OmoniaNicosia.jpg",
+    "alt": "奥莫尼亚 2-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

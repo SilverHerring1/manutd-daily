@@ -1,0 +1,45 @@
+{
+  "id": "2024-05-26-morning",
+  "date": "2024-05-26",
+  "period": "morning",
+  "issue_number": 345,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m702151",
+          "title": "曼城 1-2 曼联：一球小胜",
+          "summary": "足总杯，客场（温布利）。这一季各项赛事第 52 场，25 胜 8 平 19 负。",
+          "body_html": "<p>2023/24 足总杯，客场（温布利）对阵曼城，比分 2-1。</p><p>进球：30' Alejandro Garnacho（曼联）、39' Kobbie Mainoo（曼联）、87' Jérémy Doku（曼城）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/702151"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "05-25 22:00",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又赢一场，三连胜。"
+  },
+  "match_no": 52,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-05-25-ManchesterCity.jpg",
+    "alt": "曼城 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

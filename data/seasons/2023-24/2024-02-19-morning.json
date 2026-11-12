@@ -1,0 +1,45 @@
+{
+  "id": "2024-02-19-morning",
+  "date": "2024-02-19",
+  "period": "morning",
+  "issue_number": 328,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671278",
+          "title": "卢顿 1-2 曼联：一球小胜",
+          "summary": "英超，客场（Kenilworth Road）。这一季各项赛事第 35 场，18 胜 3 平 14 负。",
+          "body_html": "<p>2023/24 英超，客场（Kenilworth Road）对阵卢顿，比分 2-1。</p><p>进球：1' Rasmus Højlund（曼联）、7' Rasmus Højlund（曼联）、14' Carlton Morris（卢顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671278"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "02-19 00:30",
+          "badge": "./media/badges/luton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "五连胜，客场赢得不轻松，但这场拿下了。"
+  },
+  "match_no": 35,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-02-19-LutonTown.jpg",
+    "alt": "卢顿 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

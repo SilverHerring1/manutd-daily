@@ -1,0 +1,45 @@
+{
+  "id": "2023-10-04-morning",
+  "date": "2023-10-04",
+  "period": "morning",
+  "issue_number": 303,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m687556",
+          "title": "曼联 2-3 加拉塔萨雷：一球之差",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 10 场，4 胜 0 平 6 负。",
+          "body_html": "<p>2023/24 欧冠，主场（老特拉福德）对阵加拉塔萨雷，比分 2-3。</p><p>进球：17' Rasmus Højlund（曼联）、23' Wilfried Zaha（加拉塔萨雷）、67' Rasmus Højlund（曼联）、71' Kerem Aktürkoglu（加拉塔萨雷）、81' Mauro Icardi（加拉塔萨雷）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/687556"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "10-04 03:00",
+          "badge": "./media/badges/galatasaray.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 2 球，问题不在前场。"
+  },
+  "match_no": 10,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-10-04-Galatasaray.jpg",
+    "alt": "曼联 2-3 加拉塔萨雷",
+    "width": 960,
+    "height": 540
+  }
+}

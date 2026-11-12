@@ -1,0 +1,45 @@
+{
+  "id": "2024-02-12-morning",
+  "date": "2024-02-12",
+  "period": "morning",
+  "issue_number": 327,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671266",
+          "title": "阿斯顿维拉 1-2 曼联：一球小胜",
+          "summary": "英超，客场（Villa Park）。这一季各项赛事第 34 场，17 胜 3 平 14 负。",
+          "body_html": "<p>2023/24 英超，客场（Villa Park）对阵阿斯顿维拉，比分 2-1。</p><p>进球：17' Rasmus Højlund（曼联）、67' Douglas Luiz（阿斯顿维拉）、86' Scott McTominay（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671266"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "02-12 00:30",
+          "badge": "./media/badges/astonvilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "四连胜，客场赢得不轻松，但这场拿下了。"
+  },
+  "match_no": 34,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-02-12-AstonVilla.jpg",
+    "alt": "阿斯顿维拉 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

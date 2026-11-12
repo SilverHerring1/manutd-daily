@@ -1,0 +1,45 @@
+{
+  "id": "2021-11-21-morning",
+  "date": "2021-11-21",
+  "period": "morning",
+  "issue_number": 197,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605926",
+          "title": "沃特福德 4-1 曼联：净负 3 球",
+          "summary": "英超，客场（维卡拉奇路）。这一季各项赛事第 17 场，7 胜 3 平 7 负。",
+          "body_html": "<p>2021/22 英超，客场（维卡拉奇路）对阵沃特福德，比分 1-4。</p><p>进球：28' Joshua King（沃特福德）、44' Ismaïla Sarr（沃特福德）、50' Donny van de Beek（曼联）、90+2' João Pedro（沃特福德）、90+6' Emmanuel Dennis（沃特福德）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605926"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-20 23:00",
+          "badge": "./media/badges/watford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，比分已经把问题写清楚了。"
+  },
+  "match_no": 17,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-11-20-Watford.jpg",
+    "alt": "沃特福德 4-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2019-01-30-morning",
+  "date": "2019-01-30",
+  "period": "morning",
+  "issue_number": 34,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513604",
+          "title": "曼联 2-2 伯恩利：Victor Lindelöf 90+2' 扳平",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 33 场，18 胜 8 平 7 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵伯恩利，比分 2-2。</p><p>进球：51' Ashley Barnes（伯恩利）、81' Chris Wood（伯恩利）、87' Paul Pogba（曼联，点球）、90+2' Victor Lindelöf（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513604"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-30 04:00",
+          "badge": "./media/badges/burnley.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "最后时刻扳平，救回这一分，但过程说明问题一直在。"
+  },
+  "match_no": 33
+}

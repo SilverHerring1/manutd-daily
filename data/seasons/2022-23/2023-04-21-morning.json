@@ -1,0 +1,45 @@
+{
+  "id": "2023-04-21-morning",
+  "date": "2023-04-21",
+  "period": "morning",
+  "issue_number": 282,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m667490",
+          "title": "塞维利亚 3-0 曼联：净负 3 球",
+          "summary": "欧联，客场（Ramón Sánchez-Pizjuán）。这一季各项赛事第 52 场，36 胜 7 平 9 负。",
+          "body_html": "<p>2022/23 欧联，客场（Ramón Sánchez-Pizjuán）对阵塞维利亚，比分 0-3。</p><p>进球：8' Youssef En-Nesyri（塞维利亚）、47' Loïc Badé（塞维利亚）、81' Youssef En-Nesyri（塞维利亚）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/667490"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "04-21 03:00",
+          "badge": "./media/badges/sevilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 3 球，比分已经把问题写清楚了。"
+  },
+  "match_no": 52,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-04-21-Sevilla.jpg",
+    "alt": "塞维利亚 3-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

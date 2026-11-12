@@ -1,0 +1,45 @@
+{
+  "id": "2021-10-21-morning",
+  "date": "2021-10-21",
+  "period": "morning",
+  "issue_number": 192,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m618744",
+          "title": "曼联 3-2 亚特兰大：先丢球，翻盘",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 12 场，6 胜 2 平 4 负。",
+          "body_html": "<p>2021/22 欧冠，主场（老特拉福德）对阵亚特兰大，比分 3-2。</p><p>进球：15' Mario Pasalic（亚特兰大）、28' Merih Demiral（亚特兰大）、53' Marcus Rashford（曼联）、75' Harry Maguire（曼联）、81' Cristiano Ronaldo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/618744"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "10-21 03:00",
+          "badge": "./media/badges/atalanta.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 2 球 —— 这一季第 3 次单场丢两球以上。"
+  },
+  "match_no": 12,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-10-21-Atalanta.jpg",
+    "alt": "曼联 3-2 亚特兰大",
+    "width": 960,
+    "height": 540
+  }
+}

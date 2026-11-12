@@ -1,0 +1,45 @@
+{
+  "id": "2023-03-13-morning",
+  "date": "2023-03-13",
+  "period": "morning",
+  "issue_number": 274,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638087",
+          "title": "曼联 0-0 南安普顿：互交白卷",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 44 场，31 胜 6 平 7 负。",
+          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵南安普顿，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638087"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-12 22:00",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 5 次。"
+  },
+  "match_no": 44,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-03-12-Southampton.jpg",
+    "alt": "曼联 0-0 南安普顿",
+    "width": 960,
+    "height": 540
+  }
+}

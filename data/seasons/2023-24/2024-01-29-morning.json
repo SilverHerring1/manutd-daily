@@ -1,0 +1,45 @@
+{
+  "id": "2024-01-29-morning",
+  "date": "2024-01-29",
+  "period": "morning",
+  "issue_number": 324,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m694704",
+          "title": "纽波特郡 2-4 曼联：净胜 2 球",
+          "summary": "足总杯，客场（Rodney Parade）。这一季各项赛事第 31 场，14 胜 3 平 14 负。",
+          "body_html": "<p>2023/24 足总杯，客场（Rodney Parade）对阵纽波特郡，比分 4-2。</p><p>进球：7' Bruno Fernandes（曼联）、13' Kobbie Mainoo（曼联）、36' Bryn Morris（纽波特郡）、47' Will Evans（纽波特郡）、68' Antony（曼联）、90+4' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/694704"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "01-29 00:30",
+          "badge": "./media/badges/newport.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 2 球 —— 这一季第 16 次单场丢两球以上。"
+  },
+  "match_no": 31,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-01-29-NewportCounty.jpg",
+    "alt": "纽波特郡 2-4 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

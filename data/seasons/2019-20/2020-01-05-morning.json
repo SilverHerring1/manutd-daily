@@ -1,0 +1,45 @@
+{
+  "id": "2020-01-05-morning",
+  "date": "2020-01-05",
+  "period": "morning",
+  "issue_number": 87,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m560377",
+          "title": "狼队 0-0 曼联：互交白卷",
+          "summary": "足总杯，客场（莫利纽克斯球场）。这一季各项赛事第 31 场，14 胜 10 平 7 负。",
+          "body_html": "<p>2019/20 足总杯，客场（莫利纽克斯球场）对阵狼队，比分 0-0。</p><p>双方都没有进球。</p><p>足总杯九十分钟打平，按赛制需要重赛。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/560377"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "01-05 01:31",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 7 次。"
+  },
+  "match_no": 31,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-01-05-WolverhamptonWanderers.jpg",
+    "alt": "狼队 0-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

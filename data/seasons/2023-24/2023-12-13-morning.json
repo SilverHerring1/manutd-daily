@@ -1,0 +1,45 @@
+{
+  "id": "2023-12-13-morning",
+  "date": "2023-12-13",
+  "period": "morning",
+  "issue_number": 317,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m687621",
+          "title": "曼联 0-1 拜仁慕尼黑：一球之差",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 24 场，11 胜 1 平 12 负。",
+          "body_html": "<p>2023/24 欧冠，主场（老特拉福德）对阵拜仁慕尼黑，比分 0-1。</p><p>进球：71' Kingsley Coman（拜仁慕尼黑）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/687621"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "12-13 04:00",
+          "badge": "./media/badges/bayern.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 7 次。"
+  },
+  "match_no": 24,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-12-13-BayernMunich.jpg",
+    "alt": "曼联 0-1 拜仁慕尼黑",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2019-10-25-morning",
+  "date": "2019-10-25",
+  "period": "morning",
+  "issue_number": 69,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m557278",
+          "title": "贝尔格莱德游击 0-1 曼联：零封取胜",
+          "summary": "欧联，客场（FK Partizan Stadium）。这一季各项赛事第 13 场，4 胜 6 平 3 负。",
+          "body_html": "<p>2019/20 欧联，客场（FK Partizan Stadium）对阵贝尔格莱德游击，比分 1-0。</p><p>进球：43' Anthony Martial（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/557278"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "10-25 00:55",
+          "badge": "./media/badges/partizan.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 4 胜，防线没给对手留东西。"
+  },
+  "match_no": 13,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-10-25-PartizanBelgrade.jpg",
+    "alt": "贝尔格莱德游击 0-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

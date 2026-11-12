@@ -1,0 +1,45 @@
+{
+  "id": "2022-01-20-morning",
+  "date": "2022-01-20",
+  "period": "morning",
+  "issue_number": 209,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605874",
+          "title": "布伦特福德 1-3 曼联：净胜 2 球",
+          "summary": "英超，客场（Gtech Community Stadium）。这一季各项赛事第 29 场，14 胜 7 平 8 负。",
+          "body_html": "<p>2021/22 英超，客场（Gtech Community Stadium）对阵布伦特福德，比分 3-1。</p><p>进球：55' Anthony Elanga（曼联）、62' Mason Greenwood（曼联）、77' Marcus Rashford（曼联）、85' Ivan Toney（布伦特福德）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605874"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "01-20 04:00",
+          "badge": "./media/badges/brentford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 29 场里只有 6 场零封。"
+  },
+  "match_no": 29,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-01-20-Brentford.jpg",
+    "alt": "布伦特福德 1-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

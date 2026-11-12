@@ -1,0 +1,45 @@
+{
+  "id": "2019-04-14-morning",
+  "date": "2019-04-14",
+  "period": "morning",
+  "issue_number": 49,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513508",
+          "title": "曼联 2-1 西汉姆联：一球小胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 47 场，26 胜 9 平 12 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵西汉姆联，比分 2-1。</p><p>进球：19' Paul Pogba（曼联，点球）、49' Felipe Anderson（西汉姆联）、80' Paul Pogba（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513508"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-14 00:30",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 47 场里只有 12 场零封。"
+  },
+  "match_no": 47,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-14-WestHamUnited.jpg",
+    "alt": "曼联 2-1 西汉姆联",
+    "width": 960,
+    "height": 540
+  }
+}

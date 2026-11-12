@@ -1,0 +1,45 @@
+{
+  "id": "2026-03-02-morning",
+  "date": "2026-03-02",
+  "period": "morning",
+  "issue_number": 436,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740875",
+          "title": "曼联 2-1 水晶宫：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 30 场，14 胜 10 平 6 负。",
+          "body_html": "<p>2025/26 英超，主场（老特拉福德）对阵水晶宫，比分 2-1。</p><p>进球：4' Maxence Lacroix（水晶宫）、57' Bruno Fernandes（曼联，点球）、65' Benjamin Sesko（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740875"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-01 22:00",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 30 场里只有 5 场零封。"
+  },
+  "match_no": 30,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2026-03-01-CrystalPalace.jpg",
+    "alt": "曼联 2-1 水晶宫",
+    "width": 960,
+    "height": 540
+  }
+}

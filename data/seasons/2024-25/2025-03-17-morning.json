@@ -1,0 +1,45 @@
+{
+  "id": "2025-03-17-morning",
+  "date": "2025-03-17",
+  "period": "morning",
+  "issue_number": 391,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704562",
+          "title": "莱斯特城 0-3 曼联：零封，净胜 3 球",
+          "summary": "英超，客场（皇权球场）。这一季各项赛事第 45 场，19 胜 13 平 13 负。",
+          "body_html": "<p>2024/25 英超，客场（皇权球场）对阵莱斯特城，比分 3-0。</p><p>进球：28' Rasmus Højlund（曼联）、67' Alejandro Garnacho（曼联）、90' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704562"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-17 03:00",
+          "badge": "./media/badges/leicester.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场赢 3 球，进攻端这场没浪费机会。"
+  },
+  "match_no": 45,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-03-17-LeicesterCity.jpg",
+    "alt": "莱斯特城 0-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

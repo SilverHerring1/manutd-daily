@@ -1,0 +1,45 @@
+{
+  "id": "2019-04-11-morning",
+  "date": "2019-04-11",
+  "period": "morning",
+  "issue_number": 48,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m538691",
+          "title": "曼联 0-1 巴塞罗那：一球之差",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 46 场，25 胜 9 平 12 负。",
+          "body_html": "<p>2018/19 欧冠，主场（老特拉福德）对阵巴塞罗那，比分 0-1。</p><p>进球：12' Luke Shaw（乌龙球，算给巴塞罗那）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/538691"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "04-11 03:00",
+          "badge": "./media/badges/barcelona.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 8 次。"
+  },
+  "match_no": 46,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-11-Barcelona.jpg",
+    "alt": "曼联 0-1 巴塞罗那",
+    "width": 960,
+    "height": 540
+  }
+}

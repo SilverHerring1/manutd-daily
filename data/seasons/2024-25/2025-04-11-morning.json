@@ -1,0 +1,45 @@
+{
+  "id": "2025-04-11-morning",
+  "date": "2025-04-11",
+  "period": "morning",
+  "issue_number": 394,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m734500",
+          "title": "里昂 2-2 曼联：先丢球，追成平局",
+          "summary": "欧联，客场（Groupama Stadium）。这一季各项赛事第 48 场，19 胜 15 平 14 负。",
+          "body_html": "<p>2024/25 欧联，客场（Groupama Stadium）对阵里昂，比分 2-2。</p><p>进球：25' Thiago Almada（里昂）、45+5' Leny Yoro（曼联）、88' Joshua Zirkzee（曼联）、90+5' Rayan Cherki（里昂）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/734500"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "04-11 03:00",
+          "badge": "./media/badges/lyon.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "最后时刻扳平，救回这一分，但过程说明问题一直在。"
+  },
+  "match_no": 48,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-04-11-Lyon.jpg",
+    "alt": "里昂 2-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

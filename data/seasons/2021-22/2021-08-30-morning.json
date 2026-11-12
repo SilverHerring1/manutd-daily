@@ -1,0 +1,45 @@
+{
+  "id": "2021-08-30-morning",
+  "date": "2021-08-30",
+  "period": "morning",
+  "issue_number": 183,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m606016",
+          "title": "狼队 0-1 曼联：零封取胜",
+          "summary": "英超，客场（莫利纽克斯球场）。这一季各项赛事第 3 场，2 胜 1 平 0 负。",
+          "body_html": "<p>2021/22 英超，客场（莫利纽克斯球场）对阵狼队，比分 1-0。</p><p>进球：80' Mason Greenwood（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/606016"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "08-29 23:30",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 2 胜，防线没给对手留东西。"
+  },
+  "match_no": 3,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-08-29-WolverhamptonWanderers.jpg",
+    "alt": "狼队 0-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

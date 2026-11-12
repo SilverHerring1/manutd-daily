@@ -1,0 +1,39 @@
+{
+  "id": "2021-12-09-morning",
+  "date": "2021-12-09",
+  "period": "morning",
+  "issue_number": 202,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m618701",
+          "title": "曼联 1-1 伯尔尼年轻人：被扳平",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 22 场，10 胜 5 平 7 负。",
+          "body_html": "<p>2021/22 欧冠，主场（老特拉福德）对阵伯尔尼年轻人，比分 1-1。</p><p>进球：9' Mason Greenwood（曼联）、42' Fabian Rieder（伯尔尼年轻人）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/618701"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "12-09 04:00",
+          "badge": "./media/badges/young-boys.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 22
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2023-12-07-morning",
+  "date": "2023-12-07",
+  "period": "morning",
+  "issue_number": 315,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671180",
+          "title": "曼联 2-1 切尔西：一球小胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 22 场，11 胜 1 平 10 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵切尔西，比分 2-1。</p><p>进球：19' Scott McTominay（曼联）、45' Cole Palmer（切尔西）、69' Scott McTominay（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671180"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-07 04:15",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 22 场里只有 7 场零封。"
+  },
+  "match_no": 22,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-12-07-Chelsea.jpg",
+    "alt": "曼联 2-1 切尔西",
+    "width": 960,
+    "height": 540
+  }
+}

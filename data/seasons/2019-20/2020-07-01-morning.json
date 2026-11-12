@@ -1,0 +1,45 @@
+{
+  "id": "2020-07-01-morning",
+  "date": "2020-07-01",
+  "period": "morning",
+  "issue_number": 107,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541529",
+          "title": "布莱顿 0-3 曼联：零封，净胜 3 球",
+          "summary": "英超，客场（美国运通球场）。这一季各项赛事第 51 场，27 胜 14 平 10 负。",
+          "body_html": "<p>2019/20 英超，客场（美国运通球场）对阵布莱顿，比分 3-0。</p><p>进球：16' Mason Greenwood（曼联）、29' Bruno Fernandes（曼联）、50' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541529"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "07-01 03:15",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "3 个进球，这一季到目前为止少见的一次。"
+  },
+  "match_no": 51,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-07-01-BrightonHoveAlbion.jpg",
+    "alt": "布莱顿 0-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

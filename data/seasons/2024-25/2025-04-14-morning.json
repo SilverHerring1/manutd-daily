@@ -1,0 +1,45 @@
+{
+  "id": "2025-04-14-morning",
+  "date": "2025-04-14",
+  "period": "morning",
+  "issue_number": 395,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704590",
+          "title": "纽卡斯尔联 4-1 曼联：净负 3 球",
+          "summary": "英超，客场（圣詹姆斯公园）。这一季各项赛事第 49 场，19 胜 15 平 15 负。",
+          "body_html": "<p>2024/25 英超，客场（圣詹姆斯公园）对阵纽卡斯尔联，比分 1-4。</p><p>进球：24' Sandro Tonali（纽卡斯尔联）、37' Alejandro Garnacho（曼联）、49' Harvey Barnes（纽卡斯尔联）、64' Harvey Barnes（纽卡斯尔联）、77' Bruno Guimarães（纽卡斯尔联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704590"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-13 23:30",
+          "badge": "./media/badges/newcastle.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，这一季最难看的比分。"
+  },
+  "match_no": 49,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-04-13-NewcastleUnited.jpg",
+    "alt": "纽卡斯尔联 4-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

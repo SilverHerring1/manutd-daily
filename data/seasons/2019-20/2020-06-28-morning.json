@@ -1,0 +1,45 @@
+{
+  "id": "2020-06-28-morning",
+  "date": "2020-06-28",
+  "period": "morning",
+  "issue_number": 106,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m570800",
+          "title": "诺维奇 1-2 曼联：Harry Maguire 118' 绝杀",
+          "summary": "足总杯，客场（Carrow Road）。这一季各项赛事第 50 场，26 胜 14 平 10 负。",
+          "body_html": "<p>2019/20 足总杯，客场（Carrow Road）对阵诺维奇，比分 2-1。</p><p>进球：51' Odion Ighalo（曼联）、75' Todd Cantwell（诺维奇）、118' Harry Maguire（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/570800"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "06-28 00:30",
+          "badge": "./media/badges/norwich.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 50 场里只有 22 场零封。"
+  },
+  "match_no": 50,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-06-28-NorwichCity.jpg",
+    "alt": "诺维奇 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

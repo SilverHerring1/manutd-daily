@@ -1,0 +1,45 @@
+{
+  "id": "2025-05-22-morning",
+  "date": "2025-05-22",
+  "period": "morning",
+  "issue_number": 404,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m733649",
+          "title": "托特纳姆热刺 1-0 曼联：一球之差",
+          "summary": "欧联，客场（San Mamés）。这一季各项赛事第 58 场，22 胜 16 平 20 负。",
+          "body_html": "<p>2024/25 欧联，客场（San Mamés）对阵托特纳姆热刺，比分 0-1。</p><p>进球：42' Brennan Johnson（托特纳姆热刺）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/733649"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "05-22 03:00",
+          "badge": "./media/badges/tottenham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 16 次。"
+  },
+  "match_no": 58,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-05-22-TottenhamHotspur.jpg",
+    "alt": "托特纳姆热刺 1-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

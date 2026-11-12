@@ -1,0 +1,45 @@
+{
+  "id": "2025-02-08-morning",
+  "date": "2025-02-08",
+  "period": "morning",
+  "issue_number": 383,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m730040",
+          "title": "曼联 2-1 莱斯特城：Harry Maguire 90+3' 绝杀",
+          "summary": "足总杯，主场（老特拉福德）。这一季各项赛事第 37 场，16 胜 9 平 12 负。",
+          "body_html": "<p>2024/25 足总杯，主场（老特拉福德）对阵莱斯特城，比分 2-1。</p><p>进球：42' Bobby De Cordova-Reid（莱斯特城）、68' Joshua Zirkzee（曼联）、90+3' Harry Maguire（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/730040"
+            }
+          ],
+          "source_name": "足总杯 · 主场",
+          "published_at": "02-08 04:00",
+          "badge": "./media/badges/leicester.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 37 场里只有 10 场零封。"
+  },
+  "match_no": 37,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-02-08-LeicesterCity.jpg",
+    "alt": "曼联 2-1 莱斯特城",
+    "width": 960,
+    "height": 540
+  }
+}

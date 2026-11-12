@@ -1,0 +1,431 @@
+{
+  "_note": "生成器用的对照表。team 的键与 archive JSON 的 opponent 完全一致；cn 是中文名，badge 对应 media/badges/<badge>.png，fm 是 FM 的 unique ID（用来补队徽，也方便以后换图）。缺的会打「⚠ 未收录」。venue 缺省时保留英文原名。",
+  "team": {
+    "AC Milan": {
+      "cn": "AC米兰",
+      "badge": "ac-milan",
+      "fm": 1099
+    },
+    "AFC Bournemouth": {
+      "cn": "伯恩茅斯",
+      "badge": "bournemouth",
+      "fm": 600
+    },
+    "AS Roma": {
+      "cn": "罗马",
+      "badge": "roma",
+      "fm": 1100
+    },
+    "AZ Alkmaar": {
+      "cn": "阿尔克马尔",
+      "badge": "az-alkmaar",
+      "fm": 991
+    },
+    "Arsenal": {
+      "cn": "阿森纳",
+      "badge": "arsenal",
+      "fm": 602
+    },
+    "Aston Villa": {
+      "cn": "阿斯顿维拉",
+      "badge": "astonvilla",
+      "fm": 603
+    },
+    "Atalanta": {
+      "cn": "亚特兰大",
+      "badge": "atalanta",
+      "fm": 1106
+    },
+    "Athletic Club": {
+      "cn": "毕尔巴鄂竞技",
+      "badge": "athletic",
+      "fm": 1664
+    },
+    "Atlético Madrid": {
+      "cn": "马德里竞技",
+      "badge": "atletico-madrid",
+      "fm": 1687
+    },
+    "Barcelona": {
+      "cn": "巴塞罗那",
+      "badge": "barcelona",
+      "fm": 1708
+    },
+    "Barnsley": {
+      "cn": "巴恩斯利",
+      "badge": "barnsley",
+      "fm": 606
+    },
+    "Bayern Munich": {
+      "cn": "拜仁慕尼黑",
+      "badge": "bayern",
+      "fm": 915
+    },
+    "Bodo/Glimt": {
+      "cn": "博多格林特",
+      "badge": "bodo-glimt",
+      "fm": 1293
+    },
+    "Brentford": {
+      "cn": "布伦特福德",
+      "badge": "brentford",
+      "fm": 617
+    },
+    "Brighton & Hove Albion": {
+      "cn": "布莱顿",
+      "badge": "brighton",
+      "fm": 618
+    },
+    "Burnley": {
+      "cn": "伯恩利",
+      "badge": "burnley",
+      "fm": 622
+    },
+    "Cardiff City": {
+      "cn": "加的夫城",
+      "badge": "cardiff",
+      "fm": 625
+    },
+    "Charlton Athletic": {
+      "cn": "查尔顿",
+      "badge": "charlton",
+      "fm": 628
+    },
+    "Chelsea": {
+      "cn": "切尔西",
+      "badge": "chelsea",
+      "fm": 630
+    },
+    "Club Brugge": {
+      "cn": "布鲁日",
+      "badge": "club-brugge",
+      "fm": 186
+    },
+    "Colchester United": {
+      "cn": "科尔切斯特联",
+      "badge": "colchester",
+      "fm": 636
+    },
+    "Como": {
+      "cn": "科莫",
+      "badge": "como",
+      "fm": 1123
+    },
+    "Coventry City": {
+      "cn": "考文垂",
+      "badge": "coventrycity",
+      "fm": 639
+    },
+    "Crystal Palace": {
+      "cn": "水晶宫",
+      "badge": "crystal-palace",
+      "fm": 642
+    },
+    "Derby County": {
+      "cn": "德比郡",
+      "badge": "derby",
+      "fm": 645
+    },
+    "Everton": {
+      "cn": "埃弗顿",
+      "badge": "everton",
+      "fm": 650
+    },
+    "F.C. København": {
+      "cn": "哥本哈根",
+      "badge": "copenhagen",
+      "fm": 505
+    },
+    "FC Astana": {
+      "cn": "阿斯塔纳",
+      "badge": "astana",
+      "fm": 59041139
+    },
+    "FC Porto": {
+      "cn": "波尔图",
+      "badge": "porto",
+      "fm": 1478
+    },
+    "FC Twente": {
+      "cn": "特温特",
+      "badge": "twente",
+      "fm": 1009
+    },
+    "FCSB": {
+      "cn": "布加勒斯特星",
+      "badge": "fcsb",
+      "fm": 1513
+    },
+    "Fenerbahce": {
+      "cn": "费内巴切",
+      "badge": "fenerbahce",
+      "fm": 1870
+    },
+    "Fulham": {
+      "cn": "富勒姆",
+      "badge": "fulham",
+      "fm": 654
+    },
+    "Galatasaray": {
+      "cn": "加拉塔萨雷",
+      "badge": "galatasaray",
+      "fm": 1871
+    },
+    "Granada": {
+      "cn": "格拉纳达",
+      "badge": "granada",
+      "fm": 1714
+    },
+    "Grimsby Town": {
+      "cn": "格林斯比",
+      "badge": "grimsby",
+      "fm": 658
+    },
+    "Huddersfield Town": {
+      "cn": "哈德斯菲尔德",
+      "badge": "huddersfield",
+      "fm": 664
+    },
+    "Hull City": {
+      "cn": "赫尔城",
+      "badge": "hullcity",
+      "fm": 665
+    },
+    "Ipswich Town": {
+      "cn": "伊普斯维奇",
+      "badge": "ipswichtown",
+      "fm": 667
+    },
+    "Istanbul Basaksehir": {
+      "cn": "巴萨克赛尔",
+      "badge": "basaksehir",
+      "fm": 130343
+    },
+    "Juventus": {
+      "cn": "尤文图斯",
+      "badge": "juventus",
+      "fm": 1139
+    },
+    "LASK Linz": {
+      "cn": "林茨",
+      "badge": "lask",
+      "fm": 154
+    },
+    "Leeds United": {
+      "cn": "利兹联",
+      "badge": "leedsunited",
+      "fm": 671
+    },
+    "Leicester City": {
+      "cn": "莱斯特城",
+      "badge": "leicester",
+      "fm": 673
+    },
+    "Liverpool": {
+      "cn": "利物浦",
+      "badge": "liverpool",
+      "fm": 676
+    },
+    "Luton Town": {
+      "cn": "卢顿",
+      "badge": "luton",
+      "fm": 677
+    },
+    "Lyon": {
+      "cn": "里昂",
+      "badge": "lyon",
+      "fm": 865
+    },
+    "Manchester City": {
+      "cn": "曼城",
+      "badge": "man-city",
+      "fm": 679
+    },
+    "Middlesbrough": {
+      "cn": "米德尔斯堡",
+      "badge": "middlesbrough",
+      "fm": 685
+    },
+    "Newcastle United": {
+      "cn": "纽卡斯尔联",
+      "badge": "newcastle",
+      "fm": 688
+    },
+    "Newport County": {
+      "cn": "纽波特郡",
+      "badge": "newport",
+      "fm": 581
+    },
+    "Norwich City": {
+      "cn": "诺维奇",
+      "badge": "norwich",
+      "fm": 691
+    },
+    "Nottingham Forest": {
+      "cn": "诺丁汉森林",
+      "badge": "nottinghamforest",
+      "fm": 692
+    },
+    "Omonia Nicosia": {
+      "cn": "奥莫尼亚",
+      "badge": "omonia",
+      "fm": 460
+    },
+    "PAOK": {
+      "cn": "塞萨洛尼基",
+      "badge": "paok",
+      "fm": 982
+    },
+    "Paris Saint-Germain": {
+      "cn": "巴黎圣日耳曼",
+      "badge": "psg",
+      "fm": 868
+    },
+    "Partizan Belgrade": {
+      "cn": "贝尔格莱德游击",
+      "badge": "partizan",
+      "fm": 1952
+    },
+    "RB Leipzig": {
+      "cn": "莱比锡红牛",
+      "badge": "rb-leipzig",
+      "fm": 91013388
+    },
+    "Rangers": {
+      "cn": "流浪者",
+      "badge": "rangers",
+      "fm": 1570
+    },
+    "Reading": {
+      "cn": "雷丁",
+      "badge": "reading",
+      "fm": 702
+    },
+    "Real Betis": {
+      "cn": "皇家贝蒂斯",
+      "badge": "betis",
+      "fm": 1733
+    },
+    "Real Sociedad": {
+      "cn": "皇家社会",
+      "badge": "real-sociedad",
+      "fm": 1742
+    },
+    "Rochdale": {
+      "cn": "罗奇代尔",
+      "badge": "rochdale",
+      "fm": 703
+    },
+    "Sabah FK": {
+      "cn": "萨巴赫",
+      "badge": "sabah",
+      "fm": 106696
+    },
+    "Sevilla": {
+      "cn": "塞维利亚",
+      "badge": "sevilla",
+      "fm": 1759
+    },
+    "Sheffield United": {
+      "cn": "谢菲尔德联",
+      "badge": "sheffield-united",
+      "fm": 708
+    },
+    "Sheriff Tiraspol": {
+      "cn": "蒂拉斯波尔警长",
+      "badge": "sheriff",
+      "fm": 478105
+    },
+    "Southampton": {
+      "cn": "南安普顿",
+      "badge": "southampton",
+      "fm": 713
+    },
+    "Sunderland": {
+      "cn": "桑德兰",
+      "badge": "sunderland",
+      "fm": 722
+    },
+    "Tottenham Hotspur": {
+      "cn": "托特纳姆热刺",
+      "badge": "tottenham",
+      "fm": 728
+    },
+    "Tranmere Rovers": {
+      "cn": "特兰米尔",
+      "badge": "tranmere",
+      "fm": 729
+    },
+    "Valencia": {
+      "cn": "瓦伦西亚",
+      "badge": "valencia",
+      "fm": 1775
+    },
+    "Viktoria Plzen": {
+      "cn": "比尔森胜利",
+      "badge": "plzen",
+      "fm": 477
+    },
+    "Villarreal": {
+      "cn": "比利亚雷亚尔",
+      "badge": "villarreal",
+      "fm": 1777
+    },
+    "Watford": {
+      "cn": "沃特福德",
+      "badge": "watford",
+      "fm": 732
+    },
+    "West Bromwich Albion": {
+      "cn": "西布罗姆维奇",
+      "badge": "west-brom",
+      "fm": 734
+    },
+    "West Ham United": {
+      "cn": "西汉姆联",
+      "badge": "west-ham",
+      "fm": 735
+    },
+    "Wigan Athletic": {
+      "cn": "维冈竞技",
+      "badge": "wigan",
+      "fm": 737
+    },
+    "Wolverhampton Wanderers": {
+      "cn": "狼队",
+      "badge": "wolves",
+      "fm": 740
+    },
+    "Young Boys": {
+      "cn": "伯尔尼年轻人",
+      "badge": "young-boys",
+      "fm": 1847
+    }
+  },
+  "venue": {
+    "Old Trafford": "老特拉福德",
+    "Anfield": "安菲尔德",
+    "Emirates Stadium": "酋长球场",
+    "Etihad Stadium": "伊蒂哈德球场",
+    "Goodison Park": "古迪逊公园",
+    "Molineux Stadium": "莫利纽克斯球场",
+    "Stamford Bridge": "斯坦福桥",
+    "Turf Moor": "特夫摩尔",
+    "Vicarage Road": "维卡拉奇路",
+    "Vitality Stadium": "活力球场",
+    "Wembley Stadium": "温布利",
+    "London Stadium": "伦敦球场",
+    "Selhurst Park": "塞尔赫斯特公园",
+    "St. James' Park": "圣詹姆斯公园",
+    "St. Mary's Stadium": "圣玛丽球场",
+    "King Power Stadium": "皇权球场",
+    "Craven Cottage": "克拉文农场",
+    "Cardiff City Stadium": "加的夫城球场",
+    "American Express Stadium": "美国运通球场",
+    "Allianz Stadium": "安联球场",
+    "Mestalla": "梅斯塔利亚",
+    "Parc des Princes": "王子公园",
+    "Spotify Camp Nou": "诺坎普",
+    "Stadion Wankdorf": "范可多夫球场"
+  }
+}

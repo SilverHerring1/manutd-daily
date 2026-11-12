@@ -1,0 +1,45 @@
+{
+  "id": "2023-05-26-morning",
+  "date": "2023-05-26",
+  "period": "morning",
+  "issue_number": 290,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638137",
+          "title": "曼联 4-1 切尔西：净胜 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 60 场，40 胜 9 平 11 负。",
+          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵切尔西，比分 4-1。</p><p>进球：6' Casemiro（曼联）、45+6' Anthony Martial（曼联）、73' Bruno Fernandes（曼联，点球）、78' Marcus Rashford（曼联）、89' João Félix（切尔西）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638137"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "05-26 03:00",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场净胜 3 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 60,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-05-26-Chelsea.jpg",
+    "alt": "曼联 4-1 切尔西",
+    "width": 960,
+    "height": 540
+  }
+}

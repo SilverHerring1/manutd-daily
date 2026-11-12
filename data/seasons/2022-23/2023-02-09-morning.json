@@ -1,0 +1,45 @@
+{
+  "id": "2023-02-09-morning",
+  "date": "2023-02-09",
+  "period": "morning",
+  "issue_number": 265,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m637889",
+          "title": "曼联 2-2 利兹联：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 35 场，25 胜 4 平 6 负。",
+          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵利兹联，比分 2-2。</p><p>进球：1' Wilfried Gnonto（利兹联）、48' Raphaël Varane（乌龙球，算给利兹联）、62' Marcus Rashford（曼联）、70' Jadon Sancho（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/637889"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "02-09 04:00",
+          "badge": "./media/badges/leedsunited.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 35,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-02-09-LeedsUnited.jpg",
+    "alt": "曼联 2-2 利兹联",
+    "width": 960,
+    "height": 540
+  }
+}

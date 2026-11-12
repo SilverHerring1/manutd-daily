@@ -1,0 +1,45 @@
+{
+  "id": "2021-03-19-morning",
+  "date": "2021-03-19",
+  "period": "morning",
+  "issue_number": 164,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m595524",
+          "title": "AC米兰 0-1 曼联：零封取胜",
+          "summary": "欧联，客场（Stadio Giuseppe Meazza）。这一季各项赛事第 46 场，27 胜 11 平 8 负。",
+          "body_html": "<p>2020/21 欧联，客场（Stadio Giuseppe Meazza）对阵AC米兰，比分 1-0。</p><p>进球：48' Paul Pogba（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/595524"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "03-19 04:00",
+          "badge": "./media/badges/ac-milan.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 27 胜，防线没给对手留东西。"
+  },
+  "match_no": 46,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2021-03-19-ACMilan.jpg",
+    "alt": "AC米兰 0-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

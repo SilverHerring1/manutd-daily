@@ -1,0 +1,45 @@
+{
+  "id": "2024-04-14-morning",
+  "date": "2024-04-14",
+  "period": "morning",
+  "issue_number": 337,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671352",
+          "title": "伯恩茅斯 2-2 曼联：先丢球，追成平局",
+          "summary": "英超，客场（活力球场）。这一季各项赛事第 44 场，21 胜 6 平 17 负。",
+          "body_html": "<p>2023/24 英超，客场（活力球场）对阵伯恩茅斯，比分 2-2。</p><p>进球：16' Dominic Solanke（伯恩茅斯）、31' Bruno Fernandes（曼联）、36' Justin Kluivert（伯恩茅斯）、65' Bruno Fernandes（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671352"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-14 00:30",
+          "badge": "./media/badges/bournemouth.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，客场的进攻够用，防守不够用。"
+  },
+  "match_no": 44,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-04-14-AFCBournemouth.jpg",
+    "alt": "伯恩茅斯 2-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

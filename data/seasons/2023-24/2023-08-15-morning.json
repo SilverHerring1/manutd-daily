@@ -1,0 +1,45 @@
+{
+  "id": "2023-08-15-morning",
+  "date": "2023-08-15",
+  "period": "morning",
+  "issue_number": 294,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671040",
+          "title": "曼联 1-0 狼队：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 1 场，1 胜 0 平 0 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵狼队，比分 1-0。</p><p>进球：76' Raphaël Varane（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671040"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-15 03:00",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 1 胜，防线没给对手留东西。"
+  },
+  "match_no": 1,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-08-15-WolverhamptonWanderers.jpg",
+    "alt": "曼联 1-0 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

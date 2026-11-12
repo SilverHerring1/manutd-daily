@@ -1,0 +1,45 @@
+{
+  "id": "2023-02-20-morning",
+  "date": "2023-02-20",
+  "period": "morning",
+  "issue_number": 268,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638055",
+          "title": "曼联 3-0 莱斯特城：零封，净胜 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 38 场，27 胜 5 平 6 负。",
+          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵莱斯特城，比分 3-0。</p><p>进球：25' Marcus Rashford（曼联）、56' Marcus Rashford（曼联）、61' Jadon Sancho（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638055"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "02-19 22:00",
+          "badge": "./media/badges/leicester.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场净胜 3 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 38,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-02-19-LeicesterCity.jpg",
+    "alt": "曼联 3-0 莱斯特城",
+    "width": 960,
+    "height": 540
+  }
+}

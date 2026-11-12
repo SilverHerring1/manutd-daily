@@ -1,0 +1,45 @@
+{
+  "id": "2025-02-27-morning",
+  "date": "2025-02-27",
+  "period": "morning",
+  "issue_number": 386,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704546",
+          "title": "曼联 3-2 伊普斯维奇：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 40 场，17 胜 10 平 13 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵伊普斯维奇，比分 3-2。</p><p>进球：4' Jaden Philogene（伊普斯维奇）、22' Sam Morsy（乌龙球，算给曼联）、26' Matthijs de Ligt（曼联）、45+2' Jaden Philogene（伊普斯维奇）、47' Harry Maguire（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704546"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "02-27 03:30",
+          "badge": "./media/badges/ipswichtown.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 18 次单场丢两球以上。"
+  },
+  "match_no": 40,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-02-27-IpswichTown.jpg",
+    "alt": "曼联 3-2 伊普斯维奇",
+    "width": 960,
+    "height": 540
+  }
+}

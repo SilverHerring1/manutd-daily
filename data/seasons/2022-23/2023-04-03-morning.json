@@ -1,0 +1,45 @@
+{
+  "id": "2023-04-03-morning",
+  "date": "2023-04-03",
+  "period": "morning",
+  "issue_number": 277,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638100",
+          "title": "纽卡斯尔联 2-0 曼联：2 球落败",
+          "summary": "英超，客场（圣詹姆斯公园）。这一季各项赛事第 47 场，33 胜 6 平 8 负。",
+          "body_html": "<p>2022/23 英超，客场（圣詹姆斯公园）对阵纽卡斯尔联，比分 0-2。</p><p>进球：65' Joe Willock（纽卡斯尔联）、88' Callum Wilson（纽卡斯尔联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638100"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-02 23:30",
+          "badge": "./media/badges/newcastle.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球未进，这一季第 6 次被零封。"
+  },
+  "match_no": 47,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-04-02-NewcastleUnited.jpg",
+    "alt": "纽卡斯尔联 2-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

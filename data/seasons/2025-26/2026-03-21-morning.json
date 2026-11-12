@@ -1,0 +1,45 @@
+{
+  "id": "2026-03-21-morning",
+  "date": "2026-03-21",
+  "period": "morning",
+  "issue_number": 439,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740897",
+          "title": "伯恩茅斯 2-2 曼联：被扳平",
+          "summary": "英超，客场（活力球场）。这一季各项赛事第 33 场，15 胜 11 平 7 负。",
+          "body_html": "<p>2025/26 英超，客场（活力球场）对阵伯恩茅斯，比分 2-2。</p><p>进球：61' Bruno Fernandes（曼联，点球）、67' Ryan Christie（伯恩茅斯）、71' James Hill（乌龙球，算给曼联）、81' Junior Kroupi（伯恩茅斯，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740897"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-21 04:00",
+          "badge": "./media/badges/bournemouth.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 33,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2026-03-21-AFCBournemouth.jpg",
+    "alt": "伯恩茅斯 2-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

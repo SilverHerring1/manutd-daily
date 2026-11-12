@@ -1,0 +1,45 @@
+{
+  "id": "2024-10-31-morning",
+  "date": "2024-10-31",
+  "period": "morning",
+  "issue_number": 360,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m721581",
+          "title": "曼联 5-2 莱斯特城：净胜 3 球",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 14 场，5 胜 5 平 4 负。",
+          "body_html": "<p>2024/25 联赛杯，主场（老特拉福德）对阵莱斯特城，比分 5-2。</p><p>进球：15' Casemiro（曼联）、28' Alejandro Garnacho（曼联）、33' Bilal El Khannouss（莱斯特城）、36' Bruno Fernandes（曼联）、39' Casemiro（曼联）、45+3' Conor Coady（莱斯特城）、59' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/721581"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "10-31 03:45",
+          "badge": "./media/badges/leicester.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "5 个进球，这一季到目前为止少见的一次。"
+  },
+  "match_no": 14,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-10-31-LeicesterCity.jpg",
+    "alt": "曼联 5-2 莱斯特城",
+    "width": 960,
+    "height": 540
+  }
+}

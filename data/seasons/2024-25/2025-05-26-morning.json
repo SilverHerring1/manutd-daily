@@ -1,0 +1,45 @@
+{
+  "id": "2025-05-26-morning",
+  "date": "2025-05-26",
+  "period": "morning",
+  "issue_number": 405,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704658",
+          "title": "曼联 2-0 阿斯顿维拉：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 59 场，23 胜 16 平 20 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵阿斯顿维拉，比分 2-0。</p><p>进球：76' Amad Diallo（曼联）、87' Christian Eriksen（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704658"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "05-25 23:00",
+          "badge": "./media/badges/astonvilla.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 23 胜，防线没给对手留东西。"
+  },
+  "match_no": 59,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-05-25-AstonVilla.jpg",
+    "alt": "曼联 2-0 阿斯顿维拉",
+    "width": 960,
+    "height": 540
+  }
+}

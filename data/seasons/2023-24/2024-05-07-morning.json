@@ -1,0 +1,45 @@
+{
+  "id": "2024-05-07-morning",
+  "date": "2024-05-07",
+  "period": "morning",
+  "issue_number": 341,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671386",
+          "title": "水晶宫 4-0 曼联：净负 4 球",
+          "summary": "英超，客场（塞尔赫斯特公园）。这一季各项赛事第 48 场，22 胜 8 平 18 负。",
+          "body_html": "<p>2023/24 英超，客场（塞尔赫斯特公园）对阵水晶宫，比分 0-4。</p><p>进球：12' Michael Olise（水晶宫）、40' Jean-Philippe Mateta（水晶宫）、58' Tyrick Mitchell（水晶宫）、66' Michael Olise（水晶宫）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671386"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-07 03:00",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，这一季最难看的比分。"
+  },
+  "match_no": 48,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-05-07-CrystalPalace.jpg",
+    "alt": "水晶宫 4-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

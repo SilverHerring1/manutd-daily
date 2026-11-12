@@ -1,0 +1,45 @@
+{
+  "id": "2019-01-26-morning",
+  "date": "2019-01-26",
+  "period": "morning",
+  "issue_number": 33,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m533388",
+          "title": "阿森纳 1-3 曼联：净胜 2 球",
+          "summary": "足总杯，客场（酋长球场）。这一季各项赛事第 32 场，18 胜 7 平 7 负。",
+          "body_html": "<p>2018/19 足总杯，客场（酋长球场）对阵阿森纳，比分 3-1。</p><p>进球：31' Alexis Sánchez（曼联）、33' Jesse Lingard（曼联）、43' Pierre-Emerick Aubameyang（阿森纳）、82' Anthony Martial（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/533388"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "01-26 03:55",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "八连胜，客场赢得不轻松，但这场拿下了。"
+  },
+  "match_no": 32,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-01-26-Arsenal.jpg",
+    "alt": "阿森纳 1-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

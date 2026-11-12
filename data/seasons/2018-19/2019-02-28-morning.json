@@ -1,0 +1,45 @@
+{
+  "id": "2019-02-28-morning",
+  "date": "2019-02-28",
+  "period": "morning",
+  "issue_number": 40,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513565",
+          "title": "水晶宫 1-3 曼联：净胜 2 球",
+          "summary": "英超，客场（塞尔赫斯特公园）。这一季各项赛事第 39 场，22 胜 9 平 8 负。",
+          "body_html": "<p>2018/19 英超，客场（塞尔赫斯特公园）对阵水晶宫，比分 3-1。</p><p>进球：33' Romelu Lukaku（曼联）、52' Romelu Lukaku（曼联）、66' Joel Ward（水晶宫）、83' Ashley Young（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513565"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "02-28 04:00",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 39 场里只有 12 场零封。"
+  },
+  "match_no": 39,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-02-28-CrystalPalace.jpg",
+    "alt": "水晶宫 1-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

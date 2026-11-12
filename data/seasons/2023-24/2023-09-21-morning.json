@@ -1,0 +1,45 @@
+{
+  "id": "2023-09-21-morning",
+  "date": "2023-09-21",
+  "period": "morning",
+  "issue_number": 299,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m687551",
+          "title": "拜仁慕尼黑 4-3 曼联：一球之差",
+          "summary": "欧冠，客场（Allianz Arena）。这一季各项赛事第 6 场，2 胜 0 平 4 负。",
+          "body_html": "<p>2023/24 欧冠，客场（Allianz Arena）对阵拜仁慕尼黑，比分 3-4。</p><p>进球：28' Leroy Sané（拜仁慕尼黑）、32' Serge Gnabry（拜仁慕尼黑）、49' Rasmus Højlund（曼联）、53' Harry Kane（拜仁慕尼黑，点球）、88' Casemiro（曼联）、90+2' Mathys Tel（拜仁慕尼黑）、90+5' Casemiro（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/687551"
+            }
+          ],
+          "source_name": "欧冠 · 客场",
+          "published_at": "09-21 03:00",
+          "badge": "./media/badges/bayern.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三连败，客场还是没能止住。"
+  },
+  "match_no": 6,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-09-21-BayernMunich.jpg",
+    "alt": "拜仁慕尼黑 4-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

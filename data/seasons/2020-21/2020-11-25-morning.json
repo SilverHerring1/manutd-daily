@@ -1,0 +1,45 @@
+{
+  "id": "2020-11-25-morning",
+  "date": "2020-11-25",
+  "period": "morning",
+  "issue_number": 132,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m585802",
+          "title": "曼联 4-1 巴萨克赛尔：净胜 3 球",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 14 场，9 胜 1 平 4 负。",
+          "body_html": "<p>2020/21 欧冠，主场（老特拉福德）对阵巴萨克赛尔，比分 4-1。</p><p>进球：7' Bruno Fernandes（曼联）、19' Bruno Fernandes（曼联）、35' Marcus Rashford（曼联，点球）、75' Deniz Turuc（巴萨克赛尔）、90+2' Daniel James（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/585802"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "11-25 04:00",
+          "badge": "./media/badges/basaksehir.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场赢 3 球，进攻端这场没浪费机会。"
+  },
+  "match_no": 14,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-11-25-IstanbulBasaksehir.jpg",
+    "alt": "曼联 4-1 巴萨克赛尔",
+    "width": 960,
+    "height": 540
+  }
+}

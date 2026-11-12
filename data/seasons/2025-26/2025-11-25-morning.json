@@ -1,0 +1,45 @@
+{
+  "id": "2025-11-25-morning",
+  "date": "2025-11-25",
+  "period": "morning",
+  "issue_number": 419,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740711",
+          "title": "曼联 0-1 埃弗顿：一球之差",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 13 场，5 胜 4 平 4 负。",
+          "body_html": "<p>2025/26 英超，主场（老特拉福德）对阵埃弗顿，比分 0-1。</p><p>进球：29' Kiernan Dewsbury-Hall（埃弗顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740711"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "11-25 04:00",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 3 次。"
+  },
+  "match_no": 13,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2025-11-25-Everton.jpg",
+    "alt": "曼联 0-1 埃弗顿",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2020-07-17-morning",
+  "date": "2020-07-17",
+  "period": "morning",
+  "issue_number": 111,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541489",
+          "title": "水晶宫 0-2 曼联：零封取胜",
+          "summary": "英超，客场（塞尔赫斯特公园）。这一季各项赛事第 55 场，30 胜 15 平 10 负。",
+          "body_html": "<p>2019/20 英超，客场（塞尔赫斯特公园）对阵水晶宫，比分 2-0。</p><p>进球：45+1' Marcus Rashford（曼联）、78' Anthony Martial（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541489"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "07-17 03:15",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 25 场不丢球。"
+  },
+  "match_no": 55,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-07-17-CrystalPalace.jpg",
+    "alt": "水晶宫 0-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

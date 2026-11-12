@@ -1,0 +1,45 @@
+{
+  "id": "2024-11-29-morning",
+  "date": "2024-11-29",
+  "period": "morning",
+  "issue_number": 365,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m720590",
+          "title": "曼联 3-2 博多格林特：一球小胜",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 19 场，8 胜 7 平 4 负。",
+          "body_html": "<p>2024/25 欧联，主场（老特拉福德）对阵博多格林特，比分 3-2。</p><p>进球：1' Alejandro Garnacho（曼联）、19' Hakon Evjen（博多格林特）、23' Philip Zinckernagel（博多格林特）、45' Rasmus Højlund（曼联）、50' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/720590"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "11-29 04:00",
+          "badge": "./media/badges/bodo-glimt.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 2 球 —— 这一季第 7 次单场丢两球以上。"
+  },
+  "match_no": 19,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-11-29-BodoGlimt.jpg",
+    "alt": "曼联 3-2 博多格林特",
+    "width": 960,
+    "height": 540
+  }
+}

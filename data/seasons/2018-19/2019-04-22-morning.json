@@ -1,0 +1,45 @@
+{
+  "id": "2019-04-22-morning",
+  "date": "2019-04-22",
+  "period": "morning",
+  "issue_number": 51,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513496",
+          "title": "埃弗顿 4-0 曼联：净负 4 球",
+          "summary": "英超，客场（古迪逊公园）。这一季各项赛事第 49 场，26 胜 9 平 14 负。",
+          "body_html": "<p>2018/19 英超，客场（古迪逊公园）对阵埃弗顿，比分 0-4。</p><p>进球：13' Richarlison（埃弗顿）、28' Gylfi Sigurdsson（埃弗顿）、56' Lucas Digne（埃弗顿）、64' Theo Walcott（埃弗顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513496"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-21 20:30",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，这一季最难看的比分。"
+  },
+  "match_no": 49,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-21-Everton.jpg",
+    "alt": "埃弗顿 4-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

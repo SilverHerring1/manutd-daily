@@ -1,0 +1,45 @@
+{
+  "id": "2023-09-27-morning",
+  "date": "2023-09-27",
+  "period": "morning",
+  "issue_number": 301,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m687493",
+          "title": "曼联 3-0 水晶宫：零封，净胜 3 球",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 8 场，4 胜 0 平 4 负。",
+          "body_html": "<p>2023/24 联赛杯，主场（老特拉福德）对阵水晶宫，比分 3-0。</p><p>进球：21' Alejandro Garnacho（曼联）、27' Casemiro（曼联）、55' Anthony Martial（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/687493"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "09-27 03:00",
+          "badge": "./media/badges/crystal-palace.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场净胜 3 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 8,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-09-27-CrystalPalace.jpg",
+    "alt": "曼联 3-0 水晶宫",
+    "width": 960,
+    "height": 540
+  }
+}

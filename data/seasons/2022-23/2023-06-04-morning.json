@@ -1,0 +1,45 @@
+{
+  "id": "2023-06-04-morning",
+  "date": "2023-06-04",
+  "period": "morning",
+  "issue_number": 292,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m668583",
+          "title": "曼城 2-1 曼联：一球之差",
+          "summary": "足总杯，客场（温布利）。这一季各项赛事第 62 场，41 胜 9 平 12 负。",
+          "body_html": "<p>2022/23 足总杯，客场（温布利）对阵曼城，比分 1-2。</p><p>进球：1' Ilkay Gündogan（曼城）、33' Bruno Fernandes（曼联，点球）、51' Ilkay Gündogan（曼城）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/668583"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "06-03 22:00",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 62,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-06-03-ManchesterCity.jpg",
+    "alt": "曼城 2-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

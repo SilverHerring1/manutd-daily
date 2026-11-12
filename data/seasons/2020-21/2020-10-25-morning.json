@@ -1,0 +1,45 @@
+{
+  "id": "2020-10-25-morning",
+  "date": "2020-10-25",
+  "period": "morning",
+  "issue_number": 126,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578601",
+          "title": "曼联 0-0 切尔西：互交白卷",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 8 场，5 胜 1 平 2 负。",
+          "body_html": "<p>2020/21 英超，主场（老特拉福德）对阵切尔西，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578601"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "10-25 00:30",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 1 次。"
+  },
+  "match_no": 8,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-10-25-Chelsea.jpg",
+    "alt": "曼联 0-0 切尔西",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2024-04-25-morning",
+  "date": "2024-04-25",
+  "period": "morning",
+  "issue_number": 339,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671311",
+          "title": "曼联 4-2 谢菲尔德联：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 46 场，22 胜 7 平 17 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵谢菲尔德联，比分 4-2。</p><p>进球：35' Jayden Bogle（谢菲尔德联）、42' Harry Maguire（曼联）、50' Ben Brereton Díaz（谢菲尔德联）、61' Bruno Fernandes（曼联，点球）、81' Bruno Fernandes（曼联）、85' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671311"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-25 03:00",
+          "badge": "./media/badges/sheffield-united.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 25 次单场丢两球以上。"
+  },
+  "match_no": 46,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-04-25-SheffieldUnited.jpg",
+    "alt": "曼联 4-2 谢菲尔德联",
+    "width": 960,
+    "height": 540
+  }
+}

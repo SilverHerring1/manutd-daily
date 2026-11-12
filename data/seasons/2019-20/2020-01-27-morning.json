@@ -1,0 +1,45 @@
+{
+  "id": "2020-01-27-morning",
+  "date": "2020-01-27",
+  "period": "morning",
+  "issue_number": 93,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m565599",
+          "title": "特兰米尔 0-6 曼联：零封，净胜 6 球",
+          "summary": "足总杯，客场（Prenton Park）。这一季各项赛事第 37 场，17 胜 10 平 10 负。",
+          "body_html": "<p>2019/20 足总杯，客场（Prenton Park）对阵特兰米尔，比分 6-0。</p><p>进球：10' Harry Maguire（曼联）、13' Diogo Dalot（曼联）、16' Jesse Lingard（曼联）、41' Phil Jones（曼联）、45' Anthony Martial（曼联）、56' Mason Greenwood（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/565599"
+            }
+          ],
+          "source_name": "足总杯 · 客场",
+          "published_at": "01-26 23:00",
+          "badge": "./media/badges/tranmere.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场净胜 6 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 37,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-01-26-TranmereRovers.jpg",
+    "alt": "特兰米尔 0-6 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

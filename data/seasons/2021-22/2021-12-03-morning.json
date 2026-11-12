@@ -1,0 +1,45 @@
+{
+  "id": "2021-12-03-morning",
+  "date": "2021-12-03",
+  "period": "morning",
+  "issue_number": 200,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605902",
+          "title": "曼联 3-2 阿森纳：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 20 场，9 胜 4 平 7 负。",
+          "body_html": "<p>2021/22 英超，主场（老特拉福德）对阵阿森纳，比分 3-2。</p><p>进球：13' Emile Smith Rowe（阿森纳）、44' Bruno Fernandes（曼联）、52' Cristiano Ronaldo（曼联）、54' Martin Ødegaard（阿森纳）、70' Cristiano Ronaldo（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605902"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-03 04:15",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 8 次单场丢两球以上。"
+  },
+  "match_no": 20,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-12-03-Arsenal.jpg",
+    "alt": "曼联 3-2 阿森纳",
+    "width": 960,
+    "height": 540
+  }
+}

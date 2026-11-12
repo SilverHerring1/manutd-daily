@@ -1,0 +1,45 @@
+{
+  "id": "2019-03-03-morning",
+  "date": "2019-03-03",
+  "period": "morning",
+  "issue_number": 41,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513559",
+          "title": "曼联 3-2 南安普顿：Romelu Lukaku 88' 绝杀",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 40 场，23 胜 9 平 8 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵南安普顿，比分 3-2。</p><p>进球：26' Yan Valery（南安普顿）、53' Andreas Pereira（曼联）、59' Romelu Lukaku（曼联）、75' James Ward-Prowse（南安普顿）、88' Romelu Lukaku（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513559"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "03-02 23:00",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，可这场丢 2 球 —— 这一季第 14 次单场丢两球以上。"
+  },
+  "match_no": 40,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-03-02-Southampton.jpg",
+    "alt": "曼联 3-2 南安普顿",
+    "width": 960,
+    "height": 540
+  }
+}

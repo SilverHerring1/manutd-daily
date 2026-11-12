@@ -1,0 +1,45 @@
+{
+  "id": "2023-10-08-morning",
+  "date": "2023-10-08",
+  "period": "morning",
+  "issue_number": 304,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671108",
+          "title": "曼联 2-1 布伦特福德：Scott McTominay 90+7' 绝杀",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 11 场，5 胜 0 平 6 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵布伦特福德，比分 2-1。</p><p>进球：26' Mathias Jensen（布伦特福德）、90+3' Scott McTominay（曼联）、90+7' Scott McTominay（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671108"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "10-07 22:00",
+          "badge": "./media/badges/brentford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 11 场里只有 3 场零封。"
+  },
+  "match_no": 11,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-10-07-Brentford.jpg",
+    "alt": "曼联 2-1 布伦特福德",
+    "width": 960,
+    "height": 540
+  }
+}

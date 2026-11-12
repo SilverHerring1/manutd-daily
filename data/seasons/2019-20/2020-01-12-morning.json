@@ -1,0 +1,45 @@
+{
+  "id": "2020-01-12-morning",
+  "date": "2020-01-12",
+  "period": "morning",
+  "issue_number": 89,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541631",
+          "title": "曼联 4-0 诺维奇：零封，净胜 4 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 33 场，15 胜 10 平 8 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵诺维奇，比分 4-0。</p><p>进球：27' Marcus Rashford（曼联）、52' Marcus Rashford（曼联，点球）、54' Anthony Martial（曼联）、76' Mason Greenwood（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541631"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-11 23:00",
+          "badge": "./media/badges/norwich.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场净胜 4 球，是这一季目前最像样的比分。"
+  },
+  "match_no": 33,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-01-11-NorwichCity.jpg",
+    "alt": "曼联 4-0 诺维奇",
+    "width": 960,
+    "height": 540
+  }
+}

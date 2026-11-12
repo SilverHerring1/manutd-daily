@@ -1,0 +1,45 @@
+{
+  "id": "2020-12-30-morning",
+  "date": "2020-12-30",
+  "period": "morning",
+  "issue_number": 142,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578510",
+          "title": "曼联 1-0 狼队：Marcus Rashford 90+3' 绝杀",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 24 场，15 胜 3 平 6 负。",
+          "body_html": "<p>2020/21 英超，主场（老特拉福德）对阵狼队，比分 1-0。</p><p>进球：90+3' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578510"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-30 04:00",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 15 胜，防线没给对手留东西。"
+  },
+  "match_no": 24,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-12-30-WolverhamptonWanderers.jpg",
+    "alt": "曼联 1-0 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

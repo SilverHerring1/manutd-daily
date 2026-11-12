@@ -1,0 +1,45 @@
+{
+  "id": "2022-10-28-morning",
+  "date": "2022-10-28",
+  "period": "morning",
+  "issue_number": 246,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m652756",
+          "title": "曼联 3-0 蒂拉斯波尔警长：零封，净胜 3 球",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 16 场，10 胜 2 平 4 负。",
+          "body_html": "<p>2022/23 欧联，主场（老特拉福德）对阵蒂拉斯波尔警长，比分 3-0。</p><p>进球：44' Diogo Dalot（曼联）、65' Marcus Rashford（曼联）、81' Cristiano Ronaldo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/652756"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "10-28 03:00",
+          "badge": "./media/badges/sheriff.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场赢 3 球，这一季到目前为止赢得最多的一场。"
+  },
+  "match_no": 16,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2022-10-28-SheriffTiraspol.jpg",
+    "alt": "曼联 3-0 蒂拉斯波尔警长",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2019-08-20-morning",
+  "date": "2019-08-20",
+  "period": "morning",
+  "issue_number": 58,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541830",
+          "title": "狼队 1-1 曼联：被扳平",
+          "summary": "英超，客场（莫利纽克斯球场）。这一季各项赛事第 2 场，1 胜 1 平 0 负。",
+          "body_html": "<p>2019/20 英超，客场（莫利纽克斯球场）对阵狼队，比分 1-1。</p><p>进球：27' Anthony Martial（曼联）、55' Rúben Neves（狼队）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541830"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "08-20 03:00",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，客场的进攻够用，防守不够用。"
+  },
+  "match_no": 2,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-08-20-WolverhamptonWanderers.jpg",
+    "alt": "狼队 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

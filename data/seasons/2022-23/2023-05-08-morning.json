@@ -1,0 +1,39 @@
+{
+  "id": "2023-05-08-morning",
+  "date": "2023-05-08",
+  "period": "morning",
+  "issue_number": 287,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638159",
+          "title": "西汉姆联 1-0 曼联：一球之差",
+          "summary": "英超，客场（伦敦球场）。这一季各项赛事第 57 场，37 胜 9 平 11 负。",
+          "body_html": "<p>2022/23 英超，客场（伦敦球场）对阵西汉姆联，比分 0-1。</p><p>进球：27' Saïd Benrahma（西汉姆联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638159"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-08 02:00",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 10 次。"
+  },
+  "match_no": 57
+}

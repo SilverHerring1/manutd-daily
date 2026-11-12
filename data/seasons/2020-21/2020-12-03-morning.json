@@ -1,0 +1,45 @@
+{
+  "id": "2020-12-03-morning",
+  "date": "2020-12-03",
+  "period": "morning",
+  "issue_number": 134,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m585779",
+          "title": "曼联 1-3 巴黎圣日耳曼：2 球落败",
+          "summary": "欧冠，主场（老特拉福德）。这一季各项赛事第 16 场，10 胜 1 平 5 负。",
+          "body_html": "<p>2020/21 欧冠，主场（老特拉福德）对阵巴黎圣日耳曼，比分 1-3。</p><p>进球：6' Neymar（巴黎圣日耳曼）、32' Marcus Rashford（曼联）、69' Marquinhos（巴黎圣日耳曼）、90+1' Neymar（巴黎圣日耳曼）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/585779"
+            }
+          ],
+          "source_name": "欧冠 · 主场",
+          "published_at": "12-03 04:00",
+          "badge": "./media/badges/psg.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 16,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-12-03-ParisSaintGermain.jpg",
+    "alt": "曼联 1-3 巴黎圣日耳曼",
+    "width": 960,
+    "height": 540
+  }
+}

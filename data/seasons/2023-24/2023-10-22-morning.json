@@ -1,0 +1,45 @@
+{
+  "id": "2023-10-22-morning",
+  "date": "2023-10-22",
+  "period": "morning",
+  "issue_number": 305,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671119",
+          "title": "谢菲尔德联 1-2 曼联：一球小胜",
+          "summary": "英超，客场（Bramall Lane）。这一季各项赛事第 12 场，6 胜 0 平 6 负。",
+          "body_html": "<p>2023/24 英超，客场（Bramall Lane）对阵谢菲尔德联，比分 2-1。</p><p>进球：28' Scott McTominay（曼联）、34' Oliver McBurnie（谢菲尔德联，点球）、77' Diogo Dalot（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671119"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "10-22 03:00",
+          "badge": "./media/badges/sheffield-united.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 12 场里只有 3 场零封。"
+  },
+  "match_no": 12,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-10-22-SheffieldUnited.jpg",
+    "alt": "谢菲尔德联 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

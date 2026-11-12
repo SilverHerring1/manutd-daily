@@ -1,0 +1,45 @@
+{
+  "id": "2024-12-02-morning",
+  "date": "2024-12-02",
+  "period": "morning",
+  "issue_number": 366,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704407",
+          "title": "曼联 4-0 埃弗顿：零封，净胜 4 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 20 场，9 胜 7 平 4 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵埃弗顿，比分 4-0。</p><p>进球：34' Marcus Rashford（曼联）、41' Joshua Zirkzee（曼联）、46' Marcus Rashford（曼联）、64' Joshua Zirkzee（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704407"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-01 21:30",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "4 个进球，这一季到目前为止少见的一次。"
+  },
+  "match_no": 20,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-12-01-Everton.jpg",
+    "alt": "曼联 4-0 埃弗顿",
+    "width": 960,
+    "height": 540
+  }
+}

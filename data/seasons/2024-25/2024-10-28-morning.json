@@ -1,0 +1,45 @@
+{
+  "id": "2024-10-28-morning",
+  "date": "2024-10-28",
+  "period": "morning",
+  "issue_number": 359,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704366",
+          "title": "西汉姆联 2-1 曼联：一球之差",
+          "summary": "英超，客场（伦敦球场）。这一季各项赛事第 13 场，4 胜 5 平 4 负。",
+          "body_html": "<p>2024/25 英超，客场（伦敦球场）对阵西汉姆联，比分 1-2。</p><p>进球：74' Crysencio Summerville（西汉姆联）、81' Casemiro（曼联）、90+2' Jarrod Bowen（西汉姆联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704366"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "10-27 22:00",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 1 球，问题不在前场。"
+  },
+  "match_no": 13,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-10-27-WestHamUnited.jpg",
+    "alt": "西汉姆联 2-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

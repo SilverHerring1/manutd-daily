@@ -1,0 +1,45 @@
+{
+  "id": "2019-01-20-morning",
+  "date": "2019-01-20",
+  "period": "morning",
+  "issue_number": 32,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513610",
+          "title": "曼联 2-1 布莱顿：一球小胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 31 场，17 胜 7 平 7 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵布莱顿，比分 2-1。</p><p>进球：27' Paul Pogba（曼联，点球）、42' Marcus Rashford（曼联）、72' Pascal Gross（布莱顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513610"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "01-19 23:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "七连胜，主场赢得不轻松，但这场拿下了。"
+  },
+  "match_no": 31,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-01-19-BrightonHoveAlbion.jpg",
+    "alt": "曼联 2-1 布莱顿",
+    "width": 960,
+    "height": 540
+  }
+}

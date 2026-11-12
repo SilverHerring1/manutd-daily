@@ -1,0 +1,45 @@
+{
+  "id": "2020-11-08-morning",
+  "date": "2020-11-08",
+  "period": "morning",
+  "issue_number": 130,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578586",
+          "title": "埃弗顿 1-3 曼联：先丢球，翻盘",
+          "summary": "英超，客场（古迪逊公园）。这一季各项赛事第 12 场，7 胜 1 平 4 负。",
+          "body_html": "<p>2020/21 英超，客场（古迪逊公园）对阵埃弗顿，比分 3-1。</p><p>进球：19' Bernard（埃弗顿）、25' Bruno Fernandes（曼联）、32' Bruno Fernandes（曼联）、90+5' Edinson Cavani（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578586"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-07 20:30",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 12 场里只有 4 场零封。"
+  },
+  "match_no": 12,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-11-07-Everton.jpg",
+    "alt": "埃弗顿 1-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

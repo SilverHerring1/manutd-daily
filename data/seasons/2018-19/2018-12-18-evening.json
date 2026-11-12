@@ -1,0 +1,38 @@
+{
+  "id": "2018-12-18-evening",
+  "date": "2018-12-18",
+  "period": "evening",
+  "issue_number": 25,
+  "season": "2018/19",
+  "archive": true,
+  "kind": "news",
+  "title": "曼联晚报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "mourinho-out",
+          "title": "穆里尼奥下课，声明只有三句话",
+          "summary": "俱乐部公告：穆里尼奥即刻离任。离开时 17 轮联赛 26 分。",
+          "body_html": "<p>曼联在 12 月 18 日上午发布声明，宣布主教练穆里尼奥即刻离任。全文三句话：宣布离任、感谢他的工作、祝他未来顺利。</p><p>他离开时球队踢了 17 轮联赛，7 胜 5 平 5 负，26 分，进 29 球失 29 球。</p><p>声明没有提到接任者，也没有提到原因。</p>",
+          "sources": [
+            {
+              "text": "manutd.com 官方声明",
+              "url": "https://www.manutd.com/en/news/official-manchester-united-statement-on-jose-mourinho"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "12-18"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "17 轮 26 分，走人。声明三句话，没有解释。"
+  }
+}

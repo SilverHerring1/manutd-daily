@@ -1,0 +1,45 @@
+{
+  "id": "2025-04-18-morning",
+  "date": "2025-04-18",
+  "period": "morning",
+  "issue_number": 396,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m734499",
+          "title": "曼联 5-4 里昂：Harry Maguire 120+1' 绝杀",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 50 场，20 胜 15 平 15 负。",
+          "body_html": "<p>2024/25 欧联，主场（老特拉福德）对阵里昂，比分 5-4。</p><p>进球：10' Manuel Ugarte（曼联）、45+1' Diogo Dalot（曼联）、71' Corentin Tolisso（里昂）、77' Nicolás Tagliafico（里昂）、104' Rayan Cherki（里昂）、109' Alexandre Lacazette（里昂，点球）、114' Bruno Fernandes（曼联，点球）、120' Kobbie Mainoo（曼联）、120+1' Harry Maguire（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/734499"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "04-18 03:00",
+          "badge": "./media/badges/lyon.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 4 球 —— 这一季第 21 次单场丢两球以上。"
+  },
+  "match_no": 50,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-04-18-Lyon.jpg",
+    "alt": "曼联 5-4 里昂",
+    "width": 960,
+    "height": 540
+  }
+}

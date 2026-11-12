@@ -1,0 +1,45 @@
+{
+  "id": "2024-11-25-morning",
+  "date": "2024-11-25",
+  "period": "morning",
+  "issue_number": 364,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704389",
+          "title": "伊普斯维奇 1-1 曼联：被扳平",
+          "summary": "英超，客场（Portman Road）。这一季各项赛事第 18 场，7 胜 7 平 4 负。",
+          "body_html": "<p>2024/25 英超，客场（Portman Road）对阵伊普斯维奇，比分 1-1。</p><p>进球：2' Marcus Rashford（曼联）、43' Omari Hutchinson（伊普斯维奇）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704389"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-25 00:30",
+          "badge": "./media/badges/ipswichtown.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 18,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-11-25-IpswichTown.jpg",
+    "alt": "伊普斯维奇 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

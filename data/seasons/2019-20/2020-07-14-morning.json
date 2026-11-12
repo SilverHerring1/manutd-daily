@@ -1,0 +1,45 @@
+{
+  "id": "2020-07-14-morning",
+  "date": "2020-07-14",
+  "period": "morning",
+  "issue_number": 110,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541503",
+          "title": "曼联 2-2 南安普顿：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 54 场，29 胜 15 平 10 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵南安普顿，比分 2-2。</p><p>进球：12' Stuart Armstrong（南安普顿）、20' Marcus Rashford（曼联）、23' Anthony Martial（曼联）、90+6' Michael Obafemi（南安普顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541503"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "07-14 03:00",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 54,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-07-14-Southampton.jpg",
+    "alt": "曼联 2-2 南安普顿",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2021-09-20-morning",
+  "date": "2021-09-20",
+  "period": "morning",
+  "issue_number": 186,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605996",
+          "title": "西汉姆联 1-2 曼联：Jesse Lingard 89' 绝杀",
+          "summary": "英超，客场（伦敦球场）。这一季各项赛事第 6 场，4 胜 1 平 1 负。",
+          "body_html": "<p>2021/22 英超，客场（伦敦球场）对阵西汉姆联，比分 2-1。</p><p>进球：30' Saïd Benrahma（西汉姆联）、35' Cristiano Ronaldo（曼联）、89' Jesse Lingard（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605996"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "09-19 21:00",
+          "badge": "./media/badges/west-ham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 6 场里只有 1 场零封。"
+  },
+  "match_no": 6,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2021-09-19-WestHamUnited.jpg",
+    "alt": "西汉姆联 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

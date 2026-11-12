@@ -1,0 +1,45 @@
+{
+  "id": "2020-02-18-morning",
+  "date": "2020-02-18",
+  "period": "morning",
+  "issue_number": 96,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541590",
+          "title": "切尔西 0-2 曼联：零封取胜",
+          "summary": "英超，客场。这一季各项赛事第 40 场，19 胜 11 平 10 负。",
+          "body_html": "<p>2019/20 英超，客场对阵切尔西，比分 2-0。</p><p>进球：45' Anthony Martial（曼联）、66' Harry Maguire（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541590"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "02-18 04:00",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 19 胜，防线没给对手留东西。"
+  },
+  "match_no": 40,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-02-18-Chelsea.jpg",
+    "alt": "切尔西 0-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

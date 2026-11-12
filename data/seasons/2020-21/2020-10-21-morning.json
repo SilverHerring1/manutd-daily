@@ -1,0 +1,45 @@
+{
+  "id": "2020-10-21-morning",
+  "date": "2020-10-21",
+  "period": "morning",
+  "issue_number": 125,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m585851",
+          "title": "巴黎圣日耳曼 1-2 曼联：一球小胜",
+          "summary": "欧冠，客场（王子公园）。这一季各项赛事第 7 场，5 胜 0 平 2 负。",
+          "body_html": "<p>2020/21 欧冠，客场（王子公园）对阵巴黎圣日耳曼，比分 2-1。</p><p>进球：23' Bruno Fernandes（曼联，点球）、55' Anthony Martial（乌龙球，算给巴黎圣日耳曼）、87' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/585851"
+            }
+          ],
+          "source_name": "欧冠 · 客场",
+          "published_at": "10-21 03:00",
+          "badge": "./media/badges/psg.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 7 场里只有 2 场零封。"
+  },
+  "match_no": 7,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-10-21-ParisSaintGermain.jpg",
+    "alt": "巴黎圣日耳曼 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

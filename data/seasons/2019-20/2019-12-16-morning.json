@@ -1,0 +1,45 @@
+{
+  "id": "2019-12-16-morning",
+  "date": "2019-12-16",
+  "period": "morning",
+  "issue_number": 81,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541678",
+          "title": "曼联 1-1 埃弗顿：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 25 场，11 胜 9 平 5 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵埃弗顿，比分 1-1。</p><p>进球：36' Victor Lindelöf（乌龙球，算给埃弗顿）、77' Mason Greenwood（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541678"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-15 22:00",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "追平只换来一分，主场的进攻够用，防守不够用。"
+  },
+  "match_no": 25,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-12-15-Everton.jpg",
+    "alt": "曼联 1-1 埃弗顿",
+    "width": 960,
+    "height": 540
+  }
+}

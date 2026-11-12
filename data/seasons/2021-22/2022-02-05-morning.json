@@ -1,0 +1,39 @@
+{
+  "id": "2022-02-05-morning",
+  "date": "2022-02-05",
+  "period": "morning",
+  "issue_number": 211,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m627171",
+          "title": "曼联 1-1 米德尔斯堡：被扳平",
+          "summary": "足总杯，主场（老特拉福德）。这一季各项赛事第 31 场，15 胜 8 平 8 负。",
+          "body_html": "<p>2021/22 足总杯，主场（老特拉福德）对阵米德尔斯堡，比分 1-1。</p><p>进球：25' Jadon Sancho（曼联）、64' Matt Crooks（米德尔斯堡）。</p><p>足总杯九十分钟打平，按赛制需要重赛。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/627171"
+            }
+          ],
+          "source_name": "足总杯 · 主场",
+          "published_at": "02-05 04:00",
+          "badge": "./media/badges/middlesbrough.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "九十分钟没分出胜负，按赛制要重赛。"
+  },
+  "match_no": 31
+}

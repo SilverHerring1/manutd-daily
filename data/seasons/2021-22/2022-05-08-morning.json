@@ -1,0 +1,45 @@
+{
+  "id": "2022-05-08-morning",
+  "date": "2022-05-08",
+  "period": "morning",
+  "issue_number": 228,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605682",
+          "title": "布莱顿 4-0 曼联：净负 4 球",
+          "summary": "英超，客场（美国运通球场）。这一季各项赛事第 48 场，20 胜 14 平 14 负。",
+          "body_html": "<p>2021/22 英超，客场（美国运通球场）对阵布莱顿，比分 0-4。</p><p>进球：15' Moisés Caicedo（布莱顿）、49' Marc Cucurella（布莱顿）、57' Pascal Gross（布莱顿）、60' Leandro Trossard（布莱顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605682"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-08 00:30",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，比分已经把问题写清楚了。"
+  },
+  "match_no": 48,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-05-08-BrightonHoveAlbion.jpg",
+    "alt": "布莱顿 4-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2023-11-30-morning",
+  "date": "2023-11-30",
+  "period": "morning",
+  "issue_number": 313,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m687609",
+          "title": "加拉塔萨雷 3-3 曼联：被扳平",
+          "summary": "欧冠，客场（RAMS Park）。这一季各项赛事第 20 场，10 胜 1 平 9 负。",
+          "body_html": "<p>2023/24 欧冠，客场（RAMS Park）对阵加拉塔萨雷，比分 3-3。</p><p>进球：11' Alejandro Garnacho（曼联）、18' Bruno Fernandes（曼联）、29' Hakim Ziyech（加拉塔萨雷）、55' Scott McTominay（曼联）、62' Hakim Ziyech（加拉塔萨雷）、71' Kerem Aktürkoglu（加拉塔萨雷）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/687609"
+            }
+          ],
+          "source_name": "欧冠 · 客场",
+          "published_at": "11-30 01:45",
+          "badge": "./media/badges/galatasaray.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 20,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-11-30-Galatasaray.jpg",
+    "alt": "加拉塔萨雷 3-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

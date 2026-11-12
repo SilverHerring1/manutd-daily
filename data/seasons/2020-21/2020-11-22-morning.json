@@ -1,0 +1,45 @@
+{
+  "id": "2020-11-22-morning",
+  "date": "2020-11-22",
+  "period": "morning",
+  "issue_number": 131,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578579",
+          "title": "曼联 1-0 西布罗姆维奇：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 13 场，8 胜 1 平 4 负。",
+          "body_html": "<p>2020/21 英超，主场（老特拉福德）对阵西布罗姆维奇，比分 1-0。</p><p>进球：56' Bruno Fernandes（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578579"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "11-22 04:00",
+          "badge": "./media/badges/west-brom.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 5 场不丢球。"
+  },
+  "match_no": 13,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-11-22-WestBromwichAlbion.jpg",
+    "alt": "曼联 1-0 西布罗姆维奇",
+    "width": 960,
+    "height": 540
+  }
+}

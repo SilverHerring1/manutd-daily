@@ -1,0 +1,45 @@
+{
+  "id": "2018-12-09-morning",
+  "date": "2018-12-09",
+  "period": "morning",
+  "issue_number": 22,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513682",
+          "title": "曼联 4-1 富勒姆：净胜 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 22 场，10 胜 7 平 5 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵富勒姆，比分 4-1。</p><p>进球：13' Ashley Young（曼联）、28' Juan Mata（曼联）、42' Romelu Lukaku（曼联）、67' Aboubakar Kamara（富勒姆，点球）、82' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513682"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-08 23:00",
+          "badge": "./media/badges/fulham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场赢 3 球，这一季到目前为止赢得最多的一场。"
+  },
+  "match_no": 22,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2018-12-08-Fulham.jpg",
+    "alt": "曼联 4-1 富勒姆",
+    "width": 960,
+    "height": 540
+  }
+}

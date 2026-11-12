@@ -1,0 +1,45 @@
+{
+  "id": "2024-02-25-morning",
+  "date": "2024-02-25",
+  "period": "morning",
+  "issue_number": 329,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671290",
+          "title": "曼联 1-2 富勒姆：一球之差",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 36 场，18 胜 3 平 15 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵富勒姆，比分 1-2。</p><p>进球：65' Calvin Bassey（富勒姆）、89' Harry Maguire（曼联）、90+7' Alex Iwobi（富勒姆）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671290"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "02-24 23:00",
+          "badge": "./media/badges/fulham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 1 球，问题不在前场。"
+  },
+  "match_no": 36,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-02-24-Fulham.jpg",
+    "alt": "曼联 1-2 富勒姆",
+    "width": 960,
+    "height": 540
+  }
+}

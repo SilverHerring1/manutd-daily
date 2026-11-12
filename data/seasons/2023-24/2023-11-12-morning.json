@@ -1,0 +1,45 @@
+{
+  "id": "2023-11-12-morning",
+  "date": "2023-11-12",
+  "period": "morning",
+  "issue_number": 311,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671142",
+          "title": "曼联 1-0 卢顿：零封取胜",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 18 场，9 胜 0 平 9 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵卢顿，比分 1-0。</p><p>进球：59' Victor Lindelöf（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671142"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "11-11 23:00",
+          "badge": "./media/badges/luton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 9 胜，防线没给对手留东西。"
+  },
+  "match_no": 18,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-11-11-LutonTown.jpg",
+    "alt": "曼联 1-0 卢顿",
+    "width": 960,
+    "height": 540
+  }
+}

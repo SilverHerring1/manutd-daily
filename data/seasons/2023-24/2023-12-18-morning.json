@@ -1,0 +1,45 @@
+{
+  "id": "2023-12-18-morning",
+  "date": "2023-12-18",
+  "period": "morning",
+  "issue_number": 318,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671195",
+          "title": "利物浦 0-0 曼联：互交白卷",
+          "summary": "英超，客场（安菲尔德）。这一季各项赛事第 25 场，11 胜 2 平 12 负。",
+          "body_html": "<p>2023/24 英超，客场（安菲尔德）对阵利物浦，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671195"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "12-18 00:30",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 8 次。"
+  },
+  "match_no": 25,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-12-18-Liverpool.jpg",
+    "alt": "利物浦 0-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

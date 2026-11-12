@@ -1,0 +1,45 @@
+{
+  "id": "2019-04-25-morning",
+  "date": "2019-04-25",
+  "period": "morning",
+  "issue_number": 52,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513537",
+          "title": "曼联 0-2 曼城：2 球落败",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 50 场，26 胜 9 平 15 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵曼城，比分 0-2。</p><p>进球：54' Bernardo Silva（曼城）、66' Leroy Sané（曼城）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513537"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-25 03:00",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 11 次。"
+  },
+  "match_no": 50,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-25-ManchesterCity.jpg",
+    "alt": "曼联 0-2 曼城",
+    "width": 960,
+    "height": 540
+  }
+}

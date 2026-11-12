@@ -1,0 +1,45 @@
+{
+  "id": "2019-11-11-morning",
+  "date": "2019-11-11",
+  "period": "morning",
+  "issue_number": 74,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541728",
+          "title": "曼联 3-1 布莱顿：净胜 2 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 18 场，8 胜 6 平 4 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵布莱顿，比分 3-1。</p><p>进球：17' Andreas Pereira（曼联）、19' Scott McTominay（曼联）、64' Lewis Dunk（布莱顿）、66' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541728"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "11-10 22:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 18 场里只有 6 场零封。"
+  },
+  "match_no": 18,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-11-10-BrightonHoveAlbion.jpg",
+    "alt": "曼联 3-1 布莱顿",
+    "width": 960,
+    "height": 540
+  }
+}

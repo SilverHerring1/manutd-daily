@@ -1,0 +1,45 @@
+{
+  "id": "2022-04-03-morning",
+  "date": "2022-04-03",
+  "period": "morning",
+  "issue_number": 221,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605733",
+          "title": "曼联 1-1 莱斯特城：先丢球，追成平局",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 41 场，18 胜 13 平 10 负。",
+          "body_html": "<p>2021/22 英超，主场（老特拉福德）对阵莱斯特城，比分 1-1。</p><p>进球：63' Kelechi Iheanacho（莱斯特城）、66' Fred（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605733"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-03 00:30",
+          "badge": "./media/badges/leicester.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 41,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-04-03-LeicesterCity.jpg",
+    "alt": "曼联 1-1 莱斯特城",
+    "width": 960,
+    "height": 540
+  }
+}

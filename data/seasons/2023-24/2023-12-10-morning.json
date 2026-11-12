@@ -1,0 +1,45 @@
+{
+  "id": "2023-12-10-morning",
+  "date": "2023-12-10",
+  "period": "morning",
+  "issue_number": 316,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671184",
+          "title": "曼联 0-3 伯恩茅斯：净负 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 23 场，11 胜 1 平 11 负。",
+          "body_html": "<p>2023/24 英超，主场（老特拉福德）对阵伯恩茅斯，比分 0-3。</p><p>进球：5' Dominic Solanke（伯恩茅斯）、68' Philip Billing（伯恩茅斯）、73' Marcos Senesi（伯恩茅斯）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671184"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "12-09 23:00",
+          "badge": "./media/badges/bournemouth.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场丢 3 球，这一季最难看的比分。"
+  },
+  "match_no": 23,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-12-09-AFCBournemouth.jpg",
+    "alt": "曼联 0-3 伯恩茅斯",
+    "width": 960,
+    "height": 540
+  }
+}

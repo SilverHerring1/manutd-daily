@@ -1,0 +1,15 @@
+# 本地/中间产物，不进仓库
+tmp/
+_site/
+*.bak
+*.log
+
+# 早期对比用的三种编法（已决定只用日报，留着本地参考）
+data-weekly/
+data-deep/
+data-magazine/
+
+# 编辑器/系统
+.vscode/
+.DS_Store
+Thumbs.db

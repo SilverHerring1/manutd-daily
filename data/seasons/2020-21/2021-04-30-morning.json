@@ -1,0 +1,39 @@
+{
+  "id": "2021-04-30-morning",
+  "date": "2021-04-30",
+  "period": "morning",
+  "issue_number": 172,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m600806",
+          "title": "曼联 6-2 罗马：净胜 4 球",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 54 场，33 胜 12 平 9 负。",
+          "body_html": "<p>2020/21 欧联，主场（老特拉福德）对阵罗马，比分 6-2。</p><p>进球：9' Bruno Fernandes（曼联）、15' Lorenzo Pellegrini（罗马，点球）、33' Edin Dzeko（罗马）、48' Edinson Cavani（曼联）、64' Edinson Cavani（曼联）、71' Bruno Fernandes（曼联，点球）、75' Paul Pogba（曼联）、86' Mason Greenwood（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/600806"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "04-30 03:00",
+          "badge": "./media/badges/roma.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场赢 4 球，进攻端这场没浪费机会。"
+  },
+  "match_no": 54
+}

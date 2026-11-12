@@ -1,0 +1,45 @@
+{
+  "id": "2024-09-02-morning",
+  "date": "2024-09-02",
+  "period": "morning",
+  "issue_number": 349,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704305",
+          "title": "曼联 0-3 利物浦：净负 3 球",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 3 场，1 胜 0 平 2 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵利物浦，比分 0-3。</p><p>进球：35' Luis Díaz（利物浦）、42' Luis Díaz（利物浦）、56' Mohamed Salah（利物浦）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704305"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "09-01 23:00",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "3 个丢球，这一季到目前为止最差的一场。"
+  },
+  "match_no": 3,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-09-01-Liverpool.jpg",
+    "alt": "曼联 0-3 利物浦",
+    "width": 960,
+    "height": 540
+  }
+}

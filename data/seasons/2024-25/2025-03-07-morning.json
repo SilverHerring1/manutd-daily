@@ -1,0 +1,45 @@
+{
+  "id": "2025-03-07-morning",
+  "date": "2025-03-07",
+  "period": "morning",
+  "issue_number": 388,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m733625",
+          "title": "皇家社会 1-1 曼联：被扳平",
+          "summary": "欧联，客场（Estadio Municipal de Anoeta）。这一季各项赛事第 42 场，17 胜 12 平 13 负。",
+          "body_html": "<p>2024/25 欧联，客场（Estadio Municipal de Anoeta）对阵皇家社会，比分 1-1。</p><p>进球：57' Joshua Zirkzee（曼联）、70' Mikel Oyarzabal（皇家社会，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/733625"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "03-07 01:45",
+          "badge": "./media/badges/real-sociedad.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 42,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-03-07-RealSociedad.jpg",
+    "alt": "皇家社会 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

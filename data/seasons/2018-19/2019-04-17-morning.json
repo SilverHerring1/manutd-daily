@@ -1,0 +1,47 @@
+{
+  "id": "2019-04-17-morning",
+  "date": "2019-04-17",
+  "period": "morning",
+  "issue_number": 50,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m538697",
+          "title": "巴塞罗那 3-0 曼联：净负 3 球",
+          "summary": "欧冠，客场（诺坎普）。这一季各项赛事第 48 场，26 胜 9 平 13 负。",
+          "body_html": "<p>2018/19 欧冠，客场（诺坎普）对阵巴塞罗那，比分 0-3。</p><p>进球：16' Lionel Messi（巴塞罗那）、20' Lionel Messi（巴塞罗那）、61' Philippe Coutinho（巴塞罗那）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/538697"
+            }
+          ],
+          "source_name": "欧冠 · 客场",
+          "published_at": "04-17 03:00",
+          "badge": "./media/badges/barcelona.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "懂球帝热评",
+    "body": "一场比赛下来，我们和对手至少差了五六个位置。",
+    "credit": "曼彻斯特联足球总监范德萨",
+    "url": "https://m.dongqiudi.com/article/947314.html"
+  },
+  "match_no": 48,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-04-17-Barcelona.jpg",
+    "alt": "巴塞罗那 3-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

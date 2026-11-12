@@ -1,0 +1,45 @@
+{
+  "id": "2023-01-23-morning",
+  "date": "2023-01-23",
+  "period": "morning",
+  "issue_number": 260,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638019",
+          "title": "阿森纳 3-2 曼联：一球之差",
+          "summary": "英超，客场（酋长球场）。这一季各项赛事第 30 场，21 胜 3 平 6 负。",
+          "body_html": "<p>2022/23 英超，客场（酋长球场）对阵阿森纳，比分 2-3。</p><p>进球：17' Marcus Rashford（曼联）、24' Eddie Nketiah（阿森纳）、53' Bukayo Saka（阿森纳）、59' Lisandro Martínez（曼联）、90' Eddie Nketiah（阿森纳）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638019"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "01-23 00:30",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 30,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-01-23-Arsenal.jpg",
+    "alt": "阿森纳 3-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2024-11-08-morning",
+  "date": "2024-11-08",
+  "period": "morning",
+  "issue_number": 362,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m720575",
+          "title": "曼联 2-0 塞萨洛尼基：零封取胜",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 16 场，6 胜 6 平 4 负。",
+          "body_html": "<p>2024/25 欧联，主场（老特拉福德）对阵塞萨洛尼基，比分 2-0。</p><p>进球：50' Amad Diallo（曼联）、77' Amad Diallo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/720575"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "11-08 04:00",
+          "badge": "./media/badges/paok.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "主场零封，这一季第 6 场不丢球。"
+  },
+  "match_no": 16,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-11-08-PAOK.jpg",
+    "alt": "曼联 2-0 塞萨洛尼基",
+    "width": 960,
+    "height": 540
+  }
+}

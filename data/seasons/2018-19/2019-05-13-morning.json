@@ -1,0 +1,45 @@
+{
+  "id": "2019-05-13-morning",
+  "date": "2019-05-13",
+  "period": "morning",
+  "issue_number": 55,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513462",
+          "title": "曼联 0-2 加的夫城：2 球落败",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 53 场，26 胜 11 平 16 负。",
+          "body_html": "<p>2018/19 英超，主场（老特拉福德）对阵加的夫城，比分 0-2。</p><p>进球：23' Nathaniel Mendez-Laing（加的夫城，点球）、54' Nathaniel Mendez-Laing（加的夫城）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513462"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "05-12 22:00",
+          "badge": "./media/badges/cardiff.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球未进，这一季第 12 次被零封。"
+  },
+  "match_no": 53,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-05-12-CardiffCity.jpg",
+    "alt": "曼联 0-2 加的夫城",
+    "width": 960,
+    "height": 540
+  }
+}

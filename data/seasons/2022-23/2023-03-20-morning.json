@@ -1,0 +1,45 @@
+{
+  "id": "2023-03-20-morning",
+  "date": "2023-03-20",
+  "period": "morning",
+  "issue_number": 276,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m666826",
+          "title": "曼联 3-1 富勒姆：先丢球，翻盘",
+          "summary": "足总杯，主场（老特拉福德）。这一季各项赛事第 46 场，33 胜 6 平 7 负。",
+          "body_html": "<p>2022/23 足总杯，主场（老特拉福德）对阵富勒姆，比分 3-1。</p><p>进球：50' Aleksandar Mitrovic（富勒姆）、75' Bruno Fernandes（曼联，点球）、77' Marcel Sabitzer（曼联）、90+6' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/666826"
+            }
+          ],
+          "source_name": "足总杯 · 主场",
+          "published_at": "03-20 00:30",
+          "badge": "./media/badges/fulham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 46 场里只有 21 场零封。"
+  },
+  "match_no": 46,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-03-20-Fulham.jpg",
+    "alt": "曼联 3-1 富勒姆",
+    "width": 960,
+    "height": 540
+  }
+}

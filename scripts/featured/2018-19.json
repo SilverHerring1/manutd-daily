@@ -1,0 +1,114 @@
+{
+  "season": "2018/19",
+  "_note": "人工编辑层：挂到某一场那期上的配图、热评、追加条目。生成器只读不写，重跑不会被冲掉。日期用期次的 date（赛后次日），不是比赛日。",
+  "cups": [
+    {
+      "name": "欧冠",
+      "rounds": [
+        { "name": "小组赛", "group": true, "dates": ["2018-09-20", "2018-10-03", "2018-10-24", "2018-11-08", "2018-11-28", "2018-12-13"] },
+        { "name": "16 强", "dates": ["2019-02-13", "2019-03-07"], "note": "客场进球晋级" },
+        { "name": "8 强", "dates": ["2019-04-11", "2019-04-17"] }
+      ]
+    },
+    {
+      "name": "联赛杯",
+      "rounds": [{ "name": "第 3 轮", "dates": ["2018-09-26"], "note": "点球出局" }]
+    },
+    {
+      "name": "足总杯",
+      "rounds": [
+        { "name": "第 3 轮", "dates": ["2019-01-05"] },
+        { "name": "第 4 轮", "dates": ["2019-01-26"] },
+        { "name": "第 5 轮", "dates": ["2019-02-19"] },
+        { "name": "8 强", "dates": ["2019-03-17"] }
+      ]
+    }
+  ],
+  "seasonSummary": {
+    "date": "2019-05-14",
+    "note": { "title": "编辑短评", "body": "53 场，26 胜 11 平 16 负，联赛第 6。这支队伍下赛季欧冠见不到了。" }
+  },
+  "newsIssues": [
+    {
+      "date": "2018-12-18",
+      "period": "evening",
+      "title": "曼联晚报",
+      "section": "场外要闻",
+      "items": [
+        {
+          "id": "mourinho-out",
+          "title": "穆里尼奥下课，声明只有三句话",
+          "summary": "俱乐部公告：穆里尼奥即刻离任。离开时 17 轮联赛 26 分。",
+          "body_html": "<p>曼联在 12 月 18 日上午发布声明，宣布主教练穆里尼奥即刻离任。全文三句话：宣布离任、感谢他的工作、祝他未来顺利。</p><p>他离开时球队踢了 17 轮联赛，7 胜 5 平 5 负，26 分，进 29 球失 29 球。</p><p>声明没有提到接任者，也没有提到原因。</p>",
+          "sources": [
+            { "text": "manutd.com 官方声明", "url": "https://www.manutd.com/en/news/official-manchester-united-statement-on-jose-mourinho" }
+          ],
+          "source_name": "场外",
+          "published_at": "12-18"
+        }
+      ],
+      "note": { "title": "编辑短评", "body": "17 轮 26 分，走人。声明三句话，没有解释。" }
+    },
+    {
+      "date": "2019-03-28",
+      "period": "evening",
+      "title": "曼联晚报",
+      "section": "场外要闻",
+      "items": [
+        {
+          "id": "solskjaer-permanent",
+          "title": "索尔斯克亚转正，三年合同",
+          "summary": "从 12 月的临时主帅，到带满 19 场赢下 14 场，签下三年合同。",
+          "body_html": "<p>俱乐部宣布，索尔斯克亚签下三年合同，正式成为主教练。</p><p>他 12 月接手时是临时身份，带队的 19 场里赢了 14 场。</p><p>接下来是欧冠 8 强对巴塞罗那。</p>",
+          "sources": [
+            { "text": "manutd.com 官方公告", "url": "https://www.manutd.com/en/news/manchester-united-announces-ole-gunnar-solskjaer-as-full-time-manager" }
+          ],
+          "source_name": "场外",
+          "published_at": "03-28"
+        }
+      ],
+      "note": { "title": "编辑短评", "body": "19 场 14 胜换来三年合同。真正的考验在 4 月。" }
+    }
+  ],
+  "issues": {
+    "2019-04-17": {
+      "note": {
+        "title": "懂球帝热评",
+        "body": "一场比赛下来，我们和对手至少差了五六个位置。",
+        "credit": "曼彻斯特联足球总监范德萨",
+        "url": "https://m.dongqiudi.com/article/947314.html"
+      }
+    },
+    "2019-03-07": {
+      "note": {
+        "title": "懂球帝热评",
+        "body": "17 年，巴萨告诉巴黎什么是技术；18 年，皇马告诉巴黎什么是巨星；19 年，曼联告诉巴黎什么是精神。",
+        "credit": "众人皆醉唯我独醒丶",
+        "url": "https://m.dongqiudi.com/article/923635.html"
+      },
+      "items": [
+        {
+          "section": "场边",
+          "id": "greenwood-debut",
+          "title": "格林伍德欧冠首秀，球衣上的号码是借巴黎的印字印的",
+          "summary": "球衣组没料到他会踢，号码是赛前在王子公园借东道主的机器现印的 —— 字体和号码里的徽都是巴黎的。",
+          "body_html": "<p>格林伍德第 87 分钟替补登场，这是他第一次代表一线队出场，17 岁 156 天。</p><p>那件球衣有问题：号码用的是<strong>巴黎的字模</strong>，连号码里嵌的徽都是巴黎的。球衣组没准备他会出场，赛前只能在王子公园借东道主的机器临时印上。</p><p>球衣号码是 54。</p>",
+          "sources": [
+            { "text": "SoccerBible", "url": "https://www.soccerbible.com/news/2019/03/mason-greenwood-wore-psg-font-against-psg/" },
+            { "text": "Footy Headlines", "url": "https://www.footyheadlines.com/2019/03/crazy-man-united-uses-psg-font-for-younster-againts-psg.html" }
+          ],
+          "source_name": "场边",
+          "published_at": "03-07",
+          "images": [
+            {
+              "src": "./media/greenwood-psg.jpg",
+              "alt": "格林伍德在王子公园庆祝，粉色客场球衣，背后号码用巴黎的字体",
+              "width": 1200,
+              "height": 630
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2026-05-25-morning",
+  "date": "2026-05-25",
+  "period": "morning",
+  "issue_number": 446,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740966",
+          "title": "布莱顿 0-3 曼联：零封，净胜 3 球",
+          "summary": "英超，客场（美国运通球场）。这一季各项赛事第 40 场，20 胜 12 平 8 负。",
+          "body_html": "<p>2025/26 英超，客场（美国运通球场）对阵布莱顿，比分 3-0。</p><p>进球：33' Patrick Dorgu（曼联）、44' Bryan Mbeumo（曼联）、48' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740966"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-24 23:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场赢 3 球，这一季到目前为止赢得最多的一场。"
+  },
+  "match_no": 40,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2026-05-24-BrightonHoveAlbion.jpg",
+    "alt": "布莱顿 0-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

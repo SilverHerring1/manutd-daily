@@ -1,0 +1,45 @@
+{
+  "id": "2024-12-13-morning",
+  "date": "2024-12-13",
+  "period": "morning",
+  "issue_number": 369,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m720607",
+          "title": "比尔森胜利 1-2 曼联：Rasmus Højlund 88' 绝杀",
+          "summary": "欧联，客场（Doosan Arena）。这一季各项赛事第 23 场，10 胜 7 平 6 负。",
+          "body_html": "<p>2024/25 欧联，客场（Doosan Arena）对阵比尔森胜利，比分 2-1。</p><p>进球：48' Matej Vydra（比尔森胜利）、62' Rasmus Højlund（曼联）、88' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/720607"
+            }
+          ],
+          "source_name": "欧联 · 客场",
+          "published_at": "12-13 01:45",
+          "badge": "./media/badges/plzen.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 23 场里只有 8 场零封。"
+  },
+  "match_no": 23,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-12-13-ViktoriaPlzen.jpg",
+    "alt": "比尔森胜利 1-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

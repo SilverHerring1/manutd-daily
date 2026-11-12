@@ -1,0 +1,45 @@
+{
+  "id": "2025-01-24-morning",
+  "date": "2025-01-24",
+  "period": "morning",
+  "issue_number": 379,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m720483",
+          "title": "曼联 2-1 流浪者：Bruno Fernandes 90+2' 绝杀",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 33 场，13 胜 9 平 11 负。",
+          "body_html": "<p>2024/25 欧联，主场（老特拉福德）对阵流浪者，比分 2-1。</p><p>进球：52' Jack Butland（乌龙球，算给曼联）、88' Cyriel Dessers（流浪者）、90+2' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/720483"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "01-24 04:00",
+          "badge": "./media/badges/rangers.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 33 场里只有 8 场零封。"
+  },
+  "match_no": 33,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-01-24-Rangers.jpg",
+    "alt": "曼联 2-1 流浪者",
+    "width": 960,
+    "height": 540
+  }
+}

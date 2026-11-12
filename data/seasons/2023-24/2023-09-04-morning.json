@@ -1,0 +1,45 @@
+{
+  "id": "2023-09-04-morning",
+  "date": "2023-09-04",
+  "period": "morning",
+  "issue_number": 297,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m671065",
+          "title": "阿森纳 3-1 曼联：2 球落败",
+          "summary": "英超，客场（酋长球场）。这一季各项赛事第 4 场，2 胜 0 平 2 负。",
+          "body_html": "<p>2023/24 英超，客场（酋长球场）对阵阿森纳，比分 1-3。</p><p>进球：27' Marcus Rashford（曼联）、28' Martin Ødegaard（阿森纳）、90+6' Declan Rice（阿森纳）、90+11' Gabriel Jesus（阿森纳）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/671065"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "09-03 23:30",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球之差，进球拿到了，分数没拿到。"
+  },
+  "match_no": 4,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2023-09-03-Arsenal.jpg",
+    "alt": "阿森纳 3-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

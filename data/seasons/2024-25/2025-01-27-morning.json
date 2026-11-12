@@ -1,0 +1,45 @@
+{
+  "id": "2025-01-27-morning",
+  "date": "2025-01-27",
+  "period": "morning",
+  "issue_number": 380,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704503",
+          "title": "富勒姆 0-1 曼联：零封取胜",
+          "summary": "英超，客场（克拉文农场）。这一季各项赛事第 34 场，14 胜 9 平 11 负。",
+          "body_html": "<p>2024/25 英超，客场（克拉文农场）对阵富勒姆，比分 1-0。</p><p>进球：78' Lisandro Martínez（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704503"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "01-27 03:00",
+          "badge": "./media/badges/fulham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 9 场不丢球。"
+  },
+  "match_no": 34,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-01-27-Fulham.jpg",
+    "alt": "富勒姆 0-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

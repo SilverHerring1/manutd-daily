@@ -1,0 +1,45 @@
+{
+  "id": "2026-05-10-morning",
+  "date": "2026-05-10",
+  "period": "morning",
+  "issue_number": 444,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740953",
+          "title": "桑德兰 0-0 曼联：互交白卷",
+          "summary": "英超，客场（Stadium of Light）。这一季各项赛事第 38 场，18 胜 12 平 8 负。",
+          "body_html": "<p>2025/26 英超，客场（Stadium of Light）对阵桑德兰，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740953"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-09 22:00",
+          "badge": "./media/badges/sunderland.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "没有进球的平局，这一季第 4 次。"
+  },
+  "match_no": 38,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2026-05-09-Sunderland.jpg",
+    "alt": "桑德兰 0-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

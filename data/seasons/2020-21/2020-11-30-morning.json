@@ -1,0 +1,45 @@
+{
+  "id": "2020-11-30-morning",
+  "date": "2020-11-30",
+  "period": "morning",
+  "issue_number": 133,
+  "season": "2020/21",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m578566",
+          "title": "南安普顿 2-3 曼联：Edinson Cavani 90+2' 绝杀",
+          "summary": "英超，客场（圣玛丽球场）。这一季各项赛事第 15 场，10 胜 1 平 4 负。",
+          "body_html": "<p>2020/21 英超，客场（圣玛丽球场）对阵南安普顿，比分 3-2。</p><p>进球：23' Jan Bednarek（南安普顿）、33' James Ward-Prowse（南安普顿）、60' Bruno Fernandes（曼联）、74' Edinson Cavani（曼联）、90+2' Edinson Cavani（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/578566"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "11-29 22:00",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "四连胜，客场赢得不轻松，但这场拿下了。"
+  },
+  "match_no": 15,
+  "hero": {
+    "src": "./media/archive/2020-21/archive-2020-11-29-Southampton.jpg",
+    "alt": "南安普顿 2-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

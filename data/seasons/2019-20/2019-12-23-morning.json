@@ -1,0 +1,45 @@
+{
+  "id": "2019-12-23-morning",
+  "date": "2019-12-23",
+  "period": "morning",
+  "issue_number": 83,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541671",
+          "title": "沃特福德 2-0 曼联：2 球落败",
+          "summary": "英超，客场（维卡拉奇路）。这一季各项赛事第 27 场，12 胜 9 平 6 负。",
+          "body_html": "<p>2019/20 英超，客场（维卡拉奇路）对阵沃特福德，比分 0-2。</p><p>进球：50' Ismaïla Sarr（沃特福德）、54' Troy Deeney（沃特福德，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541671"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "12-22 22:00",
+          "badge": "./media/badges/watford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 5 次。"
+  },
+  "match_no": 27,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2019-12-22-Watford.jpg",
+    "alt": "沃特福德 2-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

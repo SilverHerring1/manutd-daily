@@ -1,0 +1,45 @@
+{
+  "id": "2024-10-20-morning",
+  "date": "2024-10-20",
+  "period": "morning",
+  "issue_number": 357,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704352",
+          "title": "曼联 2-1 布伦特福德：先丢球，翻盘",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 11 场，4 胜 4 平 3 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵布伦特福德，比分 2-1。</p><p>进球：45+5' Ethan Pinnock（布伦特福德）、47' Alejandro Garnacho（曼联）、62' Rasmus Højlund（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704352"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "10-19 22:00",
+          "badge": "./media/badges/brentford.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "三分到手，只是没能零封；这一季 11 场里只有 5 场零封。"
+  },
+  "match_no": 11,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2024-10-19-Brentford.jpg",
+    "alt": "曼联 2-1 布伦特福德",
+    "width": 960,
+    "height": 540
+  }
+}

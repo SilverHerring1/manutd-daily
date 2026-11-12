@@ -1,0 +1,45 @@
+{
+  "id": "2020-06-20-morning",
+  "date": "2020-06-20",
+  "period": "morning",
+  "issue_number": 104,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541551",
+          "title": "托特纳姆热刺 1-1 曼联：先丢球，追成平局",
+          "summary": "英超，客场（Tottenham Hotspur Stadium）。这一季各项赛事第 48 场，24 胜 14 平 10 负。",
+          "body_html": "<p>2019/20 英超，客场（Tottenham Hotspur Stadium）对阵托特纳姆热刺，比分 1-1。</p><p>进球：27' Steven Bergwijn（托特纳姆热刺）、81' Bruno Fernandes（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541551"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "06-20 03:15",
+          "badge": "./media/badges/tottenham.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 48,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-06-20-TottenhamHotspur.jpg",
+    "alt": "托特纳姆热刺 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

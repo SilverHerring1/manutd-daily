@@ -1,0 +1,45 @@
+{
+  "id": "2026-04-19-morning",
+  "date": "2026-04-19",
+  "period": "morning",
+  "issue_number": 441,
+  "season": "2025/26",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m740922",
+          "title": "切尔西 0-1 曼联：零封取胜",
+          "summary": "英超，客场（斯坦福桥）。这一季各项赛事第 35 场，16 胜 11 平 8 负。",
+          "body_html": "<p>2025/26 英超，客场（斯坦福桥）对阵切尔西，比分 1-0。</p><p>进球：43' Matheus Cunha（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/740922"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-19 03:00",
+          "badge": "./media/badges/chelsea.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场零封，这一季第 16 胜，防线没给对手留东西。"
+  },
+  "match_no": 35,
+  "hero": {
+    "src": "./media/archive/2025-26/archive-2026-04-19-Chelsea.jpg",
+    "alt": "切尔西 0-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

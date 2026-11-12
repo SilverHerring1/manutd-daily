@@ -1,0 +1,45 @@
+{
+  "id": "2023-02-24-morning",
+  "date": "2023-02-24",
+  "period": "morning",
+  "issue_number": 269,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m656892",
+          "title": "曼联 2-1 巴塞罗那：先丢球，翻盘",
+          "summary": "欧联，主场（老特拉福德）。这一季各项赛事第 39 场，28 胜 5 平 6 负。",
+          "body_html": "<p>2022/23 欧联，主场（老特拉福德）对阵巴塞罗那，比分 2-1。</p><p>进球：18' Robert Lewandowski（巴塞罗那，点球）、47' Fred（曼联）、73' Antony（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/656892"
+            }
+          ],
+          "source_name": "欧联 · 主场",
+          "published_at": "02-24 04:00",
+          "badge": "./media/badges/barcelona.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，只是没能零封；这一季 39 场里只有 18 场零封。"
+  },
+  "match_no": 39,
+  "hero": {
+    "src": "./media/archive/2022-23/archive-2023-02-24-Barcelona.jpg",
+    "alt": "曼联 2-1 巴塞罗那",
+    "width": 960,
+    "height": 540
+  }
+}

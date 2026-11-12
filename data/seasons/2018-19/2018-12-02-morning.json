@@ -1,0 +1,45 @@
+{
+  "id": "2018-12-02-morning",
+  "date": "2018-12-02",
+  "period": "morning",
+  "issue_number": 20,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513705",
+          "title": "南安普顿 2-2 曼联：先丢球，追成平局",
+          "summary": "英超，客场（圣玛丽球场）。这一季各项赛事第 20 场，9 胜 6 平 5 负。",
+          "body_html": "<p>2018/19 英超，客场（圣玛丽球场）对阵南安普顿，比分 2-2。</p><p>进球：13' Stuart Armstrong（南安普顿）、20' Cédric（南安普顿）、33' Romelu Lukaku（曼联）、39' Ander Herrera（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513705"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "12-02 01:30",
+          "badge": "./media/badges/southampton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 20,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2018-12-02-Southampton.jpg",
+    "alt": "南安普顿 2-2 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

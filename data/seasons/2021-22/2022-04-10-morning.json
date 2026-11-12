@@ -1,0 +1,45 @@
+{
+  "id": "2022-04-10-morning",
+  "date": "2022-04-10",
+  "period": "morning",
+  "issue_number": 222,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605725",
+          "title": "埃弗顿 1-0 曼联：一球之差",
+          "summary": "英超，客场（古迪逊公园）。这一季各项赛事第 42 场，18 胜 13 平 11 负。",
+          "body_html": "<p>2021/22 英超，客场（古迪逊公园）对阵埃弗顿，比分 0-1。</p><p>进球：27' Anthony Gordon（埃弗顿）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605725"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "04-09 19:30",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 8 次。"
+  },
+  "match_no": 42,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-04-09-Everton.jpg",
+    "alt": "埃弗顿 1-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

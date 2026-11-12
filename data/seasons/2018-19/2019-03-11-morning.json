@@ -1,0 +1,45 @@
+{
+  "id": "2019-03-11-morning",
+  "date": "2019-03-11",
+  "period": "morning",
+  "issue_number": 43,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m513545",
+          "title": "阿森纳 2-0 曼联：2 球落败",
+          "summary": "英超，客场（酋长球场）。这一季各项赛事第 42 场，24 胜 9 平 9 负。",
+          "body_html": "<p>2018/19 英超，客场（酋长球场）对阵阿森纳，比分 0-2。</p><p>进球：12' Granit Xhaka（阿森纳）、69' Pierre-Emerick Aubameyang（阿森纳，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/513545"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-11 00:30",
+          "badge": "./media/badges/arsenal.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "又没能进球，这一季第 7 次。"
+  },
+  "match_no": 42,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-03-11-Arsenal.jpg",
+    "alt": "阿森纳 2-0 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2024-03-18-morning",
+  "date": "2024-03-18",
+  "period": "morning",
+  "issue_number": 333,
+  "season": "2023/24",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m699283",
+          "title": "曼联 4-3 利物浦：Amad Diallo 120+1' 绝杀",
+          "summary": "足总杯，主场（老特拉福德）。这一季各项赛事第 40 场，21 胜 3 平 16 负。",
+          "body_html": "<p>2023/24 足总杯，主场（老特拉福德）对阵利物浦，比分 4-3。</p><p>进球：10' Scott McTominay（曼联）、44' Alexis Mac Allister（利物浦）、45+2' Mohamed Salah（利物浦）、87' Antony（曼联）、105' Harvey Elliott（利物浦）、112' Marcus Rashford（曼联）、120+1' Amad Diallo（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/699283"
+            }
+          ],
+          "source_name": "足总杯 · 主场",
+          "published_at": "03-17 23:30",
+          "badge": "./media/badges/liverpool.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "赢下这一场，可这场丢 3 球 —— 这一季第 20 次单场丢两球以上。"
+  },
+  "match_no": 40,
+  "hero": {
+    "src": "./media/archive/2023-24/archive-2024-03-17-Liverpool.jpg",
+    "alt": "曼联 4-3 利物浦",
+    "width": 960,
+    "height": 540
+  }
+}

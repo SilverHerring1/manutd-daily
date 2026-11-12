@@ -1,0 +1,45 @@
+{
+  "id": "2025-04-21-morning",
+  "date": "2025-04-21",
+  "period": "morning",
+  "issue_number": 397,
+  "season": "2024/25",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m704600",
+          "title": "曼联 0-1 狼队：一球之差",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 51 场，20 胜 15 平 16 负。",
+          "body_html": "<p>2024/25 英超，主场（老特拉福德）对阵狼队，比分 0-1。</p><p>进球：77' Pablo Sarabia（狼队）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/704600"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "04-20 21:00",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球未进，这一季第 13 次被零封。"
+  },
+  "match_no": 51,
+  "hero": {
+    "src": "./media/archive/2024-25/archive-2025-04-20-WolverhamptonWanderers.jpg",
+    "alt": "曼联 0-1 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

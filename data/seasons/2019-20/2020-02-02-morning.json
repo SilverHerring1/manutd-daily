@@ -1,0 +1,45 @@
+{
+  "id": "2020-02-02-morning",
+  "date": "2020-02-02",
+  "period": "morning",
+  "issue_number": 95,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541604",
+          "title": "曼联 0-0 狼队：互交白卷",
+          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 39 场，18 胜 11 平 10 负。",
+          "body_html": "<p>2019/20 英超，主场（老特拉福德）对阵狼队，比分 0-0。</p><p>双方都没有进球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541604"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "02-02 01:30",
+          "badge": "./media/badges/wolves.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "0-0，各拿一分，这一季第 10 次一球未进。"
+  },
+  "match_no": 39,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-02-02-WolverhamptonWanderers.jpg",
+    "alt": "曼联 0-0 狼队",
+    "width": 960,
+    "height": 540
+  }
+}

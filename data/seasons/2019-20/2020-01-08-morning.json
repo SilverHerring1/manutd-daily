@@ -1,0 +1,45 @@
+{
+  "id": "2020-01-08-morning",
+  "date": "2020-01-08",
+  "period": "morning",
+  "issue_number": 88,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m561398",
+          "title": "曼联 1-3 曼城：2 球落败",
+          "summary": "联赛杯，主场（老特拉福德）。这一季各项赛事第 32 场，14 胜 10 平 8 负。",
+          "body_html": "<p>2019/20 联赛杯，主场（老特拉福德）对阵曼城，比分 1-3。</p><p>进球：17' Bernardo Silva（曼城）、33' Riyad Mahrez（曼城）、38' Andreas Pereira（乌龙球，算给曼城）、70' Marcus Rashford（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/561398"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "01-08 04:00",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "输了，但进了 1 球，问题不在前场。"
+  },
+  "match_no": 32,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-01-08-ManchesterCity.jpg",
+    "alt": "曼联 1-3 曼城",
+    "width": 960,
+    "height": 540
+  }
+}

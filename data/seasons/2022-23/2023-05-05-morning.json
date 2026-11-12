@@ -1,0 +1,39 @@
+{
+  "id": "2023-05-05-morning",
+  "date": "2023-05-05",
+  "period": "morning",
+  "issue_number": 286,
+  "season": "2022/23",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m638092",
+          "title": "布莱顿 1-0 曼联：一球之差",
+          "summary": "英超，客场（美国运通球场）。这一季各项赛事第 56 场，37 胜 9 平 10 负。",
+          "body_html": "<p>2022/23 英超，客场（美国运通球场）对阵布莱顿，比分 0-1。</p><p>进球：90+9' Alexis Mac Allister（布莱顿，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/638092"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "05-05 03:00",
+          "badge": "./media/badges/brighton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一球未进，这一季第 9 次被零封。"
+  },
+  "match_no": 56
+}

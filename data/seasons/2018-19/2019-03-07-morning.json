@@ -1,0 +1,79 @@
+{
+  "id": "2019-03-07-morning",
+  "date": "2019-03-07",
+  "period": "morning",
+  "issue_number": 42,
+  "season": "2018/19",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 2,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m530629",
+          "title": "巴黎圣日耳曼 1-3 曼联：净胜 2 球",
+          "summary": "欧冠，客场（王子公园）。这一季各项赛事第 41 场，24 胜 9 平 8 负。",
+          "body_html": "<p>2018/19 欧冠，客场（王子公园）对阵巴黎圣日耳曼，比分 3-1。</p><p>进球：2' Romelu Lukaku（曼联）、12' Juan Bernat（巴黎圣日耳曼）、30' Romelu Lukaku（曼联）、90+4' Marcus Rashford（曼联，点球）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/530629"
+            }
+          ],
+          "source_name": "欧冠 · 客场",
+          "published_at": "03-07 04:00",
+          "badge": "./media/badges/psg.png"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "场边",
+      "items": [
+        {
+          "id": "greenwood-debut",
+          "title": "格林伍德欧冠首秀，球衣上的号码是借巴黎的印字印的",
+          "summary": "球衣组没料到他会踢，号码是赛前在王子公园借东道主的机器现印的 —— 字体和号码里的徽都是巴黎的。",
+          "body_html": "<p>格林伍德第 87 分钟替补登场，这是他第一次代表一线队出场，17 岁 156 天。</p><p>那件球衣有问题：号码用的是<strong>巴黎的字模</strong>，连号码里嵌的徽都是巴黎的。球衣组没准备他会出场，赛前只能在王子公园借东道主的机器临时印上。</p><p>球衣号码是 54。</p>",
+          "sources": [
+            {
+              "text": "SoccerBible",
+              "url": "https://www.soccerbible.com/news/2019/03/mason-greenwood-wore-psg-font-against-psg/"
+            },
+            {
+              "text": "Footy Headlines",
+              "url": "https://www.footyheadlines.com/2019/03/crazy-man-united-uses-psg-font-for-younster-againts-psg.html"
+            }
+          ],
+          "source_name": "场边",
+          "published_at": "03-07",
+          "images": [
+            {
+              "src": "./media/greenwood-psg.jpg",
+              "alt": "格林伍德在王子公园庆祝，粉色客场球衣，背后号码用巴黎的字体",
+              "width": 1200,
+              "height": 630
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "懂球帝热评",
+    "body": "17 年，巴萨告诉巴黎什么是技术；18 年，皇马告诉巴黎什么是巨星；19 年，曼联告诉巴黎什么是精神。",
+    "credit": "众人皆醉唯我独醒丶",
+    "url": "https://m.dongqiudi.com/article/923635.html"
+  },
+  "match_no": 41,
+  "hero": {
+    "src": "./media/archive/2018-19/archive-2019-03-07-ParisSaintGermain.jpg",
+    "alt": "巴黎圣日耳曼 1-3 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

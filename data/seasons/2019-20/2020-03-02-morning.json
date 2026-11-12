@@ -1,0 +1,45 @@
+{
+  "id": "2020-03-02-morning",
+  "date": "2020-03-02",
+  "period": "morning",
+  "issue_number": 100,
+  "season": "2019/20",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m541571",
+          "title": "埃弗顿 1-1 曼联：先丢球，追成平局",
+          "summary": "英超，客场（古迪逊公园）。这一季各项赛事第 44 场，21 胜 13 平 10 负。",
+          "body_html": "<p>2019/20 英超，客场（古迪逊公园）对阵埃弗顿，比分 1-1。</p><p>进球：3' Dominic Calvert-Lewin（埃弗顿）、31' Bruno Fernandes（曼联）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/541571"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-01 22:00",
+          "badge": "./media/badges/everton.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "比分咬住了，胜负没咬住，还是一分。"
+  },
+  "match_no": 44,
+  "hero": {
+    "src": "./media/archive/2019-20/archive-2020-03-01-Everton.jpg",
+    "alt": "埃弗顿 1-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}

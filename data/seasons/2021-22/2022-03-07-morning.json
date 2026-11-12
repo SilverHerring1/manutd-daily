@@ -1,0 +1,45 @@
+{
+  "id": "2022-03-07-morning",
+  "date": "2022-03-07",
+  "period": "morning",
+  "issue_number": 218,
+  "season": "2021/22",
+  "archive": true,
+  "title": "曼联早报",
+  "item_count": 1,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "m605766",
+          "title": "曼城 4-1 曼联：净负 3 球",
+          "summary": "英超，客场（伊蒂哈德球场）。这一季各项赛事第 38 场，17 胜 12 平 9 负。",
+          "body_html": "<p>2021/22 英超，客场（伊蒂哈德球场）对阵曼城，比分 1-4。</p><p>进球：5' Kevin De Bruyne（曼城）、22' Jadon Sancho（曼联）、28' Kevin De Bruyne（曼城）、68' Riyad Mahrez（曼城）、90+1' Riyad Mahrez（曼城）。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分",
+              "url": "https://www.espn.com/soccer/match/_/gameId/605766"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "03-07 00:30",
+          "badge": "./media/badges/man-city.png"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "客场丢 4 球，比分已经把问题写清楚了。"
+  },
+  "match_no": 38,
+  "hero": {
+    "src": "./media/archive/2021-22/archive-2022-03-07-ManchesterCity.jpg",
+    "alt": "曼城 4-1 曼联",
+    "width": 960,
+    "height": 540
+  }
+}
