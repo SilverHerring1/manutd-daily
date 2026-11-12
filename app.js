@@ -31,6 +31,7 @@ const state = {
   catalog: new Map(),    // id -> 期次元信息（主线 + 各赛季归档），带 dir
   seasons: [],           // data/seasons.json 的赛季清单
   picker: { year: "", month: "" },
+  shown: { date: "", period: "morning", year: "", month: "" },   // 当前页面上显示的是哪一天
   cache: new Map(),      // id -> Promise<issue>
   issue: null,
   searchToken: 0,
@@ -197,6 +198,8 @@ function renderSide(issue) {
 
 function renderMasthead(issue) {
   const { year, month, day } = dateParts(issue.date);
+  // 记住当前显示的是哪一天哪一期，日期面板点年/月时按它推算目标日期
+  state.shown = { date: issue.date, period: issue.period, year, month: String(issue.date.slice(5, 7)) };
   // 归档期次也按期号走，抬头跟日更一致：第 N 期 · 2018/19 · 晨间版
   const kickerParts = [issue.season, editionName(issue.period)].filter(Boolean);
   $("editionKicker").textContent = issue.issue_number
@@ -373,6 +376,20 @@ function renderIssueNav(issue) {
     cell(at >= 0 && at < ordered.length - 1 ? ordered[at + 1] : null, "下一期");
 }
 
+/** 点年份/月份：跳到「同月同日」那一天，没有稿就落到空状态（不硬塞到最近的一期） */
+function jumpTo(year, month) {
+  const cur = state.shown ?? {};
+  const dayOfMonth = Number(String(cur.date ?? "").slice(8, 10)) || 1;
+  const lastDay = new Date(Number(year), Number(month), 0).getDate();
+  const day = String(Math.min(dayOfMonth, lastDay)).padStart(2, "0");
+  const date = `${year}-${month}-${day}`;
+
+  state.picker = { year: String(year), month: String(month) };
+  $("dateMenu").hidden = true;
+  $("dateTrigger").setAttribute("aria-expanded", "false");
+  void choose(date, cur.period ?? "morning", { scroll: "top" });
+}
+
 /* ---------------- 日期面板：年 / 月 / 日 三级 ---------------- */
 
 /** 三级筛选：年（有哪些赛季年份）→ 月 → 日（那天有哪几期） */
@@ -386,7 +403,8 @@ function renderDateGrid(issue) {
 
   const months = [...new Set(all.filter((i) => i.date.startsWith(year)).map((i) => i.date.slice(5, 7)))].sort();
   const fromIssue = issue?.date?.startsWith(year) ? issue.date.slice(5, 7) : "";
-  const kept = state.picker.year === year && months.includes(state.picker.month) ? state.picker.month : "";
+  // 跳到一个没有稿的月份时，面板也要停在那儿（月列表可能没有这个月），别自动跳到别的月
+  const kept = state.picker.year === year && state.picker.month ? state.picker.month : "";
   const month = kept || (months.includes(fromIssue) ? fromIssue : months.at(-1));
   state.picker = { year, month };
 
@@ -418,6 +436,7 @@ function renderDateGrid(issue) {
 
 function renderEmpty(date, period) {
   const { month, day } = dateParts(date);
+  state.shown = { date, period, year: String(date.slice(0, 4)), month: String(date.slice(5, 7)) };
   $("editionKicker").textContent = editionName(period);
   $("editionTitle").textContent = "这一期还没发布";
   $("editionMeta").textContent = `${month} 月 ${day} 日 · ${periodName(period)}`;
@@ -433,9 +452,19 @@ function renderEmpty(date, period) {
   $("articleContent").innerHTML = "";
   $("directory").innerHTML = "";
   $("readEnd").hidden = true;
+  // 没有稿就没有短评、也没有目录，别把上一期的留着
+  if ($("sideCard")) $("sideCard").innerHTML = "";
+  if ($("issueNav")) $("issueNav").innerHTML = "";
   applyTheme(period);
   renderDateGrid({ date, period });     // 空期也要能打开日期面板换一期
   $("miniEditionText").textContent = `${pad(month)}.${pad(day)} ${periodName(period)}`;
+
+  // 空期也写进地址栏，刷新后还停在这一天
+  const url = new URL(location.href);
+  url.searchParams.set("date", date);
+  url.searchParams.set("period", period);
+  history.replaceState(null, "", url);
+  document.title = `${month} 月 ${day} 日 ${editionName(period)} · ${state.index?.name ?? ""}`.trim();
 }
 
 /* ---------------- 路由 ---------------- */
@@ -450,9 +479,85 @@ function latestIssue() {
 
 /** 积分榜：单独一个 data/boards.json，随抓取脚本更新，不占每期的 JSON。
     只挂在主线上：2018 年的那一期里贴 2026 年的榜，等于用后来的事写过去。 */
+/** 归档期次用「当天视角」的积分榜：拿全季 380 场，只算到这一场的日期为止 */
+const standingsCache = new Map();
+
+async function tableAsOf(issue) {
+  if (!issue?.season) return null;
+  const slug = String(issue.season).replace("/", "-");
+  const cutoff = issue.matchDate ?? issue.date;
+  if (!slug || !cutoff) return null;
+
+  if (!standingsCache.has(slug)) {
+    try {
+      standingsCache.set(slug, await fetchJson(new URL(`./standings/${slug}.json`, DATA_BASE).href));
+    } catch {
+      standingsCache.set(slug, null);
+    }
+  }
+  const data = standingsCache.get(slug);
+  if (!data?.matches?.length) return null;
+
+  const acc = new Map();
+  for (const m of data.matches) {
+    if (m.date > cutoff) continue;
+    for (const [name, gf, ga] of [[m.home, m.hg, m.ag], [m.away, m.ag, m.hg]]) {
+      const row = acc.get(name) ?? { played: 0, win: 0, draw: 0, loss: 0, gf: 0, ga: 0 };
+      row.played += 1;
+      if (gf > ga) row.win += 1;
+      else if (gf === ga) row.draw += 1;
+      else row.loss += 1;
+      row.gf += gf;
+      row.ga += ga;
+      acc.set(name, row);
+    }
+  }
+  const rows = [...acc]
+    .map(([name, r]) => {
+      const meta = data.teams?.[name] ?? {};
+      return {
+        cn: meta.cn ?? name,
+        badge: meta.badge ? `./media/badges/${meta.badge}.png` : null,
+        united: /Man(chester)? United/i.test(name),
+        ...r,
+        gd: r.gf - r.ga,
+        pts: r.win * 3 + r.draw,
+      };
+    })
+    .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf)
+    .map((r, i) => ({ ...r, rank: i + 1 }));
+
+  return rows.length ? { rows, cutoff, rounds: Math.max(...rows.map((r) => r.played)) } : null;
+}
+
 async function renderBoard() {
   const host = $("articleContent");
-  if (!host || state.issue?.archive) return;
+  if (!host) return;
+
+  // 归档期次：按那一天的进度算
+  if (state.issue?.archive) {
+    const table = await tableAsOf(state.issue);
+    if (!table) return;
+    const [y, m, d] = table.cutoff.split("-");
+    const united = table.rows.find((r) => r.united);
+    host.insertAdjacentHTML("beforeend", `
+    <section class="board" aria-label="当时积分榜">
+      <div class="board-head">
+        <h2 class="board-title">英超积分榜</h2>
+        <span class="board-meta">截至 ${Number(m)} 月 ${Number(d)} 日 · 第 ${table.rounds} 轮${united ? ` · 曼联第 ${united.rank}` : ""}</span>
+      </div>
+      <table class="board-table">
+        <thead><tr>
+          <th>#</th><th class="b-team">球队</th><th>场</th><th>胜</th><th>平</th><th>负</th>
+          <th class="b-wide">进</th><th class="b-wide">失</th><th class="b-wide">净</th><th class="b-pts">分</th>
+        </tr></thead>
+        <tbody>${boardRow(table.rows)}</tbody>
+      </table>
+      <p class="board-src">数据：football-data.co.uk · ${y} 赛季</p>
+    </section>`);
+    return;
+  }
+
   let board;
   try {
     board = await fetchJson(new URL("./boards.json", DATA_BASE).href);
@@ -460,15 +565,6 @@ async function renderBoard() {
     return; // 没有榜单文件就当这段不存在
   }
   if (!board?.rows?.length) return;
-
-  const row = (r) => `<tr${r.united ? ' class="is-united"' : ""}>
-      <td class="b-rank">${r.rank}</td>
-      <td class="b-team">${r.badge ? `<img src="${esc(r.badge)}" alt="" width="25" height="18" loading="lazy" />` : ""}<span>${esc(r.cn)}</span></td>
-      <td>${r.played}</td><td>${r.win}</td><td>${r.draw}</td><td>${r.loss}</td>
-      <td class="b-wide">${r.gf}</td><td class="b-wide">${r.ga}</td>
-      <td class="b-wide">${r.gd > 0 ? "+" + r.gd : r.gd}</td>
-      <td class="b-pts">${r.pts}</td>
-    </tr>`;
 
   host.insertAdjacentHTML("beforeend", `
     <section class="board" aria-label="${esc(board.title || "积分榜")}">
@@ -481,10 +577,26 @@ async function renderBoard() {
           <th>#</th><th class="b-team">球队</th><th>场</th><th>胜</th><th>平</th><th>负</th>
           <th class="b-wide">进</th><th class="b-wide">失</th><th class="b-wide">净</th><th class="b-pts">分</th>
         </tr></thead>
-        <tbody>${board.rows.map(row).join("")}</tbody>
+        <tbody>${boardRow(board.rows)}</tbody>
       </table>
       <p class="board-src">数据：${esc(board.source || "")}</p>
     </section>`);
+}
+
+/** 积分榜的行（两种来源共用） */
+function boardRow(rows) {
+  return rows
+    .map(
+      (r) => `<tr${r.united ? ' class="is-united"' : ""}>
+      <td class="b-rank">${r.rank}</td>
+      <td class="b-team">${r.badge ? `<img src="${esc(r.badge)}" alt="" width="25" height="18" loading="lazy" />` : ""}<span>${esc(r.cn)}</span></td>
+      <td>${r.played}</td><td>${r.win}</td><td>${r.draw}</td><td>${r.loss}</td>
+      <td class="b-wide">${r.gf}</td><td class="b-wide">${r.ga}</td>
+      <td class="b-wide">${r.gd > 0 ? "+" + r.gd : r.gd}</td>
+      <td class="b-pts">${r.pts}</td>
+    </tr>`,
+    )
+    .join("");
 }
 
 async function choose(date, period, { scroll = "smooth" } = {}) {
@@ -502,7 +614,11 @@ async function choose(date, period, { scroll = "smooth" } = {}) {
     return;
   }
 
+  // 目录里记着这一期属于哪个赛季，补到期次上：期次导航、抬头、搜索都靠它分组
+  issue.season = issue.season ?? meta.season ?? "";
   state.issue = issue;
+  // 换了一期，日期面板要跟着走：否则点「下一期」后打开面板还停在上次看的那几个月
+  state.picker = { year: issue.date.slice(0, 4), month: issue.date.slice(5, 7) };
   renderMasthead(issue);
   renderSide(issue);
   renderDigest(issue);
@@ -790,18 +906,16 @@ function bind() {
       return;
     }
 
-    // 三级筛选：点年/月只重画面板，不关面板
+    // 三级筛选：点年/月 = 跳到「同月同日」的那一期；没有这一天就落到空状态
     const yearPick = event.target.closest("[data-pick-year]");
     if (yearPick) {
-      state.picker = { year: yearPick.dataset.pickYear, month: "" };
-      renderDateGrid(state.issue ?? {});
+      jumpTo(yearPick.dataset.pickYear, state.picker.month || state.shown.month);
       return;
     }
 
     const monthPick = event.target.closest("[data-pick-month]");
     if (monthPick) {
-      state.picker = { year: state.picker.year, month: monthPick.dataset.pickMonth };
-      renderDateGrid(state.issue ?? {});
+      jumpTo(state.picker.year || state.shown.year, monthPick.dataset.pickMonth);
       return;
     }
 

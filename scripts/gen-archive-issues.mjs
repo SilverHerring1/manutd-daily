@@ -405,6 +405,48 @@ ${s.group.rows
 </table>
 </section>`;
 
+  // 英超最终积分榜：从 data/standings/<season>.json 的 380 场算出来（football-data.co.uk）
+  const leagueBlock = (() => {
+    const file = join(DATA, 'standings', `${s.season.replace('/', '-')}.json`);
+    if (!existsSync(file)) return "";
+    const data = JSON.parse(readFileSync(file, 'utf8'));
+    const acc = new Map();
+    for (const m of data.matches ?? []) {
+      for (const [name, gf, ga] of [[m.home, m.hg, m.ag], [m.away, m.ag, m.hg]]) {
+        const row = acc.get(name) ?? { p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0 };
+        row.p += 1;
+        if (gf > ga) row.w += 1; else if (gf === ga) row.d += 1; else row.l += 1;
+        row.gf += gf; row.ga += ga;
+        acc.set(name, row);
+      }
+    }
+    const rows = [...acc]
+      .map(([name, r]) => ({ name, ...r, pts: r.w * 3 + r.d, gd: r.gf - r.ga }))
+      .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+    if (!rows.length) return "";
+    return `<section class="group-block" aria-label="英超最终积分榜">
+<h2 class="cups-title">英超最终积分榜</h2>
+<table class="arc-table group-tbl">
+  <thead><tr><th>#</th><th>球队</th><th>场</th><th>胜</th><th>平</th><th>负</th><th>进/失</th><th>净</th><th>分</th></tr></thead>
+  <tbody>
+${rows
+  .map((row) => {
+    const meta = data.teams?.[row.name] ?? teamMeta(row.name);
+    const badge = badgeOf(meta);
+    const united = /Man(chester)? United/.test(row.name);
+    return `<tr${united ? ' class="is-united"' : ""}>
+<td class="num">${rows.indexOf(row) + 1}</td>
+<td class="arc-opp">${badge ? `<img src="../${badge.replace(/^\.\//, "")}" alt="" width="25" height="18" loading="lazy" />` : ""}${esc(meta?.cn ?? row.name)}</td>
+<td>${row.p}</td><td>${row.w}</td><td>${row.d}</td><td>${row.l}</td>
+<td class="num">${row.gf}/${row.ga}</td><td class="num">${row.gd > 0 ? `+${row.gd}` : row.gd}</td><td class="num group-pts">${row.pts}</td>
+</tr>`;
+  })
+  .join("\n")}
+  </tbody>
+</table>
+</section>`;
+  })();
+
   const r = s.record ?? { W: 0, D: 0, L: 0, gf: 0, ga: 0 };
   const cups = (s.cups ?? [])
     .map(
@@ -433,6 +475,7 @@ ${s.group.rows
 </section>
 ${cups ? `<section class="cups" aria-label="淘汰赛路径">\n<h2 class="cups-title">淘汰赛路径</h2>\n${cups}\n</section>` : ""}
 ${groupBlock}
+${leagueBlock}
 ${blocks}`,
   );
 }

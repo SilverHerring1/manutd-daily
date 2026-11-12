@@ -1,0 +1,2789 @@
+{
+  "season": "2018-19",
+  "source": "football-data.co.uk",
+  "count": 380,
+  "teams": {
+    "Man United": {
+      "en": "Manchester United",
+      "cn": "曼联",
+      "badge": "man-utd",
+      "short": "Man United"
+    },
+    "Leicester": {
+      "en": "Leicester City",
+      "cn": "莱斯特城",
+      "badge": "leicester",
+      "short": "Leicester"
+    },
+    "Bournemouth": {
+      "en": "AFC Bournemouth",
+      "cn": "伯恩茅斯",
+      "badge": "bournemouth",
+      "short": "Bournemouth"
+    },
+    "Cardiff": {
+      "en": "Cardiff City",
+      "cn": "加的夫城",
+      "badge": "cardiff",
+      "short": "Cardiff"
+    },
+    "Fulham": {
+      "en": "Fulham",
+      "cn": "富勒姆",
+      "badge": "fulham",
+      "short": "Fulham"
+    },
+    "Crystal Palace": {
+      "en": "Crystal Palace",
+      "cn": "水晶宫",
+      "badge": "crystal-palace",
+      "short": "Crystal Palace"
+    },
+    "Huddersfield": {
+      "en": "Huddersfield Town",
+      "cn": "哈德斯菲尔德",
+      "badge": "huddersfield",
+      "short": "Huddersfield"
+    },
+    "Chelsea": {
+      "en": "Chelsea",
+      "cn": "切尔西",
+      "badge": "chelsea",
+      "short": "Chelsea"
+    },
+    "Newcastle": {
+      "en": "Newcastle United",
+      "cn": "纽卡斯尔联",
+      "badge": "newcastle",
+      "short": "Newcastle"
+    },
+    "Tottenham": {
+      "en": "Tottenham Hotspur",
+      "cn": "托特纳姆热刺",
+      "badge": "tottenham",
+      "short": "Tottenham"
+    },
+    "Watford": {
+      "en": "Watford",
+      "cn": "沃特福德",
+      "badge": "watford",
+      "short": "Watford"
+    },
+    "Brighton": {
+      "en": "Brighton & Hove Albion",
+      "cn": "布莱顿",
+      "badge": "brighton",
+      "short": "Brighton"
+    },
+    "Wolves": {
+      "en": "Wolverhampton Wanderers",
+      "cn": "狼队",
+      "badge": "wolves",
+      "short": "Wolves"
+    },
+    "Everton": {
+      "en": "Everton",
+      "cn": "埃弗顿",
+      "badge": "everton",
+      "short": "Everton"
+    },
+    "Arsenal": {
+      "en": "Arsenal",
+      "cn": "阿森纳",
+      "badge": "arsenal",
+      "short": "Arsenal"
+    },
+    "Man City": {
+      "en": "Manchester City",
+      "cn": "曼城",
+      "badge": "man-city",
+      "short": "Man City"
+    },
+    "Liverpool": {
+      "en": "Liverpool",
+      "cn": "利物浦",
+      "badge": "liverpool",
+      "short": "Liverpool"
+    },
+    "West Ham": {
+      "en": "West Ham United",
+      "cn": "西汉姆联",
+      "badge": "west-ham",
+      "short": "West Ham"
+    },
+    "Southampton": {
+      "en": "Southampton",
+      "cn": "南安普顿",
+      "badge": "southampton",
+      "short": "Southampton"
+    },
+    "Burnley": {
+      "en": "Burnley",
+      "cn": "伯恩利",
+      "badge": "burnley",
+      "short": "Burnley"
+    }
+  },
+  "matches": [
+    {
+      "date": "2018-08-10",
+      "home": "Man United",
+      "away": "Leicester",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Bournemouth",
+      "away": "Cardiff",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Fulham",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Huddersfield",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Newcastle",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Watford",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-11",
+      "home": "Wolves",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-12",
+      "home": "Arsenal",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-12",
+      "home": "Liverpool",
+      "away": "West Ham",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-12",
+      "home": "Southampton",
+      "away": "Burnley",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-18",
+      "home": "Cardiff",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-18",
+      "home": "Chelsea",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-18",
+      "home": "Everton",
+      "away": "Southampton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-18",
+      "home": "Leicester",
+      "away": "Wolves",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-18",
+      "home": "Tottenham",
+      "away": "Fulham",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-18",
+      "home": "West Ham",
+      "away": "Bournemouth",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-19",
+      "home": "Brighton",
+      "away": "Man United",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-19",
+      "home": "Burnley",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2018-08-19",
+      "home": "Man City",
+      "away": "Huddersfield",
+      "hg": 6,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-20",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Arsenal",
+      "away": "West Ham",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Huddersfield",
+      "away": "Cardiff",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Southampton",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-25",
+      "home": "Wolves",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-26",
+      "home": "Fulham",
+      "away": "Burnley",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-26",
+      "home": "Newcastle",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-08-26",
+      "home": "Watford",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-08-27",
+      "home": "Man United",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Brighton",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Chelsea",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Crystal Palace",
+      "away": "Southampton",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Everton",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Leicester",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-01",
+      "home": "Man City",
+      "away": "Newcastle",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-01",
+      "home": "West Ham",
+      "away": "Wolves",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-02",
+      "home": "Burnley",
+      "away": "Man United",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-02",
+      "home": "Cardiff",
+      "away": "Arsenal",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2018-09-02",
+      "home": "Watford",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Bournemouth",
+      "away": "Leicester",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Chelsea",
+      "away": "Cardiff",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Huddersfield",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Man City",
+      "away": "Fulham",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Tottenham",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-15",
+      "home": "Watford",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-16",
+      "home": "Everton",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2018-09-16",
+      "home": "Wolves",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-17",
+      "home": "Southampton",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Brighton",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Burnley",
+      "away": "Bournemouth",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Cardiff",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 5
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Fulham",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Leicester",
+      "away": "Huddersfield",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Liverpool",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-22",
+      "home": "Man United",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-23",
+      "home": "Arsenal",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-23",
+      "home": "West Ham",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Arsenal",
+      "away": "Watford",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Everton",
+      "away": "Fulham",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Huddersfield",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Man City",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-09-29",
+      "home": "West Ham",
+      "away": "Man United",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-09-29",
+      "home": "Wolves",
+      "away": "Southampton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-09-30",
+      "home": "Cardiff",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-01",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-05",
+      "home": "Brighton",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Burnley",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Crystal Palace",
+      "away": "Wolves",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Leicester",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Man United",
+      "away": "Newcastle",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Tottenham",
+      "away": "Cardiff",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-06",
+      "home": "Watford",
+      "away": "Bournemouth",
+      "hg": 0,
+      "ag": 4
+    },
+    {
+      "date": "2018-10-07",
+      "home": "Fulham",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 5
+    },
+    {
+      "date": "2018-10-07",
+      "home": "Liverpool",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-07",
+      "home": "Southampton",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Bournemouth",
+      "away": "Southampton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Cardiff",
+      "away": "Fulham",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Chelsea",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Huddersfield",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Man City",
+      "away": "Burnley",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Newcastle",
+      "away": "Brighton",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-20",
+      "home": "West Ham",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-20",
+      "home": "Wolves",
+      "away": "Watford",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-21",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-22",
+      "home": "Arsenal",
+      "away": "Leicester",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Brighton",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Leicester",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Liverpool",
+      "away": "Cardiff",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Southampton",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-27",
+      "home": "Watford",
+      "away": "Huddersfield",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2018-10-28",
+      "home": "Burnley",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 4
+    },
+    {
+      "date": "2018-10-28",
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-10-28",
+      "home": "Man United",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-10-29",
+      "home": "Tottenham",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Bournemouth",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Cardiff",
+      "away": "Leicester",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Everton",
+      "away": "Brighton",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Newcastle",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-03",
+      "home": "West Ham",
+      "away": "Burnley",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-03",
+      "home": "Wolves",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2018-11-04",
+      "home": "Chelsea",
+      "away": "Crystal Palace",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-04",
+      "home": "Man City",
+      "away": "Southampton",
+      "hg": 6,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-05",
+      "home": "Huddersfield",
+      "away": "Fulham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Cardiff",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Crystal Palace",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Huddersfield",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Leicester",
+      "away": "Burnley",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-10",
+      "home": "Southampton",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-11",
+      "home": "Arsenal",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-11",
+      "home": "Chelsea",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-11",
+      "home": "Liverpool",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-11",
+      "home": "Man City",
+      "away": "Man United",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Brighton",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Everton",
+      "away": "Cardiff",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Fulham",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Man United",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-11-24",
+      "home": "Watford",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-11-24",
+      "home": "West Ham",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 4
+    },
+    {
+      "date": "2018-11-25",
+      "home": "Bournemouth",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-25",
+      "home": "Wolves",
+      "away": "Huddersfield",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-26",
+      "home": "Burnley",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-11-30",
+      "home": "Cardiff",
+      "away": "Wolves",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Crystal Palace",
+      "away": "Burnley",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Huddersfield",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Leicester",
+      "away": "Watford",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Man City",
+      "away": "Bournemouth",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Newcastle",
+      "away": "West Ham",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2018-12-01",
+      "home": "Southampton",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-02",
+      "home": "Arsenal",
+      "away": "Tottenham",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-02",
+      "home": "Chelsea",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-02",
+      "home": "Liverpool",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-04",
+      "home": "Bournemouth",
+      "away": "Huddersfield",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-04",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-04",
+      "home": "Watford",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-04",
+      "home": "West Ham",
+      "away": "Cardiff",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Burnley",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Everton",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Fulham",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Man United",
+      "away": "Arsenal",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Tottenham",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-05",
+      "home": "Wolves",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Arsenal",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 4
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Burnley",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Cardiff",
+      "away": "Southampton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Chelsea",
+      "away": "Man City",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Leicester",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-08",
+      "home": "Man United",
+      "away": "Fulham",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-08",
+      "home": "West Ham",
+      "away": "Crystal Palace",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-09",
+      "home": "Newcastle",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-10",
+      "home": "Everton",
+      "away": "Watford",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Crystal Palace",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Fulham",
+      "away": "West Ham",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Huddersfield",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Man City",
+      "away": "Everton",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Tottenham",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Watford",
+      "away": "Cardiff",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-15",
+      "home": "Wolves",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-16",
+      "home": "Brighton",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-16",
+      "home": "Liverpool",
+      "away": "Man United",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-16",
+      "home": "Southampton",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-21",
+      "home": "Wolves",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Arsenal",
+      "away": "Burnley",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Bournemouth",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Cardiff",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 5
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Chelsea",
+      "away": "Leicester",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Huddersfield",
+      "away": "Southampton",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Man City",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2018-12-22",
+      "home": "Newcastle",
+      "away": "Fulham",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-22",
+      "home": "West Ham",
+      "away": "Watford",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-23",
+      "home": "Everton",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 6
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Burnley",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 5
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Crystal Palace",
+      "away": "Cardiff",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Fulham",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Leicester",
+      "away": "Man City",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Liverpool",
+      "away": "Newcastle",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Man United",
+      "away": "Huddersfield",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Tottenham",
+      "away": "Bournemouth",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-26",
+      "home": "Watford",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-27",
+      "home": "Southampton",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Brighton",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Fulham",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Leicester",
+      "away": "Cardiff",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "hg": 5,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Tottenham",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2018-12-29",
+      "home": "Watford",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-30",
+      "home": "Burnley",
+      "away": "West Ham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2018-12-30",
+      "home": "Crystal Palace",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-30",
+      "home": "Man United",
+      "away": "Bournemouth",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2018-12-30",
+      "home": "Southampton",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-01",
+      "home": "Arsenal",
+      "away": "Fulham",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-01",
+      "home": "Cardiff",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-01",
+      "home": "Everton",
+      "away": "Leicester",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-02",
+      "home": "Bournemouth",
+      "away": "Watford",
+      "hg": 3,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-02",
+      "home": "Chelsea",
+      "away": "Southampton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-02",
+      "home": "Huddersfield",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-02",
+      "home": "Newcastle",
+      "away": "Man United",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-02",
+      "home": "West Ham",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-02",
+      "home": "Wolves",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-03",
+      "home": "Man City",
+      "away": "Liverpool",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Brighton",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Burnley",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Cardiff",
+      "away": "Huddersfield",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Chelsea",
+      "away": "Newcastle",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Crystal Palace",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-12",
+      "home": "Leicester",
+      "away": "Southampton",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-12",
+      "home": "West Ham",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-13",
+      "home": "Everton",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-13",
+      "home": "Tottenham",
+      "away": "Man United",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-14",
+      "home": "Man City",
+      "away": "Wolves",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Bournemouth",
+      "away": "West Ham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Liverpool",
+      "away": "Crystal Palace",
+      "hg": 4,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Man United",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Newcastle",
+      "away": "Cardiff",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Southampton",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Watford",
+      "away": "Burnley",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-19",
+      "home": "Wolves",
+      "away": "Leicester",
+      "hg": 4,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-20",
+      "home": "Fulham",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-20",
+      "home": "Huddersfield",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Arsenal",
+      "away": "Cardiff",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Fulham",
+      "away": "Brighton",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Huddersfield",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Man United",
+      "away": "Burnley",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Newcastle",
+      "away": "Man City",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-29",
+      "home": "Wolves",
+      "away": "West Ham",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-30",
+      "home": "Bournemouth",
+      "away": "Chelsea",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2019-01-30",
+      "home": "Liverpool",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-30",
+      "home": "Southampton",
+      "away": "Crystal Palace",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-01-30",
+      "home": "Tottenham",
+      "away": "Watford",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Brighton",
+      "away": "Watford",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Burnley",
+      "away": "Southampton",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Cardiff",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Chelsea",
+      "away": "Huddersfield",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Crystal Palace",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Everton",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-02-02",
+      "home": "Tottenham",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-03",
+      "home": "Leicester",
+      "away": "Man United",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-03",
+      "home": "Man City",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-04",
+      "home": "West Ham",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-06",
+      "home": "Everton",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Brighton",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Crystal Palace",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Fulham",
+      "away": "Man United",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Huddersfield",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Liverpool",
+      "away": "Bournemouth",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Southampton",
+      "away": "Cardiff",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-02-09",
+      "home": "Watford",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-10",
+      "home": "Man City",
+      "away": "Chelsea",
+      "hg": 6,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-10",
+      "home": "Tottenham",
+      "away": "Leicester",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-11",
+      "home": "Wolves",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-22",
+      "home": "Cardiff",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 5
+    },
+    {
+      "date": "2019-02-22",
+      "home": "West Ham",
+      "away": "Fulham",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-23",
+      "home": "Bournemouth",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-23",
+      "home": "Burnley",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-23",
+      "home": "Leicester",
+      "away": "Crystal Palace",
+      "hg": 1,
+      "ag": 4
+    },
+    {
+      "date": "2019-02-23",
+      "home": "Newcastle",
+      "away": "Huddersfield",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-24",
+      "home": "Arsenal",
+      "away": "Southampton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-24",
+      "home": "Man United",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-26",
+      "home": "Cardiff",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2019-02-26",
+      "home": "Huddersfield",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-26",
+      "home": "Leicester",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-26",
+      "home": "Newcastle",
+      "away": "Burnley",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Arsenal",
+      "away": "Bournemouth",
+      "hg": 5,
+      "ag": 1
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Crystal Palace",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Liverpool",
+      "away": "Watford",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Man City",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-02-27",
+      "home": "Southampton",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Bournemouth",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Brighton",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Burnley",
+      "away": "Crystal Palace",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Man United",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Tottenham",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-02",
+      "home": "West Ham",
+      "away": "Newcastle",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-02",
+      "home": "Wolves",
+      "away": "Cardiff",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-03",
+      "home": "Everton",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-03",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-03",
+      "home": "Watford",
+      "away": "Leicester",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Crystal Palace",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Huddersfield",
+      "away": "Bournemouth",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Leicester",
+      "away": "Fulham",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Man City",
+      "away": "Watford",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Newcastle",
+      "away": "Everton",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-09",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-10",
+      "home": "Arsenal",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-10",
+      "home": "Chelsea",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-10",
+      "home": "Liverpool",
+      "away": "Burnley",
+      "hg": 4,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-16",
+      "home": "Bournemouth",
+      "away": "Newcastle",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-16",
+      "home": "Burnley",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-16",
+      "home": "West Ham",
+      "away": "Huddersfield",
+      "hg": 4,
+      "ag": 3
+    },
+    {
+      "date": "2019-03-17",
+      "home": "Everton",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-17",
+      "home": "Fulham",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Brighton",
+      "away": "Southampton",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Burnley",
+      "away": "Wolves",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Crystal Palace",
+      "away": "Huddersfield",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Fulham",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Leicester",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-03-30",
+      "home": "Man United",
+      "away": "Watford",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-03-30",
+      "home": "West Ham",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-31",
+      "home": "Cardiff",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-03-31",
+      "home": "Liverpool",
+      "away": "Tottenham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-01",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-02",
+      "home": "Watford",
+      "away": "Fulham",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-02",
+      "home": "Wolves",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-03",
+      "home": "Chelsea",
+      "away": "Brighton",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-03",
+      "home": "Man City",
+      "away": "Cardiff",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-03",
+      "home": "Tottenham",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-05",
+      "home": "Southampton",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-04-06",
+      "home": "Bournemouth",
+      "away": "Burnley",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-04-06",
+      "home": "Huddersfield",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 4
+    },
+    {
+      "date": "2019-04-06",
+      "home": "Newcastle",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-07",
+      "home": "Everton",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-08",
+      "home": "Chelsea",
+      "away": "West Ham",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-12",
+      "home": "Leicester",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Brighton",
+      "away": "Bournemouth",
+      "hg": 0,
+      "ag": 5
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Burnley",
+      "away": "Cardiff",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Fulham",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Man United",
+      "away": "West Ham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Southampton",
+      "away": "Wolves",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-13",
+      "home": "Tottenham",
+      "away": "Huddersfield",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-14",
+      "home": "Crystal Palace",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-04-14",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-15",
+      "home": "Watford",
+      "away": "Arsenal",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-16",
+      "home": "Brighton",
+      "away": "Cardiff",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-20",
+      "home": "Bournemouth",
+      "away": "Fulham",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-20",
+      "home": "Huddersfield",
+      "away": "Watford",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-20",
+      "home": "Man City",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-20",
+      "home": "Newcastle",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-20",
+      "home": "West Ham",
+      "away": "Leicester",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-20",
+      "home": "Wolves",
+      "away": "Brighton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-21",
+      "home": "Arsenal",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2019-04-21",
+      "home": "Cardiff",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-21",
+      "home": "Everton",
+      "away": "Man United",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-22",
+      "home": "Chelsea",
+      "away": "Burnley",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-23",
+      "home": "Tottenham",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-23",
+      "home": "Watford",
+      "away": "Southampton",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-24",
+      "home": "Man United",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-24",
+      "home": "Wolves",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-26",
+      "home": "Liverpool",
+      "away": "Huddersfield",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Brighton",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Fulham",
+      "away": "Cardiff",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Southampton",
+      "away": "Bournemouth",
+      "hg": 3,
+      "ag": 3
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Tottenham",
+      "away": "West Ham",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-27",
+      "home": "Watford",
+      "away": "Wolves",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2019-04-28",
+      "home": "Burnley",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2019-04-28",
+      "home": "Leicester",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-04-28",
+      "home": "Man United",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-05-03",
+      "home": "Everton",
+      "away": "Burnley",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-04",
+      "home": "Bournemouth",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-04",
+      "home": "Cardiff",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2019-05-04",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2019-05-04",
+      "home": "West Ham",
+      "away": "Southampton",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-04",
+      "home": "Wolves",
+      "away": "Fulham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-05",
+      "home": "Arsenal",
+      "away": "Brighton",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-05-05",
+      "home": "Chelsea",
+      "away": "Watford",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-05",
+      "home": "Huddersfield",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-05-06",
+      "home": "Man City",
+      "away": "Leicester",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Brighton",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 4
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Burnley",
+      "away": "Arsenal",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Crystal Palace",
+      "away": "Bournemouth",
+      "hg": 5,
+      "ag": 3
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 4
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Leicester",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Liverpool",
+      "away": "Wolves",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Man United",
+      "away": "Cardiff",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Southampton",
+      "away": "Huddersfield",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Tottenham",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2019-05-12",
+      "home": "Watford",
+      "away": "West Ham",
+      "hg": 1,
+      "ag": 4
+    }
+  ]
+}
