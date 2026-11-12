@@ -15,18 +15,32 @@
       "items": [
         {
           "id": "m530629",
-          "title": "巴黎圣日耳曼 1-3 曼联：净胜 2 球",
-          "summary": "欧冠，客场（王子公园）。这一季各项赛事第 41 场，24 胜 9 平 8 负。",
-          "body_html": "<p>2018/19 欧冠，客场（王子公园）对阵巴黎圣日耳曼，比分 3-1。</p><p>进球：2' Romelu Lukaku（曼联）、12' Juan Bernat（巴黎圣日耳曼）、30' Romelu Lukaku（曼联）、90+4' Marcus Rashford（曼联，点球）。</p>",
+          "title": "巴黎 1-3 曼联：凯雷尔回传、布冯脱手，最后是一个 VAR 点球",
+          "summary": "开场 2 分钟卢卡库断下凯雷尔的短回传、晃过布冯；30 分钟布冯扑拉什福德远射脱手，卢卡库补进；补时阶段达洛特射门打在金彭贝手上，VAR 判点，拉什福德 90+4 罚进，总比分 3-3 客场进球晋级。",
+          "body_html": "<p>首回合主场 0-2，来巴黎的时候曼联缺了十来个主力。开场第 2 分钟，凯雷尔给布冯的回传太短，卢卡库断下来，晃过布冯推空门，1-0。</p><p>12 分钟贝尔纳特扳平——姆巴佩左路传中，他在六码区左侧左脚打进。但 30 分钟巴黎又送礼：拉什福德 25 码外一脚下坠球，湿滑的球让布冯脱手，卢卡库在门前把球垫进，2-1。</p><p>下半场变成消耗战。补时阶段达洛特的射门打在金彭贝手上，主裁先没判，VAR 介入后改判点球。90+4 分钟，拉什福德右脚把球打进中路偏上，3-1。</p><p>两回合 3-3，客场进球晋级。这是欧冠历史上第一支在首回合主场 0-2 落败后翻盘的球队。</p>",
           "sources": [
             {
-              "text": "ESPN 比分",
-              "url": "https://www.espn.com/soccer/match/_/gameId/530629"
+              "text": "ESPN 赛报",
+              "url": "https://www.espn.com/soccer/report/_/gameId/530629"
+            },
+            {
+              "text": "天空体育 · 赛报与评分",
+              "url": "https://www.skysports.com/football/news/11656988/paris-saint-germain-1-3-man-utd-3-3-on-agg-var-penalty-seals-history-making-champions-league-comeback"
+            },
+            {
+              "text": "天空体育 · 索尔斯克亚赛后",
+              "url": "https://www.skysports.com/football/news/11667/11657090/solskjaer-we-can-go-all-the-way"
             }
           ],
           "source_name": "欧冠 · 客场",
           "published_at": "03-07 04:00",
-          "badge": "./media/badges/psg.png"
+          "badge": "./media/badges/psg.png",
+          "quote": {
+            "zh": "我们一直相信。比赛计划不是控球压制，如果你给这支球队太多空间和时间，他们能伤到你。",
+            "en": "We always believed. The plan wasn't about having the ball and outplaying them, if you give this team too much space and time they can hurt you.",
+            "who": "Ole Gunnar Solskjær（赛后）",
+            "when": "2019 年 3 月 6 日赛后"
+          }
         }
       ]
     },

@@ -5,6 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#ffffff" />
 <title>2023/24 赛季 · 曼联日报</title>
+<script>
+  // 从哪一期点进来就用哪一期的底色：晚报进来是深色，早报进来是浅色
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search).get('theme');
+      var saved = sessionStorage.getItem('mud-theme');
+      var theme = q || saved || 'morning';
+      if (theme !== 'evening') theme = 'morning';
+      document.documentElement.dataset.theme = theme;
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'evening' ? '#0e0e0d' : '#ffffff');
+      sessionStorage.setItem('mud-theme', theme);
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a) return;
+        var href = a.getAttribute('href');
+        if (!href || href.startsWith('#') || href.startsWith('http')) return;
+        if (!href.includes('theme=')) {
+          a.setAttribute('href', href + (href.includes('?') ? '&' : '?') + 'theme=' + theme);
+        }
+      });
+    } catch (err) {}
+  })();
+</script>
 <link rel="icon" href="../media/favicon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="../design-tokens.css?v=9" />
 <link rel="stylesheet" href="../layout.css?v=9" />
@@ -14,7 +37,7 @@
 <header class="topbar">
   <a class="brand" href="../" aria-label="回到日报首页">
     <img class="brand-avatar" src="../media/avatar-github.jpg" alt="" width="36" height="36" />
-    <span class="brand-text">曼联日报<small>赛季归档</small></span>
+    <span class="brand-text">SilverHerring1<small>Once a red always a red</small></span>
   </a>
   <nav class="variant-nav" aria-label="归档导航">
     <span>归档</span>
@@ -107,7 +130,7 @@
 </tr>
 <tr class="is-united">
 <td class="num">4</td>
-<td class="arc-opp">Manchester United</td>
+<td class="arc-opp"><img src="../media/badges/man-utd.png" alt="" width="25" height="18" loading="lazy" />曼联</td>
 <td>6</td><td>1</td><td>1</td><td>4</td>
 <td class="num">12/15</td><td class="num group-pts">4</td>
 </tr>

@@ -211,6 +211,9 @@ function renderMasthead(issue) {
   $("dateWeekday").textContent = weekdayOf(issue.date);
   $("dateTrigger").disabled = false;
   $("miniEditionText").textContent = `${pad(month)}.${pad(day)} ${periodName(issue.period)}`;
+  // 进归档页时带上当前是早报还是晚报，归档页跟着用同一套底色
+  const archiveLink = document.querySelector(".archive-link");
+  if (archiveLink) archiveLink.href = `./archive/?theme=${issue.period === "evening" ? "evening" : "morning"}`;
   document.title = issue.season
     ? `${issue.season} · ${month} 月 ${day} 日 ${editionName(issue.period)} · ${state.index.name || ""}`.trim()
     : `${month} 月 ${day} 日 ${editionName(issue.period)} · ${state.index.name || ""}`.trim();
