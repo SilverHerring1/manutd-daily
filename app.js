@@ -496,8 +496,17 @@ const standingsCache = new Map();
 async function tableAsOf(issue) {
   if (!issue?.season) return null;
   const slug = String(issue.season).replace("/", "-");
-  const cutoff = issue.matchDate ?? issue.date;
-  if (!slug || !cutoff) return null;
+  const base = issue.matchDate || issue.date;
+  if (!slug || !base) return null;
+
+  // 开球时间在凌晨的那批（比如 03:00 主场），英国当地还是前一天——榜单只能算到前一天，
+  // 否则会把当天稍后才踢的比赛算进去。
+  const published = issue.sections?.[0]?.items?.[0]?.published_at ?? "";
+  const kickHour = Number((published.match(/(\d{2}):(\d{2})\s*$/) ?? [])[1]);
+  const cutoff =
+    Number.isFinite(kickHour) && kickHour < 6
+      ? new Date(new Date(`${base}T00:00:00Z`).getTime() - 86400000).toISOString().slice(0, 10)
+      : base;
 
   if (!standingsCache.has(slug)) {
     try {
@@ -509,7 +518,11 @@ async function tableAsOf(issue) {
   const data = standingsCache.get(slug);
   if (!data?.matches) return null;      // 这一季没有榜单数据 → 交给调用方兜底
 
+  // 先把这一季所有球队都摆进来：第 1 轮还没踢完时，没出场的队显示 0 场，而不是从表里消失
   const acc = new Map();
+  for (const name of Object.keys(data.teams ?? {})) {
+    acc.set(name, { played: 0, win: 0, draw: 0, loss: 0, gf: 0, ga: 0 });
+  }
   for (const m of data.matches) {
     if (m.date > cutoff) continue;
     for (const [name, gf, ga] of [[m.home, m.hg, m.ag], [m.away, m.ag, m.hg]]) {
@@ -625,8 +638,9 @@ async function choose(date, period, { scroll = "smooth" } = {}) {
     return;
   }
 
-  // 目录里记着这一期属于哪个赛季，补到期次上：期次导航、抬头、搜索都靠它分组
+  // 目录里记着这一期属于哪个赛季、对应哪天比赛，补到期次上：期次导航、抬头、积分榜都靠它
   issue.season = issue.season ?? meta.season ?? "";
+  issue.matchDate = issue.matchDate ?? meta.matchDate ?? "";
   state.issue = issue;
   // 换了一期，日期面板要跟着走：否则点「下一期」后打开面板还停在上次看的那几个月
   state.picker = { year: issue.date.slice(0, 4), month: issue.date.slice(5, 7) };
