@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-20-morning",
+  "date": "2026-09-20",
+  "period": "morning",
+  "issue_number": 460,
+  "title": "曼联早报",
+  "kind": "match",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/archive/2026-27/archive-2026-09-20-Fulham.jpg",
+    "alt": "2026-09-20-Fulham",
+    "width": 960,
+    "height": 540
+  },
+  "note": {
+    "title": "编辑短评",
+    "body": "乌龙送出一个，89 分钟追回一个。客场还是没赢。"
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "fulham",
+          "title": "富勒姆 1-1 曼联：利桑德罗乌龙，89 分钟库尼亚追平",
+          "summary": "63 分钟利桑德罗自摆乌龙，曼联落后；89 分钟库尼亚在禁区外右脚打进右下角。全场 3 张黄牌。",
+          "body_html": "<p>客场对富勒姆，曼联第 63 分钟先落后——利桑德罗自摆乌龙，1-0。</p><p>剩下的时间一直在追，直到第 89 分钟库尼亚在禁区外右脚低射打进右下角，1-1。</p><p>时间不够了。这场之后，曼联的联赛客场还是没赢过。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分 · 门线解说",
+              "url": "https://www.espn.com/soccer/match/_/gameId/"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "09-20 23:30"
+        }
+      ]
+    }
+  ]
+}

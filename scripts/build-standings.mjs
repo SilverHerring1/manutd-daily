@@ -19,6 +19,7 @@ const ALIAS = {
   'Aston Villa': 'Aston Villa', 'Crystal Palace': 'Crystal Palace', 'Everton': 'Everton',
   'Fulham': 'Fulham', 'Burnley': 'Burnley', 'Southampton': 'Southampton', 'Watford': 'Watford',
   'Sunderland': 'Sunderland', 'Arsenal': 'Arsenal', 'Chelsea': 'Chelsea', 'Liverpool': 'Liverpool',
+  'Coventry': 'Coventry City', 'Hull': 'Hull City', 'Sheffield Utd': 'Sheffield United', 'Nottm Forest': 'Nottingham Forest',
 };
 
 const TEAMS = JSON.parse(readFileSync(join(ROOT, 'scripts/teams-cn.json'), 'utf8')).team;

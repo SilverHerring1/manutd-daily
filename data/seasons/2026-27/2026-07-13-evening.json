@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-13-evening",
+  "date": "2026-07-13",
+  "period": "evening",
+  "issue_number": 448,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "夏窗的第一笔，从切尔西来。中场这两个字，上个赛季被说了太多次。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "andrey-santos",
+          "title": "曼联官宣安德烈·桑托斯：切尔西中场，3500 万镑起步",
+          "summary": "官网口径是「已加盟，注册手续待完成」，合同到 2031 年 6 月。ESPN 称转会费为初始 3500 万镑，另有与表现挂钩的附加条款。",
+          "body_html": "<p>曼联今晚官宣安德烈·桑托斯加盟，公告的措辞是「subject to registration」——注册手续还没走完，这在夏窗很常见。</p><p>合同到 2031 年 6 月。ESPN 的报道给出的数字是：初始 3500 万镑，另有与表现挂钩的附加条款。俱乐部没有公布费用。</p><p>桑托斯从切尔西来，司职中场。上个赛季曼联在中场位置上反复调整，这个位置补人是夏窗最早定下来的方向之一。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/andrey-santos-signs-for-manchester-united"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/49318443/manchester-united-announce-signing-andrey-santos-chelsea-premier-league-transfer-news"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "07-13 21:00"
+        }
+      ]
+    }
+  ]
+}

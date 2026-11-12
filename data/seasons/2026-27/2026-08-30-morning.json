@@ -1,0 +1,43 @@
+{
+  "id": "2026-08-30-morning",
+  "date": "2026-08-30",
+  "period": "morning",
+  "issue_number": 455,
+  "title": "曼联早报",
+  "kind": "match",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/archive/2026-27/archive-2026-08-30-IpswichTown.jpg",
+    "alt": "2026-08-30-IpswichTown",
+    "width": 960,
+    "height": 540
+  },
+  "note": {
+    "title": "编辑短评",
+    "body": "一场 5-2，布鲁诺一个人进了三个。9 月 6 日客场埃弗顿。"
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "ipswich",
+          "title": "曼联 5-2 伊普斯维奇：先丢一球，然后布鲁诺进了三个",
+          "summary": "29 分钟先失球，40 分钟布鲁诺扳平；56 分钟对方乌龙、61 分钟布鲁诺点球、68 分钟再进一个，82 分钟姆贝乌莫远射，90+1 被追回一球。",
+          "body_html": "<p>主场第二轮，曼联 5-2 赢下伊普斯维奇。第 29 分钟是客队先进：戴维斯在禁区中路左脚打进上角。</p><p>11 分钟后布鲁诺在禁区中路扳平。下半场第 56 分钟，格里夫斯自摆乌龙，VAR 确认有效；4 分钟后格里夫斯又在本方禁区犯规吃牌送点，布鲁诺主罚命中。第 68 分钟布鲁诺再进一个——三个进球，39 分钟内完成。</p><p>第 82 分钟姆贝乌莫在禁区外左脚远射，5-1。补时第一分钟伊普斯维奇追回一个，姆贝乌莫还在补时吃了一张黄牌。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分 · 门线解说",
+              "url": "https://www.espn.com/soccer/match/_/gameId/"
+            }
+          ],
+          "source_name": "英超 · 主场",
+          "published_at": "08-30 23:30"
+        }
+      ]
+    }
+  ]
+}

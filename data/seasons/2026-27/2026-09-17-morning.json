@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-17-morning",
+  "date": "2026-09-17",
+  "period": "morning",
+  "issue_number": 459,
+  "title": "曼联早报",
+  "kind": "match",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/archive/2026-27/archive-2026-09-17-BrightonHoveAlbion.jpg",
+    "alt": "2026-09-17-BrightonHoveAlbion",
+    "width": 960,
+    "height": 540
+  },
+  "note": {
+    "title": "编辑短评",
+    "body": "10 分钟 2-0，然后连丢三个。联赛杯就这样出局了。"
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "brighton",
+          "title": "曼联 2-3 布莱顿：10 分钟 2-0，然后被灌三个",
+          "summary": "莱西 8 分钟、芒特 10 分钟，2-0 领先；45+1 被追回一个，65 分钟被扳平，69 分钟德库伊珀反超。联赛杯第三轮出局。",
+          "body_html": "<p>联赛杯第三轮，曼联主场 2-3 输给布莱顿。开局很顺：第 8 分钟莱西在禁区中路左脚打右下角，第 10 分钟芒特右脚打右上角，10 分钟 2-0。</p><p>但上半场补时第 1 分钟被科斯托拉斯追回一个。下半场 65 分钟格罗斯扳平，4 分钟后德库伊珀反超。</p><p>布莱顿全场 4 张黄牌，但没有再丢球。曼联在国内杯赛的这条路，第三轮就断了。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分 · 门线解说",
+              "url": "https://www.espn.com/soccer/match/_/gameId/"
+            }
+          ],
+          "source_name": "联赛杯 · 主场",
+          "published_at": "09-17 03:00"
+        }
+      ]
+    }
+  ]
+}

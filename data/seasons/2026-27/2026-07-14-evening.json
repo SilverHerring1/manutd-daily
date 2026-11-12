@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-14-evening",
+  "date": "2026-07-14",
+  "period": "evening",
+  "issue_number": 449,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "自由身、两年合同、上赛季利兹的一号。门将这个位置的第二选择，总算补上了。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "karl-darlow",
+          "title": "曼联签下门将达尔洛：自由身，合同到 2028 年",
+          "summary": "从利兹自由身加盟，签至 2028 年 6 月。ESPN 称他是利兹上赛季的一号门将，合同到期后离队。",
+          "body_html": "<p>曼联今天官宣门将卡尔·达尔洛加盟，同样是「注册手续待完成」。合同到 2028 年 6 月。</p><p>他是自由身加盟——与利兹的合同到期后离队。ESPN 的报道提到，上赛季他是利兹的一号门将。</p><p>门将位置在夏窗属于「不那么醒目但不能空着」的那一类。俱乐部没有公布薪资细节。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/karl-darlow-signs-for-manchester-united"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/49358001/manchester-united-sign-goalkeeper-karl-darlow-leeds"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "07-14 19:00"
+        }
+      ]
+    }
+  ]
+}

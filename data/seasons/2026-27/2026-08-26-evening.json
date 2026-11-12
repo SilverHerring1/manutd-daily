@@ -1,0 +1,51 @@
+{
+  "id": "2026-08-26-evening",
+  "date": "2026-08-26",
+  "period": "evening",
+  "issue_number": 454,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 2,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "一百二十年才从布莱顿签一个人。这笔账，俱乐部自己先在官网上算了。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "first-since-1906",
+          "title": "官网考证：1906 年以来，曼联第一次从布莱顿签成年队球员",
+          "summary": "俱乐部自己发了一篇稿子算这笔账：巴莱巴是 1906 年至今，曼联从布莱顿引进的第一位成年男足球员。",
+          "body_html": "<p>官宣之外，俱乐部官网今天发了一篇考据：巴莱巴是 1906 年以来，曼联从布莱顿签下的第一位成年男足球员。</p><p>文章说这是「据我们查证」。一百二十年里两支球队交手不少，但从布莱顿到曼联这条线，一直没走通过。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · Why Baleba is a United first this century",
+              "url": "https://www.manutd.com/en/news/why-baleba-is-a-united-first-this-century"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "08-26 18:00"
+        },
+        {
+          "id": "rival-to-red",
+          "title": "还有一条：他是第三个「先打曼联、下一场就代表曼联」的人",
+          "summary": "官网统计：在英超代表别的球队对阵过曼联、随后下一场联赛就穿上曼联球衣的球员，巴莱巴是第三个。",
+          "body_html": "<p>同一批稿子里还有一条更具体的：在英超赛场上先代表别的球队对阵曼联，然后下一场联赛就为曼联出场——巴莱巴是历史上第三个。</p><p>他上赛季在布莱顿和曼联交过手。这次是反过来了。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · Baleba quickly goes from rival to Red",
+              "url": "https://www.manutd.com/en/news/baleba-quickly-goes-from-rival-to-red"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "08-26 19:00"
+        }
+      ]
+    }
+  ]
+}

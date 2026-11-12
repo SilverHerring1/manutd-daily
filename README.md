@@ -8,11 +8,11 @@
 
 **早报 · 白天，浅色**
 
-![早报](screenshot-morning.png?v=3)
+![早报](screenshot-morning.png?v=4)
 
 **晚报 · 夜间，深色**
 
-![晚报](screenshot-evening.png?v=3)
+![晚报](screenshot-evening.png?v=4)
 
 ---
 

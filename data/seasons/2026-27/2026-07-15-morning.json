@@ -1,0 +1,41 @@
+{
+  "id": "2026-07-15-morning",
+  "date": "2026-07-15",
+  "period": "morning",
+  "issue_number": 450,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "两天三签。前两笔是补缺，这一笔是要人来控球的。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "youri-tielemans",
+          "title": "曼联官宣蒂勒曼斯：维拉中场，合同到 2031 年",
+          "summary": "从阿斯顿维拉加盟，签至 2031 年 6 月。ESPN 称曼联触发了 3500 万镑的解约条款。",
+          "body_html": "<p>曼联官宣尤里·蒂勒曼斯加盟，公告口径与前一天一致：注册手续待完成。合同到 2031 年 6 月。</p><p>ESPN 报道称，这笔转会是通过触发 3500 万镑的解约条款完成的。俱乐部方面没有确认费用。</p><p>两天之内三笔官宣——桑托斯、达尔洛、蒂勒曼斯。前两笔补的是空缺，这一笔补的是中场出球和定位球。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/manchester-united-announce-signing-of-youri-tielemans"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/49348973/youri-tielemans-man-united-advanced-talks-aston-villa-sources"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "07-15 01:30"
+        }
+      ]
+    }
+  ]
+}

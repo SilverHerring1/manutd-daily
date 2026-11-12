@@ -1,0 +1,41 @@
+{
+  "id": "2026-08-26-morning",
+  "date": "2026-08-26",
+  "period": "morning",
+  "issue_number": 453,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "中场这笔花了一个夏天，最后在关窗前一周落地。6500 万，五年。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "转会官宣",
+      "items": [
+        {
+          "id": "baleba-joins",
+          "title": "曼联官宣巴莱巴：6500 万镑 + 500 万浮动，合同到 2031 年",
+          "summary": "布莱顿的喀麦隆国脚中场加盟，官网口径仍是「注册手续待完成」。合同五年，到 2031 年 6 月；《天空体育》称固定 6500 万镑、另有 500 万浮动，布莱顿保留转售分成。",
+          "body_html": "<p>曼联官宣卡洛斯·巴莱巴加盟，公告措辞与今夏几笔一致：subject to registration。合同到 2031 年 6 月，五年。</p><p>费用方面，《天空体育》的说法是固定 6500 万镑、外加最高 500 万镑的浮动，布莱顿还拿到转售分成条款。俱乐部没有公布数字。</p><p>巴莱巴是喀麦隆国脚，从布莱顿来，司职中场。曼联想补中场这件事从夏窗一开始就不是秘密——蒂勒曼斯和桑托斯先到，巴莱巴是这一笔里最贵、也谈得最久的一个。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/carlos-baleba-joins-united"
+            },
+            {
+              "text": "天空体育",
+              "url": "https://www.skysports.com/football/news/13575603/carlos-baleba-transfer-news-manchester-united-and-brighton-agree-lb70m-deal-for-midfielder"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "08-26 00:45"
+        }
+      ]
+    }
+  ]
+}

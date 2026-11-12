@@ -1,0 +1,53 @@
+{
+  "id": "2026-08-22-morning",
+  "date": "2026-08-22",
+  "period": "morning",
+  "issue_number": 452,
+  "title": "曼联早报",
+  "kind": "match",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/archive/2026-27/archive-2026-08-22-HullCity.jpg",
+    "alt": "曼联客场对赫尔城",
+    "width": 960,
+    "height": 540
+  },
+  "note": {
+    "title": "编辑短评",
+    "body": "两个角球丢两个。第二轮的对手是伊普斯维奇，主场。"
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "hull",
+          "title": "赫尔城 2-0 曼联：两个角球丢两个，五个角球没换来一个",
+          "summary": "17 分钟阿贾伊近距离推射、38 分钟门迪头球，两个失球都来自定位球。下半场曼联 5 个角球、21 脚射门，一个没进。",
+          "body_html": "<p>英超首轮客场对赫尔城，曼联 0-2。第 17 分钟，赫尔城右侧角球开到门前，阿贾伊在六码区里右脚推射，1-0——这球是门将拉门斯把球扑出底线后给的角球。</p><p>第 38 分钟又是定位球：斯莱特传中，门迪在小禁区里头顶进右下角。上半场曼联控球七成，比分是 0-2。</p><p>中场休息时卡里克用拉什福德换下多尔古——多尔古第 34 分钟刚因为一次犯规吃牌。下半场曼联把球压在对方半场，角球拿到 5 个（50、55、78、81、89 分钟），一个都没转化成机会；21 脚射门里只有 5 脚打在门框内。</p><p>赫尔城也不好过：他们的两个进球者阿贾伊和门迪，都在 64 分钟前后因伤被换下。曼联那边换上了舍什科、梅努、达洛特和莱西，没有改变比分。</p>",
+          "sources": [
+            {
+              "text": "ESPN 比分 · 门线解说",
+              "url": "https://www.espn.com/soccer/match/_/gameId/"
+            },
+            {
+              "text": "Yahoo Sports · 赛后采访",
+              "url": "https://sports.yahoo.com/articles/michael-carrick-reaction-did-manchester-132511530.html"
+            }
+          ],
+          "source_name": "英超 · 客场",
+          "published_at": "08-22 19:30",
+          "quote": {
+            "zh": "今天的结果让人非常失望。但这不会把我们打垮。",
+            "en": "We are bitterly disappointed with the result today. But it won't knock us.",
+            "who": "Michael Carrick（赛后）",
+            "when": "8 月 22 日赛后"
+          }
+        }
+      ]
+    }
+  ]
+}

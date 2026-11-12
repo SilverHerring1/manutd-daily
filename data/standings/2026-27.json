@@ -1,0 +1,829 @@
+{
+  "season": "2026-27",
+  "source": "football-data.co.uk",
+  "count": 100,
+  "teams": {
+    "Arsenal": {
+      "en": "Arsenal",
+      "cn": "阿森纳",
+      "badge": "arsenal",
+      "short": "Arsenal"
+    },
+    "Coventry": {
+      "en": "Coventry City",
+      "cn": "考文垂",
+      "badge": "coventrycity",
+      "short": "Coventry"
+    },
+    "Hull": {
+      "en": "Hull City",
+      "cn": "赫尔城",
+      "badge": "hullcity",
+      "short": "Hull"
+    },
+    "Man United": {
+      "en": "Manchester United",
+      "cn": "曼联",
+      "badge": "man-utd",
+      "short": "Man United"
+    },
+    "Everton": {
+      "en": "Everton",
+      "cn": "埃弗顿",
+      "badge": "everton",
+      "short": "Everton"
+    },
+    "Crystal Palace": {
+      "en": "Crystal Palace",
+      "cn": "水晶宫",
+      "badge": "crystal-palace",
+      "short": "Crystal Palace"
+    },
+    "Ipswich": {
+      "en": "Ipswich Town",
+      "cn": "伊普斯维奇",
+      "badge": "ipswichtown",
+      "short": "Ipswich"
+    },
+    "Sunderland": {
+      "en": "Sunderland",
+      "cn": "桑德兰",
+      "badge": "sunderland",
+      "short": "Sunderland"
+    },
+    "Nott'm Forest": {
+      "en": "Nottingham Forest",
+      "cn": "诺丁汉森林",
+      "badge": "nottinghamforest",
+      "short": "Nott'm Forest"
+    },
+    "Leeds": {
+      "en": "Leeds United",
+      "cn": "利兹联",
+      "badge": "leedsunited",
+      "short": "Leeds"
+    },
+    "Brentford": {
+      "en": "Brentford",
+      "cn": "布伦特福德",
+      "badge": "brentford",
+      "short": "Brentford"
+    },
+    "Tottenham": {
+      "en": "Tottenham Hotspur",
+      "cn": "托特纳姆热刺",
+      "badge": "tottenham",
+      "short": "Tottenham"
+    },
+    "Brighton": {
+      "en": "Brighton & Hove Albion",
+      "cn": "布莱顿",
+      "badge": "brighton",
+      "short": "Brighton"
+    },
+    "Aston Villa": {
+      "en": "Aston Villa",
+      "cn": "阿斯顿维拉",
+      "badge": "astonvilla",
+      "short": "Aston Villa"
+    },
+    "Man City": {
+      "en": "Manchester City",
+      "cn": "曼城",
+      "badge": "man-city",
+      "short": "Man City"
+    },
+    "Bournemouth": {
+      "en": "AFC Bournemouth",
+      "cn": "伯恩茅斯",
+      "badge": "bournemouth",
+      "short": "Bournemouth"
+    },
+    "Newcastle": {
+      "en": "Newcastle United",
+      "cn": "纽卡斯尔联",
+      "badge": "newcastle",
+      "short": "Newcastle"
+    },
+    "Liverpool": {
+      "en": "Liverpool",
+      "cn": "利物浦",
+      "badge": "liverpool",
+      "short": "Liverpool"
+    },
+    "Fulham": {
+      "en": "Fulham",
+      "cn": "富勒姆",
+      "badge": "fulham",
+      "short": "Fulham"
+    },
+    "Chelsea": {
+      "en": "Chelsea",
+      "cn": "切尔西",
+      "badge": "chelsea",
+      "short": "Chelsea"
+    }
+  },
+  "matches": [
+    {
+      "date": "2026-08-21",
+      "home": "Arsenal",
+      "away": "Coventry",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Hull",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Ipswich",
+      "away": "Sunderland",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Nott'm Forest",
+      "away": "Leeds",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Brentford",
+      "away": "Tottenham",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Brighton",
+      "away": "Aston Villa",
+      "hg": 4,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Man City",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-08-24",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2026-08-28",
+      "home": "Crystal Palace",
+      "away": "Man City",
+      "hg": 1,
+      "ag": 4
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Liverpool",
+      "away": "Nott'm Forest",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Coventry",
+      "away": "Hull",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Tottenham",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-08-30",
+      "home": "Chelsea",
+      "away": "Brighton",
+      "hg": 4,
+      "ag": 3
+    },
+    {
+      "date": "2026-08-30",
+      "home": "Leeds",
+      "away": "Brentford",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-08-30",
+      "home": "Sunderland",
+      "away": "Fulham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-08-30",
+      "home": "Man United",
+      "away": "Ipswich",
+      "hg": 5,
+      "ag": 2
+    },
+    {
+      "date": "2026-08-31",
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Ipswich",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Brentford",
+      "away": "Sunderland",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Brighton",
+      "away": "Leeds",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Fulham",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Man City",
+      "away": "Coventry",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Nott'm Forest",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Hull",
+      "away": "Aston Villa",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Everton",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Aston Villa",
+      "away": "Nott'm Forest",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Bournemouth",
+      "away": "Brentford",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Chelsea",
+      "away": "Hull",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Crystal Palace",
+      "away": "Ipswich",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Liverpool",
+      "away": "Fulham",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Tottenham",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Sunderland",
+      "away": "Arsenal",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Coventry",
+      "away": "Brighton",
+      "hg": 0,
+      "ag": 5
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Man United",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-14",
+      "home": "Leeds",
+      "away": "Newcastle",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-18",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Tottenham",
+      "away": "Aston Villa",
+      "hg": 2,
+      "ag": 3
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "hg": 3,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Everton",
+      "away": "Ipswich",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Newcastle",
+      "away": "Hull",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Nott'm Forest",
+      "away": "Coventry",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Man City",
+      "away": "Sunderland",
+      "hg": 5,
+      "ag": 3
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Fulham",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Arsenal",
+      "away": "Leeds",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Chelsea",
+      "away": "Bournemouth",
+      "hg": 5,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Ipswich",
+      "away": "Fulham",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Sunderland",
+      "away": "Brighton",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-10",
+      "home": "Man United",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-11",
+      "home": "Crystal Palace",
+      "away": "Nott'm Forest",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-11",
+      "home": "Hull",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-11",
+      "home": "Liverpool",
+      "away": "Man City",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2026-10-12",
+      "home": "Coventry",
+      "away": "Newcastle",
+      "hg": 4,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Everton",
+      "away": "Chelsea",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Brentford",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Fulham",
+      "away": "Hull",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Man City",
+      "away": "Ipswich",
+      "hg": 3,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Newcastle",
+      "away": "Aston Villa",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Bournemouth",
+      "away": "Sunderland",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "hg": 5,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Leeds",
+      "away": "Man United",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Nott'm Forest",
+      "away": "Arsenal",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-19",
+      "home": "Tottenham",
+      "away": "Coventry",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-23",
+      "home": "Ipswich",
+      "away": "Nott'm Forest",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "hg": 2,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Arsenal",
+      "away": "Everton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Coventry",
+      "away": "Fulham",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "hg": 0,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Hull",
+      "away": "Brentford",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Man United",
+      "away": "Bournemouth",
+      "hg": 0,
+      "ag": 3
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Sunderland",
+      "away": "Leeds",
+      "hg": 0,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Chelsea",
+      "away": "Man United",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Brentford",
+      "away": "Nott'm Forest",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Coventry",
+      "away": "Sunderland",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Hull",
+      "away": "Ipswich",
+      "hg": 2,
+      "ag": 2
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Man City",
+      "away": "Brighton",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Tottenham",
+      "away": "Crystal Palace",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-02",
+      "home": "Newcastle",
+      "away": "Everton",
+      "hg": 0,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-06",
+      "home": "Everton",
+      "away": "Coventry",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Leeds",
+      "away": "Tottenham",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Arsenal",
+      "away": "Hull",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "hg": 1,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Nott'm Forest",
+      "away": "Man City",
+      "hg": 3,
+      "ag": 1
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Brighton",
+      "away": "Brentford",
+      "hg": 2,
+      "ag": 0
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "hg": 1,
+      "ag": 3
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Ipswich",
+      "away": "Bournemouth",
+      "hg": 1,
+      "ag": 2
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "hg": 1,
+      "ag": 0
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Man United",
+      "away": "Aston Villa",
+      "hg": 4,
+      "ag": 4
+    }
+  ]
+}

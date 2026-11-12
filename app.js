@@ -376,8 +376,9 @@ function renderIssueNav(issue) {
     cell(at >= 0 && at < ordered.length - 1 ? ordered[at + 1] : null, "下一期");
 }
 
-/** 点年份/月份：跳到「同月同日」那一天，没有稿就落到空状态（不硬塞到最近的一期） */
-function jumpTo(year, month) {
+/** 点年份/月份：跳到「同月同日」那一天，没有稿就落到空状态（不硬塞到最近的一期）。
+    面板不关——让人能接着点月份或日子，只有点外面/滚动/按 Esc 才收起来。 */
+async function jumpTo(year, month) {
   const cur = state.shown ?? {};
   const dayOfMonth = Number(String(cur.date ?? "").slice(8, 10)) || 1;
   const lastDay = new Date(Number(year), Number(month), 0).getDate();
@@ -385,9 +386,12 @@ function jumpTo(year, month) {
   const date = `${year}-${month}-${day}`;
 
   state.picker = { year: String(year), month: String(month) };
-  $("dateMenu").hidden = true;
-  $("dateTrigger").setAttribute("aria-expanded", "false");
-  void choose(date, cur.period ?? "morning", { scroll: "top" });
+  await choose(date, cur.period ?? "morning", { scroll: "none" });
+
+  const menu = $("dateMenu");
+  menu.hidden = false;
+  $("dateTrigger").setAttribute("aria-expanded", "true");
+  placeSheet();
 }
 
 /* ---------------- 日期面板：年 / 月 / 日 三级 ---------------- */
@@ -496,7 +500,7 @@ async function tableAsOf(issue) {
     }
   }
   const data = standingsCache.get(slug);
-  if (!data?.matches?.length) return null;
+  if (!data?.matches) return null;      // 这一季没有榜单数据 → 交给调用方兜底
 
   const acc = new Map();
   for (const m of data.matches) {
@@ -527,17 +531,17 @@ async function tableAsOf(issue) {
     .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf)
     .map((r, i) => ({ ...r, rank: i + 1 }));
 
-  return rows.length ? { rows, cutoff, rounds: Math.max(...rows.map((r) => r.played)) } : null;
+  return { rows, cutoff, rounds: Math.max(0, ...rows.map((r) => r.played)) };
 }
 
 async function renderBoard() {
   const host = $("articleContent");
   if (!host) return;
 
-  // 归档期次：按那一天的进度算
-  if (state.issue?.archive) {
-    const table = await tableAsOf(state.issue);
-    if (!table) return;
+  // 有该季的全季比赛数据就用「当时」的榜；没有才退回懂球帝那张当前榜
+  const table = await tableAsOf(state.issue);
+  if (table) {
+    if (!table.rows.length) return;     // 那天地一场没踢（比如夏窗），就不显示
     const [y, m, d] = table.cutoff.split("-");
     const united = table.rows.find((r) => r.united);
     host.insertAdjacentHTML("beforeend", `
@@ -968,6 +972,19 @@ function bind() {
   window.addEventListener("resize", () => {
     if (!$("dateMenu").hidden) placeSheet();
   });
+
+  // 页面滚动时收起日期面板（面板内部自己滚动不算）
+  window.addEventListener(
+    "scroll",
+    (event) => {
+      const menu = $("dateMenu");
+      if (menu.hidden) return;
+      if (event.target instanceof Element && menu.contains(event.target)) return;
+      menu.hidden = true;
+      $("dateTrigger").setAttribute("aria-expanded", "false");
+    },
+    { capture: true, passive: true },
+  );
 
   document.querySelectorAll("[data-period]").forEach((button) =>
     button.addEventListener("click", () => {
