@@ -36,6 +36,12 @@
               "url": "https://www.skysports.com/share/13611749"
             }
           ],
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-13-bruno-bbc.jpg",
+            "alt": "布鲁诺·费尔南德斯（BBC 配图）",
+            "width": 1200,
+            "height": 675
+          },
           "source_name": "The Athletic · BBC",
           "published_at": "11-13 06:09"
         },

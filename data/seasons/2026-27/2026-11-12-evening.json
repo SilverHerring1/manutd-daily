@@ -36,6 +36,12 @@
               "url": "https://www.dongqiudi.com/article/6649079"
             }
           ],
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-12-evening-statement.jpg",
+            "alt": "卡里克在老特拉福德（曼联官网声明配图）",
+            "width": 1200,
+            "height": 674
+          },
           "source_name": "曼联官方",
           "published_at": "11-12 21:00",
           "quote": {

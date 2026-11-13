@@ -58,6 +58,12 @@
               "url": "https://www.dongqiudi.com/article/6649290"
             }
           ],
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-13-evening-goodbye.jpg",
+            "alt": "芒特与多古在社媒发布的告别图（左：芒特 IG story；右：多古 IG story）",
+            "width": 1200,
+            "height": 800
+          },
           "source_name": "球员社媒",
           "published_at": "11-13 17:53"
         }

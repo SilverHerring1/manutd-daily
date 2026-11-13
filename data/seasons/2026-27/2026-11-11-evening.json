@@ -50,6 +50,12 @@
               "url": "https://stheadline.com/zh-hans/football-news/3635913/%E8%8B%B1%E8%B6%85%E6%9B%BC%E8%81%94%E4%BC%A0%E5%8A%A0%E6%B2%99%E5%AE%B6%E6%97%8F%E5%AF%86%E8%B0%8B%E5%85%A8%E5%94%AE%E8%82%A1%E6%9D%83%E5%8F%AB%E4%BB%B750%E4%BA%BF%E9%95%91-%E8%B4%A2%E6%94%BF%E4%B8%93%E5%AE%B6%E7%88%86%E6%9B%BC%E8%81%94%E6%9A%97%E4%B8%AD%E6%94%BE%E5%94%AE"
             }
           ],
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-11-evening-glazer.jpg",
+            "alt": "阿夫拉姆·格拉泽（懂球帝配图）",
+            "width": 721,
+            "height": 406
+          },
           "source_name": "传闻 · 未证实",
           "published_at": "11-11 12:50"
         }
