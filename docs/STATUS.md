@@ -25,6 +25,49 @@ node scripts/fetch-commentary.mjs 2026-27   # 抓技术统计
 node scripts/gen-archive-issues.mjs --all --pages   # 只重建 archive/*.html
 ```
 
+## 上传到 GitHub Desktop（每轮改完必做）
+
+**两个位置别搞混**：
+
+| 角色 | 路径 |
+|---|---|
+| 工作目录（改文件、跑脚本的地方） | `D:\Documents\deepseek-harness\default-workspace\manutd-daily` |
+| Git 仓库（真正推到线上的是这个） | `D:\Documents\GitHub\manutd-daily` |
+
+改完的东西**不会自己跑到仓库里**，必须同步一次。
+
+### ① 同步到仓库
+
+```powershell
+cd D:\Documents\deepseek-harness\default-workspace\manutd-daily
+node scripts/sync-desktop.mjs
+```
+
+- 默认目标就是 `D:\Documents\GitHub\manutd-daily`，按 md5 只复制改过的文件
+- 不会碰 `tmp/`、`_site/`、`.git/`
+- 手动备选：`robocopy <工作目录> <仓库目录> /E /XD tmp _site data-weekly data-deep data-magazine .git /XF *.bak *.log`
+
+### ② GitHub Desktop 提交并推送
+
+1. 打开 **GitHub Desktop**
+2. 左上角 **Current Repository** 选 `manutd-daily`（路径应显示 `D:\Documents\GitHub\manutd-daily`）
+3. 左边 **Changes** 核对改动，不该提交的右键 **Ignore file**
+4. 左下角 **Summary** 写一句，例如 `补 11/11–11/13 五期：卡里克下课`
+5. 点 **Commit to main**
+6. 点右上角 **Push origin**
+
+### ③ 线上确认
+
+- https://silverherring1.github.io/manutd-daily/ ，Pages 构建 1–2 分钟
+- `Ctrl+Shift+R` 强刷，自查：首页是最新一期 → 日期能翻到 2018/19 → `/archive/` 列 9 季
+
+### 注意
+
+- 改了 `app.js` / `layout.css` / `index.html` → 先把 `index.html` 里的 `app.js?v=N` 加一，否则线上还是旧页面
+- 提交前 `node scripts/check-size.mjs` 看一眼体积
+- **首次使用**：GitHub Desktop → `File` → `Clone repository` → `SilverHerring1/manutd-daily` → Local path 填 `D:\Documents\GitHub\manutd-daily`
+- 详细版（含常见问题：线上没更新 / Desktop 看不到改动 / Push 被拒）见 `WRITING-FLOW.md` 第 10 节
+
 ## 现在到哪了
 
 - 主线：**2026/27 已发 15 期**（07-13 → 11-13），手写；其中 9 期比赛稿已按 writer 重写
