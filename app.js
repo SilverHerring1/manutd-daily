@@ -352,17 +352,14 @@ function renderArticles(issue) {
   void renderBoard();
 }
 
-/** 期次导航：同一赛季内按「日期升序 + 早报在前」排队，取前后各一期。
-    归档期次只在它自己那一季里翻，不会从 2018 直接跳到 2026。 */
+/** 期次导航：整站一条时间线，按「日期升序 + 早报在前」取前后各一期。
+    允许翻到上下赛季，跨季的那一期在「上一期/下一期」旁边标出赛季。 */
 function renderIssueNav(issue) {
   const nav = $("issueNav");
   if (!nav || !state.catalog.size) return;
 
   const rank = (i) => (i.period === "morning" ? 0 : 1);
-  const seasonOf = (i) => i.season ?? "";
-  const ordered = catalogList()
-    .filter((i) => seasonOf(i) === seasonOf(issue))
-    .sort((a, b) => a.date.localeCompare(b.date) || rank(a) - rank(b));
+  const ordered = catalogList().sort((a, b) => a.date.localeCompare(b.date) || rank(a) - rank(b));
   const at = ordered.findIndex((i) => i.id === issue.id);
   const label = (i) => {
     const { year, month, day } = dateParts(i.date);
@@ -373,9 +370,11 @@ function renderIssueNav(issue) {
 
   const cell = (target, dir) => {
     if (!target) return `<span class="issue-nav-item is-empty" aria-hidden="true"></span>`;
-    return `<a class="issue-nav-item" href="?date=${esc(target.date)}&period=${esc(target.period)}"
+    const cross = Boolean(target.season && issue.season && target.season !== issue.season);
+    const tag = cross ? `<span class="issue-nav-season">${esc(target.season)}</span>` : "";
+    return `<a class="issue-nav-item${cross ? " is-cross-season" : ""}" href="?date=${esc(target.date)}&period=${esc(target.period)}"
       data-goto="${esc(target.date)}" data-goto-period="${esc(target.period)}">
-      <span>${dir}</span><strong>${label(target)}</strong></a>`;
+      <span>${dir}${tag}</span><strong>${label(target)}</strong></a>`;
   };
 
   nav.innerHTML =

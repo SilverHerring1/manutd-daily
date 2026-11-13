@@ -1,0 +1,69 @@
+{
+  "id": "2018-12-19-evening",
+  "date": "2018-12-19",
+  "period": "evening",
+  "issue_number": 27,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 2,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "穆里尼奥走了一天，接班人是他。周六客场卡迪夫，20 年来他第一次以主帅身份站在老特拉福德的边线上——那是下周三。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "solskjaer-interim",
+          "title": "索尔斯克亚出任临时主帅，任期到赛季末",
+          "summary": "穆里尼奥下课不到 24 小时，曼联宣布 45 岁的索尔斯克亚出任临时主帅，任期到 2018/19 赛季结束；俱乐部同时表示会继续寻找正式主帅。",
+          "body_html": "<p>曼联周三官方宣布，索尔斯克亚出任球队临时主帅，任期到 2018/19 赛季结束。他被曼联从挪威莫尔德「借」来，莫尔德的措辞是「出借」，并强调他是他们的主教练。</p><p>索尔斯克亚 1996 到 2007 年以球员身份为曼联出场 366 次、打进 126 球，1999 年欧冠决赛在诺坎普打进制胜球。2008 年他做过曼联预备队主帅，之后回到莫尔德执教。</p><p>俱乐部方面表示，他会带队到赛季结束，同时俱乐部继续寻找正式主帅。他在公告里说：「曼联在我心里，能回到这个位置太棒了。」第一场比赛是周六客场对卡迪夫。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/detail/Ole%20Gunnar%20Solskjaer"
+            },
+            {
+              "text": "天空体育",
+              "url": "https://www.skysports.com/football/news/11667/11585547/ole-gunnar-solskjaer-named-manchester-united-caretaker-manager"
+            },
+            {
+              "text": "BBC",
+              "url": "https://www.bbc.co.uk/sport/football/46616768"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "12-19 17:15",
+          "quote": {
+            "zh": "曼联在我心里。能回到这个位置太棒了，我期待和这批球员、和工作人员一起工作。",
+            "en": "Manchester United is in my heart and it's brilliant to be coming back in this role. I'm really looking forward to working with the very talented squad we have.",
+            "who": "Ole Gunnar Solskjær（上任声明）",
+            "when": "2018 年 12 月 19 日"
+          }
+        },
+        {
+          "id": "phelan-back",
+          "title": "费兰回归一线队教练组",
+          "summary": "迈克·费兰以一线队教练身份回归，与卡里克、麦肯纳组成教练组。他同时保留澳超中央海岸水手的体育总监职务。",
+          "body_html": "<p>与索尔斯克亚一同官宣的还有教练组：迈克·费兰回归，出任一线队教练，和迈克尔·卡里克、基兰·麦肯纳一起工作。</p><p>费兰曾在弗格森手下担任助教，这一次是「双重身份」——他同时还是澳超中央海岸水手的体育总监，水手方面同意他短期赴英。他自己说：「这是一步很积极的棋，对我、对水手都是。」</p><p>卡里克和麦肯纳都留在了教练组，他们原本是穆里尼奥的助手。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/detail/Ole%20Gunnar%20Solskjaer"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.co.uk/football/story/_/id/37567692/manchester-united-name-ole-gunnar-solskjaer-caretaker-manager"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "12-19 17:20"
+        }
+      ]
+    }
+  ]
+}
