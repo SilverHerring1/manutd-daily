@@ -1049,7 +1049,18 @@ if (!dry) {
   // 归档页按总目重建，这样新增赛季时旧页面不会掉
   const archiveDir = join(ROOT, 'archive');
   mkdirSync(archiveDir, { recursive: true });
-  writeFileSync(join(archiveDir, 'index.html'), `${renderArchiveIndex(seasons)}\n`, 'utf8');
+  // 总览卡片上的期数以各季 index.json 的 issues 数组为准：从 archive 重算只数得到场次，
+  // 会漏掉后来手写的新闻期（转会 / 场外 / 纪录）；index.json 里的 count / first / last
+  // 字段是早期生成的，已经不跟着走了，所以这里不读它们。
+  const listed = seasons.map((s) => {
+    const idxFile = join(DATA, s.dir, 'index.json');
+    if (!existsSync(idxFile)) return s;
+    const idx = JSON.parse(readFileSync(idxFile, 'utf8').replace(/^\uFEFF/, ''));
+    const list = Array.isArray(idx.issues) ? idx.issues : [];
+    if (!list.length) return s;
+    return { ...s, count: list.length, first: list[0].date, last: list[list.length - 1].date };
+  });
+  writeFileSync(join(archiveDir, 'index.html'), `${renderArchiveIndex(listed)}\n`, 'utf8');
   for (const s of seasons) {
     if (s.kind === 'main' || !s.record) continue; // 主线赛季和手写季不在归档里生成页面
     const idxFile = join(DATA, s.dir, 'index.json');

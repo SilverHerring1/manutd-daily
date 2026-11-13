@@ -1,7 +1,7 @@
 # 走一遍：一个 JSON 怎么变成页面
 
 > 目标不是"学会编程"，是"能读懂这一条链路、能改得动"。
-> 边看边开两个文件：`app.js`（用 VS Code 或记事本打开）和 `data/2026-11-10-evening.json`。
+> 边看边开两个文件：`app.js`（用 VS Code 或记事本打开）和 `data/seasons/2026-27/2026-11-10-evening.json`。
 > 行号以当前版本为准，改过代码可能会偏移几行，按函数名找。
 
 ---
@@ -30,7 +30,7 @@
 ]
 ```
 
-打开对应那期的 `data/2026-11-10-evening.json`，里面是：
+打开对应那期的 `data/seasons/2026-27/2026-11-10-evening.json`，里面是：
 
 ```json
 "sections": [
@@ -53,7 +53,7 @@ const DATA_BASE = new URL(`./${DATA_DIR}/`, document.baseURI);
 
 意思是：地址栏有 `?data=xxx` 就用 `xxx/` 目录，没有就用 `data/`。这就是三种编法共用一个页面的原理。
 
-第 115 行 `getIssue(id)`：把 `2026-11-10-evening` 拼成 `data/2026-11-10-evening.json`，`fetch` 下来，存进缓存（同一期不重复下载）。
+第 115 行 `getIssue(id)`：把 `2026-11-10-evening` 拼成 `data/seasons/2026-27/2026-11-10-evening.json`，`fetch` 下来，存进缓存（同一期不重复下载）。
 
 ## ③ 怎么变成标签
 

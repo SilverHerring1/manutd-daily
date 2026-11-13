@@ -1,7 +1,7 @@
-﻿{
+{
   "name": "曼联日报",
   "short_name": "曼联日报",
-  "description": "曼联近一个月的比赛与要闻",
+  "description": "曼联的比赛战报与场外要闻，一天一期，含 2018/19 起的赛季归档",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
