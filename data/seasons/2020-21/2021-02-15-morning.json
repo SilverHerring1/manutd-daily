@@ -2,7 +2,7 @@
   "id": "2021-02-15-morning",
   "date": "2021-02-15",
   "period": "morning",
-  "issue_number": 155,
+  "issue_number": 173,
   "season": "2020/21",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m578426",
-          "title": "西布罗姆维奇 1-1 曼联：先丢球，追成平局",
-          "summary": "英超，客场（The Hawthorns）。这一季各项赛事第 37 场，22 胜 7 平 8 负。",
-          "body_html": "<p>2020/21 英超，客场（The Hawthorns）对阵西布罗姆维奇，比分 1-1。</p><p>进球：2' Mbaye Diagne（西布罗姆维奇）、44' Bruno Fernandes（曼联）。</p>",
+          "title": "西布朗 1-1 曼联，布鲁诺44分钟扳平",
+          "summary": "2 分钟迪亚涅头球，44 分钟布鲁诺在禁区外扳平。",
+          "body_html": "<p>第 2 分钟，迪亚涅在门前头球，0-1。第 44 分钟，布鲁诺在禁区外远射，1-1。</p><p>10 脚射门 7 次射正，西布朗 7 脚 3 次。一分，争冠的差距被拉大。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

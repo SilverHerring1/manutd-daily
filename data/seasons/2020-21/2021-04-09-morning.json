@@ -2,7 +2,7 @@
   "id": "2021-04-09-morning",
   "date": "2021-04-09",
   "period": "morning",
-  "issue_number": 167,
+  "issue_number": 185,
   "season": "2020/21",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m596896",
-          "title": "格拉纳达 0-2 曼联：零封取胜",
-          "summary": "欧联，客场（Nuevo Los Cármenes）。这一季各项赛事第 49 场，29 胜 11 平 9 负。",
-          "body_html": "<p>2020/21 欧联，客场（Nuevo Los Cármenes）对阵格拉纳达，比分 2-0。</p><p>进球：31' Marcus Rashford（曼联）、90' Bruno Fernandes（曼联，点球）。</p>",
+          "title": "格拉纳达 0-2 曼联，拉什福德和布鲁诺",
+          "summary": "31 分钟拉什福德单刀，90 分钟布鲁诺点球。欧联八强首回合。",
+          "body_html": "<p>第 31 分钟，拉什福德单刀，0-1；第 90 分钟，布鲁诺点球，0-2。</p><p>13 脚射门 3 次射正，格拉纳达 11 脚 3 次。客场两个，次回合回主场。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

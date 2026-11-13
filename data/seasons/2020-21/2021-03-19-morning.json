@@ -2,7 +2,7 @@
   "id": "2021-03-19-morning",
   "date": "2021-03-19",
   "period": "morning",
-  "issue_number": 164,
+  "issue_number": 182,
   "season": "2020/21",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m595524",
-          "title": "AC米兰 0-1 曼联：零封取胜",
-          "summary": "欧联，客场（Stadio Giuseppe Meazza）。这一季各项赛事第 46 场，27 胜 11 平 8 负。",
-          "body_html": "<p>2020/21 欧联，客场（Stadio Giuseppe Meazza）对阵AC米兰，比分 1-0。</p><p>进球：48' Paul Pogba（曼联）。</p>",
+          "title": "AC 米兰 0-1 曼联，博格巴48分钟制胜",
+          "summary": "48 分钟博格巴在禁区外远射变线破门，总比分 2-1 晋级欧联八强。",
+          "body_html": "<p>第 48 分钟，博格巴在禁区外远射，球打在后卫身上变线进网，0-1。</p><p>13 脚射门 4 次射正，米兰 10 脚 4 次。总比分 2-1，欧联八强。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

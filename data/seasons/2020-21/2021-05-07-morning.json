@@ -2,7 +2,7 @@
   "id": "2021-05-07-morning",
   "date": "2021-05-07",
   "period": "morning",
-  "issue_number": 173,
+  "issue_number": 191,
   "season": "2020/21",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m600803",
-          "title": "罗马 3-2 曼联：一球之差",
-          "summary": "欧联，客场（Stadio Olimpico）。这一季各项赛事第 55 场，33 胜 12 平 10 负。",
-          "body_html": "<p>2020/21 欧联，客场（Stadio Olimpico）对阵罗马，比分 2-3。</p><p>进球：39' Edinson Cavani（曼联）、57' Edin Dzeko（罗马）、60' Bryan Cristante（罗马）、68' Edinson Cavani（曼联）、83' Alex Telles（乌龙球，算给罗马）。</p>",
+          "title": "罗马 3-2 曼联，总比分 8-5 进决赛",
+          "summary": "39 分钟和 68 分钟卡瓦尼；57 分钟哲科、60 分钟克里斯坦特、83 分钟特列斯乌龙。",
+          "body_html": "<p>第 39 分钟，卡瓦尼在禁区里挑射，0-1；第 57 分钟，哲科扳平；第 60 分钟，克里斯坦特远射，2-1；第 68 分钟，卡瓦尼再进一个，2-2。</p><p>第 83 分钟，特列斯在解围时把球碰进自家球门，3-2。</p><p>总比分 8-5，欧联决赛。对手是比利亚雷亚尔。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

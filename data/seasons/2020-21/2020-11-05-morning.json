@@ -2,7 +2,7 @@
   "id": "2020-11-05-morning",
   "date": "2020-11-05",
   "period": "morning",
-  "issue_number": 129,
+  "issue_number": 147,
   "season": "2020/21",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m585814",
-          "title": "巴萨克赛尔 2-1 曼联：一球之差",
-          "summary": "欧冠，客场（Istanbul Basaksehir Fatih Terim）。这一季各项赛事第 11 场，6 胜 1 平 4 负。",
-          "body_html": "<p>2020/21 欧冠，客场（Istanbul Basaksehir Fatih Terim）对阵巴萨克赛尔，比分 1-2。</p><p>进球：13' Demba Ba（巴萨克赛尔）、40' Edin Visca（巴萨克赛尔）、43' Anthony Martial（曼联）。</p>",
+          "title": "伊斯坦布尔 2-1 曼联，登巴巴13分钟破门",
+          "summary": "13 分钟登巴巴单刀，40 分钟维斯卡；43 分钟马夏尔追回一个。",
+          "body_html": "<p>第 13 分钟，登巴巴接到直塞单刀破门，0-1；第 40 分钟，维斯卡在禁区里再进一个，0-2。</p><p>第 43 分钟，马夏尔在禁区里扳回一个，1-2。</p><p>10 脚射门 2 次射正，对手 9 脚 3 次。欧冠小组赛首败。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
