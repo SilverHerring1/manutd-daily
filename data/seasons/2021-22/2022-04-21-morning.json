@@ -1,0 +1,41 @@
+{
+  "id": "2022-04-21-morning",
+  "date": "2022-04-21",
+  "period": "morning",
+  "issue_number": 252,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "两回合 0-9。上一次对同一个对手丢这么多，是 1892 年——那时候还叫牛顿希思。"
+  },
+  "sections": [
+    {
+      "id": "record",
+      "title": "纪录",
+      "items": [
+        {
+          "id": "liverpool-0-9",
+          "title": "两回合 0-9 利物浦，队史最难看的双回合",
+          "summary": "2021/22 赛季联赛两回合对利物浦，主场 0-5、客场 0-4，总比分 0-9，是曼联队史对单一对手最差的赛季总比分。",
+          "body_html": "<p>2021/22 赛季，曼联联赛两回合对利物浦：老特拉福德 0-5，安菲尔德 0-4。总比分 0-9。</p><p>这是曼联队史对单一对手最差的赛季总比分。此前最接近的一次是 1892 年对桑德兰的 0-8。</p><p>两场比赛，曼联一共 14 脚射门、5 次射正、0 个进球；利物浦 33 脚射门、13 次射正、9 个进球。</p>",
+          "sources": [
+            {
+              "text": "英超官方 · 赛季数据",
+              "url": "https://www.premierleague.com/results"
+            },
+            {
+              "text": "BBC · 安菲尔德 4-0",
+              "url": "https://www.bbc.co.uk/sport/football/61148453"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "04-20 09:00"
+        }
+      ]
+    }
+  ]
+}

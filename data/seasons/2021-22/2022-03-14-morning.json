@@ -1,0 +1,41 @@
+{
+  "id": "2022-03-14-morning",
+  "date": "2022-03-14",
+  "period": "morning",
+  "issue_number": 246,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "807 球，37 岁。这个纪录只和他自己有关，和这支球队的第六名无关。"
+  },
+  "sections": [
+    {
+      "id": "record",
+      "title": "纪录",
+      "items": [
+        {
+          "id": "ronaldo-807",
+          "title": "C 罗第 807 球，正式比赛进球世界纪录",
+          "summary": "对热刺的帽子戏法之后，C 罗职业生涯正式比赛进球达到 807 个，超越约瑟夫·比坎，成为历史第一。",
+          "body_html": "<p>3 月 12 日对热刺，C 罗打进三个球。第 807 个球之后，他超过约瑟夫·比坎，成为正式比赛进球最多的球员。</p><p>807 球分布：葡萄牙体育 5、曼联（两段）136、皇马 450、尤文 101、葡萄牙国家队 115。</p><p>37 岁。这个赛季他各项赛事 24 球，是队内最佳射手——球队最终排名第六。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · C 罗",
+              "url": "https://www.manutd.com/en/players-and-staff/detail/cristiano-ronaldo"
+            },
+            {
+              "text": "ESPN · 807 球",
+              "url": "https://www.espn.com/soccer/blog-the-toe-poke/story/4620299/cristiano-ronaldo-807-goals"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "03-13 09:00"
+        }
+      ]
+    }
+  ]
+}
