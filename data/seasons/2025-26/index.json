@@ -503,7 +503,7 @@
       "date": "2025-11-02",
       "period": "morning",
       "issue_number": 493,
-      "title": "诺丁汉森林 2-2 曼联，迪亚洛81分钟扳平",
+      "title": "诺丁汉森林 2-2 曼联，迪亚洛扳平",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -522,7 +522,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "诺丁汉森林 2-2 曼联",
-      "clause": "诺丁汉森林 2-2 曼联，迪亚洛81分钟扳平",
+      "clause": "诺丁汉森林 2-2 曼联，迪亚洛扳平",
       "source_name": "英超 · 客场"
     },
     {
@@ -557,7 +557,7 @@
       "date": "2025-11-25",
       "period": "morning",
       "issue_number": 495,
-      "title": "曼联 0-1 埃弗顿，25脚射门没进",
+      "title": "曼联 0-1 埃弗顿，25 脚射门没进",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -576,7 +576,7 @@
       "opponent": "埃弗顿",
       "badge": "./media/badges/everton.png",
       "scoreline": "曼联 0-1 埃弗顿",
-      "clause": "曼联 0-1 埃弗顿，25脚射门没进",
+      "clause": "曼联 0-1 埃弗顿，25 脚射门没进",
       "source_name": "英超 · 主场"
     },
     {
@@ -611,7 +611,7 @@
       "date": "2025-12-05",
       "period": "morning",
       "issue_number": 497,
-      "title": "曼联 1-1 西汉姆，马加萨83分钟扳平",
+      "title": "曼联 1-1 西汉姆，83 分钟被扳平",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -630,7 +630,7 @@
       "opponent": "西汉姆联",
       "badge": "./media/badges/west-ham.png",
       "scoreline": "曼联 1-1 西汉姆联",
-      "clause": "曼联 1-1 西汉姆，马加萨83分钟扳平",
+      "clause": "曼联 1-1 西汉姆，83 分钟被扳平",
       "source_name": "英超 · 主场"
     },
     {
@@ -638,7 +638,7 @@
       "date": "2025-12-09",
       "period": "morning",
       "issue_number": 498,
-      "title": "狼队 1-4 曼联，布鲁诺梅开二度",
+      "title": "狼队 1-4 曼联，B 费梅开二度",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -657,7 +657,7 @@
       "opponent": "狼队",
       "badge": "./media/badges/wolves.png",
       "scoreline": "狼队 1-4 曼联",
-      "clause": "狼队 1-4 曼联，布鲁诺梅开二度",
+      "clause": "狼队 1-4 曼联，B 费梅开二度",
       "source_name": "英超 · 客场"
     },
     {
@@ -692,7 +692,7 @@
       "date": "2025-12-22",
       "period": "morning",
       "issue_number": 500,
-      "title": "阿斯顿维拉 2-1 曼联，罗杰斯梅开二度",
+      "title": "维拉 2-1 曼联，罗杰斯梅开二度",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -711,7 +711,7 @@
       "opponent": "阿斯顿维拉",
       "badge": "./media/badges/astonvilla.png",
       "scoreline": "阿斯顿维拉 2-1 曼联",
-      "clause": "阿斯顿维拉 2-1 曼联，罗杰斯梅开二度",
+      "clause": "维拉 2-1 曼联，罗杰斯梅开二度",
       "source_name": "英超 · 客场"
     },
     {
@@ -719,7 +719,7 @@
       "date": "2025-12-27",
       "period": "morning",
       "issue_number": 501,
-      "title": "曼联 1-0 纽卡斯尔，多古24分钟制胜",
+      "title": "曼联 1-0 纽卡，多古 24 分钟制胜",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -738,7 +738,7 @@
       "opponent": "纽卡斯尔联",
       "badge": "./media/badges/newcastle.png",
       "scoreline": "曼联 1-0 纽卡斯尔联",
-      "clause": "曼联 1-0 纽卡斯尔，多古24分钟制胜",
+      "clause": "曼联 1-0 纽卡，多古 24 分钟制胜",
       "source_name": "英超 · 主场"
     },
     {
@@ -746,7 +746,7 @@
       "date": "2025-12-31",
       "period": "morning",
       "issue_number": 502,
-      "title": "曼联 1-1 狼队，齐尔克泽27分钟破门",
+      "title": "曼联 1-1 狼队，齐尔克泽破门",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -765,7 +765,7 @@
       "opponent": "狼队",
       "badge": "./media/badges/wolves.png",
       "scoreline": "曼联 1-1 狼队",
-      "clause": "曼联 1-1 狼队，齐尔克泽27分钟破门",
+      "clause": "曼联 1-1 狼队，齐尔克泽破门",
       "source_name": "英超 · 主场"
     },
     {
