@@ -1,0 +1,46 @@
+{
+  "id": "2024-07-19-evening-b",
+  "date": "2024-07-19",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "2660 万，卖断。两年前那件事之后，他在曼联已经没有位置了。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "greenwood-out",
+          "title": "格林伍德 2660 万镑去马赛，曼联 129 场 35 球",
+          "summary": "7 月 19 日，格林伍德永久转会马赛，费用 2660 万镑，附带 400 万镑浮动和转售分成。他在曼联一线队 129 场、35 球。",
+          "body_html": "<p>7 月 19 日，格林伍德转会马赛，费用 2660 万镑，浮动最高 400 万，另含未来转会分成。</p><p>他在曼联一线队 129 场 35 球。2022 年 1 月 30 日之后没有再为曼联出场，上赛季租借赫塔菲 36 场 10 球。</p>",
+          "sources": [
+            {
+              "text": "天空体育"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-19"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 407,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-07-19-evening-b.jpg",
+    "alt": "格林伍德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

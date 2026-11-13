@@ -1,0 +1,56 @@
+{
+  "id": "2024-08-16-evening",
+  "date": "2024-08-16",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "两个拜仁的替补，加起来 5100 万。阿莫林要的三中卫，先从这里搭。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "deligt-in",
+          "title": "曼联签下德里赫特，3850 万镑五年",
+          "summary": "8 月 16 日官宣，从拜仁慕尼黑签下 25 岁的中卫德里赫特，五年合同，费用 3850 万镑。",
+          "body_html": "<p>8 月 16 日，曼联官宣德里赫特加盟，五年合同，费用 3850 万镑、浮动 430 万。</p><p>25 岁，荷兰中卫，阿贾克斯出身，滕哈格带过他。拜仁两个赛季 73 场。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-16"
+        },
+        {
+          "id": "mazraoui-in",
+          "title": "曼联签下马兹拉维，1280 万镑四年",
+          "summary": "8 月 16 日官宣，从拜仁慕尼黑签下 26 岁的摩洛哥边后卫马兹拉维，四年合同带一年续约选项，费用 1280 万镑。",
+          "body_html": "<p>8 月 16 日，曼联官宣马兹拉维加盟，四年合同加一年选项，费用 1280 万镑、浮动 170 万。</p><p>26 岁，摩洛哥国脚，能踢左右两边。和阿贾克斯时期的滕哈格、德里赫特都重聚了。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-16"
+        }
+      ]
+    }
+  ],
+  "item_count": 2,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 410,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-08-16-evening.jpg",
+    "alt": "德里赫特（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

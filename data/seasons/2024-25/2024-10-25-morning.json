@@ -2,7 +2,7 @@
   "id": "2024-10-25-morning",
   "date": "2024-10-25",
   "period": "morning",
-  "issue_number": 417,
+  "issue_number": 423,
   "season": "2024/25",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m720561",
-          "title": "费内巴切 1-1 曼联：被扳平",
-          "summary": "欧联，客场（Şükrü Saracoğlu Stadium）。这一季各项赛事第 12 场，4 胜 5 平 3 负。",
-          "body_html": "<p>2024/25 欧联，客场（Şükrü Saracoğlu Stadium）对阵费内巴切，比分 1-1。</p><p>进球：15' Christian Eriksen（曼联）、49' Youssef En-Nesyri（费内巴切）。</p>",
+          "title": "费内巴切 1-1 曼联，穆里尼奥红牌",
+          "summary": "15 分钟埃里克森、49 分钟恩内斯里；穆里尼奥下半场被罚上看台。",
+          "body_html": "<p>第 15 分钟，埃里克森在禁区外远射，0-1；第 49 分钟，恩内斯里扳平，1-1。</p><p>下半场，穆里尼奥因为抗议判罚被红牌罚上看台——对手是他执教过的球队，主帅是他的老对手。</p><p>12 脚射门 5 次射正。欧联三战 3 分。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "比分咬住了，胜负没咬住，还是一分。"
+    "body": "穆里尼奥被罚上看台。欧联三战 3 分。"
   },
   "match_no": 12,
   "hero": {

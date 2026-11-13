@@ -1,0 +1,46 @@
+{
+  "id": "2024-07-19-evening",
+  "date": "2024-07-19",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "5200 万买一个 18 岁的中卫。这笔钱买的是五年后。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "yoro-in",
+          "title": "曼联签下约罗，5200 万镑五年",
+          "summary": "7 月 18 日官宣，从里尔签下 18 岁的中卫约罗，五年合同，费用 5200 万镑（最高 5900 万）。",
+          "body_html": "<p>7 月 18 日，曼联官宣约罗加盟，五年合同，费用 5200 万镑、浮动 700 万。</p><p>18 岁，法国中卫，上赛季在里尔踢了 44 场。皇马也在追他，最后选了曼联。</p><p>他是这个窗口最贵的一笔「未来投资」。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-18"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 408,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-07-19-evening.jpg",
+    "alt": "约罗（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

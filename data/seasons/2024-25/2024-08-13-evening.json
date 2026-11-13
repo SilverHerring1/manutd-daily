@@ -1,0 +1,43 @@
+{
+  "id": "2024-08-13-evening",
+  "date": "2024-08-13",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "1500 万，五年。他在右后卫的位置上站了五年，最后被卖掉补别的位置。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "wanbissaka-out",
+          "title": "万-比萨卡 1500 万镑去西汉姆，曼联 190 场 2 球",
+          "summary": "8 月 13 日，万-比萨卡转会西汉姆，费用 1500 万镑。他在曼联五年，各项赛事 190 场、2 球。",
+          "body_html": "<p>8 月 13 日，万-比萨卡转会西汉姆，费用 1500 万镑。</p><p>26 岁，2019 年以 5000 万镑从水晶宫加盟，五年 190 场 2 球。他是英超最好的一对一防守边后卫之一，但进攻端一直是短板。</p>",
+          "sources": [
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-13"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 409,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-08-13-evening.jpg",
+    "alt": "万-比萨卡（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

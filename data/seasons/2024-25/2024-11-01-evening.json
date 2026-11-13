@@ -1,0 +1,46 @@
+{
+  "id": "2024-11-01-evening",
+  "date": "2024-11-01",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "39 岁，葡萄牙体育，三中卫。他来的第一件事是把阵型改成 3-4-3。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "amorim-in",
+          "title": "阿莫林出任曼联主帅，合同到 2027 年",
+          "summary": "11 月 1 日，曼联宣布 39 岁的葡萄牙人阿莫林出任主帅，合同两年半到 2027 年，附带一年续约选项，11 月 11 日上任。",
+          "body_html": "<p>11 月 1 日，曼联宣布阿莫林出任主教练，合同到 2027 年 6 月，附带一年选项。他 11 月 11 日到任，之前继续带葡萄牙体育。</p><p>39 岁，葡萄牙人，2020 年起执教葡萄牙体育，两次葡超冠军，2023/24 赛季不败夺冠。他的体系是 3-4-3。</p><p>曼联为他支付了约 1100 万欧的违约金。</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "11-01"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 427,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-11-01-evening.jpg",
+    "alt": "阿莫林（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

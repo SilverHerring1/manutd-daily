@@ -2,7 +2,7 @@
   "id": "2025-02-17-morning",
   "date": "2025-02-17",
   "period": "morning",
-  "issue_number": 443,
+  "issue_number": 453,
   "season": "2024/25",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m704524",
-          "title": "托特纳姆热刺 1-0 曼联：一球之差",
-          "summary": "英超，客场（Tottenham Hotspur Stadium）。这一季各项赛事第 38 场，16 胜 9 平 13 负。",
-          "body_html": "<p>2024/25 英超，客场（Tottenham Hotspur Stadium）对阵托特纳姆热刺，比分 0-1。</p><p>进球：13' James Maddison（托特纳姆热刺）。</p>",
+          "title": "热刺 1-0 曼联，麦迪逊13分钟制胜",
+          "summary": "13 分钟麦迪逊在禁区里推射。",
+          "body_html": "<p>第 13 分钟，麦迪逊在禁区里推射，1-0。</p><p>曼联 16 脚射门 6 次射正，热刺 22 脚 7 次。第 15 名。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "一球未进，这一季第 10 次被零封。"
+    "body": "13 分钟丢球，第 15。"
   },
   "match_no": 38,
   "hero": {

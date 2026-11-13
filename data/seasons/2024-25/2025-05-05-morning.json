@@ -2,7 +2,7 @@
   "id": "2025-05-05-morning",
   "date": "2025-05-05",
   "period": "morning",
-  "issue_number": 459,
+  "issue_number": 469,
   "season": "2024/25",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m704621",
-          "title": "布伦特福德 4-3 曼联：一球之差",
-          "summary": "英超，客场（Gtech Community Stadium）。这一季各项赛事第 54 场，21 胜 16 平 17 负。",
-          "body_html": "<p>2024/25 英超，客场（Gtech Community Stadium）对阵布伦特福德，比分 3-4。</p><p>进球：14' Mason Mount（曼联）、27' Luke Shaw（乌龙球，算给布伦特福德）、33' Kevin Schade（布伦特福德）、70' Kevin Schade（布伦特福德）、74' Yoane Wissa（布伦特福德）、82' Alejandro Garnacho（曼联）、90+5' Amad Diallo（曼联）。</p>",
+          "title": "布伦特福德 4-3 曼联，客场七个球",
+          "summary": "14 分钟芒特、27 分钟卢克·肖乌龙、33 分钟和 70 分钟沙德、74 分钟维萨、82 分钟加纳乔、90+5 分钟迪亚洛。",
+          "body_html": "<p>第 14 分钟，芒特推射，0-1；第 27 分钟，卢克·肖在解围时把球碰进自家球门，1-1；第 33 分钟，沙德，2-1；第 70 分钟，沙德再进一个；第 74 分钟，维萨，4-1；第 82 分钟，加纳乔；补时第 5 分钟，迪亚洛，4-3。</p><p>14 脚射门 5 次射正。联赛还在输，但欧联已经进了决赛。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "一球之差，进球拿到了，分数没拿到。"
+    "body": "联赛还在输，欧联已经进决赛。"
   },
   "match_no": 54,
   "hero": {

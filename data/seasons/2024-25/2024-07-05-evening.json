@@ -1,0 +1,46 @@
+{
+  "id": "2024-07-05-evening",
+  "date": "2024-07-05",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "3650 万买一个 23 岁的荷兰前锋。拉特克利夫的第一个转会窗，从年轻人开始。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "zirkzee-in",
+          "title": "曼联签下齐尔克泽，3650 万镑五年",
+          "summary": "7 月 5 日官宣，从博洛尼亚签下 23 岁的荷兰前锋齐尔克泽，五年合同带一年续约选项，费用 3650 万镑。",
+          "body_html": "<p>7 月 5 日，曼联官宣齐尔克泽加盟，五年合同加一年选项，费用 3650 万镑——他合同里的解约金条款。</p><p>23 岁，荷兰人，上赛季在博洛尼亚 37 场 12 球，带队打进欧冠。他不是传统中锋，更像一个能回撤做球的人。</p><p>这是英力士接管足球运营之后的第一个签约。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            },
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-05"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 406,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-07-05-evening.jpg",
+    "alt": "齐尔克泽（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

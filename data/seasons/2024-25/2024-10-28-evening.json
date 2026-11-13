@@ -1,0 +1,46 @@
+{
+  "id": "2024-10-28-evening",
+  "date": "2024-10-28",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "两年半，两个奖杯，联赛第 14。他走的时候，球队的问题是整队的。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "tenhag-sacked",
+          "title": "滕哈格下课，范尼临时带队",
+          "summary": "10 月 28 日，曼联宣布滕哈格离任。他在任两年半、128 场，拿到联赛杯和足总杯。前一天客场 1-2 输给西汉姆。",
+          "body_html": "<p>10 月 28 日，曼联宣布滕哈格不再担任主帅。前一天客场 1-2 输给西汉姆，九轮 11 分，联赛第 14。</p><p>他 2022 年夏天上任，带队 128 场 72 胜 20 平 36 负，拿到 2023 年联赛杯和 2024 年足总杯。上赛季联赛第八，本赛季开局更差。</p><p>范尼斯特鲁伊临时接手，带队四场：莱斯特（联赛杯）、切尔西、帕奥克、莱斯特。</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "10-28"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 425,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-10-28-evening.jpg",
+    "alt": "滕哈格（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

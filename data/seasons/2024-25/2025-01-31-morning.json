@@ -2,7 +2,7 @@
   "id": "2025-01-31-morning",
   "date": "2025-01-31",
   "period": "morning",
-  "issue_number": 440,
+  "issue_number": 449,
   "season": "2024/25",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m720496",
-          "title": "布加勒斯特星 0-2 曼联：零封取胜",
-          "summary": "欧联，客场（National Arena）。这一季各项赛事第 35 场，15 胜 9 平 11 负。",
-          "body_html": "<p>2024/25 欧联，客场（National Arena）对阵布加勒斯特星，比分 2-0。</p><p>进球：60' Diogo Dalot（曼联）、68' Kobbie Mainoo（曼联）。</p>",
+          "title": "FCSB 0-2 曼联，欧联直接出线",
+          "summary": "60 分钟达洛特、68 分钟梅努。",
+          "body_html": "<p>第 60 分钟，达洛特在禁区里推射，0-1；第 68 分钟，梅努推射，0-2。</p><p>21 脚射门 7 次射正，FCSB 8 脚 3 次。欧联小组保持不败，直接进 16 强。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 15 胜，防线没给对手留东西。"
+    "body": "欧联小组不败，直接进 16 强。"
   },
   "match_no": 35,
   "hero": {

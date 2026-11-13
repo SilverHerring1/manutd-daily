@@ -1,0 +1,46 @@
+{
+  "id": "2024-12-08-evening",
+  "date": "2024-12-08",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "五个月，一个体育总监。这个位置在曼联，换得比主帅还快。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "ashworth-exit",
+          "title": "体育总监阿什沃思离任，上任五个月",
+          "summary": "12 月 8 日，曼联宣布体育总监丹·阿什沃思离任，即刻生效。他 7 月 1 日才正式上任。",
+          "body_html": "<p>12 月 8 日，曼联宣布体育总监阿什沃思离任，即刻生效，由 CEO 贝拉达临时接管足球运营。</p><p>他 2024 年 7 月 1 日上任，此前在纽卡斯尔，曼联为他付过补偿金。五个月，这是他在曼联的全部任期。</p><p>俱乐部没有给出原因。</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "12-08"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 436,
+  "hero": {
+    "src": "./media/news/news-2024-25-2024-12-08-evening.jpg",
+    "alt": "阿什沃思（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

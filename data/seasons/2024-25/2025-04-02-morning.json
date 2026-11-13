@@ -2,7 +2,7 @@
   "id": "2025-04-02-morning",
   "date": "2025-04-02",
   "period": "morning",
-  "issue_number": 451,
+  "issue_number": 461,
   "season": "2024/25",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m704569",
-          "title": "诺丁汉森林 1-0 曼联：一球之差",
-          "summary": "英超，客场（The City Ground）。这一季各项赛事第 46 场，19 胜 13 平 14 负。",
-          "body_html": "<p>2024/25 英超，客场（The City Ground）对阵诺丁汉森林，比分 0-1。</p><p>进球：5' Anthony Elanga（诺丁汉森林）。</p>",
+          "title": "诺丁汉森林 1-0 曼联，埃兰加5分钟破门",
+          "summary": "5 分钟埃兰加在禁区里推射，对手是他上赛季效力的球队。",
+          "body_html": "<p>第 5 分钟，埃兰加在禁区里推射，1-0。</p><p>曼联 23 脚射门 6 次射正，森林 8 脚 2 次。射门多三倍，输了。</p><p>第 13 名，联赛还剩八轮。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "又没能进球，这一季第 11 次。"
+    "body": "23 脚射门 6 次射正，输了。埃兰加弑旧主。"
   },
   "match_no": 46,
   "hero": {
