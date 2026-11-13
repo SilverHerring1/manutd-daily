@@ -33,5 +33,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2019-20-2019-06-08-morning.jpg",
+    "alt": "丹尼尔·詹姆斯（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

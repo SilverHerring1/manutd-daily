@@ -37,5 +37,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2021-22-2022-04-21-morning.jpg",
+    "alt": "安菲尔德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

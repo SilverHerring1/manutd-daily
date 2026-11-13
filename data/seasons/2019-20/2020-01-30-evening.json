@@ -61,5 +61,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2019-20-2020-01-30-evening.jpg",
+    "alt": "布鲁诺（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

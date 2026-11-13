@@ -35,5 +35,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 295
+  "issue_number": 295,
+  "hero": {
+    "src": "./media/news/news-2022-23-2022-11-17-evening.jpg",
+    "alt": "TalkTV（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

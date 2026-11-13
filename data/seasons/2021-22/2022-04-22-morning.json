@@ -35,5 +35,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 260
+  "issue_number": 260,
+  "hero": {
+    "src": "./media/news/news-2021-22-2022-04-22-morning.jpg",
+    "alt": "滕哈格（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

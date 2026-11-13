@@ -37,5 +37,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2020-21-2021-05-25-morning.jpg",
+    "alt": "老特拉福德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

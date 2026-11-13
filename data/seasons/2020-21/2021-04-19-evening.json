@@ -38,5 +38,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 194
+  "issue_number": 194,
+  "hero": {
+    "src": "./media/news/news-2020-21-2021-04-19-evening.jpg",
+    "alt": "欧洲超级联赛（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

@@ -35,5 +35,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 230
+  "issue_number": 230,
+  "hero": {
+    "src": "./media/news/news-2021-22-2021-11-30-morning.jpg",
+    "alt": "朗尼克（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

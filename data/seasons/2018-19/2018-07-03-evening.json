@@ -53,5 +53,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2018-19-2018-07-03-evening.jpg",
+    "alt": "李·格兰特（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

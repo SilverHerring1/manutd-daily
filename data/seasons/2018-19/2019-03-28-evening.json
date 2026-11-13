@@ -34,5 +34,12 @@
   "note": {
     "title": "编辑短评",
     "body": "索尔斯克亚转正，三年合同。这份合同买的是 12 月到 3 月那 17 场。"
+  },
+  "hero": {
+    "src": "./media/news/news-2018-19-2019-03-28-evening.jpg",
+    "alt": "老特拉福德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
   }
 }

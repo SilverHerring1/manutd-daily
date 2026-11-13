@@ -39,5 +39,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2018-19-2018-08-10-evening.jpg",
+    "alt": "穆里尼奥（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

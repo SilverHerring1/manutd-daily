@@ -33,5 +33,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2019-20-2019-08-30-evening.jpg",
+    "alt": "斯莫林（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

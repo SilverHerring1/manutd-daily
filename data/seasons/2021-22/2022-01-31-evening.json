@@ -38,5 +38,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 242
+  "issue_number": 242,
+  "hero": {
+    "src": "./media/news/news-2021-22-2022-01-31-evening.jpg",
+    "alt": "老特拉福德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

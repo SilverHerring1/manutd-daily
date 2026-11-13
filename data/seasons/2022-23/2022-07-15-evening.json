@@ -35,5 +35,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 269
+  "issue_number": 269,
+  "hero": {
+    "src": "./media/news/news-2022-23-2022-07-15-evening.jpg",
+    "alt": "埃里克森（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

@@ -35,5 +35,12 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 88
+  "issue_number": 88,
+  "hero": {
+    "src": "./media/news/news-2019-20-2019-11-20-evening.jpg",
+    "alt": "热刺球场（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

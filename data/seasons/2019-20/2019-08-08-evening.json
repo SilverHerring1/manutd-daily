@@ -33,5 +33,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/news-2019-20-2019-08-08-evening.jpg",
+    "alt": "卢卡库（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }
