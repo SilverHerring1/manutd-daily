@@ -1,0 +1,43 @@
+{
+  "id": "2023-08-18-evening",
+  "date": "2023-08-18",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "五年，213 场，走了 1500 万。这笔转会从头到尾都不算成功。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "fred-out",
+          "title": "弗雷德 1500 万镑去费内巴切，曼联 213 场 14 球",
+          "summary": "8 月 18 日，弗雷德转会费内巴切，费用约 1500 万镑。他在曼联五年，各项赛事 213 场、14 球。",
+          "body_html": "<p>8 月 18 日，弗雷德转会费内巴切，费用约 1500 万镑。</p><p>30 岁，巴西中场，2018 年从顿涅茨克矿工加盟，转会费 5200 万镑。五年 213 场 14 球，2022/23 赛季联赛杯决赛进过一球。</p><p>他在中场的位置，已经被卡塞米罗和梅努占住。</p>",
+          "sources": [
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-18"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 349,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-08-18-evening.jpg",
+    "alt": "弗雷德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

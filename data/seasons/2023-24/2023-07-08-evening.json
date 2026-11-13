@@ -1,0 +1,46 @@
+{
+  "id": "2023-07-08-evening",
+  "date": "2023-07-08",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "12 年，545 场，零转会费离开。他走的时候，俱乐部没有办告别赛。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "degea-out",
+          "title": "德赫亚合同到期离队，曼联 545 场 2 冠",
+          "summary": "6 月 30 日合同到期，德赫亚自由身离队。7 月 8 日他在社媒发布告别。12 年，545 场，英超金手套两次。",
+          "body_html": "<p>6 月 30 日，德赫亚的合同到期。7 月 8 日，他在社交媒体发布告别视频。</p><p>2011 年从马竞加盟，12 年 545 场，保持队史门将出场纪录。2017/18 赛季英超金手套，2022/23 赛季再拿一次。拿到过英超、足总杯、联赛杯和欧联杯。</p><p>续约谈判拖了一年，最后没有谈成。他离开时是自由身。</p>",
+          "sources": [
+            {
+              "text": "曼联官网"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-08"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 344,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-07-08-evening.jpg",
+    "alt": "德赫亚（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

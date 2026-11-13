@@ -2,7 +2,7 @@
   "id": "2023-08-20-morning",
   "date": "2023-08-20",
   "period": "morning",
-  "issue_number": 344,
+  "issue_number": 350,
   "season": "2023/24",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m671048",
-          "title": "托特纳姆热刺 2-0 曼联：2 球落败",
-          "summary": "英超，客场（Tottenham Hotspur Stadium）。这一季各项赛事第 2 场，1 胜 0 平 1 负。",
-          "body_html": "<p>2023/24 英超，客场（Tottenham Hotspur Stadium）对阵托特纳姆热刺，比分 0-2。</p><p>进球：49' Pape Matar Sarr（托特纳姆热刺）、83' Lisandro Martínez（乌龙球，算给托特纳姆热刺）。</p>",
+          "title": "热刺 2-0 曼联，马丁内斯乌龙",
+          "summary": "49 分钟萨尔破门，83 分钟马丁内斯乌龙。",
+          "body_html": "<p>第 49 分钟，萨尔在禁区里推射，1-0；第 83 分钟，马丁内斯在解围时把球碰进自家球门，2-0。</p><p>曼联 22 脚射门 6 次射正，热刺 17 脚 6 次。射门比对手多，结果比对手差。</p><p>两轮 3 分，队内伤病名单已经排到八个人。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "一球未进，这一季第 1 次被零封。"
+    "body": "22 脚射门 6 次射正，输了。射门数不等于机会。"
   },
   "match_no": 2,
   "hero": {

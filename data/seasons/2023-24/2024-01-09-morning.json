@@ -2,7 +2,7 @@
   "id": "2024-01-09-morning",
   "date": "2024-01-09",
   "period": "morning",
-  "issue_number": 371,
+  "issue_number": 380,
   "season": "2023/24",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m690663",
-          "title": "维冈竞技 0-2 曼联：零封取胜",
-          "summary": "足总杯，客场（The Brick Community Stadium）。这一季各项赛事第 29 场，13 胜 2 平 14 负。",
-          "body_html": "<p>2023/24 足总杯，客场（The Brick Community Stadium）对阵维冈竞技，比分 2-0。</p><p>进球：22' Diogo Dalot（曼联）、74' Bruno Fernandes（曼联，点球）。</p>",
+          "title": "维冈 0-2 曼联，足总杯第三轮",
+          "summary": "22 分钟达洛特、74 分钟布鲁诺点球。",
+          "body_html": "<p>第 22 分钟，达洛特在禁区里推射，0-1；第 74 分钟，布鲁诺点球，0-2。</p><p>33 脚射门 14 次射正，维冈 9 脚 2 次。足总杯第四轮，对手纽波特。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 9 场不丢球。"
+    "body": "33 脚射门 14 次射正，2-0。足总杯该有的样子。"
   },
   "match_no": 29,
   "hero": {

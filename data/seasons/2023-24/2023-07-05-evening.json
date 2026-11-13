@@ -1,0 +1,46 @@
+{
+  "id": "2023-07-05-evening",
+  "date": "2023-07-05",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "5500 万买一个 24 岁的中场，滕哈格要的是能跑两个禁区的人。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "mount-in",
+          "title": "曼联签下芒特，5500 万镑五年",
+          "summary": "7 月 5 日官宣，从切尔西签下 24 岁的芒特，五年合同带一年续约选项，费用 5500 万镑（最高 6000 万）。",
+          "body_html": "<p>7 月 5 日，曼联官宣芒特加盟，五年合同加一年选项，费用 5500 万镑、浮动 500 万。</p><p>24 岁，英格兰中场，切尔西青训，为切尔西出场 195 次、33 球，2021 年欧冠决赛助攻哈弗茨打进制胜球。上赛季因伤只首发 19 次。</p><p>他穿 7 号。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            },
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-05"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 343,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-07-05-evening.jpg",
+    "alt": "芒特（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

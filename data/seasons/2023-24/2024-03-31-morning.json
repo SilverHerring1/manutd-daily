@@ -2,7 +2,7 @@
   "id": "2024-03-31-morning",
   "date": "2024-03-31",
   "period": "morning",
-  "issue_number": 383,
+  "issue_number": 392,
   "season": "2023/24",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m671324",
-          "title": "布伦特福德 1-1 曼联：被扳平",
-          "summary": "英超，客场（Gtech Community Stadium）。这一季各项赛事第 41 场，21 胜 4 平 16 负。",
-          "body_html": "<p>2023/24 英超，客场（Gtech Community Stadium）对阵布伦特福德，比分 1-1。</p><p>进球：90+6' Mason Mount（曼联）、90+9' Kristoffer Ajer（布伦特福德）。</p>",
+          "title": "布伦特福德 1-1 曼联，补时两球",
+          "summary": "90+6 分钟芒特、90+9 分钟阿耶尔。",
+          "body_html": "<p>补时第 6 分钟，芒特在禁区里推射，0-1——他在曼联的第一个进球；补时第 9 分钟，阿耶尔头球扳平，1-1。</p><p>11 脚射门 5 次射正，布伦特福德 31 脚 5 次。30 脚射门的对手，最后 3 秒扳平。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "最后时刻扳平，救回这一分，但过程说明问题一直在。"
+    "body": "补时第 6 分钟进球，补时第 9 分钟被扳平。"
   },
   "match_no": 41,
   "hero": {

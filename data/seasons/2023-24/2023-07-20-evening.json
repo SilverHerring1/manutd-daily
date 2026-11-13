@@ -1,0 +1,46 @@
+{
+  "id": "2023-07-20-evening",
+  "date": "2023-07-20",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "4720 万买一个会出球的门将。滕哈格要的是从后场开始踢，不是从门线开始救。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "onana-in",
+          "title": "曼联签下奥纳纳，4720 万镑五年",
+          "summary": "7 月 20 日官宣，从国际米兰签下 27 岁的喀麦隆门将奥纳纳，五年合同带一年续约选项，费用 4720 万镑。",
+          "body_html": "<p>7 月 20 日，曼联官宣奥纳纳加盟，五年合同加一年选项，费用 4720 万镑。</p><p>27 岁，喀麦隆国门，上赛季随国际米兰打进欧冠决赛。他出自巴萨青训，出球和出击范围是他的标签——滕哈格在阿贾克斯带过他。</p><p>他接的是德赫亚的位置，那个位置上一任坐了 12 年。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-20"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 346,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-07-20-evening.jpg",
+    "alt": "奥纳纳（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

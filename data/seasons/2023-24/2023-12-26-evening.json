@@ -1,0 +1,49 @@
+{
+  "id": "2023-12-26-evening",
+  "date": "2023-12-26",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "25% 的股份，13 亿镑。格雷泽还在，但足球运营换了人。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "ratcliffe-stake",
+          "title": "拉特克利夫收购 25% 股份，接管足球运营",
+          "summary": "12 月 24 日，曼联宣布英力士董事长拉特克利夫以约 13 亿镑收购俱乐部 25% 的 B 类股份，并获得足球运营的委托权。",
+          "body_html": "<p>12 月 24 日，曼联宣布与英力士达成协议：拉特克利夫以约 13 亿镑收购 25% 的 B 类股份，同时向俱乐部追加 3 亿美元投资。</p><p>协议里最关键的一条是「足球运营的委托权」——转会、球探、青训、医疗由英力士团队负责。格雷泽家族保留多数股份和俱乐部控制权。</p><p>拉特克利夫是曼联球迷，他在声明里说：「我们共同的目标是把曼联带回它应该在的位置。」</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "天空体育"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "12-24"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 377,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-12-26-evening.jpg",
+    "alt": "拉特克利夫（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

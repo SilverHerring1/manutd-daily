@@ -1,0 +1,43 @@
+{
+  "id": "2023-07-14-evening",
+  "date": "2023-07-14",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "青训出来的人，1500 万卖掉。这笔钱在这个窗口算补贴。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "elanga-out",
+          "title": "埃兰加 1500 万镑去诺丁汉森林，曼联 55 场 4 球",
+          "summary": "7 月 14 日，埃兰加转会诺丁汉森林，费用 1500 万镑。他在曼联一线队 55 场、4 球。",
+          "body_html": "<p>7 月 14 日，埃兰加转会诺丁汉森林，费用 1500 万镑。</p><p>21 岁，瑞典国脚，曼联青训。一线队 55 场 4 球，2022/23 赛季对狼队那场打进过一球。上赛季后半段基本没有出场机会。</p>",
+          "sources": [
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-14"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 345,
+  "hero": {
+    "src": "./media/news/news-2023-24-2023-07-14-evening.jpg",
+    "alt": "埃兰加（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

@@ -2,7 +2,7 @@
   "id": "2024-02-29-morning",
   "date": "2024-02-29",
   "period": "morning",
-  "issue_number": 379,
+  "issue_number": 388,
   "season": "2023/24",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m698134",
-          "title": "诺丁汉森林 0-1 曼联：Casemiro 89' 绝杀",
-          "summary": "足总杯，客场（The City Ground）。这一季各项赛事第 37 场，19 胜 3 平 15 负。",
-          "body_html": "<p>2023/24 足总杯，客场（The City Ground）对阵诺丁汉森林，比分 1-0。</p><p>进球：89' Casemiro（曼联）。</p>",
+          "title": "诺丁汉森林 0-1 曼联，卡塞米罗89分钟绝杀",
+          "summary": "89 分钟卡塞米罗在禁区里推射，足总杯八强。",
+          "body_html": "<p>第 89 分钟，卡塞米罗在禁区里推射，0-1。</p><p>20 脚射门 7 次射正，森林 16 脚 5 次。足总杯八强，对手利物浦。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 19 胜，防线没给对手留东西。"
+    "body": "卡塞米罗第 89 分钟。足总杯八强。"
   },
   "match_no": 37,
   "hero": {

@@ -2,7 +2,7 @@
   "id": "2023-12-31-morning",
   "date": "2023-12-31",
   "period": "morning",
-  "issue_number": 370,
+  "issue_number": 379,
   "season": "2023/24",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m671230",
-          "title": "诺丁汉森林 2-1 曼联：一球之差",
-          "summary": "英超，客场（The City Ground）。这一季各项赛事第 28 场，12 胜 2 平 14 负。",
-          "body_html": "<p>2023/24 英超，客场（The City Ground）对阵诺丁汉森林，比分 1-2。</p><p>进球：64' Nicolás Domínguez（诺丁汉森林）、78' Marcus Rashford（曼联）、82' Morgan Gibbs-White（诺丁汉森林）。</p>",
+          "title": "诺丁汉森林 2-1 曼联，客场又输",
+          "summary": "64 分钟多明格斯、78 分钟拉什福德、82 分钟吉布斯-怀特。",
+          "body_html": "<p>第 64 分钟，多明格斯在禁区里推射，1-0；第 78 分钟，拉什福德扳平；第 82 分钟，吉布斯-怀特，2-1。</p><p>10 脚射门 5 次射正。这是这个赛季第 9 场失利。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "输了，但进了 1 球，问题不在前场。"
+    "body": "年末输给森林。这个赛季第 9 场失利。"
   },
   "match_no": 28,
   "hero": {
