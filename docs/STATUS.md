@@ -105,7 +105,7 @@ git status -sb        # 应显示 [ahead N]，表示 N 个提交等推送
 3. 配图：头图 3 张（波切蒂诺 / Wikimedia，CC BY-SA 4.0 Bryan Berlin；老特拉福德航拍 / Wikimedia，CC BY-SA 3.0 de Arne Müseler；多古 / 曼联官网）+ 条目图 4 张（格拉泽 / 懂球帝、官宣卡里克 / 曼联官网、B 费 / BBC、球员 IG story 拼图）；555 头图沿用 `carrick.jpg`，556 头图用 `bruno.jpg`
    - 手机竖版社媒截图不直接放：两张拼成 1200×800 再插进正文（见 `tmp/make-item-images.py`）
    - 懂球帝有些配图是 AI 合成的「签约照」（6649192 那张），**不用**
-   - 配图规则已写进 `docs/CONVENTIONS.md` 第六节：信源里有图就配，竖图拼接，不用 AI 图
+   - 配图规则已写进 `docs/CONVENTIONS.md` 第六节：**不硬凑**（配不出「就是这件事」的图就空着，无图是正常形态）→ 相关才配 → 在满足前两条的前提下信源有图就用；竖图拼接，不用 AI 图
 4. 脚本：`tmp/patch-news-meta.mjs`（补 kind:news 并重算计数）、`tmp/verify-issues.mjs`（期号连续 / 字数 / 来源 / 配图存在性）、`tmp/shot-news-issues.mjs`（截图核对）
 5. **没跑** `renumber-*.mjs` 与 `gen-archive-issues.mjs --all --pages`：新期都在 552 之后、不挪旧号；`--pages` 会用 archive 的 15 场覆盖 2026/27 的 28 期总目
 6. 载入页文案更新（`index.html` + `app.js`）：h1 从「正在载入」改成品牌名「曼联日报」，日期下加「正在读入全部期次…」；侧栏「关于」从过时的「近一个月 8 场」改成日更 + 9 季归档；页脚补 The Athletic / BBC / Sky；file:// 提示与「构建」版本号（v9→v21）一并修好；`app.js` 载入失败时把 meta 复位成「—」；载入中不再闪「第 — 期」（kicker 清空 + `.kicker:empty{display:none}`）。前端版本 v19 → **v21**
