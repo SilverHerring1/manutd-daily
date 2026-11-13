@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "2023-05-14-morning",
   "date": "2023-05-14",
   "period": "morning",
@@ -16,7 +16,7 @@
         {
           "id": "m638169",
           "title": "曼联 2-0 狼队，马夏尔和加纳乔",
-          "summary": "32 分钟马夏尔、90+4 分钟加纳乔。",
+          "summary": "马夏尔先开，补时锁定。",
           "body_html": "<p>第 32 分钟，马夏尔在禁区里推射，1-0；补时第 4 分钟，加纳乔单刀，2-0。</p><p>主场零封，前四基本锁定。</p>",
           "sources": [
             {
@@ -39,6 +39,7 @@
   "hero": {
     "src": "./media/archive/2022-23/archive-2023-05-13-WolverhamptonWanderers.jpg",
     "alt": "曼联 2-0 狼队",
-    "width": 588, "height": 331
+    "width": 588,
+    "height": 331
   }
 }

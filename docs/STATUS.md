@@ -157,3 +157,12 @@ data/
 - 脚本：`node scripts/import-season.mjs 2018`（ESPN 赛程接口，一次一季）
 - 每场字段：日期（北京）、时间、赛事、主客、对手、比分、胜平负、场地、进球（含点球 / 乌龙标记）
 - 九季全部接入页面并重写完毕
+
+## 发版（每次改完必须做）
+
+1. `node scripts/sync-desktop.mjs` —— 把工作区改动同步到 `D:\Documents\GitHub\manutd-daily`
+2. 打开 GitHub Desktop → 填 Summary → **Commit to main** → **Push origin**
+3. 等一两分钟，线上自动更新
+
+> 工作区（本目录）只是编辑用的，**真正推送的是 GitHub Desktop 的克隆目录**。
+> 改完不同步，线上就一直是旧的——这个坑踩过一次。
