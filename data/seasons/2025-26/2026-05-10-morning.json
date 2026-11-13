@@ -2,7 +2,7 @@
   "id": "2026-05-10-morning",
   "date": "2026-05-10",
   "period": "morning",
-  "issue_number": 513,
+  "issue_number": 525,
   "season": "2025/26",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m740953",
-          "title": "桑德兰 0-0 曼联：互交白卷",
-          "summary": "英超，客场（Stadium of Light）。这一季各项赛事第 38 场，18 胜 12 平 8 负。",
-          "body_html": "<p>2025/26 英超，客场（Stadium of Light）对阵桑德兰，比分 0-0。</p><p>双方都没有进球。</p>",
+          "title": "桑德兰 0-0 曼联，11脚射门1次射正",
+          "summary": "11 脚射门 1 次射正，桑德兰 15 脚 4 次。",
+          "body_html": "<p>第 90 分钟，记分牌 0-0。曼联 11 脚射门 1 次射正，桑德兰 15 脚 4 次。</p><p>0-0，联赛第三，还剩一轮。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "没有进球的平局，这一季第 4 次。"
+    "body": "11 脚射门 1 次射正，0-0。还剩一轮。"
   },
   "match_no": 38,
   "hero": {

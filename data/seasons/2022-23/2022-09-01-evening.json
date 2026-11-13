@@ -35,12 +35,5 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 277,
-  "hero": {
-    "src": "./media/news/news-2022-23-2022-09-01-evening.jpg",
-    "alt": "安东尼（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  "issue_number": 277
 }

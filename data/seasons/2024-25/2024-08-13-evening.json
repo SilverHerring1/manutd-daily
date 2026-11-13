@@ -32,12 +32,5 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 409,
-  "hero": {
-    "src": "./media/news/news-2024-25-2024-08-13-evening.jpg",
-    "alt": "万-比萨卡（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  "issue_number": 409
 }

@@ -33,12 +33,5 @@
         }
       ]
     }
-  ],
-  "hero": {
-    "src": "./media/news/news-2021-22-2021-07-24-morning.jpg",
-    "alt": "桑乔（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  ]
 }

@@ -35,12 +35,5 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 343,
-  "hero": {
-    "src": "./media/news/news-2023-24-2023-07-05-evening.jpg",
-    "alt": "芒特（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  "issue_number": 343
 }

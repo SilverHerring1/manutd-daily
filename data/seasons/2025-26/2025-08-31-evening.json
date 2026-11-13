@@ -1,0 +1,46 @@
+{
+  "id": "2025-08-31-evening",
+  "date": "2025-08-31",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "青训出来的边锋，卖去切尔西。三年 93 场 16 球，走的时候 21 岁。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "garnacho-out",
+          "title": "加纳乔转会切尔西，联赛 93 场 16 球",
+          "summary": "8 月 30 日，加纳乔永久转会切尔西，费用未公开（媒体报道约 4000 万镑）。他联赛出场 93 次、16 球。",
+          "body_html": "<p>8 月 30 日，加纳乔转会切尔西，费用俱乐部未公开，多家媒体报道在 4000 万镑上下。</p><p>21 岁，阿根廷国脚，2020 年从马竞青训加盟曼联。联赛 93 场 16 球，2024 年足总杯决赛打进过一个球，2023 年对埃弗顿那记倒钩是这个时代最漂亮的进球之一。</p><p>他和阿莫林的关系在 2024/25 赛季后半段已经破裂。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-30"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 485,
+  "hero": {
+    "src": "./media/news/wide-2025-26-2025-08-31-evening.jpg",
+    "alt": "加纳乔（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

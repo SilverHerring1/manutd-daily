@@ -1,0 +1,43 @@
+{
+  "id": "2025-08-16-morning",
+  "date": "2025-08-16",
+  "period": "morning",
+  "title": "曼联早报",
+  "note": {
+    "title": "编辑短评",
+    "body": "没有欧战，一周一场。这是 2014/15 以来第一次——也是这支球队最该用来重建的一年。"
+  },
+  "sections": [
+    {
+      "id": "record",
+      "title": "纪录",
+      "items": [
+        {
+          "id": "no-europe",
+          "title": "没有欧战的赛季：2014/15 以来第一次",
+          "summary": "2025/26 是曼联自 2014/15 以来第一个没有欧战可打的赛季。乔尼·埃文斯退役后，队内不再有拿过英超冠军的球员——1992/93 赛季以来第一次。",
+          "body_html": "<p>上赛季联赛第 15、欧联决赛输球，意味着 2025/26 赛季曼联只有联赛和两个杯赛。</p><p>这是 2014/15 赛季以来，曼联第一次没有欧战。那个赛季他们也没有欧战，莫耶斯带队，最后联赛第七。</p><p>另一个数字更冷：乔尼·埃文斯退役之后，一线队里没有一个人拿过英超冠军。这是 1992/93 赛季——英超元年——以来第一次。上一次出现这种情况，是 33 年前。</p>",
+          "sources": [
+            {
+              "text": "维基百科 · 2025–26 Manchester United F.C. season"
+            }
+          ],
+          "source_name": "纪录",
+          "published_at": "08-16"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 480,
+  "hero": {
+    "src": "./media/news/wide-2025-26-2025-08-16-morning.jpg",
+    "alt": "老特拉福德（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

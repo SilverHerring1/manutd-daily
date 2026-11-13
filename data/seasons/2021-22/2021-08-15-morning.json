@@ -33,12 +33,5 @@
         }
       ]
     }
-  ],
-  "hero": {
-    "src": "./media/news/news-2021-22-2021-08-15-morning.jpg",
-    "alt": "瓦拉内（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  ]
 }

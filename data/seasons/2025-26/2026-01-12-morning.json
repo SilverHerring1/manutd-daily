@@ -2,44 +2,37 @@
   "id": "2026-01-12-morning",
   "date": "2026-01-12",
   "period": "morning",
-  "issue_number": 498,
-  "season": "2025/26",
-  "archive": true,
   "title": "曼联早报",
-  "item_count": 1,
-  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "两个杯赛，各踢一场，都输了。这个赛季只剩联赛。"
+  },
   "sections": [
     {
-      "id": "matches",
+      "id": "match",
       "title": "昨夜战报",
       "items": [
         {
-          "id": "m762498",
-          "title": "曼联 1-2 布莱顿：一球之差",
-          "summary": "足总杯，主场（老特拉福德）。这一季各项赛事第 23 场，8 胜 9 平 6 负。",
-          "body_html": "<p>2025/26 足总杯，主场（老特拉福德）对阵布莱顿，比分 1-2。</p><p>进球：12' Brajan Gruda（布莱顿）、64' Danny Welbeck（布莱顿）、85' Benjamin Sesko（曼联）。</p>",
+          "id": "brighton-facup",
+          "title": "曼联 1-2 布莱顿，足总杯第三轮出局",
+          "summary": "12 分钟格鲁达、64 分钟维尔贝克、85 分钟塞斯科。曼联全场只有塞斯科那一个球，足总杯首轮出局。",
+          "body_html": "<p>第 12 分钟，格鲁达在禁区外远射，0-1；第 64 分钟，维尔贝克推射，0-2；第 85 分钟，塞斯科头球扳回一个，1-2。</p><p>上半场曼联控球占优，但没有一次真正威胁到门将。布莱顿两次反击，两个球。</p><p>足总杯第三轮出局——2013/14 赛季以来最早的一次。这个赛季的杯赛，到此为止。</p>",
           "sources": [
             {
-              "text": "ESPN 比分",
-              "url": "https://www.espn.com/soccer/match/_/gameId/762498"
+              "text": "英足总 · 比赛数据"
+            },
+            {
+              "text": "BBC"
             }
           ],
-          "source_name": "足总杯 · 主场",
-          "published_at": "01-12 00:30",
-          "badge": "./media/badges/brighton.png"
+          "source_name": "足总杯",
+          "published_at": "01-11"
         }
       ]
     }
   ],
-  "note": {
-    "title": "编辑短评",
-    "body": "输了，但进了 1 球，问题不在前场。"
-  },
-  "match_no": 23,
-  "hero": {
-    "src": "./media/archive/2025-26/archive-2026-01-12-BrightonHoveAlbion.jpg",
-    "alt": "曼联 1-2 布莱顿",
-    "width": 960,
-    "height": 540
-  }
+  "item_count": 1,
+  "section_count": 1,
+  "archive": true,
+  "issue_number": 506
 }

@@ -2,7 +2,7 @@
   "id": "2026-02-24-morning",
   "date": "2026-02-24",
   "period": "morning",
-  "issue_number": 504,
+  "issue_number": 516,
   "season": "2025/26",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m740856",
-          "title": "埃弗顿 0-1 曼联：零封取胜",
-          "summary": "英超，客场（Hill Dickinson Stadium）。这一季各项赛事第 29 场，13 胜 10 平 6 负。",
-          "body_html": "<p>2025/26 英超，客场（Hill Dickinson Stadium）对阵埃弗顿，比分 1-0。</p><p>进球：71' Benjamin Sesko（曼联）。</p>",
+          "title": "埃弗顿 0-1 曼联，塞斯科71分钟制胜",
+          "summary": "71 分钟塞斯科在禁区里推射。",
+          "body_html": "<p>第 71 分钟，塞斯科在禁区里推射，0-1。</p><p>11 脚射门 3 次射正，埃弗顿 12 脚 4 次。客场三分，联赛第三。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 13 胜，防线没给对手留东西。"
+    "body": "客场三分，联赛第三。"
   },
   "match_no": 29,
   "hero": {

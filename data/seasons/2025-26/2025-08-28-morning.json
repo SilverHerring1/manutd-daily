@@ -2,7 +2,7 @@
   "id": "2025-08-28-morning",
   "date": "2025-08-28",
   "period": "morning",
-  "issue_number": 478,
+  "issue_number": 483,
   "season": "2025/26",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m756229",
-          "title": "格林斯比 2-2 曼联：Harry Maguire 89' 扳平",
-          "summary": "联赛杯，客场（Blundell Park）。这一季各项赛事第 3 场，0 胜 2 平 1 负。",
-          "body_html": "<p>2025/26 联赛杯，客场（Blundell Park）对阵格林斯比，比分 2-2。</p><p>进球：22' Charles Vernam（格林斯比）、30' Tyrell Warren（格林斯比）、75' Bryan Mbeumo（曼联）、89' Harry Maguire（曼联）。</p><p>杯赛九十分钟打平，进入加时；互射点球的结果没有记录。</p>",
+          "title": "格里姆斯比 2-2 曼联，点球出局",
+          "summary": "22 分钟维尔纳姆、30 分钟沃伦、75 分钟姆贝乌莫、89 分钟马奎尔；点球 11-12 出局。",
+          "body_html": "<p>22 分钟维尔纳姆、30 分钟沃伦，英乙的格里姆斯比 2-0 领先。第 75 分钟，姆贝乌莫扳回一个；第 89 分钟，马奎尔头球，2-2。</p><p>点球大战，双方罚到第 12 轮，曼联 11-12 出局。联赛杯第二轮，输给第四级别球队。</p><p>这是曼联队史最难看的一次杯赛出局之一。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

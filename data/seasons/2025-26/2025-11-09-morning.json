@@ -2,7 +2,7 @@
   "id": "2025-11-09-morning",
   "date": "2025-11-09",
   "period": "morning",
-  "issue_number": 487,
+  "issue_number": 494,
   "season": "2025/26",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m740705",
-          "title": "托特纳姆热刺 2-2 曼联：Matthijs de Ligt 90+6' 扳平",
-          "summary": "英超，客场（Tottenham Hotspur Stadium）。这一季各项赛事第 12 场，5 胜 4 平 3 负。",
-          "body_html": "<p>2025/26 英超，客场（Tottenham Hotspur Stadium）对阵托特纳姆热刺，比分 2-2。</p><p>进球：32' Bryan Mbeumo（曼联）、84' Mathys Tel（托特纳姆热刺）、90+1' Richarlison（托特纳姆热刺）、90+6' Matthijs de Ligt（曼联）。</p>",
+          "title": "热刺 2-2 曼联，德里赫特补时扳平",
+          "summary": "32 分钟姆贝乌莫、84 分钟特尔、90+1 分钟理查利森、90+6 分钟德里赫特。",
+          "body_html": "<p>第 32 分钟，姆贝乌莫推射，0-1；第 84 分钟，特尔扳平；补时第 1 分钟，理查利森头球，2-1；补时第 6 分钟，德里赫特头球，2-2。</p><p>5 脚射门 2 次射正，热刺 10 脚 4 次。最后 12 分钟里，两边各进一个。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "补时扳平，一分是抢回来的。"
+    "body": "5 脚射门 2 次射正，补时第 6 分钟扳平。"
   },
   "match_no": 12,
   "hero": {

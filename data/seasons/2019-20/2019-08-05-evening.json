@@ -37,12 +37,5 @@
         }
       ]
     }
-  ],
-  "hero": {
-    "src": "./media/news/news-2019-20-2019-08-05-evening.jpg",
-    "alt": "马奎尔（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  ]
 }

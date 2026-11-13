@@ -2,7 +2,7 @@
   "id": "2025-12-22-morning",
   "date": "2025-12-22",
   "period": "morning",
-  "issue_number": 493,
+  "issue_number": 500,
   "season": "2025/26",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m740765",
-          "title": "阿斯顿维拉 2-1 曼联：一球之差",
-          "summary": "英超，客场（Villa Park）。这一季各项赛事第 18 场，7 胜 6 平 5 负。",
-          "body_html": "<p>2025/26 英超，客场（Villa Park）对阵阿斯顿维拉，比分 1-2。</p><p>进球：45' Morgan Rogers（阿斯顿维拉）、45+3' Matheus Cunha（曼联）、57' Morgan Rogers（阿斯顿维拉）。</p>",
+          "title": "阿斯顿维拉 2-1 曼联，罗杰斯梅开二度",
+          "summary": "45 分钟和 57 分钟罗杰斯、45+3 分钟库尼亚。",
+          "body_html": "<p>第 45 分钟，罗杰斯在禁区里推射，1-0；补时第 3 分钟，库尼亚扳平，1-1；第 57 分钟，罗杰斯再进一个，2-1。</p><p>15 脚射门 6 次射正。客场输球，联赛第五。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "一球之差，进球拿到了，分数没拿到。"
+    "body": "客场输球，联赛第五。"
   },
   "match_no": 18,
   "hero": {

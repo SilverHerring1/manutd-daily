@@ -1,0 +1,46 @@
+{
+  "id": "2026-01-06-evening",
+  "date": "2026-01-06",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "一年零两个月，一个联赛杯都没拿到。他走的时候，球队联赛第六。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "amorim-sacked",
+          "title": "阿莫林下课，弗莱彻临时带队",
+          "summary": "1 月 5 日，曼联宣布阿莫林离任。他执教 14 个月，带队 71 场，拿到 2025 年欧联杯亚军。弗莱彻临时接手。",
+          "body_html": "<p>1 月 5 日，曼联宣布阿莫林不再担任主教练。前一天客场 1-1 平利兹，联赛第六。</p><p>他 2024 年 11 月上任，14 个月 71 场 28 胜 19 平 24 负。2025 年 5 月欧联决赛 0-1 输热刺，是这个任期内最接近奖杯的一次。上赛季联赛第 15，本赛季一直在第 5 到第 7 之间徘徊。</p><p>达伦·弗莱彻临时带队，1 月 13 日之前的三场比赛由他负责。</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "BBC"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "01-05"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 504,
+  "hero": {
+    "src": "./media/news/wide-2025-26-2026-01-06-evening.jpg",
+    "alt": "阿莫林（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}

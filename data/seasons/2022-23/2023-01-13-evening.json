@@ -35,12 +35,5 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 303,
-  "hero": {
-    "src": "./media/news/news-2022-23-2023-01-13-evening.jpg",
-    "alt": "韦格霍斯特（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  "issue_number": 303
 }

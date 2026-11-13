@@ -38,12 +38,5 @@
   "section_count": 1,
   "kind": "news",
   "archive": true,
-  "issue_number": 377,
-  "hero": {
-    "src": "./media/news/news-2023-24-2023-12-26-evening.jpg",
-    "alt": "拉特克利夫（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  "issue_number": 377
 }

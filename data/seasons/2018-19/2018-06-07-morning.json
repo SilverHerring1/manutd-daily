@@ -37,12 +37,5 @@
         }
       ]
     }
-  ],
-  "hero": {
-    "src": "./media/news/news-2018-19-2018-06-07-morning.jpg",
-    "alt": "达洛特（资料图）",
-    "width": 960,
-    "height": 540,
-    "credit": "Wikimedia Commons"
-  }
+  ]
 }

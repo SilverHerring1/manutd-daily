@@ -1,0 +1,46 @@
+{
+  "id": "2026-01-13-evening",
+  "date": "2026-01-13",
+  "period": "evening",
+  "title": "曼联晚报",
+  "note": {
+    "title": "编辑短评",
+    "body": "球员时代在这里踢了 12 年，教练生涯从卡灵顿的一间办公室开始。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "carrick-in",
+          "title": "卡里克出任临时主帅，执教到赛季结束",
+          "summary": "1 月 13 日，曼联宣布迈克尔·卡里克出任临时主教练，执教到 2025/26 赛季结束。",
+          "body_html": "<p>1 月 13 日，曼联宣布卡里克出任临时主教练，合同到赛季结束，之后俱乐部再做正式主帅的选择。</p><p>44 岁，球员时代在曼联 12 年，2006 到 2018 年出场 464 次，拿过五个英超冠军和一座欧冠。退役后在曼联做过助教，2022 年在米德尔斯堡执教。</p><p>他的第一场是 1 月 17 日主场对曼城。</p>",
+          "sources": [
+            {
+              "text": "曼联官方声明"
+            },
+            {
+              "text": "天空体育"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "01-13"
+        }
+      ]
+    }
+  ],
+  "item_count": 1,
+  "section_count": 1,
+  "kind": "news",
+  "archive": true,
+  "issue_number": 508,
+  "hero": {
+    "src": "./media/news/wide-2025-26-2026-01-13-evening.jpg",
+    "alt": "卡里克（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
+}
