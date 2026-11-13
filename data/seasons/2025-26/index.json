@@ -1145,7 +1145,7 @@
       "date": "2026-03-16",
       "period": "morning",
       "issue_number": 519,
-      "title": "曼联 3-1 阿斯顿维拉，卡塞米罗领衔",
+      "title": "曼联 3-1 维拉，卡塞米罗和塞斯科",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1164,7 +1164,7 @@
       "opponent": "阿斯顿维拉",
       "badge": "./media/badges/astonvilla.png",
       "scoreline": "曼联 3-1 阿斯顿维拉",
-      "clause": "曼联 3-1 阿斯顿维拉，卡塞米罗领衔",
+      "clause": "曼联 3-1 维拉，卡塞米罗和塞斯科",
       "source_name": "英超 · 主场"
     },
     {
@@ -1172,7 +1172,7 @@
       "date": "2026-03-21",
       "period": "morning",
       "issue_number": 520,
-      "title": "伯恩茅斯 2-2 曼联，希尔乌龙送礼",
+      "title": "伯恩茅斯 2-2 曼联，马奎尔红点",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1191,7 +1191,7 @@
       "opponent": "伯恩茅斯",
       "badge": "./media/badges/bournemouth.png",
       "scoreline": "伯恩茅斯 2-2 曼联",
-      "clause": "伯恩茅斯 2-2 曼联，希尔乌龙送礼",
+      "clause": "伯恩茅斯 2-2 曼联，马奎尔红点",
       "source_name": "英超 · 客场"
     },
     {
@@ -1199,7 +1199,7 @@
       "date": "2026-04-14",
       "period": "morning",
       "issue_number": 521,
-      "title": "曼联 1-2 利兹，主场又输",
+      "title": "曼联 1-2 利兹，奥卡福梅开二度",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1218,7 +1218,7 @@
       "opponent": "利兹联",
       "badge": "./media/badges/leedsunited.png",
       "scoreline": "曼联 1-2 利兹联",
-      "clause": "曼联 1-2 利兹，主场又输",
+      "clause": "曼联 1-2 利兹，奥卡福梅开二度",
       "source_name": "英超 · 主场"
     },
     {
@@ -1226,7 +1226,7 @@
       "date": "2026-04-19",
       "period": "morning",
       "issue_number": 522,
-      "title": "切尔西 0-1 曼联，库尼亚43分钟制胜",
+      "title": "切尔西 0-1 曼联，库尼亚制胜",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1245,7 +1245,7 @@
       "opponent": "切尔西",
       "badge": "./media/badges/chelsea.png",
       "scoreline": "切尔西 0-1 曼联",
-      "clause": "切尔西 0-1 曼联，库尼亚43分钟制胜",
+      "clause": "切尔西 0-1 曼联，库尼亚制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -1253,7 +1253,7 @@
       "date": "2026-04-28",
       "period": "morning",
       "issue_number": 523,
-      "title": "曼联 2-1 布伦特福德，卡塞米罗和塞斯科",
+      "title": "曼联 2-1 布伦特福德，半场定胜",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1272,7 +1272,7 @@
       "opponent": "布伦特福德",
       "badge": "./media/badges/brentford.png",
       "scoreline": "曼联 2-1 布伦特福德",
-      "clause": "曼联 2-1 布伦特福德，卡塞米罗和塞斯科",
+      "clause": "曼联 2-1 布伦特福德，半场定胜",
       "source_name": "英超 · 主场"
     },
     {
@@ -1280,7 +1280,7 @@
       "date": "2026-05-04",
       "period": "morning",
       "issue_number": 524,
-      "title": "曼联 3-2 利物浦，梅努77分钟制胜",
+      "title": "曼联 3-2 利物浦，梅努制胜",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1299,7 +1299,7 @@
       "opponent": "利物浦",
       "badge": "./media/badges/liverpool.png",
       "scoreline": "曼联 3-2 利物浦",
-      "clause": "曼联 3-2 利物浦，梅努77分钟制胜",
+      "clause": "曼联 3-2 利物浦，梅努制胜",
       "source_name": "英超 · 主场"
     },
     {
@@ -1307,7 +1307,7 @@
       "date": "2026-05-10",
       "period": "morning",
       "issue_number": 525,
-      "title": "桑德兰 0-0 曼联，11脚射门1次射正",
+      "title": "桑德兰 0-0 曼联，11 脚射门 1 射正",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1326,7 +1326,7 @@
       "opponent": "桑德兰",
       "badge": "./media/badges/sunderland.png",
       "scoreline": "桑德兰 0-0 曼联",
-      "clause": "桑德兰 0-0 曼联，11脚射门1次射正",
+      "clause": "桑德兰 0-0 曼联，11 脚射门 1 射正",
       "source_name": "英超 · 客场"
     },
     {
@@ -1334,7 +1334,7 @@
       "date": "2026-05-18",
       "period": "morning",
       "issue_number": 526,
-      "title": "曼联 3-2 诺丁汉森林，赛季最后一个主场",
+      "title": "曼联 3-2 森林，赛季最后一个主场",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1353,7 +1353,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "曼联 3-2 诺丁汉森林",
-      "clause": "曼联 3-2 诺丁汉森林，赛季最后一个主场",
+      "clause": "曼联 3-2 森林，赛季最后一个主场",
       "source_name": "英超 · 主场"
     },
     {
@@ -1361,7 +1361,7 @@
       "date": "2026-05-25",
       "period": "morning",
       "issue_number": 527,
-      "title": "布莱顿 0-3 曼联，赛季收官",
+      "title": "布莱顿 0-3 曼联，半场三球收官",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1380,7 +1380,7 @@
       "opponent": "布莱顿",
       "badge": "./media/badges/brighton.png",
       "scoreline": "布莱顿 0-3 曼联",
-      "clause": "布莱顿 0-3 曼联，赛季收官",
+      "clause": "布莱顿 0-3 曼联，半场三球收官",
       "source_name": "英超 · 客场"
     },
     {
