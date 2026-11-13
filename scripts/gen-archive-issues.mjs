@@ -856,11 +856,11 @@ for (const slug of targets) {
             },
             {
               id: 'season-focus',
-              title: focusList.length ? `名局 ${focusList.length} 场` : '名局',
+              title: focusList.length ? `焦点战 ${focusList.length} 场` : '焦点战',
               summary: focusList.slice(0, 6).map((f) => f.label).join('、') + (focusList.length > 6 ? ' 等' : ''),
               body_html: focusList.length
-                ? `<p>挑出这几场当成一季的名局（共 ${focusList.length} 场）：</p>${list(focusList.map((f) => `${f.label}（${f.date}）—— ${f.why}`))}`
-                : '<p>这一季还没有标记名局。</p>',
+                ? `<p>挑出这几场当成一季的焦点战（共 ${focusList.length} 场）：</p>${list(focusList.map((f) => `${f.label}（${f.date}）—— ${f.why}`))}`
+                : '<p>这一季还没有标记焦点战。</p>',
               sources: [{ text: 'data/focus.json', url: 'https://github.com/SilverHerring1/manutd-daily' }],
               source_name: '回顾',
               published_at: s.date.slice(5),

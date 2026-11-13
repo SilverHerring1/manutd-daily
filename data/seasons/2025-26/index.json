@@ -195,7 +195,7 @@
       "date": "2025-08-18",
       "period": "morning",
       "issue_number": 481,
-      "title": "曼联 0-1 阿森纳，22 脚射门没进球",
+      "title": "曼联 0-1 阿森纳，22 脚射门一场空",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -214,7 +214,7 @@
       "opponent": "阿森纳",
       "badge": "./media/badges/arsenal.png",
       "scoreline": "曼联 0-1 阿森纳",
-      "clause": "曼联 0-1 阿森纳，22 脚射门没进球",
+      "clause": "曼联 0-1 阿森纳，22 脚射门一场空",
       "source_name": "英超 · 主场"
     },
     {
@@ -222,7 +222,7 @@
       "date": "2025-08-25",
       "period": "morning",
       "issue_number": 482,
-      "title": "富勒姆 1-1 曼联，穆尼斯乌龙送礼",
+      "title": "富勒姆 1-1 曼联，B 费点球打飞",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -241,7 +241,7 @@
       "opponent": "富勒姆",
       "badge": "./media/badges/fulham.png",
       "scoreline": "富勒姆 1-1 曼联",
-      "clause": "富勒姆 1-1 曼联，穆尼斯乌龙送礼",
+      "clause": "富勒姆 1-1 曼联，B 费点球打飞",
       "source_name": "英超 · 客场"
     },
     {
@@ -276,7 +276,7 @@
       "date": "2025-08-31",
       "period": "morning",
       "issue_number": 484,
-      "title": "曼联 3-2 伯恩利，布鲁诺补时点球",
+      "title": "曼联 3-2 伯恩利，B 费补时点球绝杀",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -295,7 +295,7 @@
       "opponent": "伯恩利",
       "badge": "./media/badges/burnley.png",
       "scoreline": "曼联 3-2 伯恩利",
-      "clause": "曼联 3-2 伯恩利，布鲁诺补时点球",
+      "clause": "曼联 3-2 伯恩利，B 费补时点球绝杀",
       "source_name": "英超 · 主场"
     },
     {
@@ -341,7 +341,7 @@
       "date": "2025-09-15",
       "period": "morning",
       "issue_number": 487,
-      "title": "曼城 3-0 曼联，德比被打穿",
+      "title": "曼城 3-0 曼联，哈兰德梅开二度",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -360,7 +360,7 @@
       "opponent": "曼城",
       "badge": "./media/badges/man-city.png",
       "scoreline": "曼城 3-0 曼联",
-      "clause": "曼城 3-0 曼联，德比被打穿",
+      "clause": "曼城 3-0 曼联，哈兰德梅开二度",
       "source_name": "英超 · 客场"
     },
     {
@@ -368,7 +368,7 @@
       "date": "2025-09-21",
       "period": "morning",
       "issue_number": 488,
-      "title": "曼联 2-1 切尔西，布鲁诺和卡塞米罗",
+      "title": "曼联 2-1 切尔西，B 费第 100 球",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -387,7 +387,7 @@
       "opponent": "切尔西",
       "badge": "./media/badges/chelsea.png",
       "scoreline": "曼联 2-1 切尔西",
-      "clause": "曼联 2-1 切尔西，布鲁诺和卡塞米罗",
+      "clause": "曼联 2-1 切尔西，B 费第 100 球",
       "source_name": "英超 · 主场"
     },
     {
@@ -395,7 +395,7 @@
       "date": "2025-09-28",
       "period": "morning",
       "issue_number": 489,
-      "title": "布伦特福德 3-1 曼联，蒂亚戈梅开二度",
+      "title": "布伦特福德 3-1 曼联，蒂亚戈双响",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -414,7 +414,7 @@
       "opponent": "布伦特福德",
       "badge": "./media/badges/brentford.png",
       "scoreline": "布伦特福德 3-1 曼联",
-      "clause": "布伦特福德 3-1 曼联，蒂亚戈梅开二度",
+      "clause": "布伦特福德 3-1 曼联，蒂亚戈双响",
       "source_name": "英超 · 客场"
     },
     {
@@ -422,7 +422,7 @@
       "date": "2025-10-05",
       "period": "morning",
       "issue_number": 490,
-      "title": "曼联 2-0 桑德兰，芒特和塞斯科",
+      "title": "曼联 2-0 桑德兰，芒特 8 分钟破门",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -441,7 +441,7 @@
       "opponent": "桑德兰",
       "badge": "./media/badges/sunderland.png",
       "scoreline": "曼联 2-0 桑德兰",
-      "clause": "曼联 2-0 桑德兰，芒特和塞斯科",
+      "clause": "曼联 2-0 桑德兰，芒特 8 分钟破门",
       "source_name": "英超 · 主场"
     },
     {
@@ -449,7 +449,7 @@
       "date": "2025-10-20",
       "period": "morning",
       "issue_number": 491,
-      "title": "利物浦 1-2 曼联，马奎尔84分钟制胜",
+      "title": "利物浦 1-2 曼联，马奎尔头球绝杀",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -468,7 +468,7 @@
       "opponent": "利物浦",
       "badge": "./media/badges/liverpool.png",
       "scoreline": "利物浦 1-2 曼联",
-      "clause": "利物浦 1-2 曼联，马奎尔84分钟制胜",
+      "clause": "利物浦 1-2 曼联，马奎尔头球绝杀",
       "source_name": "英超 · 客场"
     },
     {

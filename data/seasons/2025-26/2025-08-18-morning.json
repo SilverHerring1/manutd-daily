@@ -15,25 +15,35 @@
       "items": [
         {
           "id": "m740604",
-          "title": "曼联 0-1 阿森纳，22 脚射门没进球",
-          "summary": "13 分钟卡拉菲奥里在角球后破门，曼联 22 脚射门 7 次射正。",
-          "body_html": "<p>第 13 分钟，角球开出来，卡拉菲奥里在门前把球捅进，0-1。</p><p>之后曼联压了 77 分钟：22 脚射门，7 次射正，一个没进。阿森纳 9 脚射门 3 次射正。</p><p>阿莫林的第一个完整赛季，开门黑。射门数占优，比分不占优——这是上赛季的老问题。</p>",
+          "title": "曼联 0-1 阿森纳，22 脚射门一场空",
+          "summary": "卡拉菲奥里第 13 分钟在门线上顶进，曼联 22 脚射门 7 次射正，拉亚做出 7 次扑救。",
+          "body_html": "<p>第 13 分钟，赖斯开出角球，巴因德尔没有把球处理干净，卡拉菲奥里在门线上把头一顶，0-1。</p><p>之后 77 分钟曼联一直压着打：22 脚射门、7 次射正、控球 61%、预期进球 1.59。拉亚做了 7 次扑救，拿走全场最佳。</p><p>第 55 分钟阿莫林换上阿马德，第 65 分钟又同时换下卡塞米罗和芒特，塞斯科第一次在主场亮相；第 80 分钟连马奎尔都上去当中锋用，禁区里还是没人能把球捅进去。</p><p>曼联 22 脚射门里有 8 脚被封堵，7 次射正全被拉亚挡下。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
               "url": "https://www.espn.com/soccer/match/_/gameId/740604"
+            },
+            {
+              "text": "The Athletic · 阿莫林赛后",
+              "url": "https://www.nytimes.com/athletic/6558961/2025/08/17/ruben-amorim-man-utd-arsenal"
             }
           ],
           "source_name": "英超 · 主场",
           "published_at": "08-17 23:30",
-          "badge": "./media/badges/arsenal.png"
+          "badge": "./media/badges/arsenal.png",
+          "quote": {
+            "zh": "我们证明了能在英超赢下任何一场球，尤其是面对阿森纳这样的强队。",
+            "en": "We prove today that we can win any game in the Premier League, especially against a great team like Arsenal.",
+            "who": "Ruben Amorim（阿莫林）",
+            "when": "2025 年 8 月 17 日赛后"
+          }
         }
       ]
     }
   ],
   "note": {
     "title": "编辑短评",
-    "body": "22 脚射门 7 次射正，0-1。射门数占优比分不占优，这是老问题。"
+    "body": "22 脚射门、1.59 的预期进球，0 分。上赛季就是这个毛病，换了一条更贵的锋线，还是同一个比分。"
   },
   "match_no": 1,
   "hero": {
