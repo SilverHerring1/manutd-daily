@@ -2,7 +2,7 @@
   "id": "2022-10-07-morning",
   "date": "2022-10-07",
   "period": "morning",
-  "issue_number": 268,
+  "issue_number": 283,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m652719",
-          "title": "奥莫尼亚 2-3 曼联：先丢球，翻盘",
-          "summary": "欧联，客场（GSP Stadium）。这一季各项赛事第 10 场，6 胜 0 平 4 负。",
-          "body_html": "<p>2022/23 欧联，客场（GSP Stadium）对阵奥莫尼亚，比分 3-2。</p><p>进球：34' Karim Ansarifard（奥莫尼亚）、53' Marcus Rashford（曼联）、63' Anthony Martial（曼联）、84' Marcus Rashford（曼联）、85' Nikolas Panagiotou（奥莫尼亚）。</p>",
+          "title": "奥莫尼亚 2-3 曼联，拉什福德替补两球",
+          "summary": "34 分钟安萨里法德、53 分钟和 84 分钟拉什福德、63 分钟马夏尔、85 分钟帕纳约图。",
+          "body_html": "<p>第 34 分钟，安萨里法德在禁区里推射，1-0；第 53 分钟，拉什福德替补上场后扳平；第 63 分钟，马夏尔推射，1-2；第 84 分钟，拉什福德再进一个，1-3；第 85 分钟，帕纳约图追回一个，2-3。</p><p>28 脚射门 8 次射正，奥莫尼亚 8 脚 4 次。客场赢球，但最后 5 分钟还在丢。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "赢下这一场，可这场丢 2 球 —— 这一季第 4 次单场丢两球以上。"
+    "body": "28 脚射门 8 次射正，最后 5 分钟还在丢。"
   },
   "match_no": 10,
   "hero": {

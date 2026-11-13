@@ -2,7 +2,7 @@
   "id": "2023-05-14-morning",
   "date": "2023-05-14",
   "period": "morning",
-  "issue_number": 316,
+  "issue_number": 337,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m638169",
-          "title": "曼联 2-0 狼队：零封取胜",
-          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 58 场，38 胜 9 平 11 负。",
-          "body_html": "<p>2022/23 英超，主场（老特拉福德）对阵狼队，比分 2-0。</p><p>进球：32' Anthony Martial（曼联）、90+4' Alejandro Garnacho（曼联）。</p>",
+          "title": "曼联 2-0 狼队，马夏尔和加纳乔",
+          "summary": "32 分钟马夏尔、90+4 分钟加纳乔。",
+          "body_html": "<p>第 32 分钟，马夏尔在禁区里推射，1-0；补时第 4 分钟，加纳乔单刀，2-0。</p><p>主场零封，前四基本锁定。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "主场零封，这一季第 27 场不丢球。"
+    "body": "前四基本锁定。"
   },
   "match_no": 58,
   "hero": {

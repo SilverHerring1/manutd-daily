@@ -2,7 +2,7 @@
   "id": "2023-02-13-morning",
   "date": "2023-02-13",
   "period": "morning",
-  "issue_number": 294,
+  "issue_number": 314,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m638043",
-          "title": "利兹联 0-2 曼联：零封取胜",
-          "summary": "英超，客场（Elland Road）。这一季各项赛事第 36 场，26 胜 4 平 6 负。",
-          "body_html": "<p>2022/23 英超，客场（Elland Road）对阵利兹联，比分 2-0。</p><p>进球：80' Marcus Rashford（曼联）、85' Alejandro Garnacho（曼联）。</p>",
+          "title": "利兹 0-2 曼联，加纳乔85分钟锁定",
+          "summary": "80 分钟拉什福德、85 分钟加纳乔。",
+          "body_html": "<p>第 80 分钟，拉什福德在禁区里推射，0-1；第 85 分钟，加纳乔推射，0-2。</p><p>11 脚射门 5 次射正，利兹 16 脚 6 次。客场赢球，两回合对利兹拿四分。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 17 场不丢球。"
+    "body": "加纳乔 85 分钟锁定。两回合对利兹四分。"
   },
   "match_no": 36,
   "hero": {

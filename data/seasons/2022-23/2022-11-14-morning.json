@@ -2,7 +2,7 @@
   "id": "2022-11-14-morning",
   "date": "2022-11-14",
   "period": "morning",
-  "issue_number": 279,
+  "issue_number": 294,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m637976",
-          "title": "富勒姆 1-2 曼联：Alejandro Garnacho 90+3' 绝杀",
-          "summary": "英超，客场（克拉文农场）。这一季各项赛事第 21 场，14 胜 2 平 5 负。",
-          "body_html": "<p>2022/23 英超，客场（克拉文农场）对阵富勒姆，比分 2-1。</p><p>进球：14' Christian Eriksen（曼联）、61' Daniel James（富勒姆）、90+3' Alejandro Garnacho（曼联）。</p>",
+          "title": "富勒姆 1-2 曼联，加纳乔补时绝杀",
+          "summary": "14 分钟埃里克森、61 分钟詹姆斯、90+3 分钟加纳乔。",
+          "body_html": "<p>第 14 分钟，埃里克森在禁区外远射，0-1；第 61 分钟，詹姆斯扳平；补时第 3 分钟，加纳乔在禁区里推射，1-2。</p><p>14 脚射门 9 次射正。18 岁的加纳乔，补时绝杀。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "三分到手，只是没能零封；这一季 21 场里只有 9 场零封。"
+    "body": "加纳乔补时绝杀。18 岁。"
   },
   "match_no": 21,
   "hero": {

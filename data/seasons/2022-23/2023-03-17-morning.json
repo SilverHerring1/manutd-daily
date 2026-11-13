@@ -2,7 +2,7 @@
   "id": "2023-03-17-morning",
   "date": "2023-03-17",
   "period": "morning",
-  "issue_number": 303,
+  "issue_number": 324,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m666739",
-          "title": "皇家贝蒂斯 0-1 曼联：零封取胜",
-          "summary": "欧联，客场（Benito Villamarín）。这一季各项赛事第 45 场，32 胜 6 平 7 负。",
-          "body_html": "<p>2022/23 欧联，客场（Benito Villamarín）对阵皇家贝蒂斯，比分 1-0。</p><p>进球：56' Marcus Rashford（曼联）。</p>",
+          "title": "皇家贝蒂斯 0-1 曼联，拉什福德56分钟制胜",
+          "summary": "56 分钟拉什福德在禁区里推射，两回合 5-1 晋级。",
+          "body_html": "<p>第 56 分钟，拉什福德在禁区里推射，0-1。</p><p>17 脚射门 4 次射正，贝蒂斯 15 脚 2 次。两回合 5-1，欧联八强。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 21 场不丢球。"
+    "body": "总比分 5-1，欧联八强。"
   },
   "match_no": 45,
   "hero": {

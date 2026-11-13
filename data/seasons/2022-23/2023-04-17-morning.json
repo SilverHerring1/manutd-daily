@@ -2,7 +2,7 @@
   "id": "2023-04-17-morning",
   "date": "2023-04-17",
   "period": "morning",
-  "issue_number": 309,
+  "issue_number": 330,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m638122",
-          "title": "诺丁汉森林 0-2 曼联：零封取胜",
-          "summary": "英超，客场（The City Ground）。这一季各项赛事第 51 场，36 胜 7 平 8 负。",
-          "body_html": "<p>2022/23 英超，客场（The City Ground）对阵诺丁汉森林，比分 2-0。</p><p>进球：32' Antony（曼联）、76' Diogo Dalot（曼联）。</p>",
+          "title": "诺丁汉森林 0-2 曼联，安东尼和达洛特",
+          "summary": "32 分钟安东尼、76 分钟达洛特。",
+          "body_html": "<p>第 32 分钟，安东尼在禁区里推射，0-1；第 76 分钟，达洛特推射，0-2。</p><p>22 脚射门 8 次射正，森林 6 脚 0 射正。客场零封。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 36 胜，防线没给对手留东西。"
+    "body": "22 脚射门 8 次射正，对手 0 射正。"
   },
   "match_no": 51,
   "hero": {

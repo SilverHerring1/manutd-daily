@@ -2,7 +2,7 @@
   "id": "2022-09-16-morning",
   "date": "2022-09-16",
   "period": "morning",
-  "issue_number": 266,
+  "issue_number": 281,
   "season": "2022/23",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m652705",
-          "title": "蒂拉斯波尔警长 0-2 曼联：零封取胜",
-          "summary": "欧联，客场（Stadionul Zimbru）。这一季各项赛事第 8 场，5 胜 0 平 3 负。",
-          "body_html": "<p>2022/23 欧联，客场（Stadionul Zimbru）对阵蒂拉斯波尔警长，比分 2-0。</p><p>进球：17' Jadon Sancho（曼联）、39' Cristiano Ronaldo（曼联，点球）。</p>",
+          "title": "谢里夫 0-2 曼联，桑乔和C罗",
+          "summary": "17 分钟桑乔、39 分钟 C 罗点球。欧联小组赛首胜。",
+          "body_html": "<p>第 17 分钟，桑乔在禁区里推射，0-1；第 39 分钟，C 罗点球命中，0-2。</p><p>8 脚射门 4 次射正，谢里夫 11 脚 2 次。欧联首胜。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "客场零封，这一季第 3 场不丢球。"
+    "body": "8 脚射门 4 次射正，欧联首胜。"
   },
   "match_no": 8,
   "hero": {
