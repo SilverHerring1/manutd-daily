@@ -1,12 +1,12 @@
-﻿{
+{
   "version": 1,
   "season": "2022/23",
   "slug": "2022-23",
   "source": "data/archive/2022-23.json",
-  "generated_at": "2026-11-12T17:43:43+08:00",
-  "count": 76,
+  "generated_at": "2026-11-13T10:05:43+08:00",
+  "count": 63,
   "matchCount": 62,
-  "newsCount": 13,
+  "newsCount": 1,
   "record": {
     "W": 41,
     "D": 9,
@@ -14,7 +14,7 @@
     "gf": 108,
     "ga": 63
   },
-  "first": "2022-07-01",
+  "first": "2022-08-08",
   "last": "2023-06-05",
   "dates": [
     "2023-06-05",
@@ -48,21 +48,17 @@
     "2023-02-09",
     "2023-02-05",
     "2023-02-02",
-    "2023-01-31",
     "2023-01-29",
     "2023-01-26",
     "2023-01-23",
     "2023-01-19",
     "2023-01-15",
-    "2023-01-13",
     "2023-01-11",
     "2023-01-07",
     "2023-01-04",
     "2023-01-01",
     "2022-12-28",
     "2022-12-22",
-    "2022-11-23",
-    "2022-11-17",
     "2022-11-14",
     "2022-11-11",
     "2022-11-07",
@@ -80,16 +76,10 @@
     "2022-09-09",
     "2022-09-05",
     "2022-09-02",
-    "2022-09-01",
     "2022-08-28",
     "2022-08-23",
-    "2022-08-22",
     "2022-08-14",
-    "2022-08-08",
-    "2022-07-27",
-    "2022-07-15",
-    "2022-07-05",
-    "2022-07-01"
+    "2022-08-08"
   ],
   "cups": [
     {
@@ -328,7 +318,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 1,
+      "matchDate": "2022-08-07",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 1-2 布莱顿",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-08-14-morning",
@@ -345,7 +345,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 2,
+      "matchDate": "2022-08-14",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "布伦特福德 4-0 曼联",
+      "clause": "净负 4 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-08-14-evening",
@@ -380,7 +390,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 3,
+      "matchDate": "2022-08-23",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 2-1 利物浦",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-08-28-morning",
@@ -397,7 +417,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 4,
+      "matchDate": "2022-08-27",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "南安普顿 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-09-01-evening",
@@ -426,7 +456,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 5,
+      "matchDate": "2022-09-02",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-09-05-morning",
@@ -437,7 +477,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 6,
+      "matchDate": "2022-09-04",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "曼联 3-1 阿森纳",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-09-09-morning",
@@ -454,7 +504,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 7,
+      "matchDate": "2022-09-09",
+      "result": "L",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "曼联 0-1 皇家社会",
+      "clause": "一球之差",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2022-09-16-morning",
@@ -471,7 +531,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 8,
+      "matchDate": "2022-09-16",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "蒂拉斯波尔警长",
+      "badge": "./media/badges/sheriff.png",
+      "scoreline": "蒂拉斯波尔警长 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2022-10-03-morning",
@@ -488,7 +558,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 9,
+      "matchDate": "2022-10-02",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 6-3 曼联",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-10-07-morning",
@@ -505,7 +585,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 10,
+      "matchDate": "2022-10-07",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "奥莫尼亚",
+      "badge": "./media/badges/omonia.png",
+      "scoreline": "奥莫尼亚 2-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2022-10-10-morning",
@@ -518,10 +608,21 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2022-10-10-Everton.jpg",
         "alt": "埃弗顿 1-2 曼联",
-        "width": 550, "height": 309
+        "width": 550,
+        "height": 309
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 11,
+      "matchDate": "2022-10-10",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 1-2 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-10-14-morning",
@@ -538,7 +639,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 12,
+      "matchDate": "2022-10-14",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "奥莫尼亚",
+      "badge": "./media/badges/omonia.png",
+      "scoreline": "曼联 1-0 奥莫尼亚",
+      "clause": "Scott McTominay 90+3' 绝杀",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2022-10-17-morning",
@@ -555,7 +666,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 13,
+      "matchDate": "2022-10-16",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 0-0 纽卡斯尔联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-10-20-morning",
@@ -572,7 +693,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 14,
+      "matchDate": "2022-10-20",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 2-0 托特纳姆热刺",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-10-23-morning",
@@ -583,7 +714,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 15,
+      "matchDate": "2022-10-23",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 1-1 曼联",
+      "clause": "Casemiro 90+4' 扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-10-28-morning",
@@ -600,7 +741,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 16,
+      "matchDate": "2022-10-28",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "蒂拉斯波尔警长",
+      "badge": "./media/badges/sheriff.png",
+      "scoreline": "曼联 3-0 蒂拉斯波尔警长",
+      "clause": "零封，净胜 3 球",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2022-10-31-morning",
@@ -611,7 +762,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 17,
+      "matchDate": "2022-10-31",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 1-0 西汉姆联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-11-04-morning",
@@ -628,7 +789,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 18,
+      "matchDate": "2022-11-04",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "皇家社会 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2022-11-07-morning",
@@ -645,7 +816,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 19,
+      "matchDate": "2022-11-06",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "阿斯顿维拉 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-11-11-morning",
@@ -656,7 +837,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 20,
+      "matchDate": "2022-11-11",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 4-2 阿斯顿维拉",
+      "clause": "先丢球，翻盘",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2022-11-14-morning",
@@ -673,7 +864,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 21,
+      "matchDate": "2022-11-14",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "富勒姆 1-2 曼联",
+      "clause": "Alejandro Garnacho 90+3' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-11-17-evening",
@@ -714,7 +915,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 22,
+      "matchDate": "2022-12-22",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "曼联 2-0 伯恩利",
+      "clause": "零封取胜",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2022-12-28-morning",
@@ -731,7 +942,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 23,
+      "matchDate": "2022-12-28",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "曼联 3-0 诺丁汉森林",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-01-01-morning",
@@ -748,7 +969,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 24,
+      "matchDate": "2022-12-31",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-01-04-morning",
@@ -765,7 +996,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 25,
+      "matchDate": "2023-01-04",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "曼联 3-0 伯恩茅斯",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-01-07-morning",
@@ -782,7 +1023,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 26,
+      "matchDate": "2023-01-07",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 3-1 埃弗顿",
+      "clause": "净胜 2 球",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2023-01-11-morning",
@@ -799,7 +1050,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 27,
+      "matchDate": "2023-01-11",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "查尔顿",
+      "badge": "./media/badges/charlton.png",
+      "scoreline": "曼联 3-0 查尔顿",
+      "clause": "零封，净胜 3 球",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2023-01-13-evening",
@@ -828,7 +1089,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 28,
+      "matchDate": "2023-01-14",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 2-1 曼城",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-01-19-morning",
@@ -845,7 +1116,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 29,
+      "matchDate": "2023-01-19",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "水晶宫 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-01-23-morning",
@@ -862,7 +1143,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 30,
+      "matchDate": "2023-01-23",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 3-2 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-01-26-morning",
@@ -879,7 +1170,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 31,
+      "matchDate": "2023-01-26",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": false,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "诺丁汉森林 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "联赛杯 · 客场"
     },
     {
       "id": "2023-01-29-morning",
@@ -896,7 +1197,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 32,
+      "matchDate": "2023-01-29",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "雷丁",
+      "badge": "./media/badges/reading.png",
+      "scoreline": "曼联 3-1 雷丁",
+      "clause": "净胜 2 球",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2023-01-31-evening",
@@ -925,7 +1236,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 33,
+      "matchDate": "2023-02-02",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "曼联 2-0 诺丁汉森林",
+      "clause": "零封取胜",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2023-02-02-evening",
@@ -954,7 +1275,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 34,
+      "matchDate": "2023-02-04",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "曼联 2-1 水晶宫",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-02-09-morning",
@@ -971,7 +1302,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 35,
+      "matchDate": "2023-02-09",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "曼联 2-2 利兹联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-02-13-morning",
@@ -988,7 +1329,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 36,
+      "matchDate": "2023-02-12",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "利兹联 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-02-17-morning",
@@ -1005,7 +1356,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 37,
+      "matchDate": "2023-02-17",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "巴塞罗那",
+      "badge": "./media/badges/barcelona.png",
+      "scoreline": "巴塞罗那 2-2 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2023-02-20-morning",
@@ -1022,7 +1383,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 38,
+      "matchDate": "2023-02-19",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 3-0 莱斯特城",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-02-24-morning",
@@ -1039,7 +1410,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 39,
+      "matchDate": "2023-02-24",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "巴塞罗那",
+      "badge": "./media/badges/barcelona.png",
+      "scoreline": "曼联 2-1 巴塞罗那",
+      "clause": "先丢球，翻盘",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2023-02-27-morning",
@@ -1056,7 +1437,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 40,
+      "matchDate": "2023-02-27",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 2-0 纽卡斯尔联",
+      "clause": "零封取胜",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2023-02-27-evening",
@@ -1085,7 +1476,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 41,
+      "matchDate": "2023-03-02",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 3-1 西汉姆联",
+      "clause": "先丢球，翻盘",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2023-03-06-morning",
@@ -1098,10 +1499,21 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2023-03-06-Liverpool.jpg",
         "alt": "利物浦 7-0 曼联",
-        "width": 594, "height": 334
+        "width": 594,
+        "height": 334
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 42,
+      "matchDate": "2023-03-06",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "利物浦 7-0 曼联",
+      "clause": "净负 7 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-03-10-morning",
@@ -1118,7 +1530,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 43,
+      "matchDate": "2023-03-10",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "皇家贝蒂斯",
+      "badge": "./media/badges/betis.png",
+      "scoreline": "曼联 4-1 皇家贝蒂斯",
+      "clause": "净胜 3 球",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2023-03-13-morning",
@@ -1135,7 +1557,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 44,
+      "matchDate": "2023-03-12",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "曼联 0-0 南安普顿",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-03-17-morning",
@@ -1152,7 +1584,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 45,
+      "matchDate": "2023-03-17",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "皇家贝蒂斯",
+      "badge": "./media/badges/betis.png",
+      "scoreline": "皇家贝蒂斯 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2023-03-20-morning",
@@ -1169,7 +1611,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 46,
+      "matchDate": "2023-03-20",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 3-1 富勒姆",
+      "clause": "先丢球，翻盘",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2023-04-03-morning",
@@ -1186,7 +1638,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 47,
+      "matchDate": "2023-04-02",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "纽卡斯尔联 2-0 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-04-06-morning",
@@ -1203,7 +1665,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 48,
+      "matchDate": "2023-04-06",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "曼联 1-0 布伦特福德",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-04-09-morning",
@@ -1220,7 +1692,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 49,
+      "matchDate": "2023-04-08",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 2-0 埃弗顿",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-04-14-morning",
@@ -1237,7 +1719,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 50,
+      "matchDate": "2023-04-14",
+      "result": "D",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "塞维利亚",
+      "badge": "./media/badges/sevilla.png",
+      "scoreline": "曼联 2-2 塞维利亚",
+      "clause": "被扳平",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2023-04-17-morning",
@@ -1254,7 +1746,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 51,
+      "matchDate": "2023-04-16",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "诺丁汉森林 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-04-21-morning",
@@ -1271,7 +1773,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 52,
+      "matchDate": "2023-04-21",
+      "result": "L",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "塞维利亚",
+      "badge": "./media/badges/sevilla.png",
+      "scoreline": "塞维利亚 3-0 曼联",
+      "clause": "净负 3 球",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2023-04-24-morning",
@@ -1288,7 +1800,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 53,
+      "matchDate": "2023-04-23",
+      "result": "D",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2023-04-28-morning",
@@ -1299,7 +1821,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 54,
+      "matchDate": "2023-04-28",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 2-2 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-05-01-morning",
@@ -1316,7 +1848,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 55,
+      "matchDate": "2023-04-30",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 1-0 阿斯顿维拉",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-05-05-morning",
@@ -1327,7 +1869,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 56,
+      "matchDate": "2023-05-05",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-05-08-morning",
@@ -1338,7 +1890,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 57,
+      "matchDate": "2023-05-08",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "西汉姆联 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-05-14-morning",
@@ -1351,10 +1913,21 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2023-05-13-WolverhamptonWanderers.jpg",
         "alt": "曼联 2-0 狼队",
-        "width": 588, "height": 331
+        "width": 588,
+        "height": 331
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 58,
+      "matchDate": "2023-05-13",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "曼联 2-0 狼队",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-05-21-morning",
@@ -1371,7 +1944,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 59,
+      "matchDate": "2023-05-20",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "伯恩茅斯 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2023-05-26-morning",
@@ -1388,7 +1971,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 60,
+      "matchDate": "2023-05-26",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "曼联 4-1 切尔西",
+      "clause": "净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-05-29-morning",
@@ -1405,7 +1998,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 61,
+      "matchDate": "2023-05-28",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 2-1 富勒姆",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2023-06-04-morning",
@@ -1422,7 +2025,17 @@
         "height": 540
       },
       "season": "2022/23",
-      "archive": true
+      "archive": true,
+      "match_no": 62,
+      "matchDate": "2023-06-03",
+      "result": "L",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2023-06-05-morning",

@@ -27,6 +27,8 @@ const args = process.argv.slice(2);
 const dry = args.includes('--dry');
 // --pages：只重建 archive/*.html，不碰期次 JSON（手写内容不能被覆盖）
 const PAGES_ONLY = args.includes('--pages');
+// --index：只重写 index.json + 归档页，不碰期次 JSON（修归档表缺比分的时候用）
+const INDEX_ONLY = args.includes('--index');
 const all = args.includes('--all');
 const targets = all
   ? readdirSync(ARCHIVE)
@@ -917,6 +919,47 @@ for (const slug of targets) {
     );
 
   const rowMeta = new Map(rows.map((r) => [r.issue, r]));
+  const rowById = new Map(rows.map((r) => [r.issue.id, r]));
+  // 归档页从 index.json 渲染，所以这份目录必须带比分/赛事/结果。
+  // 但「已存在的 index 要原样保留」——期号和新闻期都对过期次 JSON 里的 issue_number，
+  // 重新编号会让两边对不上，还会把 6 月那几期转会新闻弄丢。
+  const idxPath = join(OUT, slug, 'index.json');
+  const previousIssues = existsSync(idxPath)
+    ? JSON.parse(readFileSync(idxPath, 'utf8').replace(/^\uFEFF/, '')).issues ?? []
+    : [];
+  const baseIssues = previousIssues.length
+    ? previousIssues
+    : allIssues.map((issue) => ({
+        id: issue.id,
+        date: issue.date,
+        period: issue.period,
+        issue_number: issue.issue_number,
+        title: issue.title,
+        item_count: issue.item_count,
+        section_count: issue.section_count,
+        season: issue.season,
+        archive: true,
+        kind: issue.kind ?? 'news',
+      }));
+
+  const indexIssues = baseIssues.map((entry) => {
+    const r = rowById.get(entry.id) ?? rowMeta.get(entry);
+    if (!r) return entry; // 纯新闻期 / 赛季总结：原样保留
+    return {
+      ...entry,
+      match_no: r.issue.match_no,
+      matchDate: r.matchDate,
+      result: r.result,
+      competition: r.competition,
+      home: r.home,
+      opponent: r.opponent,
+      badge: r.badge,
+      scoreline: r.scoreline,
+      clause: r.clause,
+      source_name: r.source_name,
+    };
+  });
+
   const season = {
     season: archive.season ?? slug,
     slug,
@@ -927,46 +970,7 @@ for (const slug of targets) {
     record,
     first: allIssues[0]?.date ?? '',
     last: allIssues.at(-1)?.date ?? '',
-    issues: allIssues.map((issue) => {
-      const r = rowMeta.get(issue);
-      if (!r) {
-        // 纯新闻期：没有比分、对手、结果
-        return {
-          id: issue.id,
-          date: issue.date,
-          period: issue.period,
-          issue_number: issue.issue_number,
-          title: issue.title,
-          item_count: issue.item_count,
-          section_count: issue.section_count,
-          season: issue.season,
-          archive: true,
-          kind: issue.kind ?? 'news',
-          competition: issue.kind === 'summary' ? '赛季总结' : issue.sections[0]?.title ?? '场外要闻',
-        };
-      }
-      return {
-        id: r.issue.id,
-        date: r.issue.date,
-        period: 'morning',
-        issue_number: r.issue.issue_number,
-        title: r.issue.title,
-        item_count: r.issue.item_count,
-        section_count: r.issue.section_count,
-        season: r.issue.season,
-        archive: true,
-        match_no: r.issue.match_no,
-        matchDate: r.matchDate,
-        result: r.result,
-        competition: r.competition,
-        home: r.home,
-        opponent: r.opponent,
-        badge: r.badge,
-        scoreline: r.scoreline,
-        clause: r.clause,
-        source_name: r.source_name,
-      };
-    }),
+    issues: indexIssues,
   };
 
   // 欧战小组表：fetch-group.mjs 提前抓好，放在 data/groups/<season>.json
@@ -975,10 +979,15 @@ for (const slug of targets) {
 
   if (!dry && !PAGES_ONLY) {
     const outDir = join(OUT, slug);
-    rmSync(outDir, { recursive: true, force: true });
-    mkdirSync(outDir, { recursive: true });
-    for (const issue of allIssues) {
-      writeFileSync(`${join(outDir, issue.id)}.json`, `${JSON.stringify(issue, null, 2)}\n`, 'utf8');
+    // --index：只重写 index.json 和归档页，不动期次文件（避免覆盖手写内容和摘要）
+    if (!INDEX_ONLY) {
+      rmSync(outDir, { recursive: true, force: true });
+      mkdirSync(outDir, { recursive: true });
+      for (const issue of allIssues) {
+        writeFileSync(`${join(outDir, issue.id)}.json`, `${JSON.stringify(issue, null, 2)}\n`, 'utf8');
+      }
+    } else {
+      mkdirSync(outDir, { recursive: true });
     }
     writeFileSync(
       join(outDir, 'index.json'),

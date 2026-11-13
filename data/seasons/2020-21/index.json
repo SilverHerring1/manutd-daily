@@ -1,12 +1,12 @@
-﻿{
+{
   "version": 1,
   "season": "2020/21",
   "slug": "2020-21",
   "source": "data/archive/2020-21.json",
-  "generated_at": "2026-11-12T17:43:43+08:00",
-  "count": 70,
+  "generated_at": "2026-11-13T10:05:42+08:00",
+  "count": 62,
   "matchCount": 61,
-  "newsCount": 8,
+  "newsCount": 1,
   "record": {
     "W": 35,
     "D": 14,
@@ -14,22 +14,19 @@
     "gf": 121,
     "ga": 68
   },
-  "first": "2020-09-03",
+  "first": "2020-09-20",
   "last": "2021-05-28",
   "dates": [
     "2021-05-28",
     "2021-05-27",
-    "2021-05-25",
     "2021-05-24",
     "2021-05-19",
     "2021-05-14",
     "2021-05-12",
     "2021-05-10",
     "2021-05-07",
-    "2021-05-03",
     "2021-04-30",
     "2021-04-26",
-    "2021-04-21",
     "2021-04-19",
     "2021-04-16",
     "2021-04-12",
@@ -50,12 +47,10 @@
     "2021-02-07",
     "2021-02-03",
     "2021-01-31",
-    "2021-01-30",
     "2021-01-28",
     "2021-01-25",
     "2021-01-21",
     "2021-01-18",
-    "2021-01-14",
     "2021-01-13",
     "2021-01-10",
     "2021-01-07",
@@ -79,13 +74,11 @@
     "2020-10-25",
     "2020-10-21",
     "2020-10-18",
-    "2020-10-06",
     "2020-10-05",
     "2020-10-01",
     "2020-09-27",
     "2020-09-23",
-    "2020-09-20",
-    "2020-09-03"
+    "2020-09-20"
   ],
   "cups": [
     {
@@ -295,7 +288,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 1,
+      "matchDate": "2020-09-20",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "曼联 1-3 水晶宫",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-09-23-morning",
@@ -312,7 +315,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 2,
+      "matchDate": "2020-09-23",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": false,
+      "opponent": "卢顿",
+      "badge": "./media/badges/luton.png",
+      "scoreline": "卢顿 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "联赛杯 · 客场"
     },
     {
       "id": "2020-09-27-morning",
@@ -329,7 +342,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 3,
+      "matchDate": "2020-09-26",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 2-3 曼联",
+      "clause": "Bruno Fernandes 90+10' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-10-01-morning",
@@ -346,7 +369,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 4,
+      "matchDate": "2020-10-01",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "联赛杯 · 客场"
     },
     {
       "id": "2020-10-05-morning",
@@ -363,7 +396,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 5,
+      "matchDate": "2020-10-04",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 1-6 托特纳姆热刺",
+      "clause": "净负 5 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-10-06-morning",
@@ -392,7 +435,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 6,
+      "matchDate": "2020-10-18",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "纽卡斯尔联 1-4 曼联",
+      "clause": "先丢球，大比分翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-10-21-morning",
@@ -409,7 +462,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 7,
+      "matchDate": "2020-10-21",
+      "result": "W",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "巴黎圣日耳曼",
+      "badge": "./media/badges/psg.png",
+      "scoreline": "巴黎圣日耳曼 1-2 曼联",
+      "clause": "一球小胜",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2020-10-25-morning",
@@ -422,10 +485,21 @@
       "hero": {
         "src": "./media/archive/2020-21/archive-2020-10-25-Chelsea.jpg",
         "alt": "曼联 0-0 切尔西",
-        "width": 569, "height": 320
+        "width": 569,
+        "height": 320
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 8,
+      "matchDate": "2020-10-25",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "曼联 0-0 切尔西",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-10-29-morning",
@@ -442,7 +516,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 9,
+      "matchDate": "2020-10-29",
+      "result": "W",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "莱比锡红牛",
+      "badge": "./media/badges/rb-leipzig.png",
+      "scoreline": "曼联 5-0 莱比锡红牛",
+      "clause": "零封，净胜 5 球",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2020-11-02-morning",
@@ -459,7 +543,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 10,
+      "matchDate": "2020-11-02",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "曼联 0-1 阿森纳",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-11-05-morning",
@@ -476,7 +570,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 11,
+      "matchDate": "2020-11-05",
+      "result": "L",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "巴萨克赛尔",
+      "badge": "./media/badges/basaksehir.png",
+      "scoreline": "巴萨克赛尔 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2020-11-08-morning",
@@ -493,7 +597,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 12,
+      "matchDate": "2020-11-07",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 1-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-11-22-morning",
@@ -510,7 +624,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 13,
+      "matchDate": "2020-11-22",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西布罗姆维奇",
+      "badge": "./media/badges/west-brom.png",
+      "scoreline": "曼联 1-0 西布罗姆维奇",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-11-25-morning",
@@ -527,7 +651,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 14,
+      "matchDate": "2020-11-25",
+      "result": "W",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "巴萨克赛尔",
+      "badge": "./media/badges/basaksehir.png",
+      "scoreline": "曼联 4-1 巴萨克赛尔",
+      "clause": "净胜 3 球",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2020-11-30-morning",
@@ -544,7 +678,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 15,
+      "matchDate": "2020-11-29",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "南安普顿 2-3 曼联",
+      "clause": "Edinson Cavani 90+2' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-12-03-morning",
@@ -561,7 +705,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 16,
+      "matchDate": "2020-12-03",
+      "result": "L",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "巴黎圣日耳曼",
+      "badge": "./media/badges/psg.png",
+      "scoreline": "曼联 1-3 巴黎圣日耳曼",
+      "clause": "2 球落败",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2020-12-06-morning",
@@ -572,7 +726,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 17,
+      "matchDate": "2020-12-06",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "西汉姆联 1-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-12-09-morning",
@@ -589,7 +753,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 18,
+      "matchDate": "2020-12-09",
+      "result": "L",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "莱比锡红牛",
+      "badge": "./media/badges/rb-leipzig.png",
+      "scoreline": "莱比锡红牛 3-2 曼联",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2020-12-13-morning",
@@ -606,7 +780,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 19,
+      "matchDate": "2020-12-13",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-0 曼城",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-12-18-morning",
@@ -617,7 +801,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 20,
+      "matchDate": "2020-12-18",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "谢菲尔德联",
+      "badge": "./media/badges/sheffield-united.png",
+      "scoreline": "谢菲尔德联 2-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-12-21-morning",
@@ -634,7 +828,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 21,
+      "matchDate": "2020-12-21",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "曼联 6-2 利兹联",
+      "clause": "净胜 4 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2020-12-24-morning",
@@ -651,7 +855,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 22,
+      "matchDate": "2020-12-24",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "联赛杯 · 客场"
     },
     {
       "id": "2020-12-27-morning",
@@ -668,7 +882,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 23,
+      "matchDate": "2020-12-26",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 2-2 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2020-12-30-morning",
@@ -685,7 +909,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 24,
+      "matchDate": "2020-12-30",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "曼联 1-0 狼队",
+      "clause": "Marcus Rashford 90+3' 绝杀",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-01-02-morning",
@@ -702,7 +936,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 25,
+      "matchDate": "2021-01-02",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 2-1 阿斯顿维拉",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-01-07-morning",
@@ -719,7 +963,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 26,
+      "matchDate": "2021-01-07",
+      "result": "L",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-2 曼城",
+      "clause": "2 球落败",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2021-01-10-morning",
@@ -736,7 +990,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 27,
+      "matchDate": "2021-01-10",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "沃特福德",
+      "badge": "./media/badges/watford.png",
+      "scoreline": "曼联 1-0 沃特福德",
+      "clause": "零封取胜",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2021-01-13-morning",
@@ -753,7 +1017,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 28,
+      "matchDate": "2021-01-13",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "伯恩利 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-01-14-evening",
@@ -776,7 +1050,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 29,
+      "matchDate": "2021-01-18",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "利物浦 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-01-21-morning",
@@ -793,7 +1077,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 30,
+      "matchDate": "2021-01-21",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "富勒姆 1-2 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-01-25-morning",
@@ -810,7 +1104,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 31,
+      "matchDate": "2021-01-25",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 3-2 利物浦",
+      "clause": "先丢球，翻盘",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2021-01-28-morning",
@@ -827,7 +1131,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 32,
+      "matchDate": "2021-01-28",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "谢菲尔德联",
+      "badge": "./media/badges/sheffield-united.png",
+      "scoreline": "曼联 1-2 谢菲尔德联",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-01-30-evening",
@@ -856,7 +1170,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 33,
+      "matchDate": "2021-01-31",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-02-03-morning",
@@ -873,7 +1197,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 34,
+      "matchDate": "2021-02-03",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "曼联 9-0 南安普顿",
+      "clause": "零封，净胜 9 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-02-07-morning",
@@ -890,7 +1224,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 35,
+      "matchDate": "2021-02-07",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 3-3 埃弗顿",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-02-10-morning",
@@ -907,7 +1251,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 36,
+      "matchDate": "2021-02-10",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 1-0 西汉姆联",
+      "clause": "Scott McTominay 97' 绝杀",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2021-02-15-morning",
@@ -924,7 +1278,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 37,
+      "matchDate": "2021-02-14",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西布罗姆维奇",
+      "badge": "./media/badges/west-brom.png",
+      "scoreline": "西布罗姆维奇 1-1 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-02-19-morning",
@@ -941,7 +1305,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 38,
+      "matchDate": "2021-02-19",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "皇家社会 0-4 曼联",
+      "clause": "零封，净胜 4 球",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2021-02-22-morning",
@@ -958,7 +1332,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 39,
+      "matchDate": "2021-02-22",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 3-1 纽卡斯尔联",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-02-26-morning",
@@ -975,7 +1359,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 40,
+      "matchDate": "2021-02-26",
+      "result": "D",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "曼联 0-0 皇家社会",
+      "clause": "互交白卷",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2021-03-01-morning",
@@ -992,7 +1386,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 41,
+      "matchDate": "2021-03-01",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-03-04-morning",
@@ -1009,7 +1413,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 42,
+      "matchDate": "2021-03-04",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "水晶宫 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-03-08-morning",
@@ -1026,7 +1440,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 43,
+      "matchDate": "2021-03-08",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-03-12-morning",
@@ -1043,7 +1467,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 44,
+      "matchDate": "2021-03-12",
+      "result": "D",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "AC米兰",
+      "badge": "./media/badges/ac-milan.png",
+      "scoreline": "曼联 1-1 AC米兰",
+      "clause": "被扳平",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2021-03-15-morning",
@@ -1060,7 +1494,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 45,
+      "matchDate": "2021-03-15",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 1-0 西汉姆联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-03-19-morning",
@@ -1077,7 +1521,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 46,
+      "matchDate": "2021-03-19",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "AC米兰",
+      "badge": "./media/badges/ac-milan.png",
+      "scoreline": "AC米兰 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2021-03-22-morning",
@@ -1094,7 +1548,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 47,
+      "matchDate": "2021-03-22",
+      "result": "L",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2021-04-05-morning",
@@ -1111,7 +1575,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 48,
+      "matchDate": "2021-04-05",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 2-1 布莱顿",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-04-09-morning",
@@ -1128,7 +1602,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 49,
+      "matchDate": "2021-04-09",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "格拉纳达",
+      "badge": "./media/badges/granada.png",
+      "scoreline": "格拉纳达 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2021-04-12-morning",
@@ -1145,7 +1629,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 50,
+      "matchDate": "2021-04-11",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 1-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-04-16-morning",
@@ -1162,7 +1656,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 51,
+      "matchDate": "2021-04-16",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "格拉纳达",
+      "badge": "./media/badges/granada.png",
+      "scoreline": "曼联 2-0 格拉纳达",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2021-04-19-morning",
@@ -1179,7 +1683,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 52,
+      "matchDate": "2021-04-18",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "曼联 3-1 伯恩利",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-04-19-evening",
@@ -1220,7 +1734,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 53,
+      "matchDate": "2021-04-25",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "利兹联 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-04-30-morning",
@@ -1231,7 +1755,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 54,
+      "matchDate": "2021-04-30",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "罗马",
+      "badge": "./media/badges/roma.png",
+      "scoreline": "曼联 6-2 罗马",
+      "clause": "净胜 4 球",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2021-05-03-morning",
@@ -1254,7 +1788,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 55,
+      "matchDate": "2021-05-07",
+      "result": "L",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "罗马",
+      "badge": "./media/badges/roma.png",
+      "scoreline": "罗马 3-2 曼联",
+      "clause": "一球之差",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2021-05-10-morning",
@@ -1271,7 +1815,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 56,
+      "matchDate": "2021-05-09",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "阿斯顿维拉 1-3 曼联",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-05-12-morning",
@@ -1288,7 +1842,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 57,
+      "matchDate": "2021-05-12",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 1-2 莱斯特城",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-05-14-morning",
@@ -1305,7 +1869,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 58,
+      "matchDate": "2021-05-14",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 2-4 利物浦",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-05-19-morning",
@@ -1316,7 +1890,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 59,
+      "matchDate": "2021-05-19",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 1-1 富勒姆",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-05-24-morning",
@@ -1333,7 +1917,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 60,
+      "matchDate": "2021-05-23",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 1-2 曼联",
+      "clause": "一球小胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-05-25-morning",
@@ -1362,7 +1956,17 @@
         "height": 540
       },
       "season": "2020/21",
-      "archive": true
+      "archive": true,
+      "match_no": 61,
+      "matchDate": "2021-05-27",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "比利亚雷亚尔",
+      "badge": "./media/badges/villarreal.png",
+      "scoreline": "比利亚雷亚尔 1-1 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2021-05-28-morning",

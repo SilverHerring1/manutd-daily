@@ -3,10 +3,10 @@
   "season": "2024/25",
   "slug": "2024-25",
   "source": "data/archive/2024-25.json",
-  "generated_at": "2026-11-12T17:43:44+08:00",
-  "count": 70,
+  "generated_at": "2026-11-13T10:05:43+08:00",
+  "count": 60,
   "matchCount": 59,
-  "newsCount": 10,
+  "newsCount": 1,
   "record": {
     "W": 23,
     "D": 16,
@@ -14,7 +14,7 @@
     "gf": 98,
     "ga": 82
   },
-  "first": "2024-07-05",
+  "first": "2024-08-17",
   "last": "2025-05-27",
   "dates": [
     "2025-05-27",
@@ -63,7 +63,6 @@
     "2024-11-11",
     "2024-11-08",
     "2024-11-04",
-    "2024-11-01",
     "2024-10-31",
     "2024-10-28",
     "2024-10-25",
@@ -76,13 +75,8 @@
     "2024-09-18",
     "2024-09-15",
     "2024-09-02",
-    "2024-08-30",
     "2024-08-25",
-    "2024-08-17",
-    "2024-08-16",
-    "2024-08-13",
-    "2024-07-19",
-    "2024-07-05"
+    "2024-08-17"
   ],
   "cups": [
     {
@@ -696,7 +690,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 1,
+      "matchDate": "2024-08-17",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 1-0 富勒姆",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-08-25-morning",
@@ -713,7 +717,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 2,
+      "matchDate": "2024-08-24",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-08-30-evening",
@@ -742,7 +756,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 3,
+      "matchDate": "2024-09-01",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 0-3 利物浦",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-09-15-morning",
@@ -759,7 +783,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 4,
+      "matchDate": "2024-09-14",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "南安普顿 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-09-18-morning",
@@ -776,7 +810,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 5,
+      "matchDate": "2024-09-18",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "巴恩斯利",
+      "badge": "./media/badges/barnsley.png",
+      "scoreline": "曼联 7-0 巴恩斯利",
+      "clause": "零封，净胜 7 球",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2024-09-22-morning",
@@ -793,7 +837,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 6,
+      "matchDate": "2024-09-22",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "水晶宫 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-09-26-morning",
@@ -810,7 +864,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 7,
+      "matchDate": "2024-09-26",
+      "result": "D",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "特温特",
+      "badge": "./media/badges/twente.png",
+      "scoreline": "曼联 1-1 特温特",
+      "clause": "被扳平",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2024-09-30-morning",
@@ -827,7 +891,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 8,
+      "matchDate": "2024-09-29",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 0-3 托特纳姆热刺",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-10-04-morning",
@@ -844,7 +918,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 9,
+      "matchDate": "2024-10-04",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "波尔图",
+      "badge": "./media/badges/porto.png",
+      "scoreline": "波尔图 3-3 曼联",
+      "clause": "Harry Maguire 90+1' 扳平",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2024-10-07-morning",
@@ -861,7 +945,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 10,
+      "matchDate": "2024-10-06",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "阿斯顿维拉 0-0 曼联",
+      "clause": "互交白卷",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-10-20-morning",
@@ -878,7 +972,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 11,
+      "matchDate": "2024-10-19",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "曼联 2-1 布伦特福德",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-10-25-morning",
@@ -895,7 +999,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 12,
+      "matchDate": "2024-10-25",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "费内巴切",
+      "badge": "./media/badges/fenerbahce.png",
+      "scoreline": "费内巴切 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2024-10-28-morning",
@@ -912,7 +1026,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 13,
+      "matchDate": "2024-10-27",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "西汉姆联 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-10-28-evening",
@@ -941,7 +1065,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 14,
+      "matchDate": "2024-10-31",
+      "result": "W",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 5-2 莱斯特城",
+      "clause": "净胜 3 球",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2024-11-01-evening",
@@ -970,7 +1104,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 15,
+      "matchDate": "2024-11-04",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "曼联 1-1 切尔西",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-11-08-morning",
@@ -987,7 +1131,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 16,
+      "matchDate": "2024-11-08",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "塞萨洛尼基",
+      "badge": "./media/badges/paok.png",
+      "scoreline": "曼联 2-0 塞萨洛尼基",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2024-11-11-morning",
@@ -1004,7 +1158,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 17,
+      "matchDate": "2024-11-10",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 3-0 莱斯特城",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-11-25-morning",
@@ -1021,7 +1185,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 18,
+      "matchDate": "2024-11-25",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伊普斯维奇",
+      "badge": "./media/badges/ipswichtown.png",
+      "scoreline": "伊普斯维奇 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-11-29-morning",
@@ -1038,7 +1212,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 19,
+      "matchDate": "2024-11-29",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "博多格林特",
+      "badge": "./media/badges/bodo-glimt.png",
+      "scoreline": "曼联 3-2 博多格林特",
+      "clause": "一球小胜",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2024-12-02-morning",
@@ -1055,7 +1239,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 20,
+      "matchDate": "2024-12-01",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 4-0 埃弗顿",
+      "clause": "零封，净胜 4 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-12-05-morning",
@@ -1072,7 +1266,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 21,
+      "matchDate": "2024-12-05",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 2-0 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-12-08-morning",
@@ -1089,7 +1293,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 22,
+      "matchDate": "2024-12-08",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "曼联 2-3 诺丁汉森林",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-12-08-evening",
@@ -1118,7 +1332,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 23,
+      "matchDate": "2024-12-13",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "比尔森胜利",
+      "badge": "./media/badges/plzen.png",
+      "scoreline": "比尔森胜利 1-2 曼联",
+      "clause": "Rasmus Højlund 88' 绝杀",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2024-12-16-morning",
@@ -1135,7 +1359,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 24,
+      "matchDate": "2024-12-16",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 1-2 曼联",
+      "clause": "Amad Diallo 90' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-12-20-morning",
@@ -1152,7 +1386,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 25,
+      "matchDate": "2024-12-20",
+      "result": "L",
+      "competition": "联赛杯",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 4-3 曼联",
+      "clause": "一球之差",
+      "source_name": "联赛杯 · 客场"
     },
     {
       "id": "2024-12-23-morning",
@@ -1169,7 +1413,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 26,
+      "matchDate": "2024-12-22",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "曼联 0-3 伯恩茅斯",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2024-12-27-morning",
@@ -1186,7 +1440,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 27,
+      "matchDate": "2024-12-27",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 2-0 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2024-12-31-morning",
@@ -1203,7 +1467,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 28,
+      "matchDate": "2024-12-31",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 0-2 纽卡斯尔联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-01-06-morning",
@@ -1220,7 +1494,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 29,
+      "matchDate": "2025-01-06",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "利物浦 2-2 曼联",
+      "clause": "扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-01-13-morning",
@@ -1237,7 +1521,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 30,
+      "matchDate": "2025-01-12",
+      "result": "D",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2025-01-17-morning",
@@ -1254,7 +1548,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 31,
+      "matchDate": "2025-01-17",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "曼联 3-1 南安普顿",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-01-20-morning",
@@ -1271,7 +1575,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 32,
+      "matchDate": "2025-01-19",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 1-3 布莱顿",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-01-24-morning",
@@ -1288,7 +1602,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 33,
+      "matchDate": "2025-01-24",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "流浪者",
+      "badge": "./media/badges/rangers.png",
+      "scoreline": "曼联 2-1 流浪者",
+      "clause": "Bruno Fernandes 90+2' 绝杀",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2025-01-27-morning",
@@ -1305,7 +1629,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 34,
+      "matchDate": "2025-01-27",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "富勒姆 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-01-31-morning",
@@ -1322,7 +1656,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 35,
+      "matchDate": "2025-01-31",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "布加勒斯特星",
+      "badge": "./media/badges/fcsb.png",
+      "scoreline": "布加勒斯特星 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2025-02-03-morning",
@@ -1339,7 +1683,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 36,
+      "matchDate": "2025-02-02",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "曼联 0-2 水晶宫",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-02-03-evening",
@@ -1368,7 +1722,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 37,
+      "matchDate": "2025-02-08",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 2-1 莱斯特城",
+      "clause": "Harry Maguire 90+3' 绝杀",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2025-02-17-morning",
@@ -1385,7 +1749,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 38,
+      "matchDate": "2025-02-17",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-02-23-morning",
@@ -1402,7 +1776,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 39,
+      "matchDate": "2025-02-22",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 2-2 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-02-27-morning",
@@ -1419,7 +1803,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 40,
+      "matchDate": "2025-02-27",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伊普斯维奇",
+      "badge": "./media/badges/ipswichtown.png",
+      "scoreline": "曼联 3-2 伊普斯维奇",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-03-03-morning",
@@ -1436,7 +1830,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 41,
+      "matchDate": "2025-03-03",
+      "result": "D",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 1-1 富勒姆",
+      "clause": "先丢球，追成平局",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2025-03-07-morning",
@@ -1453,7 +1857,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 42,
+      "matchDate": "2025-03-07",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "皇家社会 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2025-03-10-morning",
@@ -1470,7 +1884,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 43,
+      "matchDate": "2025-03-10",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "曼联 1-1 阿森纳",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-03-14-morning",
@@ -1487,7 +1911,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 44,
+      "matchDate": "2025-03-14",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "皇家社会",
+      "badge": "./media/badges/real-sociedad.png",
+      "scoreline": "曼联 4-1 皇家社会",
+      "clause": "先丢球，大比分翻盘",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2025-03-17-morning",
@@ -1504,7 +1938,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 45,
+      "matchDate": "2025-03-17",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-04-02-morning",
@@ -1521,7 +1965,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 46,
+      "matchDate": "2025-04-02",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "诺丁汉森林",
+      "badge": "./media/badges/nottinghamforest.png",
+      "scoreline": "诺丁汉森林 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-04-07-morning",
@@ -1538,7 +1992,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 47,
+      "matchDate": "2025-04-06",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-0 曼城",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-04-11-morning",
@@ -1555,7 +2019,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 48,
+      "matchDate": "2025-04-11",
+      "result": "D",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "里昂",
+      "badge": "./media/badges/lyon.png",
+      "scoreline": "里昂 2-2 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2025-04-14-morning",
@@ -1572,7 +2046,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 49,
+      "matchDate": "2025-04-13",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "纽卡斯尔联 4-1 曼联",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-04-18-morning",
@@ -1589,7 +2073,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 50,
+      "matchDate": "2025-04-18",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "里昂",
+      "badge": "./media/badges/lyon.png",
+      "scoreline": "曼联 5-4 里昂",
+      "clause": "Harry Maguire 120+1' 绝杀",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2025-04-21-morning",
@@ -1606,7 +2100,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 51,
+      "matchDate": "2025-04-20",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "曼联 0-1 狼队",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-04-28-morning",
@@ -1623,7 +2127,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 52,
+      "matchDate": "2025-04-27",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "伯恩茅斯 1-1 曼联",
+      "clause": "Rasmus Højlund 90+6' 扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-05-02-morning",
@@ -1640,7 +2154,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 53,
+      "matchDate": "2025-05-02",
+      "result": "W",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "毕尔巴鄂竞技",
+      "badge": "./media/badges/athletic.png",
+      "scoreline": "毕尔巴鄂竞技 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2025-05-05-morning",
@@ -1657,7 +2181,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 54,
+      "matchDate": "2025-05-04",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "布伦特福德 4-3 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-05-09-morning",
@@ -1674,7 +2208,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 55,
+      "matchDate": "2025-05-09",
+      "result": "W",
+      "competition": "欧联",
+      "home": true,
+      "opponent": "毕尔巴鄂竞技",
+      "badge": "./media/badges/athletic.png",
+      "scoreline": "曼联 4-1 毕尔巴鄂竞技",
+      "clause": "先丢球，大比分翻盘",
+      "source_name": "欧联 · 主场"
     },
     {
       "id": "2025-05-12-morning",
@@ -1691,7 +2235,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 56,
+      "matchDate": "2025-05-11",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 0-2 西汉姆联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-05-17-morning",
@@ -1708,7 +2262,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 57,
+      "matchDate": "2025-05-17",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2025-05-22-morning",
@@ -1725,7 +2289,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 58,
+      "matchDate": "2025-05-22",
+      "result": "L",
+      "competition": "欧联",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "欧联 · 客场"
     },
     {
       "id": "2025-05-26-morning",
@@ -1742,7 +2316,17 @@
         "height": 540
       },
       "season": "2024/25",
-      "archive": true
+      "archive": true,
+      "match_no": 59,
+      "matchDate": "2025-05-25",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 2-0 阿斯顿维拉",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2025-05-27-morning",

@@ -557,6 +557,9 @@ async function renderBoard() {
   const host = $("articleContent");
   if (!host) return;
 
+  // 换期、搜索都会再调一次；不清掉上一次的榜，就会叠出两个积分榜
+  host.querySelectorAll(":scope > .board").forEach((el) => el.remove());
+
   // 有该季的全季比赛数据就用「当时」的榜；没有才退回懂球帝那张当前榜
   const table = await tableAsOf(state.issue);
   if (table) {

@@ -1,12 +1,12 @@
-﻿{
+{
   "version": 1,
   "season": "2021/22",
   "slug": "2021-22",
   "source": "data/archive/2021-22.json",
-  "generated_at": "2026-11-12T17:43:43+08:00",
-  "count": 59,
-  "matchCount": 48,
-  "newsCount": 10,
+  "generated_at": "2026-11-13T10:05:43+08:00",
+  "count": 50,
+  "matchCount": 49,
+  "newsCount": 1,
   "record": {
     "W": 20,
     "D": 14,
@@ -14,7 +14,7 @@
     "gf": 71,
     "ga": 69
   },
-  "first": "2021-07-24",
+  "first": "2021-08-15",
   "last": "2022-05-24",
   "dates": [
     "2022-05-24",
@@ -23,14 +23,11 @@
     "2022-05-03",
     "2022-04-29",
     "2022-04-24",
-    "2022-04-22",
-    "2022-04-21",
     "2022-04-20",
     "2022-04-17",
     "2022-04-10",
     "2022-04-03",
     "2022-03-16",
-    "2022-03-14",
     "2022-03-13",
     "2022-03-07",
     "2022-02-27",
@@ -40,8 +37,6 @@
     "2022-02-13",
     "2022-02-09",
     "2022-02-05",
-    "2022-02-01",
-    "2022-01-31",
     "2022-01-23",
     "2022-01-20",
     "2022-01-16",
@@ -53,10 +48,8 @@
     "2021-12-09",
     "2021-12-06",
     "2021-12-03",
-    "2021-11-30",
     "2021-11-29",
     "2021-11-24",
-    "2021-11-22",
     "2021-11-21",
     "2021-11-07",
     "2021-11-03",
@@ -71,11 +64,9 @@
     "2021-09-20",
     "2021-09-15",
     "2021-09-12",
-    "2021-09-01",
     "2021-08-30",
     "2021-08-23",
-    "2021-08-15",
-    "2021-07-24"
+    "2021-08-15"
   ],
   "cups": [
     {
@@ -210,7 +201,17 @@
       "section_count": 1,
       "kind": "news",
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 1,
+      "matchDate": "2021-08-14",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "曼联 5-1 利兹联",
+      "clause": "净胜 4 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-08-23-morning",
@@ -227,7 +228,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 2,
+      "matchDate": "2021-08-22",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "南安普顿 1-1 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-08-30-morning",
@@ -244,7 +255,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 3,
+      "matchDate": "2021-08-29",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-09-01-morning",
@@ -273,7 +294,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 4,
+      "matchDate": "2021-09-11",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 4-1 纽卡斯尔联",
+      "clause": "净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-09-15-morning",
@@ -290,7 +321,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 5,
+      "matchDate": "2021-09-15",
+      "result": "L",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "伯尔尼年轻人",
+      "badge": "./media/badges/young-boys.png",
+      "scoreline": "伯尔尼年轻人 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2021-09-20-morning",
@@ -307,7 +348,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 6,
+      "matchDate": "2021-09-19",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "西汉姆联 1-2 曼联",
+      "clause": "Jesse Lingard 89' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-09-23-morning",
@@ -324,7 +375,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 7,
+      "matchDate": "2021-09-23",
+      "result": "L",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 0-1 西汉姆联",
+      "clause": "一球之差",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2021-09-26-morning",
@@ -341,7 +402,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 8,
+      "matchDate": "2021-09-25",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 0-1 阿斯顿维拉",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-09-30-morning",
@@ -358,7 +429,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 9,
+      "matchDate": "2021-09-30",
+      "result": "W",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "比利亚雷亚尔",
+      "badge": "./media/badges/villarreal.png",
+      "scoreline": "曼联 2-1 比利亚雷亚尔",
+      "clause": "Cristiano Ronaldo 90+5' 绝杀",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2021-10-03-morning",
@@ -375,7 +456,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 10,
+      "matchDate": "2021-10-02",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 1-1 埃弗顿",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-10-17-morning",
@@ -392,7 +483,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 11,
+      "matchDate": "2021-10-16",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 4-2 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-10-21-morning",
@@ -409,7 +510,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 12,
+      "matchDate": "2021-10-21",
+      "result": "W",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "亚特兰大",
+      "badge": "./media/badges/atalanta.png",
+      "scoreline": "曼联 3-2 亚特兰大",
+      "clause": "先丢球，翻盘",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2021-10-25-morning",
@@ -426,7 +537,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 13,
+      "matchDate": "2021-10-24",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 0-5 利物浦",
+      "clause": "净负 5 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-10-31-morning",
@@ -443,7 +564,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 14,
+      "matchDate": "2021-10-31",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-11-03-morning",
@@ -460,7 +591,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 15,
+      "matchDate": "2021-11-03",
+      "result": "D",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "亚特兰大",
+      "badge": "./media/badges/atalanta.png",
+      "scoreline": "亚特兰大 2-2 曼联",
+      "clause": "Cristiano Ronaldo 90+1' 扳平",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2021-11-07-morning",
@@ -477,7 +618,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 16,
+      "matchDate": "2021-11-06",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-2 曼城",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-11-21-morning",
@@ -494,7 +645,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 17,
+      "matchDate": "2021-11-20",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "沃特福德",
+      "badge": "./media/badges/watford.png",
+      "scoreline": "沃特福德 4-1 曼联",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-11-22-morning",
@@ -519,10 +680,21 @@
       "hero": {
         "src": "./media/archive/2021-22/archive-2021-11-24-Villarreal.jpg",
         "alt": "比利亚雷亚尔 0-2 曼联",
-        "width": 378, "height": 213
+        "width": 378,
+        "height": 213
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 18,
+      "matchDate": "2021-11-24",
+      "result": "W",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "比利亚雷亚尔",
+      "badge": "./media/badges/villarreal.png",
+      "scoreline": "比利亚雷亚尔 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2021-11-29-morning",
@@ -539,7 +711,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 19,
+      "matchDate": "2021-11-29",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-11-30-morning",
@@ -568,7 +750,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 20,
+      "matchDate": "2021-12-03",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "曼联 3-2 阿森纳",
+      "clause": "先丢球，翻盘",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-12-06-morning",
@@ -585,7 +777,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 21,
+      "matchDate": "2021-12-05",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "曼联 1-0 水晶宫",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2021-12-09-morning",
@@ -596,7 +798,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 22,
+      "matchDate": "2021-12-09",
+      "result": "D",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "伯尔尼年轻人",
+      "badge": "./media/badges/young-boys.png",
+      "scoreline": "曼联 1-1 伯尔尼年轻人",
+      "clause": "被扳平",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2021-12-12-morning",
@@ -613,7 +825,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 23,
+      "matchDate": "2021-12-12",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "诺维奇",
+      "badge": "./media/badges/norwich.png",
+      "scoreline": "诺维奇 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-12-28-morning",
@@ -624,7 +846,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 24,
+      "matchDate": "2021-12-28",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "纽卡斯尔联 1-1 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2021-12-31-morning",
@@ -641,7 +873,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 25,
+      "matchDate": "2021-12-31",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "曼联 3-1 伯恩利",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-01-04-morning",
@@ -658,7 +900,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 26,
+      "matchDate": "2022-01-04",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "曼联 0-1 狼队",
+      "clause": "一球之差",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-01-11-morning",
@@ -675,7 +927,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 27,
+      "matchDate": "2022-01-11",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 1-0 阿斯顿维拉",
+      "clause": "零封取胜",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2022-01-16-morning",
@@ -686,7 +948,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 28,
+      "matchDate": "2022-01-16",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿斯顿维拉",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "阿斯顿维拉 2-2 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-01-20-morning",
@@ -703,7 +975,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 29,
+      "matchDate": "2022-01-20",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "布伦特福德 1-3 曼联",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-01-23-morning",
@@ -714,7 +996,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 30,
+      "matchDate": "2022-01-22",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 1-0 西汉姆联",
+      "clause": "Marcus Rashford 90+3' 绝杀",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-01-31-evening",
@@ -749,7 +1041,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 31,
+      "matchDate": "2022-02-05",
+      "result": "D",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "米德尔斯堡",
+      "badge": "./media/badges/middlesbrough.png",
+      "scoreline": "曼联 1-1 米德尔斯堡",
+      "clause": "被扳平",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2022-02-09-morning",
@@ -766,7 +1068,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 32,
+      "matchDate": "2022-02-09",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "伯恩利 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-02-13-morning",
@@ -783,7 +1095,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 33,
+      "matchDate": "2022-02-12",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "曼联 1-1 南安普顿",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-02-16-morning",
@@ -800,7 +1122,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 34,
+      "matchDate": "2022-02-16",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 2-0 布莱顿",
+      "clause": "零封取胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-02-21-morning",
@@ -817,7 +1149,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 35,
+      "matchDate": "2022-02-20",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利兹联",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "利兹联 2-4 曼联",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-02-24-morning",
@@ -834,7 +1176,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 36,
+      "matchDate": "2022-02-24",
+      "result": "D",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "马德里竞技",
+      "badge": "./media/badges/atletico-madrid.png",
+      "scoreline": "马德里竞技 1-1 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2022-02-27-morning",
@@ -851,7 +1203,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 37,
+      "matchDate": "2022-02-26",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "沃特福德",
+      "badge": "./media/badges/watford.png",
+      "scoreline": "曼联 0-0 沃特福德",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-03-07-morning",
@@ -868,7 +1230,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 38,
+      "matchDate": "2022-03-07",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 4-1 曼联",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-03-13-morning",
@@ -885,7 +1257,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 39,
+      "matchDate": "2022-03-13",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 3-2 托特纳姆热刺",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-03-14-morning",
@@ -914,7 +1296,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 40,
+      "matchDate": "2022-03-16",
+      "result": "L",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "马德里竞技",
+      "badge": "./media/badges/atletico-madrid.png",
+      "scoreline": "曼联 0-1 马德里竞技",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2022-04-03-morning",
@@ -931,7 +1323,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 41,
+      "matchDate": "2022-04-03",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 1-1 莱斯特城",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-04-10-morning",
@@ -948,7 +1350,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 42,
+      "matchDate": "2022-04-09",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-04-17-morning",
@@ -965,7 +1377,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 43,
+      "matchDate": "2022-04-16",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "诺维奇",
+      "badge": "./media/badges/norwich.png",
+      "scoreline": "曼联 3-2 诺维奇",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-04-20-morning",
@@ -982,7 +1404,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 44,
+      "matchDate": "2022-04-20",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "利物浦 4-0 曼联",
+      "clause": "净负 4 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-04-21-morning",
@@ -1023,7 +1455,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 45,
+      "matchDate": "2022-04-23",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-04-29-morning",
@@ -1040,7 +1482,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 46,
+      "matchDate": "2022-04-29",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "曼联 1-1 切尔西",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-05-03-morning",
@@ -1057,7 +1509,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 47,
+      "matchDate": "2022-05-03",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布伦特福德",
+      "badge": "./media/badges/brentford.png",
+      "scoreline": "曼联 3-0 布伦特福德",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2022-05-08-morning",
@@ -1074,7 +1536,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 48,
+      "matchDate": "2022-05-08",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 4-0 曼联",
+      "clause": "净负 4 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-05-23-morning",
@@ -1091,7 +1563,17 @@
         "height": 540
       },
       "season": "2021/22",
-      "archive": true
+      "archive": true,
+      "match_no": 49,
+      "matchDate": "2022-05-22",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "水晶宫 1-0 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2022-05-24-morning",

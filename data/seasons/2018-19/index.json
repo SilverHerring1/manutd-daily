@@ -3,10 +3,10 @@
   "season": "2018/19",
   "slug": "2018-19",
   "source": "data/archive/2018-19.json",
-  "generated_at": "2026-11-12T17:05:37+08:00",
-  "count": 62,
+  "generated_at": "2026-11-13T10:05:42+08:00",
+  "count": 56,
   "matchCount": 53,
-  "newsCount": 8,
+  "newsCount": 3,
   "record": {
     "W": 26,
     "D": 11,
@@ -14,7 +14,7 @@
     "gf": 85,
     "ga": 70
   },
-  "first": "2018-06-07",
+  "first": "2018-08-11",
   "last": "2019-05-14",
   "dates": [
     "2019-05-14",
@@ -48,7 +48,6 @@
     "2018-12-31",
     "2018-12-27",
     "2018-12-23",
-    "2018-12-19",
     "2018-12-18",
     "2018-12-17",
     "2018-12-13",
@@ -73,12 +72,7 @@
     "2018-09-03",
     "2018-08-28",
     "2018-08-20",
-    "2018-08-11",
-    "2018-08-10",
-    "2018-07-17",
-    "2018-07-03",
-    "2018-06-21",
-    "2018-06-07"
+    "2018-08-11"
   ],
   "cups": [
     {
@@ -287,7 +281,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 1,
+      "matchDate": "2018-08-11",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "曼联 2-1 莱斯特城",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-08-20-morning",
@@ -304,7 +308,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 2,
+      "matchDate": "2018-08-19",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "布莱顿 3-2 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-08-28-morning",
@@ -321,7 +335,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 3,
+      "matchDate": "2018-08-28",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 0-3 托特纳姆热刺",
+      "clause": "净负 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-09-03-morning",
@@ -338,7 +362,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 4,
+      "matchDate": "2018-09-02",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "伯恩利 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-09-16-morning",
@@ -355,7 +389,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 5,
+      "matchDate": "2018-09-16",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "沃特福德",
+      "badge": "./media/badges/watford.png",
+      "scoreline": "沃特福德 1-2 曼联",
+      "clause": "一球小胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-09-20-morning",
@@ -372,7 +416,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 6,
+      "matchDate": "2018-09-20",
+      "result": "W",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "伯尔尼年轻人",
+      "badge": "./media/badges/young-boys.png",
+      "scoreline": "伯尔尼年轻人 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2018-09-23-morning",
@@ -389,7 +443,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 7,
+      "matchDate": "2018-09-22",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "曼联 1-1 狼队",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-09-26-morning",
@@ -406,7 +470,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 8,
+      "matchDate": "2018-09-26",
+      "result": "D",
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "德比郡",
+      "badge": "./media/badges/derby.png",
+      "scoreline": "曼联 2-2 德比郡",
+      "clause": "Marouane Fellaini 90+5' 扳平",
+      "source_name": "联赛杯 · 主场"
     },
     {
       "id": "2018-09-30-morning",
@@ -423,7 +497,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 9,
+      "matchDate": "2018-09-29",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "西汉姆联 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-10-03-morning",
@@ -440,7 +524,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 10,
+      "matchDate": "2018-10-03",
+      "result": "D",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "瓦伦西亚",
+      "badge": "./media/badges/valencia.png",
+      "scoreline": "曼联 0-0 瓦伦西亚",
+      "clause": "互交白卷",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2018-10-07-morning",
@@ -457,7 +551,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 11,
+      "matchDate": "2018-10-07",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "曼联 3-2 纽卡斯尔联",
+      "clause": "Alexis Sánchez 90' 绝杀",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-10-21-morning",
@@ -474,7 +578,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 12,
+      "matchDate": "2018-10-20",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 2-2 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-10-24-morning",
@@ -491,7 +605,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 13,
+      "matchDate": "2018-10-24",
+      "result": "L",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "尤文图斯",
+      "badge": "./media/badges/juventus.png",
+      "scoreline": "曼联 0-1 尤文图斯",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2018-10-29-morning",
@@ -508,7 +632,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 14,
+      "matchDate": "2018-10-29",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "曼联 2-1 埃弗顿",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-11-04-morning",
@@ -525,7 +659,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 15,
+      "matchDate": "2018-11-03",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "伯恩茅斯 1-2 曼联",
+      "clause": "Marcus Rashford 90+2' 绝杀",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-11-08-morning",
@@ -542,7 +686,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 16,
+      "matchDate": "2018-11-08",
+      "result": "W",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "尤文图斯",
+      "badge": "./media/badges/juventus.png",
+      "scoreline": "尤文图斯 1-2 曼联",
+      "clause": "对手乌龙 89' 绝杀",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2018-11-12-morning",
@@ -559,7 +713,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 17,
+      "matchDate": "2018-11-12",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼城 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-11-25-morning",
@@ -576,7 +740,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 18,
+      "matchDate": "2018-11-24",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "曼联 0-0 水晶宫",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-11-28-morning",
@@ -593,7 +767,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 19,
+      "matchDate": "2018-11-28",
+      "result": "W",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "伯尔尼年轻人",
+      "badge": "./media/badges/young-boys.png",
+      "scoreline": "曼联 1-0 伯尔尼年轻人",
+      "clause": "Marouane Fellaini 90+1' 绝杀",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2018-12-02-morning",
@@ -610,7 +794,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 20,
+      "matchDate": "2018-12-02",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "南安普顿 2-2 曼联",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-12-06-morning",
@@ -627,7 +821,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 21,
+      "matchDate": "2018-12-06",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "曼联 2-2 阿森纳",
+      "clause": "先丢球，追成平局",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-12-09-morning",
@@ -644,7 +848,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 22,
+      "matchDate": "2018-12-08",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "曼联 4-1 富勒姆",
+      "clause": "净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-12-13-morning",
@@ -661,7 +875,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 23,
+      "matchDate": "2018-12-13",
+      "result": "L",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "瓦伦西亚",
+      "badge": "./media/badges/valencia.png",
+      "scoreline": "瓦伦西亚 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2018-12-17-morning",
@@ -678,7 +902,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 24,
+      "matchDate": "2018-12-17",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "利物浦 3-1 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-12-18-evening",
@@ -719,7 +953,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 25,
+      "matchDate": "2018-12-23",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "加的夫城",
+      "badge": "./media/badges/cardiff.png",
+      "scoreline": "加的夫城 1-5 曼联",
+      "clause": "净胜 4 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2018-12-27-morning",
@@ -736,7 +980,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 26,
+      "matchDate": "2018-12-26",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "哈德斯菲尔德",
+      "badge": "./media/badges/huddersfield.png",
+      "scoreline": "曼联 3-1 哈德斯菲尔德",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2018-12-31-morning",
@@ -753,7 +1007,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 27,
+      "matchDate": "2018-12-31",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩茅斯",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "曼联 4-1 伯恩茅斯",
+      "clause": "净胜 3 球",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-01-03-morning",
@@ -770,7 +1034,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 28,
+      "matchDate": "2019-01-03",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "纽卡斯尔联",
+      "badge": "./media/badges/newcastle.png",
+      "scoreline": "纽卡斯尔联 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-01-06-morning",
@@ -787,7 +1061,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 29,
+      "matchDate": "2019-01-05",
+      "result": "W",
+      "competition": "足总杯",
+      "home": true,
+      "opponent": "雷丁",
+      "badge": "./media/badges/reading.png",
+      "scoreline": "曼联 2-0 雷丁",
+      "clause": "零封取胜",
+      "source_name": "足总杯 · 主场"
     },
     {
       "id": "2019-01-14-morning",
@@ -804,7 +1088,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 30,
+      "matchDate": "2019-01-14",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "托特纳姆热刺",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "托特纳姆热刺 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-01-20-morning",
@@ -821,7 +1115,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 31,
+      "matchDate": "2019-01-19",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "布莱顿",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 2-1 布莱顿",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-01-26-morning",
@@ -838,7 +1142,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 32,
+      "matchDate": "2019-01-26",
+      "result": "W",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 1-3 曼联",
+      "clause": "净胜 2 球",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2019-01-30-morning",
@@ -849,7 +1163,17 @@
       "item_count": 1,
       "section_count": 1,
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 33,
+      "matchDate": "2019-01-30",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩利",
+      "badge": "./media/badges/burnley.png",
+      "scoreline": "曼联 2-2 伯恩利",
+      "clause": "Victor Lindelöf 90+2' 扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-02-04-morning",
@@ -866,7 +1190,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 34,
+      "matchDate": "2019-02-03",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "莱斯特城",
+      "badge": "./media/badges/leicester.png",
+      "scoreline": "莱斯特城 0-1 曼联",
+      "clause": "零封取胜",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-02-10-morning",
@@ -883,7 +1217,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 35,
+      "matchDate": "2019-02-09",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "富勒姆",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "富勒姆 0-3 曼联",
+      "clause": "零封，净胜 3 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-02-13-morning",
@@ -900,7 +1244,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 36,
+      "matchDate": "2019-02-13",
+      "result": "L",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "巴黎圣日耳曼",
+      "badge": "./media/badges/psg.png",
+      "scoreline": "曼联 0-2 巴黎圣日耳曼",
+      "clause": "2 球落败",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2019-02-19-morning",
@@ -917,7 +1271,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 37,
+      "matchDate": "2019-02-19",
+      "result": "W",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 0-2 曼联",
+      "clause": "零封取胜",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2019-02-25-morning",
@@ -934,7 +1298,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 38,
+      "matchDate": "2019-02-24",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "利物浦",
+      "badge": "./media/badges/liverpool.png",
+      "scoreline": "曼联 0-0 利物浦",
+      "clause": "互交白卷",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-02-28-morning",
@@ -951,7 +1325,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 39,
+      "matchDate": "2019-02-28",
+      "result": "W",
+      "competition": "英超",
+      "home": false,
+      "opponent": "水晶宫",
+      "badge": "./media/badges/crystal-palace.png",
+      "scoreline": "水晶宫 1-3 曼联",
+      "clause": "净胜 2 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-03-03-morning",
@@ -968,7 +1352,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 40,
+      "matchDate": "2019-03-02",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "南安普顿",
+      "badge": "./media/badges/southampton.png",
+      "scoreline": "曼联 3-2 南安普顿",
+      "clause": "Romelu Lukaku 88' 绝杀",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-03-07-morning",
@@ -985,7 +1379,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 41,
+      "matchDate": "2019-03-07",
+      "result": "W",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "巴黎圣日耳曼",
+      "badge": "./media/badges/psg.png",
+      "scoreline": "巴黎圣日耳曼 1-3 曼联",
+      "clause": "净胜 2 球",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2019-03-11-morning",
@@ -1002,7 +1406,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 42,
+      "matchDate": "2019-03-11",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "阿森纳",
+      "badge": "./media/badges/arsenal.png",
+      "scoreline": "阿森纳 2-0 曼联",
+      "clause": "2 球落败",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-03-17-morning",
@@ -1019,7 +1433,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 43,
+      "matchDate": "2019-03-17",
+      "result": "L",
+      "competition": "足总杯",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "足总杯 · 客场"
     },
     {
       "id": "2019-03-28-evening",
@@ -1048,7 +1472,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 44,
+      "matchDate": "2019-03-30",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "沃特福德",
+      "badge": "./media/badges/watford.png",
+      "scoreline": "曼联 2-1 沃特福德",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-04-03-morning",
@@ -1065,7 +1499,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 45,
+      "matchDate": "2019-04-03",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "狼队",
+      "badge": "./media/badges/wolves.png",
+      "scoreline": "狼队 2-1 曼联",
+      "clause": "一球之差",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-04-11-morning",
@@ -1082,7 +1526,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 46,
+      "matchDate": "2019-04-11",
+      "result": "L",
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "巴塞罗那",
+      "badge": "./media/badges/barcelona.png",
+      "scoreline": "曼联 0-1 巴塞罗那",
+      "clause": "一球之差",
+      "source_name": "欧冠 · 主场"
     },
     {
       "id": "2019-04-14-morning",
@@ -1099,7 +1553,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 47,
+      "matchDate": "2019-04-14",
+      "result": "W",
+      "competition": "英超",
+      "home": true,
+      "opponent": "西汉姆联",
+      "badge": "./media/badges/west-ham.png",
+      "scoreline": "曼联 2-1 西汉姆联",
+      "clause": "一球小胜",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-04-17-morning",
@@ -1116,7 +1580,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 48,
+      "matchDate": "2019-04-17",
+      "result": "L",
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "巴塞罗那",
+      "badge": "./media/badges/barcelona.png",
+      "scoreline": "巴塞罗那 3-0 曼联",
+      "clause": "净负 3 球",
+      "source_name": "欧冠 · 客场"
     },
     {
       "id": "2019-04-22-morning",
@@ -1133,7 +1607,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 49,
+      "matchDate": "2019-04-21",
+      "result": "L",
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 4-0 曼联",
+      "clause": "净负 4 球",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-04-25-morning",
@@ -1150,7 +1634,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 50,
+      "matchDate": "2019-04-25",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-2 曼城",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-04-29-morning",
@@ -1167,7 +1661,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 51,
+      "matchDate": "2019-04-28",
+      "result": "D",
+      "competition": "英超",
+      "home": true,
+      "opponent": "切尔西",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "曼联 1-1 切尔西",
+      "clause": "被扳平",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-05-06-morning",
@@ -1184,7 +1688,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 52,
+      "matchDate": "2019-05-05",
+      "result": "D",
+      "competition": "英超",
+      "home": false,
+      "opponent": "哈德斯菲尔德",
+      "badge": "./media/badges/huddersfield.png",
+      "scoreline": "哈德斯菲尔德 1-1 曼联",
+      "clause": "被扳平",
+      "source_name": "英超 · 客场"
     },
     {
       "id": "2019-05-13-morning",
@@ -1201,7 +1715,17 @@
         "height": 540
       },
       "season": "2018/19",
-      "archive": true
+      "archive": true,
+      "match_no": 53,
+      "matchDate": "2019-05-12",
+      "result": "L",
+      "competition": "英超",
+      "home": true,
+      "opponent": "加的夫城",
+      "badge": "./media/badges/cardiff.png",
+      "scoreline": "曼联 0-2 加的夫城",
+      "clause": "2 球落败",
+      "source_name": "英超 · 主场"
     },
     {
       "id": "2019-05-14-morning",
