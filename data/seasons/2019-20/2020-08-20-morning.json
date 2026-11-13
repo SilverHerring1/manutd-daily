@@ -1,0 +1,52 @@
+{
+  "id": "2020-08-20-morning",
+  "date": "2020-08-20",
+  "period": "morning",
+  "issue_number": 74,
+  "season": "2019/20",
+  "archive": true,
+  "kind": "summary",
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "season",
+      "title": "赛季总结",
+      "items": [
+        {
+          "id": "season-record",
+          "title": "61 场，33 胜 16 平 12 负",
+          "summary": "各项赛事进 112 球失 51 球；联赛 38 场，18 胜 12 平 8 负。",
+          "body_html": "<p>这一季一共踢了 61 场：33 胜 16 平 12 负，进 112 球、失 51 球。</p><p>联赛 38 场，18 胜 12 平 8 负，进 66 球失 36 球。</p>",
+          "sources": [
+            {
+              "text": "ESPN 赛程",
+              "url": "https://www.espn.com/soccer/team/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "08-18"
+        },
+        {
+          "id": "season-cups",
+          "title": "四条战线：欧冠八强，联赛杯一轮游",
+          "summary": "欧联：止步半决赛；联赛杯：止步半决赛；足总杯：止步半决赛",
+          "body_html": "<ul><li>欧联：止步半决赛</li><li>联赛杯：止步半决赛</li><li>足总杯：止步半决赛</li></ul><p>联赛最后排第 6，下赛季没有欧冠。</p>",
+          "sources": [
+            {
+              "text": "ESPN 赛程",
+              "url": "https://www.espn.com/soccer/team/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "战线",
+          "published_at": "08-18"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "一季到此为止。"
+  }
+}

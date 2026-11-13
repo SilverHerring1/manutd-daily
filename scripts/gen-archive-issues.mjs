@@ -25,6 +25,8 @@ const NAMES = JSON.parse(readFileSync(join(ROOT, 'scripts/teams-cn.json'), 'utf8
 
 const args = process.argv.slice(2);
 const dry = args.includes('--dry');
+// --pages：只重建 archive/*.html，不碰期次 JSON（手写内容不能被覆盖）
+const PAGES_ONLY = args.includes('--pages');
 const all = args.includes('--all');
 const targets = all
   ? readdirSync(ARCHIVE)
@@ -971,7 +973,7 @@ for (const slug of targets) {
   const groupFile = join(DATA, 'groups', `${slug}.json`);
   const group = existsSync(groupFile) ? JSON.parse(readFileSync(groupFile, 'utf8')) : null;
 
-  if (!dry) {
+  if (!dry && !PAGES_ONLY) {
     const outDir = join(OUT, slug);
     rmSync(outDir, { recursive: true, force: true });
     mkdirSync(outDir, { recursive: true });

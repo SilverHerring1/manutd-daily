@@ -1,0 +1,41 @@
+{
+  "id": "2020-03-14-morning",
+  "date": "2020-03-14",
+  "period": "morning",
+  "issue_number": 57,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "29 轮 45 分，第 5。联赛停在这里，什么时候接着踢，没人知道。"
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "covid-suspend",
+          "title": "英超停摆：至少到 4 月 3 日",
+          "summary": "英超 3 月 13 日宣布暂停所有比赛，最初定的复赛时间是 4 月 3 日。曼联 3 月 15 日主场对热刺的比赛推迟，欧战也一起停。",
+          "body_html": "<p>英超官方 3 月 13 日宣布，因新冠疫情暂停全部比赛，至少到 4 月 3 日。这是英超历史上第一次整体停摆。</p><p>曼联当时排在第五，29 轮 45 分，距离第四的切尔西 3 分。3 月 15 日主场对热刺的比赛推迟，欧联对林茨的次回合也停了。</p><p>俱乐部随后关闭了卡灵顿训练基地的部分区域。球员按俱乐部给的方案居家训练，联赛什么时候恢复，官方没有给时间表。</p>",
+          "sources": [
+            {
+              "text": "英超官方声明（2020-03-13）",
+              "url": "https://www.premierleague.com/news/1644998"
+            },
+            {
+              "text": "BBC · 英超停摆",
+              "url": "https://www.bbc.co.uk/sport/football/51857966"
+            }
+          ],
+          "source_name": "场外",
+          "published_at": "03-14 08:00"
+        }
+      ]
+    }
+  ]
+}

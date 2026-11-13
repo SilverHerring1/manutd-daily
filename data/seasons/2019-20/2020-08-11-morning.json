@@ -2,7 +2,7 @@
   "id": "2020-08-11-morning",
   "date": "2020-08-11",
   "period": "morning",
-  "issue_number": 69,
+  "issue_number": 71,
   "season": "2019/20",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m573705",
-          "title": "曼联 1-0 哥本哈根：Bruno Fernandes 95' 绝杀",
-          "summary": "欧联，主场（RheinEnergieStadion）。这一季各项赛事第 60 场，33 胜 16 平 11 负。",
-          "body_html": "<p>2019/20 欧联，主场（RheinEnergieStadion）对阵哥本哈根，比分 1-0。</p><p>进球：95' Bruno Fernandes（曼联，点球）。</p>",
+          "title": "曼联 1-0 哥本哈根，布鲁诺95分钟点球",
+          "summary": "常规时间 0-0，加时第 5 分钟布鲁诺点球命中，欧联八强过关。",
+          "body_html": "<p>常规时间 0-0。加时赛第 5 分钟，马夏尔在禁区里被放倒，布鲁诺点球命中，1-0。</p><p>曼联 26 脚射门 14 次射正，哥本哈根 9 脚 0 射正。打了 95 分钟才进球，门将做了 14 次扑救。</p><p>欧联半决赛，对手是塞维利亚。</p>",
           "sources": [
             {
               "text": "ESPN 比分",
@@ -33,7 +33,7 @@
   ],
   "note": {
     "title": "编辑短评",
-    "body": "主场零封，这一季第 27 场不丢球。"
+    "body": "26 脚射门 14 次射正，95 分钟才靠点球赢。对方门将扑了 14 次。"
   },
   "match_no": 60,
   "hero": {

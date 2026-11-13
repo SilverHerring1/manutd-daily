@@ -1,0 +1,41 @@
+{
+  "id": "2020-08-19-morning",
+  "date": "2020-08-19",
+  "period": "morning",
+  "issue_number": 73,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "18 岁，各项赛事 17 球。这个赛季最意外的东西，不是布鲁诺，是他。"
+  },
+  "sections": [
+    {
+      "id": "season",
+      "title": "赛季回顾",
+      "items": [
+        {
+          "id": "greenwood-breakout",
+          "title": "格林伍德：18 岁，各项赛事 17 球",
+          "summary": "2019/20 赛季，格林伍德各项赛事出场 49 次、打进 17 球，其中联赛 10 球。他是曼联队史单赛季进球最多的 18 岁球员。",
+          "body_html": "<p>2019/20 赛季，梅森·格林伍德各项赛事出场 49 次、打进 17 球，其中联赛 10 球。18 岁。</p><p>他的第一个进球在欧联小组赛对阿斯塔纳，第 73 分钟，禁区中路右脚低射。最后一个在欧联 16 强对林茨，补时第 1 分钟。</p><p>17 球里，左右脚各一半，没有一个是点球。这个数字让他成为曼联队史单赛季进球最多的 18 岁球员。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 格林伍德",
+              "url": "https://www.manutd.com/en/players-and-staff/detail/mason-greenwood"
+            },
+            {
+              "text": "ESPN · 2019/20 赛季统计",
+              "url": "https://www.espn.com/soccer/team/stats/_/id/360/league/ENG.1/season/2019"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "08-19 09:00"
+        }
+      ]
+    }
+  ]
+}
