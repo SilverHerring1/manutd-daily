@@ -30,7 +30,7 @@
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
 
-  <script type="module" src="./app.js?v=20"></script>
+  <script type="module" src="./app.js?v=21"></script>
 </head>
 
 <body>
@@ -67,7 +67,7 @@
       <!-- ============ 版头：整页只有一个 h1 ============ -->
       <section class="edition-head" aria-labelledby="editionTitle">
         <div class="edition-id">
-          <p class="kicker" id="editionKicker">第 — 期</p>
+          <p class="kicker" id="editionKicker"></p>
           <h1 id="editionTitle">曼联日报</h1>
         </div>
 
@@ -249,7 +249,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v20";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v21";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");

@@ -171,15 +171,7 @@ node --use-env-proxy 脚本.mjs
 
 ### 第 1 步：bump 版本号（只在改了前端时做）
 
-动了 `app.js` / `layout.css` / `index.html` 的话，打开 `index.html`，把
-
-```html
-<script type="module" src="./app.js?v=20"></script>
-```
-
-改成 `v=21`（数字加一，现在到 v20）。这是破浏览器缓存的，不改的话线上可能还是旧页面。
-
-顺带把页脚的「构建 v20」跟着改，两处保持一致。
+动了 `app.js` / `layout.css` / `index.html` 的话，打开 `index.html`，把 `app.js?v=N` 里的 N 加一（**现在到 v21**），页脚的「构建 vN」跟着一起改，两处保持一致。这是破浏览器缓存的，不改的话线上可能还是旧页面。
 
 纯内容（只改 `data/`）不用动它。
 

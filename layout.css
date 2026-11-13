@@ -143,6 +143,11 @@ html.theme-ready body {
   text-transform: uppercase;
 }
 
+/* 期次还没载入时不占位，避免闪一下「第 — 期」 */
+.kicker:empty {
+  display: none;
+}
+
 .edition-head h1 {
   margin: 0;
   color: var(--ink);
