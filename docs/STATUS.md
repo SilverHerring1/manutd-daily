@@ -36,7 +36,9 @@ node scripts/gen-archive-issues.mjs --all --pages   # 只重建 archive/*.html
 
 改完的东西**不会自己跑到仓库里**，必须同步一次。
 
-### ① 同步到仓库
+**分工（2026-11-13 定）**：AI 只做到「同步 + 本地提交」，**Push 由本人点**。直连 GitHub 时不时被 reset，交给 GitHub Desktop 推更稳。
+
+### ① 同步到仓库（AI 做）
 
 ```powershell
 cd D:\Documents\deepseek-harness\default-workspace\manutd-daily
@@ -47,16 +49,26 @@ node scripts/sync-desktop.mjs
 - 不会碰 `tmp/`、`_site/`、`.git/`
 - 手动备选：`robocopy <工作目录> <仓库目录> /E /XD tmp _site data-weekly data-deep data-magazine .git /XF *.bak *.log`
 
-### ② GitHub Desktop 提交并推送
+### ② 本地提交（AI 做，提交完就停）
+
+```powershell
+cd D:\Documents\GitHub\manutd-daily
+git add -A
+git commit -m "这一轮干了什么"
+git status -sb        # 应显示 [ahead N]，表示 N 个提交等推送
+```
+
+- 提交前对一眼 `git status --porcelain -uall`，别把 `tmp/`、`*.bak` 带进去
+- **不 push**。AI 交付的话术是「N 个提交待推送」，不是「已上线」
+
+### ③ Push（本人做）
 
 1. 打开 **GitHub Desktop**
 2. 左上角 **Current Repository** 选 `manutd-daily`（路径应显示 `D:\Documents\GitHub\manutd-daily`）
-3. 左边 **Changes** 核对改动，不该提交的右键 **Ignore file**
-4. 左下角 **Summary** 写一句，例如 `补 11/11–11/13 五期：卡里克下课`
-5. 点 **Commit to main**
-6. 点右上角 **Push origin**
+3. 右上角点 **Push origin**（有积压时显示 `Push N commits`）
+4. 被拒（rejected）就先 **Fetch origin** → **Pull**，再 Push
 
-### ③ 线上确认
+### ④ 线上确认
 
 - https://silverherring1.github.io/manutd-daily/ ，Pages 构建 1–2 分钟
 - `Ctrl+Shift+R` 强刷，自查：首页是最新一期 → 日期能翻到 2018/19 → `/archive/` 列 9 季
@@ -65,6 +77,7 @@ node scripts/sync-desktop.mjs
 
 - 改了 `app.js` / `layout.css` / `index.html` → 先把 `index.html` 里的 `app.js?v=N` 加一，否则线上还是旧页面
 - 提交前 `node scripts/check-size.mjs` 看一眼体积
+- 直连 `git push` 偶尔被 reset（`Failed to connect to github.com:443`）；真要推时可加代理 `git -c http.proxy=http://127.0.0.1:7897 push`——但按分工，push 归本人
 - **首次使用**：GitHub Desktop → `File` → `Clone repository` → `SilverHerring1/manutd-daily` → Local path 填 `D:\Documents\GitHub\manutd-daily`
 - 详细版（含常见问题：线上没更新 / Desktop 看不到改动 / Push 被拒）见 `WRITING-FLOW.md` 第 10 节
 
@@ -76,7 +89,7 @@ node scripts/sync-desktop.mjs
   - 全站 **557 期**，期号跨季连续（1–557）
 - 写作口径：正文按 football-writer、标题按 football-headline、短评按 football-note
 - 新闻期（转会/场外/纪录）90 期，28 期有真图，其余走无图版式（只配相关的图）
-- 仓库副本 `D:\Documents\GitHub\manutd-daily`：已推送，待提交 0 个
+- 仓库副本 `D:\Documents\GitHub\manutd-daily`：已同步 + 本地提交，**Push 由本人点**（分工见「上传到 GitHub Desktop」一节）
 - 上线地址：https://silverherring1.github.io/manutd-daily/
 - 仓库：https://github.com/SilverHerring1/manutd-daily
 - 最后更新：2026-11-13（补 11/11–11/13 五期 · 卡里克下课与波切蒂诺 · DO 进信源分级）
@@ -240,9 +253,12 @@ data/
 
 ## 发版（每次改完必须做）
 
-1. `node scripts/sync-desktop.mjs` —— 把工作区改动同步到 `D:\Documents\GitHub\manutd-daily`
-2. 打开 GitHub Desktop → 填 Summary → **Commit to main** → **Push origin**
-3. 等一两分钟，线上自动更新
+按上面「上传到 GitHub Desktop」那节的三步走，别在这里另说一套：
+
+1. `node scripts/sync-desktop.mjs` —— 工作区 → `D:\Documents\GitHub\manutd-daily`（AI）
+2. 在仓库副本 `git add -A && git commit`（AI），停在 `[ahead N]`
+3. GitHub Desktop → **Push origin**（本人）
+4. 等一两分钟，线上自动更新
 
 > 工作区（本目录）只是编辑用的，**真正推送的是 GitHub Desktop 的克隆目录**。
 > 改完不同步，线上就一直是旧的——这个坑踩过一次。

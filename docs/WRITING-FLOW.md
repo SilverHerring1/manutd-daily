@@ -207,16 +207,25 @@ git status --porcelain -uall | Where-Object { $_ -match 'app\.js|index\.html|lay
 - 数量对不对（比如刚写完一季，应该是几十到上百个文件）
 - 有没有误带 `tmp/`、`*.bak` 这类东西（`git status` 里出现就说明 `.gitignore` 没挡住）
 
-### 第 4 步：GitHub Desktop 提交并推送
+### 第 4 步：本地提交（AI 做）+ Push（本人做）
+
+> 2026-11-13 起分工：AI 同步 + 提交，停在 `[ahead N]`；Push 由本人在 GitHub Desktop 点。
+
+AI 侧：
+
+```powershell
+cd D:\Documents\GitHub\manutd-daily
+git add -A
+git commit -m "这一轮干了什么"
+git status -sb          # 看到 [ahead N] 就交接
+```
+
+本人侧：
 
 1. 打开 **GitHub Desktop**
 2. 左上角 **Current Repository** 选 `manutd-daily`（本地路径显示 `D:\Documents\GitHub\manutd-daily`）
-3. 左边 **Changes** 会列出所有改动，核对一眼有没有不想提交的文件（有就右键 **Ignore file**）
-4. 左下角 **Summary** 写一句，例如：
-   - `2018/19 全季重写：战报、标题、短评按新口径`
-   - `新增 2025/26 转会期与场外期`
-5. 点 **Commit to main**
-6. 点右上角 **Push origin**
+3. 右上角 **Push origin**（有积压时显示 `Push N commits`）
+4. 被拒就先 **Fetch origin** → **Pull**，再 Push
 
 > 第一次在这台机器上用：GitHub Desktop → `File` → `Clone repository` → 选 `SilverHerring1/manutd-daily` → Local path 填 `D:\Documents\GitHub\manutd-daily`。
 
@@ -239,4 +248,4 @@ git status --porcelain -uall | Where-Object { $_ -match 'app\.js|index\.html|lay
 
 ## 一句话版本
 
-> 抓数据 → 钉事实 → 按 writer 写画面 → 按 headline 起句子标题 → 按 note 给一句判断 → 转会/场外按日期拆期 → 加期后重排期号 → 重建归档页 → 自检 → robocopy 到 `D:\Documents\GitHub\manutd-daily` → GitHub Desktop 里 Commit + Push。
+> 抓数据 → 钉事实 → 按 writer 写画面 → 按 headline 起句子标题 → 按 note 给一句判断 → 转会/场外按日期拆期 → 加期后重排期号 → 重建归档页 → 自检 → `sync-desktop.mjs` 到 `D:\Documents\GitHub\manutd-daily` → **AI 本地提交，本人 Push origin**。
