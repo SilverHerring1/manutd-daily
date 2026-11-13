@@ -1080,6 +1080,7 @@ async function init() {
   } catch (error) {
     notice(`目录载入失败：${error.message}。请通过 http 地址打开，例如 python -m http.server。`, true);
     $("editionTitle").textContent = "暂时无法载入";
+    $("editionMeta").textContent = "—";
     return;
   }
 
@@ -1089,6 +1090,7 @@ async function init() {
   const latest = latestIssue();
   if (!latest) {
     notice("还没有任何一期可以显示。", true);
+    $("editionMeta").textContent = "—";
     return;
   }
 

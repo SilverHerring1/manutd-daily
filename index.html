@@ -30,7 +30,7 @@
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
 
-  <script type="module" src="./app.js?v=19"></script>
+  <script type="module" src="./app.js?v=20"></script>
 </head>
 
 <body>
@@ -68,7 +68,7 @@
       <section class="edition-head" aria-labelledby="editionTitle">
         <div class="edition-id">
           <p class="kicker" id="editionKicker">第 — 期</p>
-          <h1 id="editionTitle">正在载入</h1>
+          <h1 id="editionTitle">曼联日报</h1>
         </div>
 
         <div class="edition-side">
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <p class="edition-meta" id="editionMeta">—</p>
+          <p class="edition-meta" id="editionMeta">正在读入全部期次…</p>
           <a class="edition-video" id="videoLink" target="_blank" rel="noopener noreferrer" hidden>观看本期视频 ↗</a>
         </div>
       </section>
@@ -130,8 +130,8 @@
         <aside class="side" aria-label="侧栏">
           <div class="side-card" id="sideCard">
             <p class="side-label">关于</p>
-            <p>近一个月 8 场，逐场复盘。</p>
-            <p class="side-hint">比分以官网为准，评论只代表编辑判断。</p>
+            <p>一天一期，早报是纸白、晚报是夜黑。2018/19 起的每一场都在「赛季归档」里。</p>
+            <p class="side-hint">比分与引语以曼联官网为准；没官宣的事，照写「尚无官方声明」。</p>
           </div>
         </aside>
       </section>
@@ -139,7 +139,7 @@
 
     <footer class="site-footer">
       <p class="footer-brand">曼联日报</p>
-      <p class="footer-note">赛果与数据来自曼联官网、懂球帝与公开赛程；赛季归档的比分与进球来自 ESPN。时间统一为北京时间。<span class="build-tag" id="buildTag"></span></p>
+      <p class="footer-note">赛果与数据来自曼联官网、懂球帝与公开赛程；赛季归档的比分与进球来自 ESPN；独家与深度引自 The Athletic、BBC、Sky。时间统一为北京时间。<span class="build-tag" id="buildTag"></span></p>
     </footer>
   </div>
 
@@ -249,7 +249,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v9";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v20";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");
@@ -257,7 +257,7 @@
       '<div style="max-width:680px;margin:0 auto">' +
       '<p style="color:#ff4b3a;letter-spacing:.14em;font-size:12px;margin:0 0 10px">MANCHESTER UNITED · THE RED DAILY</p>' +
       '<h1 style="margin:0 0 18px;font-size:28px;line-height:1.35">双击 index.html 是打不开的</h1>' +
-      '<p>你现在打开的是 <code style="background:#1b2027;padding:2px 6px;border-radius:2px">file://</code>。浏览器会拦掉模块脚本和读取 JSON 的请求，所以页面只会停在「正在载入」。</p>' +
+      '<p>你现在打开的是 <code style="background:#1b2027;padding:2px 6px;border-radius:2px">file://</code>。浏览器会拦掉模块脚本和读取 JSON 的请求，所以页面会一直停在载入状态。</p>' +
       '<p style="margin:22px 0"><b style="font-size:18px">正确做法：双击项目里的「启动.cmd」</b><br>它会起一个本地服务器，两秒后自动打开 http://127.0.0.1:8131/</p>' +
       '<p style="opacity:.55;font-size:13px;word-break:break-all">当前地址：' + location.href + '</p>' +
       '</div>';
