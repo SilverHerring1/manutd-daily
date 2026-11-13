@@ -100,7 +100,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": false,
+      "opponent": "赫尔城",
+      "matchDate": "2026-08-22",
+      "result": "L",
+      "badge": "./media/badges/hullcity.png",
+      "scoreline": "赫尔城 2-0 曼联",
+      "source_name": "英超 · 客场",
+      "clause": "赫尔城 2-0 曼联：两个角球丢两个，五个角球没换来一个"
     },
     {
       "id": "2026-08-26-morning",
@@ -142,7 +151,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "伊普斯维奇",
+      "matchDate": "2026-08-30",
+      "result": "W",
+      "badge": "./media/badges/ipswichtown.png",
+      "scoreline": "曼联 5-2 伊普斯维奇",
+      "source_name": "英超 · 主场",
+      "clause": "曼联 5-2 伊普斯维奇：先丢一球，然后布鲁诺进了三个"
     },
     {
       "id": "2026-09-06-morning",
@@ -160,7 +178,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": false,
+      "opponent": "埃弗顿",
+      "matchDate": "2026-09-06",
+      "result": "D",
+      "badge": "./media/badges/everton.png",
+      "scoreline": "埃弗顿 2-2 曼联",
+      "source_name": "英超 · 客场",
+      "clause": "埃弗顿 2-2 曼联：88 分钟舍什科顶进，96 分钟被追平"
     },
     {
       "id": "2026-09-11-morning",
@@ -178,7 +205,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "萨巴赫",
+      "matchDate": "2026-09-11",
+      "result": "W",
+      "badge": "./media/badges/sabah.png",
+      "scoreline": "曼联 4-0 萨巴赫",
+      "source_name": "欧冠 · 主场",
+      "clause": "曼联 4-0 萨巴赫：上半场 3-0，欧冠开门红"
     },
     {
       "id": "2026-09-13-morning",
@@ -196,7 +232,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "曼城",
+      "matchDate": "2026-09-13",
+      "result": "L",
+      "badge": "./media/badges/man-city.png",
+      "scoreline": "曼联 0-1 曼城",
+      "source_name": "英超 · 主场",
+      "clause": "曼联 0-1 曼城：23 分钟就多打一人，还是输了"
     },
     {
       "id": "2026-09-17-morning",
@@ -214,7 +259,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "联赛杯",
+      "home": true,
+      "opponent": "布莱顿",
+      "matchDate": "2026-09-17",
+      "result": "L",
+      "badge": "./media/badges/brighton.png",
+      "scoreline": "曼联 2-3 布莱顿",
+      "source_name": "联赛杯 · 主场",
+      "clause": "曼联 2-3 布莱顿：10 分钟 2-0，然后被灌三个"
     },
     {
       "id": "2026-09-20-morning",
@@ -232,7 +286,16 @@
       },
       "kind": "match",
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": false,
+      "opponent": "富勒姆",
+      "matchDate": "2026-09-20",
+      "result": "D",
+      "badge": "./media/badges/fulham.png",
+      "scoreline": "富勒姆 1-1 曼联",
+      "source_name": "英超 · 客场",
+      "clause": "富勒姆 1-1 曼联：利桑德罗乌龙，89 分钟库尼亚追平"
     },
     {
       "id": "2026-10-11-morning",
@@ -249,7 +312,16 @@
         "height": 802
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "托特纳姆热刺",
+      "matchDate": "2026-10-11",
+      "result": "D",
+      "badge": "./media/badges/tottenham.png",
+      "scoreline": "曼联 1-1 托特纳姆热刺",
+      "source_name": "英超 · 主场",
+      "clause": "曼联 1-1 热刺，索兰克补时扳平"
     },
     {
       "id": "2026-10-14-morning",
@@ -266,7 +338,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "马德里竞技",
+      "matchDate": "2026-10-14",
+      "result": "L",
+      "badge": "./media/badges/atletico-madrid.png",
+      "scoreline": "马德里竞技 2-0 曼联",
+      "source_name": "欧冠 · 客场",
+      "clause": "马竞 2-0 曼联，开场1分钟丢球"
     },
     {
       "id": "2026-10-19-morning",
@@ -283,7 +364,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": false,
+      "opponent": "利兹联",
+      "matchDate": "2026-10-18",
+      "result": "D",
+      "badge": "./media/badges/leedsunited.png",
+      "scoreline": "利兹联 1-1 曼联",
+      "source_name": "英超 · 客场",
+      "clause": "利兹 1-1 曼联，姆贝乌莫35分钟破门"
     },
     {
       "id": "2026-10-22-morning",
@@ -300,7 +390,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "欧冠",
+      "home": false,
+      "opponent": "科莫",
+      "matchDate": "2026-10-22",
+      "result": "L",
+      "badge": "./media/badges/como.png",
+      "scoreline": "科莫 4-1 曼联",
+      "source_name": "欧冠 · 客场",
+      "clause": "科莫 4-1 曼联，欧战客场崩盘"
     },
     {
       "id": "2026-10-26-morning",
@@ -317,7 +416,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "伯恩茅斯",
+      "matchDate": "2026-10-25",
+      "result": "L",
+      "badge": "./media/badges/bournemouth.png",
+      "scoreline": "曼联 0-3 伯恩茅斯",
+      "source_name": "英超 · 主场",
+      "clause": "曼联 0-3 伯恩茅斯，主场再被打穿"
     },
     {
       "id": "2026-11-01-morning",
@@ -334,7 +442,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": false,
+      "opponent": "切尔西",
+      "matchDate": "2026-10-31",
+      "result": "L",
+      "badge": "./media/badges/chelsea.png",
+      "scoreline": "切尔西 2-0 曼联",
+      "source_name": "英超 · 客场",
+      "clause": "切尔西 2-0 曼联，掉到第 17"
     },
     {
       "id": "2026-11-04-morning",
@@ -351,7 +468,16 @@
         "height": 794
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "欧冠",
+      "home": true,
+      "opponent": "罗马",
+      "matchDate": "2026-11-04",
+      "result": "W",
+      "badge": "./media/badges/roma.png",
+      "scoreline": "曼联 3-2 罗马",
+      "source_name": "欧冠 · 主场",
+      "clause": "曼联 3-2 罗马，半场0-2到逆转"
     },
     {
       "id": "2026-11-07-evening",
@@ -368,7 +494,8 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "clause": "被问「是否被告知下周还执教」"
     },
     {
       "id": "2026-11-09-morning",
@@ -385,7 +512,16 @@
         "height": 788
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "matchDate": "2026-11-09",
+      "result": "D",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 4-4 阿斯顿维拉",
+      "source_name": "英超 · 主场",
+      "clause": "曼联 4-4 阿斯顿维拉，96分钟扳平"
     },
     {
       "id": "2026-11-10-evening",
@@ -402,7 +538,16 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": true
+      "archive": true,
+      "competition": "英超",
+      "home": true,
+      "opponent": "阿斯顿维拉",
+      "matchDate": "2026-11-09",
+      "result": "D",
+      "badge": "./media/badges/astonvilla.png",
+      "scoreline": "曼联 4-4 阿斯顿维拉",
+      "source_name": "英超 · 主场",
+      "clause": "卡里克下课进入倒计时，但俱乐部还没官宣"
     }
   ]
 }

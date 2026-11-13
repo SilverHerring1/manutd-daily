@@ -327,7 +327,7 @@
       "opponent": "布莱顿",
       "badge": "./media/badges/brighton.png",
       "scoreline": "曼联 1-2 布莱顿",
-      "clause": "一球之差",
+      "clause": "曼联 1-2 布莱顿，滕哈格首战失利",
       "source_name": "英超 · 主场"
     },
     {
@@ -354,7 +354,7 @@
       "opponent": "布伦特福德",
       "badge": "./media/badges/brentford.png",
       "scoreline": "布伦特福德 4-0 曼联",
-      "clause": "净负 4 球",
+      "clause": "布伦特福德 4-0 曼联，开场35分钟丢四个",
       "source_name": "英超 · 客场"
     },
     {
@@ -399,7 +399,7 @@
       "opponent": "利物浦",
       "badge": "./media/badges/liverpool.png",
       "scoreline": "曼联 2-1 利物浦",
-      "clause": "一球小胜",
+      "clause": "曼联 2-1 利物浦，桑乔和拉什福德",
       "source_name": "英超 · 主场"
     },
     {
@@ -426,7 +426,7 @@
       "opponent": "南安普顿",
       "badge": "./media/badges/southampton.png",
       "scoreline": "南安普顿 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "南安普顿 0-1 曼联，布鲁诺55分钟制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -465,7 +465,7 @@
       "opponent": "莱斯特城",
       "badge": "./media/badges/leicester.png",
       "scoreline": "莱斯特城 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "莱斯特 0-1 曼联，桑乔23分钟制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -486,7 +486,7 @@
       "opponent": "阿森纳",
       "badge": "./media/badges/arsenal.png",
       "scoreline": "曼联 3-1 阿森纳",
-      "clause": "净胜 2 球",
+      "clause": "曼联 3-1 阿森纳，安东尼首秀破门",
       "source_name": "英超 · 主场"
     },
     {
@@ -513,7 +513,7 @@
       "opponent": "皇家社会",
       "badge": "./media/badges/real-sociedad.png",
       "scoreline": "曼联 0-1 皇家社会",
-      "clause": "一球之差",
+      "clause": "曼联 0-1 皇家社会，欧联首战失利",
       "source_name": "欧联 · 主场"
     },
     {
@@ -540,7 +540,7 @@
       "opponent": "蒂拉斯波尔警长",
       "badge": "./media/badges/sheriff.png",
       "scoreline": "蒂拉斯波尔警长 0-2 曼联",
-      "clause": "零封取胜",
+      "clause": "谢里夫 0-2 曼联，桑乔和C罗",
       "source_name": "欧联 · 客场"
     },
     {
@@ -567,7 +567,7 @@
       "opponent": "曼城",
       "badge": "./media/badges/man-city.png",
       "scoreline": "曼城 6-3 曼联",
-      "clause": "净负 3 球",
+      "clause": "曼城 6-3 曼联，哈兰德和福登各三个",
       "source_name": "英超 · 客场"
     },
     {
@@ -594,7 +594,7 @@
       "opponent": "奥莫尼亚",
       "badge": "./media/badges/omonia.png",
       "scoreline": "奥莫尼亚 2-3 曼联",
-      "clause": "先丢球，翻盘",
+      "clause": "奥莫尼亚 2-3 曼联，拉什福德替补两球",
       "source_name": "欧联 · 客场"
     },
     {
@@ -621,7 +621,7 @@
       "opponent": "埃弗顿",
       "badge": "./media/badges/everton.png",
       "scoreline": "埃弗顿 1-2 曼联",
-      "clause": "先丢球，翻盘",
+      "clause": "埃弗顿 1-2 曼联，C罗替补制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -648,7 +648,7 @@
       "opponent": "奥莫尼亚",
       "badge": "./media/badges/omonia.png",
       "scoreline": "曼联 1-0 奥莫尼亚",
-      "clause": "Scott McTominay 90+3' 绝杀",
+      "clause": "曼联 1-0 奥莫尼亚，麦克托米奈补时绝杀",
       "source_name": "欧联 · 主场"
     },
     {
@@ -675,7 +675,7 @@
       "opponent": "纽卡斯尔联",
       "badge": "./media/badges/newcastle.png",
       "scoreline": "曼联 0-0 纽卡斯尔联",
-      "clause": "互交白卷",
+      "clause": "曼联 0-0 纽卡斯尔，15脚射门没进球",
       "source_name": "英超 · 主场"
     },
     {
@@ -702,7 +702,7 @@
       "opponent": "托特纳姆热刺",
       "badge": "./media/badges/tottenham.png",
       "scoreline": "曼联 2-0 托特纳姆热刺",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 热刺，弗雷德和布鲁诺",
       "source_name": "英超 · 主场"
     },
     {
@@ -723,7 +723,7 @@
       "opponent": "切尔西",
       "badge": "./media/badges/chelsea.png",
       "scoreline": "切尔西 1-1 曼联",
-      "clause": "Casemiro 90+4' 扳平",
+      "clause": "切尔西 1-1 曼联，卡塞米罗补时头球",
       "source_name": "英超 · 客场"
     },
     {
@@ -750,7 +750,7 @@
       "opponent": "蒂拉斯波尔警长",
       "badge": "./media/badges/sheriff.png",
       "scoreline": "曼联 3-0 蒂拉斯波尔警长",
-      "clause": "零封，净胜 3 球",
+      "clause": "曼联 3-0 谢里夫，C罗破门",
       "source_name": "欧联 · 主场"
     },
     {
@@ -771,7 +771,7 @@
       "opponent": "西汉姆联",
       "badge": "./media/badges/west-ham.png",
       "scoreline": "曼联 1-0 西汉姆联",
-      "clause": "零封取胜",
+      "clause": "曼联 1-0 西汉姆，拉什福德38分钟头球",
       "source_name": "英超 · 主场"
     },
     {
@@ -798,7 +798,7 @@
       "opponent": "皇家社会",
       "badge": "./media/badges/real-sociedad.png",
       "scoreline": "皇家社会 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "皇家社会 0-1 曼联，加纳乔17分钟制胜",
       "source_name": "欧联 · 客场"
     },
     {
@@ -825,7 +825,7 @@
       "opponent": "阿斯顿维拉",
       "badge": "./media/badges/astonvilla.png",
       "scoreline": "阿斯顿维拉 3-1 曼联",
-      "clause": "2 球落败",
+      "clause": "阿斯顿维拉 3-1 曼联，客场被打穿",
       "source_name": "英超 · 客场"
     },
     {
@@ -846,7 +846,7 @@
       "opponent": "阿斯顿维拉",
       "badge": "./media/badges/astonvilla.png",
       "scoreline": "曼联 4-2 阿斯顿维拉",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 4-2 阿斯顿维拉，联赛杯晋级",
       "source_name": "联赛杯 · 主场"
     },
     {
@@ -873,7 +873,7 @@
       "opponent": "富勒姆",
       "badge": "./media/badges/fulham.png",
       "scoreline": "富勒姆 1-2 曼联",
-      "clause": "Alejandro Garnacho 90+3' 绝杀",
+      "clause": "富勒姆 1-2 曼联，加纳乔补时绝杀",
       "source_name": "英超 · 客场"
     },
     {
@@ -924,7 +924,7 @@
       "opponent": "伯恩利",
       "badge": "./media/badges/burnley.png",
       "scoreline": "曼联 2-0 伯恩利",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 伯恩利，联赛杯八强",
       "source_name": "联赛杯 · 主场"
     },
     {
@@ -951,7 +951,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "曼联 3-0 诺丁汉森林",
-      "clause": "零封，净胜 3 球",
+      "clause": "曼联 3-0 诺丁汉森林，拉什福德和马夏尔",
       "source_name": "英超 · 主场"
     },
     {
@@ -978,7 +978,7 @@
       "opponent": "狼队",
       "badge": "./media/badges/wolves.png",
       "scoreline": "狼队 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "狼队 0-1 曼联，拉什福德76分钟制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -1005,7 +1005,7 @@
       "opponent": "伯恩茅斯",
       "badge": "./media/badges/bournemouth.png",
       "scoreline": "曼联 3-0 伯恩茅斯",
-      "clause": "零封，净胜 3 球",
+      "clause": "曼联 3-0 伯恩茅斯，卡塞米罗23分钟破门",
       "source_name": "英超 · 主场"
     },
     {
@@ -1032,7 +1032,7 @@
       "opponent": "埃弗顿",
       "badge": "./media/badges/everton.png",
       "scoreline": "曼联 3-1 埃弗顿",
-      "clause": "净胜 2 球",
+      "clause": "曼联 3-1 埃弗顿，足总杯第三轮",
       "source_name": "足总杯 · 主场"
     },
     {
@@ -1059,7 +1059,7 @@
       "opponent": "查尔顿",
       "badge": "./media/badges/charlton.png",
       "scoreline": "曼联 3-0 查尔顿",
-      "clause": "零封，净胜 3 球",
+      "clause": "曼联 3-0 查尔顿，联赛杯四强",
       "source_name": "联赛杯 · 主场"
     },
     {
@@ -1098,7 +1098,7 @@
       "opponent": "曼城",
       "badge": "./media/badges/man-city.png",
       "scoreline": "曼联 2-1 曼城",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 2-1 曼城，拉什福德82分钟绝杀",
       "source_name": "英超 · 主场"
     },
     {
@@ -1125,7 +1125,7 @@
       "opponent": "水晶宫",
       "badge": "./media/badges/crystal-palace.png",
       "scoreline": "水晶宫 1-1 曼联",
-      "clause": "被扳平",
+      "clause": "水晶宫 1-1 曼联，奥利塞补时扳平",
       "source_name": "英超 · 客场"
     },
     {
@@ -1152,7 +1152,7 @@
       "opponent": "阿森纳",
       "badge": "./media/badges/arsenal.png",
       "scoreline": "阿森纳 3-2 曼联",
-      "clause": "一球之差",
+      "clause": "阿森纳 3-2 曼联，恩凯蒂亚90分钟绝杀",
       "source_name": "英超 · 客场"
     },
     {
@@ -1179,7 +1179,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "诺丁汉森林 0-3 曼联",
-      "clause": "零封，净胜 3 球",
+      "clause": "诺丁汉森林 0-3 曼联，联赛杯半决赛首回合",
       "source_name": "联赛杯 · 客场"
     },
     {
@@ -1206,7 +1206,7 @@
       "opponent": "雷丁",
       "badge": "./media/badges/reading.png",
       "scoreline": "曼联 3-1 雷丁",
-      "clause": "净胜 2 球",
+      "clause": "曼联 3-1 雷丁，卡塞米罗梅开二度",
       "source_name": "足总杯 · 主场"
     },
     {
@@ -1245,7 +1245,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "曼联 2-0 诺丁汉森林",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 诺丁汉森林，联赛杯决赛",
       "source_name": "联赛杯 · 主场"
     },
     {
@@ -1284,7 +1284,7 @@
       "opponent": "水晶宫",
       "badge": "./media/badges/crystal-palace.png",
       "scoreline": "曼联 2-1 水晶宫",
-      "clause": "一球小胜",
+      "clause": "曼联 2-1 水晶宫，布鲁诺和拉什福德",
       "source_name": "英超 · 主场"
     },
     {
@@ -1311,7 +1311,7 @@
       "opponent": "利兹联",
       "badge": "./media/badges/leedsunited.png",
       "scoreline": "曼联 2-2 利兹联",
-      "clause": "先丢球，追成平局",
+      "clause": "曼联 2-2 利兹，两球落后追平",
       "source_name": "英超 · 主场"
     },
     {
@@ -1338,7 +1338,7 @@
       "opponent": "利兹联",
       "badge": "./media/badges/leedsunited.png",
       "scoreline": "利兹联 0-2 曼联",
-      "clause": "零封取胜",
+      "clause": "利兹 0-2 曼联，加纳乔85分钟锁定",
       "source_name": "英超 · 客场"
     },
     {
@@ -1365,7 +1365,7 @@
       "opponent": "巴塞罗那",
       "badge": "./media/badges/barcelona.png",
       "scoreline": "巴塞罗那 2-2 曼联",
-      "clause": "先丢球，追成平局",
+      "clause": "巴萨 2-2 曼联，欧联淘汰赛首回合",
       "source_name": "欧联 · 客场"
     },
     {
@@ -1392,7 +1392,7 @@
       "opponent": "莱斯特城",
       "badge": "./media/badges/leicester.png",
       "scoreline": "曼联 3-0 莱斯特城",
-      "clause": "零封，净胜 3 球",
+      "clause": "曼联 3-0 莱斯特，拉什福德梅开二度",
       "source_name": "英超 · 主场"
     },
     {
@@ -1419,7 +1419,7 @@
       "opponent": "巴塞罗那",
       "badge": "./media/badges/barcelona.png",
       "scoreline": "曼联 2-1 巴塞罗那",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 2-1 巴萨，欧联淘汰巴萨",
       "source_name": "欧联 · 主场"
     },
     {
@@ -1446,7 +1446,7 @@
       "opponent": "纽卡斯尔联",
       "badge": "./media/badges/newcastle.png",
       "scoreline": "曼联 2-0 纽卡斯尔联",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 纽卡斯尔，联赛杯夺冠",
       "source_name": "联赛杯 · 主场"
     },
     {
@@ -1485,7 +1485,7 @@
       "opponent": "西汉姆联",
       "badge": "./media/badges/west-ham.png",
       "scoreline": "曼联 3-1 西汉姆联",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 3-1 西汉姆，足总杯八强",
       "source_name": "足总杯 · 主场"
     },
     {
@@ -1512,7 +1512,7 @@
       "opponent": "利物浦",
       "badge": "./media/badges/liverpool.png",
       "scoreline": "利物浦 7-0 曼联",
-      "clause": "净负 7 球",
+      "clause": "利物浦 7-0 曼联，队史最难看的比分之一",
       "source_name": "英超 · 客场"
     },
     {
@@ -1539,7 +1539,7 @@
       "opponent": "皇家贝蒂斯",
       "badge": "./media/badges/betis.png",
       "scoreline": "曼联 4-1 皇家贝蒂斯",
-      "clause": "净胜 3 球",
+      "clause": "曼联 4-1 皇家贝蒂斯，拉什福德和安东尼",
       "source_name": "欧联 · 主场"
     },
     {
@@ -1566,7 +1566,7 @@
       "opponent": "南安普顿",
       "badge": "./media/badges/southampton.png",
       "scoreline": "曼联 0-0 南安普顿",
-      "clause": "互交白卷",
+      "clause": "曼联 0-0 南安普顿，卡塞米罗红牌",
       "source_name": "英超 · 主场"
     },
     {
@@ -1593,7 +1593,7 @@
       "opponent": "皇家贝蒂斯",
       "badge": "./media/badges/betis.png",
       "scoreline": "皇家贝蒂斯 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "皇家贝蒂斯 0-1 曼联，拉什福德56分钟制胜",
       "source_name": "欧联 · 客场"
     },
     {
@@ -1620,7 +1620,7 @@
       "opponent": "富勒姆",
       "badge": "./media/badges/fulham.png",
       "scoreline": "曼联 3-1 富勒姆",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 3-1 富勒姆，布鲁诺补时点球",
       "source_name": "足总杯 · 主场"
     },
     {
@@ -1647,7 +1647,7 @@
       "opponent": "纽卡斯尔联",
       "badge": "./media/badges/newcastle.png",
       "scoreline": "纽卡斯尔联 2-0 曼联",
-      "clause": "2 球落败",
+      "clause": "纽卡斯尔 2-0 曼联，客场输球",
       "source_name": "英超 · 客场"
     },
     {
@@ -1674,7 +1674,7 @@
       "opponent": "布伦特福德",
       "badge": "./media/badges/brentford.png",
       "scoreline": "曼联 1-0 布伦特福德",
-      "clause": "零封取胜",
+      "clause": "曼联 1-0 布伦特福德，拉什福德27分钟制胜",
       "source_name": "英超 · 主场"
     },
     {
@@ -1701,7 +1701,7 @@
       "opponent": "埃弗顿",
       "badge": "./media/badges/everton.png",
       "scoreline": "曼联 2-0 埃弗顿",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 埃弗顿，麦克托米奈和马夏尔",
       "source_name": "英超 · 主场"
     },
     {
@@ -1728,7 +1728,7 @@
       "opponent": "塞维利亚",
       "badge": "./media/badges/sevilla.png",
       "scoreline": "曼联 2-2 塞维利亚",
-      "clause": "被扳平",
+      "clause": "曼联 2-2 塞维利亚，最后时刻两个乌龙",
       "source_name": "欧联 · 主场"
     },
     {
@@ -1755,7 +1755,7 @@
       "opponent": "诺丁汉森林",
       "badge": "./media/badges/nottinghamforest.png",
       "scoreline": "诺丁汉森林 0-2 曼联",
-      "clause": "零封取胜",
+      "clause": "诺丁汉森林 0-2 曼联，安东尼和达洛特",
       "source_name": "英超 · 客场"
     },
     {
@@ -1782,7 +1782,7 @@
       "opponent": "塞维利亚",
       "badge": "./media/badges/sevilla.png",
       "scoreline": "塞维利亚 3-0 曼联",
-      "clause": "净负 3 球",
+      "clause": "塞维利亚 3-0 曼联，欧联八强出局",
       "source_name": "欧联 · 客场"
     },
     {
@@ -1809,7 +1809,7 @@
       "opponent": "布莱顿",
       "badge": "./media/badges/brighton.png",
       "scoreline": "布莱顿 0-0 曼联",
-      "clause": "互交白卷",
+      "clause": "布莱顿 0-0 曼联，足总杯半决赛点球出局",
       "source_name": "足总杯 · 客场"
     },
     {
@@ -1830,7 +1830,7 @@
       "opponent": "托特纳姆热刺",
       "badge": "./media/badges/tottenham.png",
       "scoreline": "托特纳姆热刺 2-2 曼联",
-      "clause": "被扳平",
+      "clause": "热刺 2-2 曼联，两球领先被追平",
       "source_name": "英超 · 客场"
     },
     {
@@ -1857,7 +1857,7 @@
       "opponent": "阿斯顿维拉",
       "badge": "./media/badges/astonvilla.png",
       "scoreline": "曼联 1-0 阿斯顿维拉",
-      "clause": "零封取胜",
+      "clause": "曼联 1-0 阿斯顿维拉，布鲁诺39分钟制胜",
       "source_name": "英超 · 主场"
     },
     {
@@ -1878,7 +1878,7 @@
       "opponent": "布莱顿",
       "badge": "./media/badges/brighton.png",
       "scoreline": "布莱顿 1-0 曼联",
-      "clause": "一球之差",
+      "clause": "布莱顿 1-0 曼联，麦卡利斯特补时点球",
       "source_name": "英超 · 客场"
     },
     {
@@ -1899,7 +1899,7 @@
       "opponent": "西汉姆联",
       "badge": "./media/badges/west-ham.png",
       "scoreline": "西汉姆联 1-0 曼联",
-      "clause": "一球之差",
+      "clause": "西汉姆 1-0 曼联，本拉赫马27分钟制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -1926,7 +1926,7 @@
       "opponent": "狼队",
       "badge": "./media/badges/wolves.png",
       "scoreline": "曼联 2-0 狼队",
-      "clause": "零封取胜",
+      "clause": "曼联 2-0 狼队，马夏尔和加纳乔",
       "source_name": "英超 · 主场"
     },
     {
@@ -1953,7 +1953,7 @@
       "opponent": "伯恩茅斯",
       "badge": "./media/badges/bournemouth.png",
       "scoreline": "伯恩茅斯 0-1 曼联",
-      "clause": "零封取胜",
+      "clause": "伯恩茅斯 0-1 曼联，卡塞米罗9分钟制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -1980,7 +1980,7 @@
       "opponent": "切尔西",
       "badge": "./media/badges/chelsea.png",
       "scoreline": "曼联 4-1 切尔西",
-      "clause": "净胜 3 球",
+      "clause": "曼联 4-1 切尔西，主场收官",
       "source_name": "英超 · 主场"
     },
     {
@@ -2007,7 +2007,7 @@
       "opponent": "富勒姆",
       "badge": "./media/badges/fulham.png",
       "scoreline": "曼联 2-1 富勒姆",
-      "clause": "先丢球，翻盘",
+      "clause": "曼联 2-1 富勒姆，赛季最后一个主场",
       "source_name": "英超 · 主场"
     },
     {
@@ -2034,7 +2034,7 @@
       "opponent": "曼城",
       "badge": "./media/badges/man-city.png",
       "scoreline": "曼城 2-1 曼联",
-      "clause": "一球之差",
+      "clause": "曼城 2-1 曼联，足总杯决赛",
       "source_name": "足总杯 · 客场"
     },
     {
