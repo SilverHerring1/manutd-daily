@@ -773,7 +773,7 @@
       "date": "2026-01-05",
       "period": "morning",
       "issue_number": 503,
-      "title": "利兹 1-1 曼联，库尼亚65分钟扳平",
+      "title": "利兹 1-1 曼联，库尼亚 65 分钟扳平",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -792,7 +792,7 @@
       "opponent": "利兹联",
       "badge": "./media/badges/leedsunited.png",
       "scoreline": "利兹联 1-1 曼联",
-      "clause": "利兹 1-1 曼联，库尼亚65分钟扳平",
+      "clause": "利兹 1-1 曼联，库尼亚 65 分钟扳平",
       "source_name": "英超 · 客场"
     },
     {
@@ -846,7 +846,7 @@
       "date": "2026-01-12",
       "period": "morning",
       "issue_number": 506,
-      "title": "曼联 1-2 布莱顿，足总杯第三轮出局",
+      "title": "曼联 1-2 布莱顿，足总杯出局",
       "item_count": 1,
       "section_count": 1,
       "season": "2025/26",
@@ -859,7 +859,7 @@
       "opponent": "布莱顿",
       "badge": "./media/badges/brighton.png",
       "scoreline": "曼联 1-2 布莱顿",
-      "clause": "曼联 1-2 布莱顿，足总杯第三轮出局",
+      "clause": "曼联 1-2 布莱顿，足总杯出局",
       "source_name": "足总杯 · 主场"
     },
     {
@@ -937,7 +937,7 @@
       "date": "2026-01-26",
       "period": "morning",
       "issue_number": 511,
-      "title": "阿森纳 2-3 曼联，库尼亚87分钟绝杀",
+      "title": "阿森纳 2-3 曼联，库尼亚绝杀",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -956,7 +956,7 @@
       "opponent": "阿森纳",
       "badge": "./media/badges/arsenal.png",
       "scoreline": "阿森纳 2-3 曼联",
-      "clause": "阿森纳 2-3 曼联，库尼亚87分钟绝杀",
+      "clause": "阿森纳 2-3 曼联，库尼亚绝杀",
       "source_name": "英超 · 客场"
     },
     {
@@ -1010,7 +1010,7 @@
       "date": "2026-02-08",
       "period": "morning",
       "issue_number": 514,
-      "title": "曼联 2-0 热刺，姆贝乌莫和布鲁诺",
+      "title": "曼联 2-0 热刺，姆贝乌莫和 B 费",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1029,7 +1029,7 @@
       "opponent": "托特纳姆热刺",
       "badge": "./media/badges/tottenham.png",
       "scoreline": "曼联 2-0 托特纳姆热刺",
-      "clause": "曼联 2-0 热刺，姆贝乌莫和布鲁诺",
+      "clause": "曼联 2-0 热刺，姆贝乌莫和 B 费",
       "source_name": "英超 · 主场"
     },
     {
@@ -1064,7 +1064,7 @@
       "date": "2026-02-24",
       "period": "morning",
       "issue_number": 516,
-      "title": "埃弗顿 0-1 曼联，塞斯科71分钟制胜",
+      "title": "埃弗顿 0-1 曼联，塞斯科制胜",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1083,7 +1083,7 @@
       "opponent": "埃弗顿",
       "badge": "./media/badges/everton.png",
       "scoreline": "埃弗顿 0-1 曼联",
-      "clause": "埃弗顿 0-1 曼联，塞斯科71分钟制胜",
+      "clause": "埃弗顿 0-1 曼联，塞斯科制胜",
       "source_name": "英超 · 客场"
     },
     {
@@ -1091,7 +1091,7 @@
       "date": "2026-03-02",
       "period": "morning",
       "issue_number": 517,
-      "title": "曼联 2-1 水晶宫，布鲁诺和塞斯科",
+      "title": "曼联 2-1 水晶宫，B 费和塞斯科",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -1110,7 +1110,7 @@
       "opponent": "水晶宫",
       "badge": "./media/badges/crystal-palace.png",
       "scoreline": "曼联 2-1 水晶宫",
-      "clause": "曼联 2-1 水晶宫，布鲁诺和塞斯科",
+      "clause": "曼联 2-1 水晶宫，B 费和塞斯科",
       "source_name": "英超 · 主场"
     },
     {
