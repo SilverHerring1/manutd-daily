@@ -37,5 +37,12 @@
         }
       ]
     }
-  ]
+  ],
+  "hero": {
+    "src": "./media/news/wide-2026-27-2026-08-26-morning.jpg",
+    "alt": "巴莱巴（资料图）",
+    "width": 960,
+    "height": 540,
+    "credit": "Wikimedia Commons"
+  }
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "2021-11-24-morning",
   "date": "2021-11-24",
   "period": "morning",
@@ -39,7 +39,6 @@
   "hero": {
     "src": "./media/archive/2021-22/archive-2021-11-24-Villarreal.jpg",
     "alt": "比利亚雷亚尔 0-2 曼联",
-    "width": 960,
-    "height": 540
+    "width": 378, "height": 213
   }
 }

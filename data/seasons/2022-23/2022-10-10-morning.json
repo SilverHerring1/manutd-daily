@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "2022-10-10-morning",
   "date": "2022-10-10",
   "period": "morning",
@@ -39,7 +39,6 @@
   "hero": {
     "src": "./media/archive/2022-23/archive-2022-10-10-Everton.jpg",
     "alt": "埃弗顿 1-2 曼联",
-    "width": 960,
-    "height": 540
+    "width": 550, "height": 309
   }
 }

@@ -1,14 +1,18 @@
-# 项目状态
+﻿# 项目状态
 
 > 每次开工先读这份，收工更新这份。聊天记录会丢，这里不会。
 
 ## 现在到哪了
 
-- 主线已发布：10 期（10-11 → 11-10），含 11-07 的发布会特刊
-- 赛季归档：**9 季全部接入页面，共 447 期**（2018/19 56 期 → 2025/26 41 期），外加主线 2026/27 10 期；**416 场比赛头图**，淘汰赛轮次和「止步/夺冠」结论都已对齐 ESPN
+- 主线：**2026/27 已发 10 期**（07-13 → 11-10），手写；其中 9 期比赛稿已按 writer 重写
+- 赛季归档：**9 季全部重写完**
+  - 2018/19 62 · 2019/20 75 · 2020/21 70 · 2021/22 59 · 2022/23 76 · 2023/24 63 · 2024/25 70 · 2025/26 54 · 2026/27 23
+  - 全站 **552 期**，期号跨季连续（1–552）
+- 写作口径：正文按 football-writer、标题按 football-headline、短评按 football-note
+- 新闻期（转会/场外/纪录）85 期，25 期有真图，其余走无图版式（只配相关的图）
 - 上线地址：https://silverherring1.github.io/manutd-daily/
 - 仓库：https://github.com/SilverHerring1/manutd-daily
-- 最后更新：2026-11-12 22:05（日 / 月 / 日三级筛选 + 赛季归档页 + 积分榜换懂球帝数据源）
+- 最后更新：2026-11-13（九季全量重写 + 新闻期体系 + docs 口径重写）
 
 ## 2026-11-12 这一轮做了什么
 1. **归档生成器** `scripts/gen-archive-issues.mjs`
@@ -47,25 +51,15 @@
 
 ## 待办
 
-- [x] 上传 `manifest.webmanifest` + 新 `index.html`（装应用要用）
-- [x] README 改成访客首页；docs 一并公开
-- [x] favicon 换成红底 MU（`media/favicon.svg`）
-- [x] **积分榜**：正文末尾一张 20 队全表，曼联行标红；`node scripts/fetch-boards.mjs` 生成 `data/boards.json`
-  - 数据源 **懂球帝**（`m.dongqiudi.com/stat/1/rankingTeam`，服务端渲染的表格，解析成 JSON）；`--source espn` 可退回旧接口
-  - 队徽用 **FM 25×18 小图标**，原尺寸显示；FM unique ID 记在 `data/team-map.json` 的 `fm` 字段
-  - 2026-11-12 实测两者一致：20 行、名次 / 胜平负 / 进失 / 积分逐行相同，曼联 18 名 8 分
-- [x] 页面加**年 / 月 / 日**三级筛选（本轮完成，替掉「最近七天」）
-- [x] 归档页 `/archive/`：按赛季列全部期次（本轮完成，先只有 2018/19）
-- [ ] **其余 8 季接入**：先补 `scripts/teams-cn.json` 里 2021/22 起的队名与场地，再 `node scripts/gen-archive-issues.mjs --all`
-- [ ] 从 452 场里挑 30–50 场**深写**成日报规格（现在 53 期都是按比分生成的简报，没有引语和配图）
-- [ ] `media/` 压图：现在 3.3 MB，目标 1.5 MB 以内（转 webp，1200px 宽够用）
-- [ ] 下一期起混用多来源：懂球帝/直播吧找线索，官网核事实，英媒取观点
-- [ ] 11-22 客场利物浦这场要提前一期做前瞻（首发/伤停/历史交锋）
-- [ ] 考虑加「月度精选」：把一个月的最好几篇挑出来重发
-- [ ] 射手榜 / 助攻榜：**懂球帝有现成页面**，照 `fetch-boards.mjs` 的解析路子再加两个脚本就行
-  - `https://m.dongqiudi.com/stat/1/rankingGoal`、`https://m.dongqiudi.com/stat/1/rankingAssist`
-  - 队名映射直接复用 `data/team-map.json`（`cn` 对 `cn`，前缀兜底）
-  - 老办法（ESPN 无接口）不用再找了
+- [x] 其余 8 季接入归档
+- [x] 九季全部按新口径重写（战报 / 标题 / 短评）
+- [x] 转会期按官宣日期拆期；场外期、纪录期补齐
+- [x] 新闻期配图（只配相关的，竖图不用）
+- [x] 2026/27 非主线期次重写
+- [ ] `media/news/` 清理：删掉不再被引用的旧图（约 10 MB）
+- [ ] 射手榜 / 助攻榜：懂球帝有现成页面（`rankingGoal` / `rankingAssist`），照 `fetch-boards.mjs` 的路子加脚本
+- [ ] 搜索改成一份静态索引（现在每次全量拉 JSON，期数多了会慢）
+- [ ] 重要比赛的前瞻：提前一期做首发 / 伤停 / 历史交锋
 
 ## 已知问题
 
@@ -103,73 +97,63 @@ manutd-daily/
 │   ├── seasons/<slug>/     归档期次 + 该季 index.json（生成器写）
 │   └── archive/<season>.json  原始赛程（import 脚本写，生成器只读）
 ├── media/                  图片 + CREDITS.md（图源对照表）
-├── docs/                   本文件 + CONVENTIONS.md（口径）
+├── docs/                   本文件 + CONVENTIONS.md（口径）+ WRITING-FLOW.md（流程）
 ├── scripts/
-│   ├── publish.mjs         生成 _site 发布包（含 archive/）
+│   ├── publish.mjs         【已废弃】旧发布包脚本，正常不用（现在是仓库根目录直接出站）
 │   ├── new-issue.mjs       新建一期骨架
 │   ├── fetch-boards.mjs    抓积分榜
 │   ├── fetch-scorers.mjs   射手榜（未接）
 │   ├── import-season.mjs   抓一季赛程 → data/archive/
 │   ├── gen-archive-issues.mjs  归档一季 → 一期一期（本轮新增）
 │   └── teams-cn.json       队名 / 场地中文对照（生成器用）
-├── _site/                  发布包（上传 GitHub 的就是这个）
+
 └── serve.py / 启动.cmd     本地预览（禁用缓存）
 ```
 
 ## 提交步骤（2026-11-13 起：不打发布包，增量提交）
 
-1. 改完先在本地 python serve.py 看一眼
-2. 
-ode scripts/check-size.mjs —— 体积/大文件检查
-3. git add -A（.gitignore 已挡住 	mp/、_site/、变体数据、*.bak）
+1. 本地预览 `python serve.py` 看一眼
+2. `node scripts/check-size.mjs` —— 体积 / 大文件检查
+3. `git add -A`（`.gitignore` 已挡住 `tmp/`、`_site/`、变体数据、`*.bak`）
 4. commit + push，GitHub Pages 直接从这个分支根目录出页
-5. 线上自查：首页第 10 期 → 日期能翻到 2018/19 → /archive/ 列 8 季 → 2022/23 有「联赛杯 夺冠」
+5. 线上自查：首页最新一期 → 日期能翻到 2018/19 → `/archive/` 列 9 季
 
-首次迁移（已完成/待做）：仓库 data/ 根目录那 10 个 2026-*.json 要删掉，它们已在 data/seasons/2026-27/。
-scripts/publish.mjs 已弃用，留着只为偶尔检查「干净包」。
-## 数据目录（2026-11-12 改成统一结构）
+`scripts/publish.mjs` 已废弃，留着只为偶尔检查「干净包」。
+
+## 数据目录
 
 ```
 data/
-├── index.json          只留元信息（name / as_of），不再存 issues
+├── index.json          只留元信息（name / as_of）
 ├── seasons.json        赛季总目：各季 slug / dir / 期数 / 起止
-├── focus.json          每季的焦点战（★ 标在归档页上；build-focus + build-records 生成）
-├── records-manual.json 手写的纪录条目（队史里程碑这类算不出来的）
+├── focus.json          每季焦点战（★ 标在归档页）
+├── records-manual.json 手写纪录条目（队史里程碑这类算不出来的）
 ├── team-map.json       当前英超 20 队（积分榜用）
 ├── boards.json         积分榜
-├── groups/<season>.json  欧战小组表（fetch-group.mjs 写）
-├── images-<season>.json  归档期次头图索引（fetch-archive-images.mjs 写）
-└── seasons/
-    ├── 2018-19/        55 期（53 场 + 2 期新闻）+ index.json
-    └── 2026-27/        10 期（手写）+ index.json
+├── commentary/<season>.json  该季解说缓存（射门/射正/时间线，fetch-commentary.mjs 写）
+├── images-<season>.json      归档期次头图索引（fetch-archive-images.mjs 写）
+├── players-cn.json     进球者中文名对照
+└── seasons/<slug>/     该季全部期次 + index.json
 ```
 
-- 新期：`node scripts/new-issue.mjs 2026-11-11 morning`，按日期自动落进对应赛季文件夹，并更新该季 `index.json`、`data/seasons.json`、`data/index.json` 的 `as_of`
-- 迁移脚本：`node scripts/migrate-season.mjs 2026-27`（一次性，已跑过；把根目录的 10 期挪进赛季文件夹）
-- **上传 GitHub 时要多一步**：`data/` 根目录原来那 10 个 `2026-*.json` 已经从本地删掉了，仓库里要**手动删除**，否则会留着一份旧路径的孤儿文件；新文件在 `data/seasons/2026-27/`。
-
-
-
-- `data/` 是**日更版**（主线），`data/index.json` 只登记主线 10 期
-- `data/seasons/` 是**归档**，生成器产物，可以随时删了重跑
-- `data-weekly/` `data-deep/` `data-magazine/` 是早期对比用的三种编法，用 `?data=` 切换。**已决定用日更**，这三个可以删，也可以留着当参照
-- `?data=data-weekly` 这类目录没有 `seasons.json`，页面会自己退化成只有主线，不报错
+- 新期：`node scripts/new-issue.mjs 2026-11-11 morning`，会落进对应赛季文件夹并更新索引
+- **加完期次必须重排**：`node tmp/renumber-season.mjs <season>` → `node tmp/renumber-global.mjs` → 重算 `seasons.json`
+- 归档页重建：`node scripts/gen-archive-issues.mjs --all --pages`（`--pages` 只写页面，不碰期次 JSON）
 
 ## 下次开工怎么接
 
-1. 读这份 `STATUS.md` 和 `CONVENTIONS.md`
-2. 主线补稿：看 `data/index.json` 最后一期的日期，从下一天开始补
+1. 读这份 `STATUS.md`、`CONVENTIONS.md`、`WRITING-FLOW.md`
+2. 主线补稿：看最新一期日期，从下一天开始补
 3. 归档扩季：
-   - 确认 `data/archive/<season>.json` 有进球数据（`goals` 不为空）
+   - 确认 `data/archive/<season>.json` 有进球数据
+   - `node scripts/fetch-commentary.mjs <season>` 抓技术统计
    - 补 `scripts/teams-cn.json`（生成器会逐条提示缺什么）
-   - `node scripts/gen-archive-issues.mjs 2023-24`，看一眼 `archive/2023-24.html`
-4. 抓素材 → 写 JSON → `node scripts/publish.mjs` → 上传 `_site` 变化的文件
+   - `node scripts/gen-archive-issues.mjs <season>`，然后按 writer 逐期重写
+4. 写、校、同步：见 `WRITING-FLOW.md`
 
 ## 历史档案
 
-- 已导入 **9 个赛季、452 场**，在 `data/archive/2018-19.json` … `2026-27.json`
+- 已导入 **9 个赛季**，在 `data/archive/2018-19.json` … `2026-27.json`
 - 脚本：`node scripts/import-season.mjs 2018`（ESPN 赛程接口，一次一季）
 - 每场字段：日期（北京）、时间、赛事、主客、对手、比分、胜平负、场地、进球（含点球 / 乌龙标记）
-- **2018/19 已接入页面**（53 期）；2021/22–2026/27 的进球数据已于 11-12 21:35 补齐，等接页面
-
-合计：26-11-16 / 33-16-12 / 35-14-12 / 20-14-15 / 41-9-12 / 25-8-19 / 23-16-20 / 20-12-8 / 3-5-7（W-D-L）
+- 九季全部接入页面并重写完毕

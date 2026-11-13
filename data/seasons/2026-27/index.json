@@ -6,7 +6,7 @@
   "source": "hand-written",
   "generated_at": "2026-11-12T14:46:45+08:00",
   "count": 23,
-  "matchCount": 17,
+  "matchCount": 10,
   "newsCount": 6,
   "record": null,
   "first": "2026-07-13",
@@ -41,7 +41,7 @@
       "date": "2026-07-13",
       "period": "evening",
       "issue_number": 530,
-      "title": "曼联官宣安德烈·桑托斯：切尔西中场，3500 万镑起步",
+      "title": "曼联晚报",
       "item_count": 1,
       "section_count": 1,
       "kind": "news",
@@ -53,7 +53,7 @@
       "date": "2026-07-14",
       "period": "evening",
       "issue_number": 531,
-      "title": "曼联签下门将达尔洛：自由身，合同到 2028 年",
+      "title": "曼联晚报",
       "item_count": 1,
       "section_count": 1,
       "kind": "news",
@@ -65,7 +65,7 @@
       "date": "2026-07-15",
       "period": "morning",
       "issue_number": 532,
-      "title": "曼联官宣蒂勒曼斯：维拉中场，合同到 2031 年",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "kind": "news",
@@ -77,7 +77,7 @@
       "date": "2026-08-02",
       "period": "evening",
       "issue_number": 533,
-      "title": "楚阿梅尼：皇马要价 8500 万镑，曼联准备砸",
+      "title": "曼联晚报",
       "item_count": 3,
       "section_count": 1,
       "kind": "news",
@@ -89,7 +89,7 @@
       "date": "2026-08-22",
       "period": "morning",
       "issue_number": 534,
-      "title": "赫尔城 2-0 曼联：两个角球丢两个，五个角球没换来一个",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -107,7 +107,7 @@
       "date": "2026-08-26",
       "period": "morning",
       "issue_number": 535,
-      "title": "曼联官宣巴莱巴：6500 万镑 + 500 万浮动，合同到 2031 年",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "kind": "news",
@@ -119,7 +119,7 @@
       "date": "2026-08-26",
       "period": "evening",
       "issue_number": 536,
-      "title": "官网考证：1906 年以来，曼联第一次从布莱顿签成年队球员",
+      "title": "曼联晚报",
       "item_count": 2,
       "section_count": 1,
       "kind": "news",
@@ -131,7 +131,7 @@
       "date": "2026-08-30",
       "period": "morning",
       "issue_number": 537,
-      "title": "曼联 5-2 伊普斯维奇：先丢一球，然后布鲁诺进了三个",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -149,7 +149,7 @@
       "date": "2026-09-06",
       "period": "morning",
       "issue_number": 538,
-      "title": "埃弗顿 2-2 曼联：88 分钟舍什科顶进，96 分钟被追平",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -167,7 +167,7 @@
       "date": "2026-09-11",
       "period": "morning",
       "issue_number": 539,
-      "title": "曼联 4-0 萨巴赫：上半场 3-0，欧冠开门红",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -185,7 +185,7 @@
       "date": "2026-09-13",
       "period": "morning",
       "issue_number": 540,
-      "title": "曼联 0-1 曼城：23 分钟就多打一人，还是输了",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -203,7 +203,7 @@
       "date": "2026-09-17",
       "period": "morning",
       "issue_number": 541,
-      "title": "曼联 2-3 布莱顿：10 分钟 2-0，然后被灌三个",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -221,7 +221,7 @@
       "date": "2026-09-20",
       "period": "morning",
       "issue_number": 542,
-      "title": "富勒姆 1-1 曼联：利桑德罗乌龙，89 分钟库尼亚追平",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -239,7 +239,7 @@
       "date": "2026-10-11",
       "period": "morning",
       "issue_number": 543,
-      "title": "曼联 1-1 热刺：姆贝乌莫 73 分钟扳平",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -249,14 +249,14 @@
         "height": 802
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-10-14-morning",
       "date": "2026-10-14",
       "period": "morning",
       "issue_number": 544,
-      "title": "马竞 2-0 曼联：欧冠首败，第 1 分钟就丢球",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -266,14 +266,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-10-19-morning",
       "date": "2026-10-19",
       "period": "morning",
       "issue_number": 545,
-      "title": "利兹联 1-1 曼联：姆贝乌莫又救了一分",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -283,14 +283,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-10-22-morning",
       "date": "2026-10-22",
       "period": "morning",
       "issue_number": 546,
-      "title": "科莫 4-1 曼联：开场 2 分钟丢球，欧战客场崩盘",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -300,14 +300,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-10-26-morning",
       "date": "2026-10-26",
       "period": "morning",
       "issue_number": 547,
-      "title": "曼联 0-3 伯恩茅斯：主场再被打穿",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -317,14 +317,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-11-01-morning",
       "date": "2026-11-01",
       "period": "morning",
       "issue_number": 548,
-      "title": "切尔西 2-0 曼联：客场零进球，掉到第 17",
+      "title": "曼联早报",
       "item_count": 1,
       "section_count": 1,
       "hero": {
@@ -334,14 +334,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-11-04-morning",
       "date": "2026-11-04",
       "period": "morning",
       "issue_number": 549,
-      "title": "曼联 3-2 罗马：半场 0-2 到逆转，代价是两张红牌和一条腿",
+      "title": "曼联早报",
       "item_count": 3,
       "section_count": 2,
       "hero": {
@@ -351,14 +351,14 @@
         "height": 794
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-11-07-evening",
       "date": "2026-11-07",
       "period": "evening",
       "issue_number": 550,
-      "title": "被问「是否被告知下周还执教」",
+      "title": "赛前 · 卡里克",
       "item_count": 3,
       "section_count": 2,
       "hero": {
@@ -368,14 +368,14 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-11-09-morning",
       "date": "2026-11-09",
       "period": "morning",
       "issue_number": 551,
-      "title": "曼联 4-4 阿斯顿维拉：96 分钟扳平，两次落后两球都追回来了",
+      "title": "曼联早报",
       "item_count": 3,
       "section_count": 2,
       "hero": {
@@ -385,14 +385,14 @@
         "height": 788
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     },
     {
       "id": "2026-11-10-evening",
       "date": "2026-11-10",
       "period": "evening",
       "issue_number": 552,
-      "title": "卡里克下课进入倒计时，但俱乐部还没官宣",
+      "title": "曼联晚报",
       "item_count": 5,
       "section_count": 2,
       "hero": {
@@ -402,7 +402,7 @@
         "height": 800
       },
       "season": "2026/27",
-      "archive": false
+      "archive": true
     }
   ]
 }

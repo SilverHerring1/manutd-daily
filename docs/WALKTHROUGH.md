@@ -155,5 +155,12 @@ $("articleContent").innerHTML = pairs.map(({ item }, index) => storyHtml(item, i
 | 某条新闻的文案 | 对应 `data/*.json` 的 `title` / `summary` / `body_html` |
 | 页脚、顶栏这类固定文案 | `index.html` |
 | 搜索、日期面板、渲染逻辑 | `app.js` |
-| 新建一期 | `node scripts/new-issue.mjs 2026-11-11 morning` |
-| 发布 | `node scripts/publish.mjs` 然后上传 `_site` |
+| 新建一期 | `node scripts/new-issue.mjs 2026-11-11 morning`，然后按 `WRITING-FLOW.md` 走 |
+| 写作口径 | `CONVENTIONS.md`（标题 / 正文 / 短评 / 配图 / 期号） |
+| 发布 | 同步到仓库副本 → GitHub Desktop 里 commit + push（没有 `_site`、不用 `publish.mjs`） |
+
+---
+
+## 想写一期？看 `WRITING-FLOW.md`
+
+这份文档讲的是「页面怎么渲染」，写稿的步骤在 `WRITING-FLOW.md`：抓数据 → 钉事实 → 写正文 → 起标题 → 写短评 → 拆期 → 重排期号 → 自检 → 发布。

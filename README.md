@@ -71,7 +71,8 @@
 详细文档：
 
 - [`docs/STATUS.md`](docs/STATUS.md) —— 做到哪了、待办
-- [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) —— 编辑口径（时间、视角、图片、来源）
+- [`docs/WRITING-FLOW.md`](docs/WRITING-FLOW.md) —— **写一期日报的完整流程**（抓数据 → 写 → 校 → 发）
+- [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) —— 编辑口径（标题、正文、短评、配图、期号、来源分级）
 - [`docs/DECISIONS.md`](docs/DECISIONS.md) —— 为什么这么定
 - [`docs/WALKTHROUGH.md`](docs/WALKTHROUGH.md) —— 一个 JSON 怎么变成页面
 

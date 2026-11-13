@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "season": "2020/21",
   "slug": "2020-21",
@@ -422,8 +422,7 @@
       "hero": {
         "src": "./media/archive/2020-21/archive-2020-10-25-Chelsea.jpg",
         "alt": "曼联 0-0 切尔西",
-        "width": 960,
-        "height": 540
+        "width": 569, "height": 320
       },
       "season": "2020/21",
       "archive": true

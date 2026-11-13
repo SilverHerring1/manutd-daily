@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "season": "2022/23",
   "slug": "2022-23",
@@ -518,8 +518,7 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2022-10-10-Everton.jpg",
         "alt": "埃弗顿 1-2 曼联",
-        "width": 960,
-        "height": 540
+        "width": 550, "height": 309
       },
       "season": "2022/23",
       "archive": true
@@ -1099,8 +1098,7 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2023-03-06-Liverpool.jpg",
         "alt": "利物浦 7-0 曼联",
-        "width": 960,
-        "height": 540
+        "width": 594, "height": 334
       },
       "season": "2022/23",
       "archive": true
@@ -1353,8 +1351,7 @@
       "hero": {
         "src": "./media/archive/2022-23/archive-2023-05-13-WolverhamptonWanderers.jpg",
         "alt": "曼联 2-0 狼队",
-        "width": 960,
-        "height": 540
+        "width": 588, "height": 331
       },
       "season": "2022/23",
       "archive": true

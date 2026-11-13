@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "2020-10-25-morning",
   "date": "2020-10-25",
   "period": "morning",
@@ -39,7 +39,6 @@
   "hero": {
     "src": "./media/archive/2020-21/archive-2020-10-25-Chelsea.jpg",
     "alt": "曼联 0-0 切尔西",
-    "width": 960,
-    "height": 540
+    "width": 569, "height": 320
   }
 }

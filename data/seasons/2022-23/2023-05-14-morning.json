@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "2023-05-14-morning",
   "date": "2023-05-14",
   "period": "morning",
@@ -39,7 +39,6 @@
   "hero": {
     "src": "./media/archive/2022-23/archive-2023-05-13-WolverhamptonWanderers.jpg",
     "alt": "曼联 2-0 狼队",
-    "width": 960,
-    "height": 540
+    "width": 588, "height": 331
   }
 }
