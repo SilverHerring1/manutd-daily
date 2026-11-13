@@ -1031,7 +1031,7 @@ if (!dry) {
   }
 
   const seasons = [...catalog.values()].sort((a, b) => a.slug.localeCompare(b.slug));
-  writeFileSync(
+  if (!PAGES_ONLY) writeFileSync(
     seasonsFile,
     `${JSON.stringify({ version: 1, generated_at: new Date().toISOString().slice(0, 19) + '+08:00', seasons }, null, 2)}\n`,
     'utf8',

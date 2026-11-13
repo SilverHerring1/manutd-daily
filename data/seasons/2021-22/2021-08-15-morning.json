@@ -2,44 +2,36 @@
   "id": "2021-08-15-morning",
   "date": "2021-08-15",
   "period": "morning",
-  "issue_number": 204,
-  "season": "2021/22",
-  "archive": true,
+  "issue_number": 205,
   "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
   "item_count": 1,
   "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "4000 万买一个 28 岁的中卫，四年。瓦拉内和马奎尔的组合，是这一季防线的基础。"
+  },
   "sections": [
     {
-      "id": "matches",
-      "title": "昨夜战报",
+      "id": "in",
+      "title": "转入",
       "items": [
         {
-          "id": "m606033",
-          "title": "曼联 5-1 利兹联：净胜 4 球",
-          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 1 场，1 胜 0 平 0 负。",
-          "body_html": "<p>2021/22 英超，主场（老特拉福德）对阵利兹联，比分 5-1。</p><p>进球：30' Bruno Fernandes（曼联）、49' Luke Ayling（利兹联）、52' Mason Greenwood（曼联）、54' Bruno Fernandes（曼联）、60' Bruno Fernandes（曼联）、68' Fred（曼联）。</p>",
+          "id": "varane-in",
+          "title": "曼联签下瓦拉内，4000 万镑四年",
+          "summary": "8 月 14 日官宣，从皇家马德里签下 28 岁的瓦拉内，四年合同带一年续约选项，费用约 4000 万镑。",
+          "body_html": "<p>8 月 14 日，曼联官宣瓦拉内加盟，四年合同加一年选项，费用约 4000 万镑。</p><p>28 岁，法国中卫，皇马十年，四个欧冠。他和马奎尔的组合，是这个赛季防线的起点。</p>",
           "sources": [
             {
-              "text": "ESPN 比分",
-              "url": "https://www.espn.com/soccer/match/_/gameId/606033"
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/detail/manchester-united-announce-signing-of-raphael-varane"
             }
           ],
-          "source_name": "英超 · 主场",
-          "published_at": "08-14 19:30",
-          "badge": "./media/badges/leedsunited.png"
+          "source_name": "转会",
+          "published_at": "08-14"
         }
       ]
     }
-  ],
-  "note": {
-    "title": "编辑短评",
-    "body": "主场净胜 4 球，是这一季目前最像样的比分。"
-  },
-  "match_no": 1,
-  "hero": {
-    "src": "./media/archive/2021-22/archive-2021-08-14-LeedsUnited.jpg",
-    "alt": "曼联 5-1 利兹联",
-    "width": 960,
-    "height": 540
-  }
+  ]
 }

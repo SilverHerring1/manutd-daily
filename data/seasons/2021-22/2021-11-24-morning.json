@@ -2,7 +2,7 @@
   "id": "2021-11-24-morning",
   "date": "2021-11-24",
   "period": "morning",
-  "issue_number": 221,
+  "issue_number": 223,
   "season": "2021/22",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m618727",
-          "title": "比利亚雷亚尔 0-2 曼联：零封取胜",
-          "summary": "欧冠，客场（Estadio de la Cerámica）。这一季各项赛事第 18 场，8 胜 3 平 7 负。",
-          "body_html": "<p>2021/22 欧冠，客场（Estadio de la Cerámica）对阵比利亚雷亚尔，比分 2-0。</p><p>进球：78' Cristiano Ronaldo（曼联）、90' Jadon Sancho（曼联）。</p>",
+          "title": "比利亚雷亚尔 0-2 曼联，C罗和桑乔",
+          "summary": "78 分钟 C 罗挑射，90 分钟桑乔推射。卡里克执教的第一场。",
+          "body_html": "<p>第 78 分钟，C 罗在禁区里挑射，0-1；第 90 分钟，桑乔推射，0-2。</p><p>11 脚射门 6 次射正，比利亚雷亚尔 13 脚 3 次。卡里克接手后的第一场，客场赢球，欧冠小组头名出线。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

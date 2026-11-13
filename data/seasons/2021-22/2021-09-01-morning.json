@@ -1,0 +1,57 @@
+{
+  "id": "2021-09-01-morning",
+  "date": "2021-09-01",
+  "period": "morning",
+  "issue_number": 208,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 2,
+  "section_count": 2,
+  "note": {
+    "title": "编辑短评",
+    "body": "C 罗回来了，十二年。同一天，詹姆斯去了利兹——一个时代的符号和一个未来的筹码。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "ronaldo-in",
+          "title": "C 罗回归曼联，两年合同",
+          "summary": "8 月 31 日官宣，36 岁的 C 罗从尤文图斯回归曼联，两年合同，费用约 1300 万镑。距离他上一次离开，十二年。",
+          "body_html": "<p>8 月 31 日，曼联官宣 C 罗回归，两年合同，费用约 1300 万镑。</p><p>36 岁。他 2003 到 2009 年在曼联，292 场 118 球，拿过欧冠和金球奖。十二年后回来，7 号球衣还是他的。</p><p>这笔转会是在曼城接近签下他的最后几个小时里翻转的。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/detail/manchester-united-announce-signing-of-cristiano-ronaldo"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-31"
+        }
+      ]
+    },
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "james-out",
+          "title": "丹尼尔·詹姆斯 2500 万镑去利兹，曼联 74 场 9 球",
+          "summary": "8 月 31 日，詹姆斯转会利兹，费用约 2500 万镑。他在曼联两个赛季，各项赛事出场 74 次、打进 9 球。",
+          "body_html": "<p>8 月 31 日，丹尼尔·詹姆斯转会利兹，费用约 2500 万镑。</p><p>他在曼联两个赛季（2019–2021），各项赛事 74 场 9 球。第一个赛季是主力，第二个赛季随着桑乔和 C 罗的到来，位置被挤掉。</p><p>2500 万镑，比两年前买他时多了 1000 万。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 詹姆斯转会",
+              "url": "https://www.skysports.com/football/news/11667/12391258/daniel-james-leeds-sign-wales-winger-from-manchester-united"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-31"
+        }
+      ]
+    }
+  ]
+}

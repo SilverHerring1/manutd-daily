@@ -1,0 +1,37 @@
+{
+  "id": "2021-07-24-morning",
+  "date": "2021-07-24",
+  "period": "morning",
+  "issue_number": 204,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "桑乔谈了两年，7300 万落地。这是索尔斯克亚要的那个右边锋。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "sancho-in",
+          "title": "曼联签下桑乔，7300 万镑五年",
+          "summary": "7 月 23 日官宣，从多特蒙德签下 21 岁的桑乔，五年合同，费用 7300 万镑。追了两个夏天。",
+          "body_html": "<p>7 月 23 日，曼联官宣桑乔加盟，五年合同，费用 7300 万镑。</p><p>21 岁，英格兰边锋，多特蒙德四个赛季 137 场 50 球。曼联追了他两个夏天，第一次因为价格没谈成。</p><p>这笔签约解决了右边锋的问题——过去两个赛季，这个位置一直靠临时方案。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 官宣",
+              "url": "https://www.manutd.com/en/news/detail/manchester-united-announce-signing-of-jadon-sancho"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-23"
+        }
+      ]
+    }
+  ]
+}

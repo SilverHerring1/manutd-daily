@@ -2,7 +2,7 @@
   "id": "2022-04-17-morning",
   "date": "2022-04-17",
   "period": "morning",
-  "issue_number": 246,
+  "issue_number": 249,
   "season": "2021/22",
   "archive": true,
   "title": "曼联早报",
@@ -15,9 +15,9 @@
       "items": [
         {
           "id": "m605718",
-          "title": "曼联 3-2 诺维奇：一球小胜",
-          "summary": "英超，主场（老特拉福德）。这一季各项赛事第 43 场，19 胜 13 平 11 负。",
-          "body_html": "<p>2021/22 英超，主场（老特拉福德）对阵诺维奇，比分 3-2。</p><p>进球：7' Cristiano Ronaldo（曼联）、32' Cristiano Ronaldo（曼联）、45+1' Kieran Dowell（诺维奇）、52' Teemu Pukki（诺维奇）、76' Cristiano Ronaldo（曼联）。</p>",
+          "title": "曼联 3-2 诺维奇，C罗帽子戏法",
+          "summary": "7 分钟、32 分钟、76 分钟 C 罗；45+1 分钟道尔、52 分钟普基。",
+          "body_html": "<p>第 7 分钟，C 罗在禁区里推射，1-0；第 32 分钟，他再进一个，2-0；补时第 1 分钟，道尔扳回一个；第 52 分钟，普基扳平，2-2；第 76 分钟，C 罗任意球直接破门，3-2。</p><p>20 脚射门 9 次射正。又一个帽子戏法，38 岁的 C 罗这个赛季第三个。</p>",
           "sources": [
             {
               "text": "ESPN 比分",

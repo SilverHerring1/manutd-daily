@@ -1,0 +1,65 @@
+{
+  "id": "2022-02-01-morning",
+  "date": "2022-02-01",
+  "period": "morning",
+  "issue_number": 236,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 3,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "冬窗一个都没进，出去了三个。这个窗口的答案，是把人送出去、把工资省下来。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "martial-loan",
+          "title": "马夏尔租借塞维利亚半个赛季，曼联 268 场 79 球",
+          "summary": "1 月 25 日，马夏尔租借塞维利亚到赛季结束。他在曼联七年，各项赛事出场 268 次、打进 79 球。",
+          "body_html": "<p>1 月 25 日，马夏尔租借塞维利亚，租期到赛季结束。</p><p>他在曼联七年（2015–2022），各项赛事 268 场 79 球，2019/20 赛季是队内最佳射手。这个赛季在联赛里只首发了两次。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 马夏尔租借",
+              "url": "https://www.skysports.com/football/news/11667/12523165/anthony-martial-sevilla-sign-manchester-united-forward-on-loan"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-25"
+        },
+        {
+          "id": "vdb-loan",
+          "title": "范德贝克租借埃弗顿，曼联 50 场 2 球",
+          "summary": "1 月 31 日，范德贝克租借埃弗顿到赛季结束。他在曼联一个半赛季，各项赛事出场 50 次、打进 2 球。",
+          "body_html": "<p>1 月 31 日，范德贝克租借埃弗顿，租期到赛季结束。</p><p>他在曼联一个半赛季，各项赛事 50 场 2 球。3500 万买来的中场，在布鲁诺的位置上一直没有稳定的出场时间。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 范德贝克租借",
+              "url": "https://www.skysports.com/football/news/11667/12529010/donny-van-de-beek-everton-sign-manchester-united-midfielder-on-loan"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-31"
+        },
+        {
+          "id": "amad-loan",
+          "title": "迪亚洛租借流浪者，曼联 8 场 1 球",
+          "summary": "1 月 31 日，迪亚洛租借格拉斯哥流浪者到赛季结束。他在曼联一线队出场 8 次、打进 1 球。",
+          "body_html": "<p>1 月 31 日，迪亚洛租借格拉斯哥流浪者，租期到赛季结束。</p><p>他在曼联一线队 8 场 1 球——那个球是 2021 年 3 月对 AC 米兰的挑射。19 岁，需要比赛。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 迪亚洛租借",
+              "url": "https://www.skysports.com/football/news/11667/12529203/amad-diallo-rangers-sign-manchester-united-winger-on-loan"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-31"
+        }
+      ]
+    }
+  ]
+}
