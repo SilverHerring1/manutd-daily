@@ -1,0 +1,41 @@
+{
+  "id": "2018-07-17-evening",
+  "date": "2018-07-17",
+  "period": "evening",
+  "issue_number": 4,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "四年 90 场 4 球，走的时候 28 岁。他什么都踢过，最后没有一个位置是他的。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "blind-out",
+          "title": "布林德 1400 万镑回阿贾克斯，曼联 90 场 4 球",
+          "summary": "7 月 17 日，曼联与阿贾克斯同时宣布布林德转会，费用约 1400 万镑、四年合同。他在曼联四年，联赛出场 90 次、打进 4 球。",
+          "body_html": "<p>7 月 17 日，两家俱乐部同时宣布：布林德回阿贾克斯，四年合同，费用约 1400 万镑，附带浮动条款。</p><p>他在曼联四年（2014–2018），联赛出场 90 次、打进 4 球。随队拿过足总杯、联赛杯和欧联杯。第一个赛季他几乎什么位置都踢过：中卫、左后卫、后腰。</p><p>离开的直接原因不难找：上赛季他在联赛里只首发了 4 次。达洛特来了之后，左后卫这条线也没有他的位置。</p>",
+          "sources": [
+            {
+              "text": "维基 · Daley Blind 生涯数据",
+              "url": "https://en.wikipedia.org/wiki/Daley_Blind"
+            },
+            {
+              "text": "曼彻斯特晚报 · 夏窗名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-transfers-deadline-day-15009986"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "07-17"
+        }
+      ]
+    }
+  ]
+}

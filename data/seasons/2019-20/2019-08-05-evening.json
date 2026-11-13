@@ -1,0 +1,41 @@
+{
+  "id": "2019-08-05-evening",
+  "date": "2019-08-05",
+  "period": "evening",
+  "issue_number": 3,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "8000 万，世界最贵的后卫。买的不只是中卫，是防线的组织者。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "maguire-in",
+          "title": "曼联签下马奎尔，8000 万镑六年",
+          "summary": "8 月 5 日官宣，从莱斯特签下英格兰中卫马奎尔，费用 8000 万镑，成为当时身价最高的后卫。合同六年，带一年续约选项。",
+          "body_html": "<p>8 月 5 日，曼联官宣马奎尔加盟，六年合同，附带一年续约选项，费用 8000 万镑——这个数字让他在当时成为世界足坛身价最高的后卫。</p><p>26 岁，英格兰国脚，从莱斯特来。曼联追了他一年多，去年夏天没谈成，这一次谈成了。</p><p>中卫是这个夏天最明确的需求。补完之后，曼联的防线从右到左是万-比萨卡、林德勒夫、马奎尔、肖。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            },
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-05"
+        }
+      ]
+    }
+  ]
+}

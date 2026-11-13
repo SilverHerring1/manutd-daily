@@ -2,111 +2,17 @@
   "id": "2018-08-10-evening",
   "date": "2018-08-10",
   "period": "evening",
-  "issue_number": 1,
+  "issue_number": 5,
   "title": "曼联晚报",
   "kind": "news",
   "archive": true,
-  "item_count": 6,
-  "section_count": 3,
+  "item_count": 1,
+  "section_count": 1,
   "note": {
     "title": "编辑短评",
-    "body": "六月一个人，七月一个人，八月门将。卖掉的两个人加起来，在一线队只踢了 90 场。"
+    "body": "阵容和上赛季一样——这句话他自己也不信，但窗口关了。"
   },
   "sections": [
-    {
-      "id": "in",
-      "title": "转入",
-      "items": [
-        {
-          "id": "fred-in",
-          "title": "曼联签下弗雷德，5200 万镑五年",
-          "summary": "曼联官方 6 月 21 日宣布从顿涅茨克矿工签下弗雷德，五年合同、含续约一年选项。费用约 5200 万镑，加上浮动最高可到 6100 万。",
-          "body_html": "<p>曼联官方 6 月 21 日宣布弗雷德加盟，五年合同，含续约一年选项。6 月 5 日俱乐部先宣布与矿工达成协议，之后等的是工作许可和文件。</p><p>费用据天空体育为 5200 万镑，附加条款最高可到 6100 万。25 岁，巴西国脚，司职中场。</p><p>穆里尼奥在官宣里的说法：「弗雷德能补充我们其他中场的特点，这是我们需要的。他的创造力和传球视野会给我们另一个维度。」</p><p>他当时人在世界杯，因为脚踝伤势错过了巴西的首战。</p>",
-          "sources": [
-            {
-              "text": "曼联官网 / 天空体育 · 官宣",
-              "url": "https://www.skysports.com/football/news/11667/11411654/manchester-united-sign-fred-from-shakhtar-donetsk"
-            },
-            {
-              "text": "卫报 · 6 月 21 日",
-              "url": "https://www.theguardian.com/football/2018/jun/21/manchester-united-sign-fred-five-year-deal"
-            }
-          ],
-          "source_name": "转会",
-          "published_at": "06-21"
-        },
-        {
-          "id": "dalot-in",
-          "title": "曼联签下达洛特，1900 万镑五年",
-          "summary": "曼联官方 6 月 6 日宣布从波尔图签下达洛特，五年合同、附带一年续约选项。费用约 1900 万镑，当时 19 岁，能打左右两个边后卫。",
-          "body_html": "<p>6 月 6 日官宣，波尔图来的 19 岁边后卫，五年合同加一年选项，费用约 1900 万镑。</p><p>穆里尼奥的评价很高：「在他这个年龄段，他是欧洲最好的边后卫。」当时达洛特还在膝伤恢复，预计赶上美国的季前赛。</p><p>ESPN 提到，曼联在这笔交易里竞争过了拜仁和巴萨。</p>",
-          "sources": [
-            {
-              "text": "曼联官网 / 天空体育 · 官宣",
-              "url": "https://www.skysports.com/football/news/11396520/manchester-united-sign-diogo-dalot-from-porto"
-            },
-            {
-              "text": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/37555925/manchester-united-sign-diogo-dalot-porto-five-year-contract"
-            }
-          ],
-          "source_name": "转会",
-          "published_at": "06-06"
-        },
-        {
-          "id": "grant-in",
-          "title": "曼联签下格兰特，150 万镑两年",
-          "summary": "7 月 3 日从斯托克城签下 35 岁的门将格兰特，两年合同，费用 150 万镑。角色是第三门将。",
-          "body_html": "<p>7 月 3 日，曼联签下斯托克城门将李·格兰特，两年合同，费用 150 万镑。35 岁。</p><p>他的定位很清楚：德赫亚和罗梅罗之后的第三门将。这笔转会的背景是乔尔·佩雷拉需要出场时间，被租去了塞图巴尔。</p>",
-          "sources": [
-            {
-              "text": "ESPN · 7 月 3 日",
-              "url": "https://www.espn.com/soccer/story/_/id/37557721/manchester-united-sign-goalkeeper-lee-grant-stoke-sell-sam-johnstone-west-brom"
-            }
-          ],
-          "source_name": "转会",
-          "published_at": "07-03"
-        }
-      ]
-    },
-    {
-      "id": "out",
-      "title": "转出",
-      "items": [
-        {
-          "id": "blind-out",
-          "title": "布林德 1400 万镑回阿贾克斯，曼联 90 场 4 球",
-          "summary": "7 月 17 日，曼联与阿贾克斯同时宣布布林德转会，费用约 1400 万镑、四年合同。他在曼联四年，联赛出场 90 次、打进 4 球。",
-          "body_html": "<p>7 月 17 日，两家俱乐部同时宣布：布林德回阿贾克斯，四年合同，费用约 1400 万镑，附带浮动条款。</p><p>他在曼联四年（2014–2018），联赛出场 90 次、打进 4 球。随队拿过足总杯、联赛杯和欧联杯。第一个赛季他几乎什么位置都踢过：中卫、左后卫、后腰。</p><p>离开的直接原因不难找：上赛季他在联赛里只首发了 4 次。达洛特来了之后，左后卫这条线也没有他的位置。</p>",
-          "sources": [
-            {
-              "text": "维基 · Daley Blind 生涯数据",
-              "url": "https://en.wikipedia.org/wiki/Daley_Blind"
-            },
-            {
-              "text": "曼彻斯特晚报 · 夏窗名单",
-              "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-transfers-deadline-day-15009986"
-            }
-          ],
-          "source_name": "转会",
-          "published_at": "07-17"
-        },
-        {
-          "id": "johnstone-out",
-          "title": "约翰斯通 650 万镑加盟西布朗，一线队 0 出场",
-          "summary": "7 月 3 日，青训门将约翰斯通转会西布朗，费用约 650 万镑、四年合同。他在曼联一线队没有正式比赛出场记录，此前两个赛季租借在阿斯顿维拉。",
-          "body_html": "<p>7 月 3 日，西布朗宣布签下约翰斯通，四年合同；曼联方面确认了这笔转会，费用约 650 万镑。</p><p>他是曼联青训出身，一线队没有正式比赛出场。此前两个赛季租借在阿斯顿维拉，是维拉升级那年的主力门将。</p><p>25 岁，到了需要一个属于自己位置的年纪。</p>",
-          "sources": [
-            {
-              "text": "ESPN · 7 月 3 日",
-              "url": "https://www.espn.com/soccer/story/_/id/37557721/manchester-united-sign-goalkeeper-lee-grant-stoke-sell-sam-johnstone-west-brom"
-            }
-          ],
-          "source_name": "转会",
-          "published_at": "07-03"
-        }
-      ]
-    },
     {
       "id": "talk",
       "title": "场外",

@@ -1,0 +1,83 @@
+{
+  "id": "2020-01-31-evening",
+  "date": "2020-01-31",
+  "period": "evening",
+  "issue_number": 40,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 3,
+  "section_count": 2,
+  "note": {
+    "title": "编辑短评",
+    "body": "这个冬窗的答案是布鲁诺。一个队长走了，一个中卫外租，剩下的钱和时间都压在一个人身上。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "bruno-in",
+          "title": "曼联签下布鲁诺，4660 万镑五年半",
+          "summary": "1 月 30 日官宣，从葡萄牙体育签下布鲁诺·费尔南德斯。五年半合同带一年续约选项，初始费用 4660 万镑，浮动最高可到 6800 万。",
+          "body_html": "<p>1 月 29 日两家俱乐部先宣布达成协议，30 日完成体检与官宣。布鲁诺·费尔南德斯，25 岁，葡萄牙国脚，五年半合同，附带一年续约选项。</p><p>费用：初始 4660 万镑，浮动最高可到 6800 万。葡萄牙体育披露的结构是 5500 万欧固定 + 2500 万欧浮动（出场、球队成绩、个人奖项）。</p><p>他在葡萄牙体育的最后一个半季：137 场 63 球。索尔斯克亚说：「我们跟了他很多个月。」这是这个冬窗唯一一笔引援。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 官宣",
+              "url": "https://www.skysports.com/football/news/11667/11921439/bruno-fernandes-signs-for-manchester-united-from-sporting-lisbon"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/37581069/man-united-sign-bruno-fernandes-sporting-cp-deal-worth-80m"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-30"
+        }
+      ]
+    },
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "young-out",
+          "title": "扬 130 万镑加盟国米，曼联 261 场 19 球",
+          "summary": "1 月 17 日，队长阿什利·扬转会国际米兰，费用 130 万镑，合同到赛季末带一年续约选项。他在曼联近九年，各项赛事出场 261 次、打进 19 球。",
+          "body_html": "<p>1 月 17 日，阿什利·扬完成转会国际米兰，费用 130 万镑加浮动，合同到 2020 年 6 月，附带一年续约选项。</p><p>他在曼联近九年（2011–2020），各项赛事出场 261 次、打进 19 球，拿过英超、足总杯、联赛杯和欧联杯，后期担任队长。</p><p>索尔斯克亚的说法：「他 35 岁了，如果别处能给两年合同，那是他自己的选择。我们没准备给这个条件。」</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 官宣",
+              "url": "https://www.skysports.com/football/news/11095/11911099/ashley-young-inter-milan-sign-defender-from-manchester-united-on-initial-six-month-deal"
+            },
+            {
+              "text": "卫报 · 1 月 16 日",
+              "url": "https://www.theguardian.com/football/2020/jan/16/transfer-news-inter-milan-agree-13m-fee-manchester-united-ashley-young"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-17"
+        },
+        {
+          "id": "rojo-out",
+          "title": "罗霍租借回大学生队，曼联 122 场 2 球",
+          "summary": "1 月 30 日，罗霍租借回阿根廷大学生队，租期到赛季结束。他在曼联五年半，各项赛事出场 122 次、打进 2 球。",
+          "body_html": "<p>1 月 30 日，罗霍租借加盟阿根廷大学生队——他出道的俱乐部——租期到赛季结束。</p><p>他在曼联五年半（2014–2020），各项赛事出场 122 次、打进 2 球。2019/20 赛季只为一线队出场 9 次，11 月之后就没再上过场。</p><p>大学生队的主席是贝隆，也是曼联旧人。</p>",
+          "sources": [
+            {
+              "text": "BBC · 1 月 29 日",
+              "url": "https://www.bbc.co.uk/sport/football/51293254"
+            },
+            {
+              "text": "天空体育",
+              "url": "https://www.skysports.com/football/news/11921763/marcos-rojo-manchester-united-defender-joins-estudiantes-on-six-month-loan"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-30"
+        }
+      ]
+    }
+  ]
+}

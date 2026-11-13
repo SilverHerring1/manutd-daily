@@ -1,0 +1,37 @@
+{
+  "id": "2019-08-29-evening",
+  "date": "2019-08-29",
+  "period": "evening",
+  "issue_number": 8,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "租借出去，国米承担部分薪水。45 场 5 球，这是曼联近十年最差的一笔签约。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "sanchez-out",
+          "title": "桑切斯租借国米一年，曼联 45 场 5 球",
+          "summary": "8 月 29 日，桑切斯以租借身份加盟国际米兰，租期一个赛季。他在曼联一年半，各项赛事出场 45 次、打进 5 球。",
+          "body_html": "<p>8 月 29 日，曼联宣布桑切斯租借加盟国际米兰，租期一个赛季，国米承担部分薪水。</p><p>他在曼联一年半（2018 年 1 月–2019 年 8 月），各项赛事出场 45 次、打进 5 球。这是俱乐部历史上薪资最高的合同之一，产出和投入的差距一直被讨论。</p><p>放走他之后，曼联的锋线只剩拉什福德、马夏尔、格林伍德和詹姆斯。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-29"
+        }
+      ]
+    }
+  ]
+}

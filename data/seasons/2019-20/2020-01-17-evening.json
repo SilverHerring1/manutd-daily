@@ -1,0 +1,41 @@
+{
+  "id": "2020-01-17-evening",
+  "date": "2020-01-17",
+  "period": "evening",
+  "issue_number": 42,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "队长走了，130 万。35 岁要两年合同，俱乐部没给。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "young-out",
+          "title": "扬 130 万镑加盟国米，曼联 261 场 19 球",
+          "summary": "1 月 17 日，队长阿什利·扬转会国际米兰，费用 130 万镑，合同到赛季末带一年续约选项。他在曼联近九年，各项赛事出场 261 次、打进 19 球。",
+          "body_html": "<p>1 月 17 日，阿什利·扬完成转会国际米兰，费用 130 万镑加浮动，合同到 2020 年 6 月，附带一年续约选项。</p><p>他在曼联近九年（2011–2020），各项赛事出场 261 次、打进 19 球，拿过英超、足总杯、联赛杯和欧联杯，后期担任队长。</p><p>索尔斯克亚的说法：「他 35 岁了，如果别处能给两年合同，那是他自己的选择。我们没准备给这个条件。」</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 官宣",
+              "url": "https://www.skysports.com/football/news/11095/11911099/ashley-young-inter-milan-sign-defender-from-manchester-united-on-initial-six-month-deal"
+            },
+            {
+              "text": "卫报 · 1 月 16 日",
+              "url": "https://www.theguardian.com/football/2020/jan/16/transfer-news-inter-milan-agree-13m-fee-manchester-united-ashley-young"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-17"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2019-06-29-evening",
+  "date": "2019-06-29",
+  "period": "evening",
+  "issue_number": 2,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "5000 万买一个 21 岁的右后卫。补的是位置，也是未来五年。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "wanbissaka-in",
+          "title": "曼联签下万-比萨卡，5000 万镑五年",
+          "summary": "6 月 29 日官宣，从水晶宫签下 21 岁的右后卫万-比萨卡，五年合同带一年续约选项，费用 5000 万镑。",
+          "body_html": "<p>6 月 29 日，曼联官宣万-比萨卡加盟，五年合同，附带一年续约选项，费用 5000 万镑。</p><p>21 岁，右后卫，上赛季水晶宫的年度最佳球员。补右后卫是曼联这个夏天最早定下来的事。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-29"
+        }
+      ]
+    }
+  ]
+}

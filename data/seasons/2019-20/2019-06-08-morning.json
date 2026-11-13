@@ -1,0 +1,37 @@
+{
+  "id": "2019-06-08-morning",
+  "date": "2019-06-08",
+  "period": "morning",
+  "issue_number": 1,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "1500 万买速度。索尔斯克亚的第一笔签约，也是这个窗口最便宜的一笔。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "james-in",
+          "title": "曼联签下詹姆斯，1500 万镑五年",
+          "summary": "6 月上旬官宣，从斯旺西签下 21 岁的威尔士边锋丹尼尔·詹姆斯，五年合同带一年续约选项。费用 1500 万镑，浮动最高 2000 万。",
+          "body_html": "<p>曼联官方 6 月上旬宣布，从斯旺西签下丹尼尔·詹姆斯，五年合同，附带一年续约选项。</p><p>费用 1500 万镑，按条款最高可到 2000 万。21 岁，威尔士国脚，司职边锋。他是索尔斯克亚上任后的第一笔签约。</p><p>这笔转会办得很快：斯旺西上赛季在英冠，球员本人想走，曼联要的是速度和边路的直接性。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-07"
+        }
+      ]
+    }
+  ]
+}

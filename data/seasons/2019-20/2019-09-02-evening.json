@@ -1,0 +1,37 @@
+{
+  "id": "2019-09-02-evening",
+  "date": "2019-09-02",
+  "period": "evening",
+  "issue_number": 11,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "92 场 1 球，四年。万-比萨卡来了之后，他连替补都排不上。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "darmian-out",
+          "title": "达米安回意甲，曼联 92 场 1 球",
+          "summary": "9 月 2 日，达米安转会帕尔马。他在曼联四年，各项赛事出场 92 次、打进 1 球。",
+          "body_html": "<p>9 月 2 日，欧洲转会窗关闭前，达米安转会帕尔马。</p><p>他在曼联四年（2015–2019），各项赛事出场 92 次、打进 1 球。右后卫位置上，万-比萨卡来了之后他基本没有机会。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "09-02"
+        }
+      ]
+    }
+  ]
+}

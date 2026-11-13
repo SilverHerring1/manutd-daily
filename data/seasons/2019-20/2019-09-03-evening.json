@@ -1,0 +1,131 @@
+{
+  "id": "2019-09-03-evening",
+  "date": "2019-09-03",
+  "period": "evening",
+  "issue_number": 5,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 7,
+  "section_count": 2,
+  "note": {
+    "title": "编辑短评",
+    "body": "一个 21 岁、一个 21 岁、一个 26 岁，八千万砸在中卫上。出去的四个人里，有两个是拿着高薪却踢不上球的。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "james-in",
+          "title": "曼联签下詹姆斯，1500 万镑五年",
+          "summary": "6 月上旬官宣，从斯旺西签下 21 岁的威尔士边锋丹尼尔·詹姆斯，五年合同带一年续约选项。费用 1500 万镑，浮动最高 2000 万。",
+          "body_html": "<p>曼联官方 6 月上旬宣布，从斯旺西签下丹尼尔·詹姆斯，五年合同，附带一年续约选项。</p><p>费用 1500 万镑，按条款最高可到 2000 万。21 岁，威尔士国脚，司职边锋。他是索尔斯克亚上任后的第一笔签约。</p><p>这笔转会办得很快：斯旺西上赛季在英冠，球员本人想走，曼联要的是速度和边路的直接性。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-07"
+        },
+        {
+          "id": "wanbissaka-in",
+          "title": "曼联签下万-比萨卡，5000 万镑五年",
+          "summary": "6 月 29 日官宣，从水晶宫签下 21 岁的右后卫万-比萨卡，五年合同带一年续约选项，费用 5000 万镑。",
+          "body_html": "<p>6 月 29 日，曼联官宣万-比萨卡加盟，五年合同，附带一年续约选项，费用 5000 万镑。</p><p>21 岁，右后卫，上赛季水晶宫的年度最佳球员。补右后卫是曼联这个夏天最早定下来的事。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-29"
+        },
+        {
+          "id": "maguire-in",
+          "title": "曼联签下马奎尔，8000 万镑六年",
+          "summary": "8 月 5 日官宣，从莱斯特签下英格兰中卫马奎尔，费用 8000 万镑，成为当时身价最高的后卫。合同六年，带一年续约选项。",
+          "body_html": "<p>8 月 5 日，曼联官宣马奎尔加盟，六年合同，附带一年续约选项，费用 8000 万镑——这个数字让他在当时成为世界足坛身价最高的后卫。</p><p>26 岁，英格兰国脚，从莱斯特来。曼联追了他一年多，去年夏天没谈成，这一次谈成了。</p><p>中卫是这个夏天最明确的需求。补完之后，曼联的防线从右到左是万-比萨卡、林德勒夫、马奎尔、肖。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            },
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-05"
+        }
+      ]
+    },
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "lukaku-out",
+          "title": "卢卡库 7400 万镑转会国米，曼联两年 42 球",
+          "summary": "8 月 8 日英超关窗日，曼联把卢卡库卖给国际米兰，费用约 7400 万镑。他在曼联两个赛季各项赛事出场 96 次、打进 42 球。",
+          "body_html": "<p>8 月 8 日，英超关窗日，卢卡库转会国际米兰，费用约 7400 万镑。</p><p>他在曼联两个赛季（2017–2019），各项赛事出场 96 次、打进 42 球。第一个赛季是队内最佳射手，第二个赛季后半段失去主力位置。</p><p>曼联没有在这个窗口补进中锋。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-08"
+        },
+        {
+          "id": "sanchez-out",
+          "title": "桑切斯租借国米一年，曼联 45 场 5 球",
+          "summary": "8 月 29 日，桑切斯以租借身份加盟国际米兰，租期一个赛季。他在曼联一年半，各项赛事出场 45 次、打进 5 球。",
+          "body_html": "<p>8 月 29 日，曼联宣布桑切斯租借加盟国际米兰，租期一个赛季，国米承担部分薪水。</p><p>他在曼联一年半（2018 年 1 月–2019 年 8 月），各项赛事出场 45 次、打进 5 球。这是俱乐部历史上薪资最高的合同之一，产出和投入的差距一直被讨论。</p><p>放走他之后，曼联的锋线只剩拉什福德、马夏尔、格林伍德和詹姆斯。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-united-transfer-ins-and-outs-summer-window-2019"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-29"
+        },
+        {
+          "id": "smalling-out",
+          "title": "斯莫林租借罗马一年，曼联 323 场 18 球",
+          "summary": "8 月 30 日，斯莫林租借加盟罗马，租期一个赛季。他在曼联十年，各项赛事出场 323 次、打进 18 球。",
+          "body_html": "<p>8 月 30 日，斯莫林租借加盟罗马，租期一个赛季。</p><p>他在曼联十年（2010–2019），各项赛事出场 323 次、打进 18 球，拿过两次英超冠军。马奎尔来了之后，中卫位置上的顺序变了。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-30"
+        },
+        {
+          "id": "darmian-out",
+          "title": "达米安回意甲，曼联 92 场 1 球",
+          "summary": "9 月 2 日，达米安转会帕尔马。他在曼联四年，各项赛事出场 92 次、打进 1 球。",
+          "body_html": "<p>9 月 2 日，欧洲转会窗关闭前，达米安转会帕尔马。</p><p>他在曼联四年（2015–2019），各项赛事出场 92 次、打进 1 球。右后卫位置上，万-比萨卡来了之后他基本没有机会。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "09-02"
+        }
+      ]
+    }
+  ]
+}

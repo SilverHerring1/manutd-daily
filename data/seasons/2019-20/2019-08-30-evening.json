@@ -1,0 +1,37 @@
+{
+  "id": "2019-08-30-evening",
+  "date": "2019-08-30",
+  "period": "evening",
+  "issue_number": 9,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "十年 323 场，租借去罗马。马奎尔来了，他的顺序就没了。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "smalling-out",
+          "title": "斯莫林租借罗马一年，曼联 323 场 18 球",
+          "summary": "8 月 30 日，斯莫林租借加盟罗马，租期一个赛季。他在曼联十年，各项赛事出场 323 次、打进 18 球。",
+          "body_html": "<p>8 月 30 日，斯莫林租借加盟罗马，租期一个赛季。</p><p>他在曼联十年（2010–2019），各项赛事出场 323 次、打进 18 球，拿过两次英超冠军。马奎尔来了之后，中卫位置上的顺序变了。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-30"
+        }
+      ]
+    }
+  ]
+}

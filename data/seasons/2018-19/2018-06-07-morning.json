@@ -1,0 +1,41 @@
+{
+  "id": "2018-06-07-morning",
+  "date": "2018-06-07",
+  "period": "morning",
+  "issue_number": 1,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "19 岁，1900 万，边后卫。买的是五年后的位置，不是这个赛季的。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "dalot-in",
+          "title": "曼联签下达洛特，1900 万镑五年",
+          "summary": "曼联官方 6 月 6 日宣布从波尔图签下达洛特，五年合同、附带一年续约选项。费用约 1900 万镑，当时 19 岁，能打左右两个边后卫。",
+          "body_html": "<p>6 月 6 日官宣，波尔图来的 19 岁边后卫，五年合同加一年选项，费用约 1900 万镑。</p><p>穆里尼奥的评价很高：「在他这个年龄段，他是欧洲最好的边后卫。」当时达洛特还在膝伤恢复，预计赶上美国的季前赛。</p><p>ESPN 提到，曼联在这笔交易里竞争过了拜仁和巴萨。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 / 天空体育 · 官宣",
+              "url": "https://www.skysports.com/football/news/11396520/manchester-united-sign-diogo-dalot-from-porto"
+            },
+            {
+              "text": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/37555925/manchester-united-sign-diogo-dalot-porto-five-year-contract"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2018-06-21-evening",
+  "date": "2018-06-21",
+  "period": "evening",
+  "issue_number": 2,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "中场补了，代价是 5200 万。穆里尼奥要的「另一个维度」，得先看适应。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "fred-in",
+          "title": "曼联签下弗雷德，5200 万镑五年",
+          "summary": "曼联官方 6 月 21 日宣布从顿涅茨克矿工签下弗雷德，五年合同、含续约一年选项。费用约 5200 万镑，加上浮动最高可到 6100 万。",
+          "body_html": "<p>曼联官方 6 月 21 日宣布弗雷德加盟，五年合同，含续约一年选项。6 月 5 日俱乐部先宣布与矿工达成协议，之后等的是工作许可和文件。</p><p>费用据天空体育为 5200 万镑，附加条款最高可到 6100 万。25 岁，巴西国脚，司职中场。</p><p>穆里尼奥在官宣里的说法：「弗雷德能补充我们其他中场的特点，这是我们需要的。他的创造力和传球视野会给我们另一个维度。」</p><p>他当时人在世界杯，因为脚踝伤势错过了巴西的首战。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 / 天空体育 · 官宣",
+              "url": "https://www.skysports.com/football/news/11667/11411654/manchester-united-sign-fred-from-shakhtar-donetsk"
+            },
+            {
+              "text": "卫报 · 6 月 21 日",
+              "url": "https://www.theguardian.com/football/2018/jun/21/manchester-united-sign-fred-five-year-deal"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "06-21"
+        }
+      ]
+    }
+  ]
+}

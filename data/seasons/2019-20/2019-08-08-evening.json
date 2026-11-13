@@ -1,0 +1,37 @@
+{
+  "id": "2019-08-08-evening",
+  "date": "2019-08-08",
+  "period": "evening",
+  "issue_number": 4,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "7400 万卖走两年 42 球的中锋，没补人。这个决定要看冬窗还来不来人。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "lukaku-out",
+          "title": "卢卡库 7400 万镑转会国米，曼联两年 42 球",
+          "summary": "8 月 8 日英超关窗日，曼联把卢卡库卖给国际米兰，费用约 7400 万镑。他在曼联两个赛季各项赛事出场 96 次、打进 42 球。",
+          "body_html": "<p>8 月 8 日，英超关窗日，卢卡库转会国际米兰，费用约 7400 万镑。</p><p>他在曼联两个赛季（2017–2019），各项赛事出场 96 次、打进 42 球。第一个赛季是队内最佳射手，第二个赛季后半段失去主力位置。</p><p>曼联没有在这个窗口补进中锋。</p>",
+          "sources": [
+            {
+              "text": "曼彻斯特晚报 · 完整名单",
+              "url": "https://www.manchestereveningnews.co.uk/sport/football/transfer-news/manchester-united-transfers-deadline-day-16721169"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "08-08"
+        }
+      ]
+    }
+  ]
+}
