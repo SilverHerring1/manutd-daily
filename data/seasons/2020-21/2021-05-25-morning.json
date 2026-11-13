@@ -1,0 +1,41 @@
+{
+  "id": "2021-05-25-morning",
+  "date": "2021-05-25",
+  "period": "morning",
+  "issue_number": 201,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "19 个客场 12 胜 7 平。这个纪录的背面是主场 6 场失利——同一支队，两种样子。"
+  },
+  "sections": [
+    {
+      "id": "record",
+      "title": "纪录",
+      "items": [
+        {
+          "id": "away-unbeaten",
+          "title": "19 个客场不败，英超历史上第一次",
+          "summary": "2020/21 赛季英超客场 19 场 12 胜 7 平，曼联成为英超历史上第一支单赛季客场不败的球队。",
+          "body_html": "<p>2020/21 赛季英超，曼联 19 个客场 12 胜 7 平，一场没输。这是英超历史上第一支做到单赛季客场不败的球队。</p><p>19 个客场里，有 6 次是落后之后翻盘或追平，包括 3-2 南安普顿（卡瓦尼补时）、3-1 西汉姆（13 分钟三个）、3-1 热刺。</p><p>同一赛季的主场是 9 胜 4 平 6 负。老特拉福德 6 场失利，客场 0 场——同一支球队，两种样子。</p>",
+          "sources": [
+            {
+              "text": "英超官方 · 赛季统计",
+              "url": "https://www.premierleague.com/stats"
+            },
+            {
+              "text": "BBC · 客场不败纪录",
+              "url": "https://www.bbc.co.uk/sport/football"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "05-25 09:00"
+        }
+      ]
+    }
+  ]
+}

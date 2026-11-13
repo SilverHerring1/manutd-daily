@@ -1,0 +1,37 @@
+{
+  "id": "2020-09-03-morning",
+  "date": "2020-09-03",
+  "period": "morning",
+  "issue_number": 137,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "3500 万买一个 23 岁的中场，这是这个窗口的第一笔，也是唯一一笔提前谈完的。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "vdb-in",
+          "title": "曼联签下范德贝克，3500 万镑五年",
+          "summary": "9 月 2 日官宣，从阿贾克斯签下 23 岁的荷兰中场范德贝克，五年合同带一年续约选项，费用约 3500 万镑。",
+          "body_html": "<p>曼联官方 9 月 2 日宣布范德贝克加盟，五年合同，附带一年续约选项。费用约 3500 万镑（3900 万欧）。</p><p>23 岁，荷兰国脚，阿贾克斯青训，为母队 175 场打进 41 球。这是这个夏窗曼联的第一笔签约。</p><p>他踢的是 10 号位和中前卫，位置上和布鲁诺有重叠。这笔转会后来一直被拿来讨论，原因就在这里。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-utd-ins-and-outs-summer-transfer-window-2020"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "09-02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2021-01-30-evening",
+  "date": "2021-01-30",
+  "period": "evening",
+  "issue_number": 172,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "追平英超最大分差。上半场四个，下半场五个，14 次射正。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "lingard-loan",
+          "title": "林加德租借西汉姆到赛季末，曼联 210 场 33 球",
+          "summary": "1 月 29 日，林加德租借加盟西汉姆，租期到赛季结束。他在曼联一线队 210 场、打进 33 球。",
+          "body_html": "<p>1 月 29 日，林加德租借西汉姆，租期到赛季结束。西汉姆承担他的全部薪水。</p><p>他在曼联一线队出场 210 次、打进 33 球，其中最重要的一个是 2016 年足总杯决赛的制胜球。这个赛季在联赛里只首发了两次。</p><p>租借之后他在西汉姆 16 场 9 球，把球队带进了欧战——这是后话。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 林加德租借",
+              "url": "https://www.skysports.com/football/news/11667/12210460/jesse-lingard-west-ham-sign-manchester-united-forward-on-loan"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2020-10-06-morning",
+  "date": "2020-10-06",
+  "period": "morning",
+  "issue_number": 143,
+  "title": "曼联早报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 5,
+  "section_count": 2,
+  "note": {
+    "title": "编辑短评",
+    "body": "一个 33 岁的中锋、一个 27 岁的左后卫、两个 18 岁的边锋。这个窗口的答案，是关窗前 24 小时才凑齐的。"
+  },
+  "sections": [
+    {
+      "id": "in",
+      "title": "转入",
+      "items": [
+        {
+          "id": "telles-in",
+          "title": "曼联签下特莱斯，1540 万镑四年",
+          "summary": "10 月 5 日官宣，从波尔图签下 27 岁的巴西左后卫特莱斯，费用 1540 万镑，四年合同带一年续约选项。",
+          "body_html": "<p>10 月 5 日，转会窗最后一天，曼联官宣特莱斯加盟，1540 万镑，四年合同加一年选项。</p><p>27 岁，巴西国脚，波尔图的定位球主罚者。左后卫位置上，卢克·肖伤病史一直是问题。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 特莱斯",
+              "url": "https://www.skysports.com/football/news/11667/12089940/alex-telles-manchester-united-sign-porto-left-back-for-15-4m"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "10-05"
+        },
+        {
+          "id": "cavani-in",
+          "title": "曼联签下卡瓦尼，自由身一年",
+          "summary": "10 月 5 日官宣，33 岁的卡瓦尼以自由身加盟，合同一年带一年续约选项。此前他在巴黎圣日耳曼效力七年。",
+          "body_html": "<p>10 月 5 日，卡瓦尼以自由身加盟曼联，一年合同加一年选项。33 岁，乌拉圭中锋。</p><p>他在巴黎七年，301 场 200 球，是巴黎队史最佳射手。离开之后一直没找到下家，直到关窗前几小时。</p><p>这笔签约当时被不少人质疑：年龄、伤病、和球队反击打法的适配度。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 截止日综述",
+              "url": "https://www.skysports.com/football/news/11667/11958215/manchester-united-transfer-news-and-rumours"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "10-05"
+        },
+        {
+          "id": "pellistri-in",
+          "title": "曼联签下佩利斯特里，18 岁边锋",
+          "summary": "10 月 5 日，18 岁的乌拉圭边锋佩利斯特里从佩纳罗尔加盟，费用约 900 万镑。",
+          "body_html": "<p>10 月 5 日，佩利斯特里从佩纳罗尔加盟，18 岁，乌拉圭边锋。费用约 900 万镑。</p><p>他和阿马德·迪亚洛是同一个窗口的两笔「未来投资」：18 岁、边锋、先打 U23。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 夏窗进出",
+              "url": "https://www.manutd.com/en/news/detail/man-utd-ins-and-outs-summer-transfer-window-2020"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "10-05"
+        },
+        {
+          "id": "amad-in",
+          "title": "曼联签下阿马德·迪亚洛，一月报到",
+          "summary": "10 月 5 日宣布从亚特兰大签下 18 岁的阿马德·迪亚洛，费用 2100 万欧 + 2000 万欧浮动，2021 年 1 月正式加盟。",
+          "body_html": "<p>10 月 5 日，曼联宣布与亚特兰大达成协议，签下 18 岁的阿马德·迪亚洛，2100 万欧固定 + 2000 万欧浮动，2021 年 1 月报到。</p><p>他在意甲只踢过 24 分钟。这笔钱买的是潜力，也是这个窗口最容易被拿来和桑乔对比的一笔。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 迪亚洛",
+              "url": "https://www.skysports.com/football/news/11667/12090812/amad-diallo-manchester-united-to-sign-atalanta-winger-in-january"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "10-05"
+        }
+      ]
+    },
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "smalling-out",
+          "title": "斯莫林 1800 万镑永久转会罗马，曼联 323 场 18 球",
+          "summary": "10 月 5 日，斯莫林永久转会罗马，费用约 1800 万镑。他在曼联十年，各项赛事出场 323 次、打进 18 球。",
+          "body_html": "<p>租借一个赛季之后，斯莫林在 10 月 5 日永久转会罗马，费用约 1800 万镑。</p><p>他在曼联十年（2010–2020），各项赛事 323 场 18 球，两次英超冠军。上赛季租借罗马期间，他是意甲表现最好的中卫之一。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 截止日综述",
+              "url": "https://www.skysports.com/football/news/11667/11958215/manchester-united-transfer-news-and-rumours"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "10-05"
+        }
+      ]
+    }
+  ]
+}

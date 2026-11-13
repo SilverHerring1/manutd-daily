@@ -1,0 +1,37 @@
+{
+  "id": "2021-01-14-evening",
+  "date": "2021-01-14",
+  "period": "evening",
+  "issue_number": 167,
+  "title": "曼联晚报",
+  "kind": "news",
+  "archive": true,
+  "item_count": 1,
+  "section_count": 1,
+  "note": {
+    "title": "编辑短评",
+    "body": "35% 控球，8 脚射门。榜首之争，一分。"
+  },
+  "sections": [
+    {
+      "id": "out",
+      "title": "转出",
+      "items": [
+        {
+          "id": "fosumensah-out",
+          "title": "福苏-门萨 150 万镑转会勒沃库森，曼联 30 场 1 球",
+          "summary": "1 月 13 日，福苏-门萨永久转会勒沃库森，费用约 150 万镑。他在曼联四年半，各项赛事出场 30 次。",
+          "body_html": "<p>1 月 13 日，福苏-门萨转会勒沃库森，费用约 150 万镑。</p><p>他在曼联四年半（2016–2021），各项赛事出场 30 次。右后卫和后腰都能踢，但一直没有固定的位置。23 岁，需要出场时间。</p>",
+          "sources": [
+            {
+              "text": "天空体育 · 1 月转会",
+              "url": "https://www.skysports.com/football/news/11667/12206728/timothy-fosu-mensah-manchester-united-defender-joins-bayer-leverkusen"
+            }
+          ],
+          "source_name": "转会",
+          "published_at": "01-13"
+        }
+      ]
+    }
+  ]
+}
