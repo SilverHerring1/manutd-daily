@@ -1,4 +1,4 @@
-﻿# 写一期日报：完整流程
+# 写一期日报：完整流程
 
 > 从「今天踢完一场」到「线上能看到」，按顺序做。口径细节见 `CONVENTIONS.md`。
 > 所有命令都在 `manutd-daily/` 目录下跑。
@@ -184,14 +184,22 @@ node --use-env-proxy 脚本.mjs
 ### 第 2 步：把工作目录同步到仓库
 
 ```powershell
+node scripts/sync-desktop.mjs
+```
+
+默认目标就是 `D:\Documents\GitHub\manutd-daily`，只复制有变化的文件（按 md5 比对），不会碰 `tmp/`、`_site/`、`.git/`。
+
+想指定别的克隆目录：`node scripts/sync-desktop.mjs D:\别的路径`。
+
+手动版（脚本不在时用）：
+
+```powershell
 robocopy "D:\Documents\deepseek-harness\default-workspace\manutd-daily" `
          "D:\Documents\GitHub\manutd-daily" `
          /E /XD tmp _site data-weekly data-deep data-magazine .git /XF *.bak *.log
 ```
 
-- `/E` 连子目录一起复制
-- `/XD` 排除这些目录：`tmp`（脚本和截图）、`_site`、三个早期变体目录、`.git`（**千万别覆盖仓库的 .git**）
-- `/XF` 排除备份和日志
+- `/XD` 排除 `tmp`、`_site`、三个早期变体目录、`.git`（**千万别覆盖仓库的 .git**）
 - 最后看一眼输出里的「已复制」数量，0 就是没东西要同步
 
 ### 第 3 步：确认仓库里改了什么

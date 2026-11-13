@@ -5,13 +5,16 @@
   "kind": "main",
   "source": "hand-written",
   "generated_at": "2026-11-12T14:46:45+08:00",
-  "count": 23,
+  "count": 28,
   "matchCount": 10,
-  "newsCount": 6,
+  "newsCount": 11,
   "record": null,
   "first": "2026-07-13",
-  "last": "2026-11-10",
+  "last": "2026-11-13",
   "dates": [
+    "2026-11-13",
+    "2026-11-12",
+    "2026-11-11",
     "2026-11-10",
     "2026-11-09",
     "2026-11-07",
@@ -548,6 +551,96 @@
       "scoreline": "曼联 4-4 阿斯顿维拉",
       "source_name": "英超 · 主场",
       "clause": "卡里克下课进入倒计时，但俱乐部还没官宣"
+    },
+    {
+      "id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "period": "evening",
+      "issue_number": 553,
+      "title": "曼联晚报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/cover.svg",
+        "alt": "",
+        "width": 1200,
+        "height": 900
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-12-morning",
+      "date": "2026-11-12",
+      "period": "morning",
+      "issue_number": 554,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/cover.svg",
+        "alt": "",
+        "width": 1200,
+        "height": 900
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-12-evening",
+      "date": "2026-11-12",
+      "period": "evening",
+      "issue_number": 555,
+      "title": "曼联晚报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/cover.svg",
+        "alt": "",
+        "width": 1200,
+        "height": 900
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "period": "morning",
+      "issue_number": 556,
+      "title": "曼联早报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/cover.svg",
+        "alt": "",
+        "width": 1200,
+        "height": 900
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "period": "evening",
+      "issue_number": 557,
+      "title": "曼联晚报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/cover.svg",
+        "alt": "",
+        "width": 1200,
+        "height": 900
+      },
+      "kind": "news"
     }
   ]
 }

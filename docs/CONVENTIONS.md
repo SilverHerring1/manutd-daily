@@ -124,11 +124,13 @@ node tmp/renumber-global.mjs           # 再全球 9 季
 | 级别 | 用途 |
 |---|---|
 | 曼联官网 / 官方声明 / 发布会全文 | **事实基准**：比分、阵容、伤情、原话 |
-| BBC / Sky / 曼晚 / The Athletic / 泰晤士 | 可信分析、独家 |
+| The Athletic · David Ornstein（DO） | **一线独家**：换帅、转会、合同谈到了哪一步。权威，但仍不等于官宣 |
+| BBC / Sky / 曼晚 / 泰晤士 / The Athletic 其他记者 | 可信分析、独家 |
 | 懂球帝 / 直播吧 / 虎扑 | 找线索、中文表述；多为转载，不直接用结论 |
 | X（跟队记者、罗马诺） | 转会突发；**必须标「未证实」** |
 
-- 信息等级要露在字面上：「曼联官方宣布」「据《曼晚》《镜报》报道」「据跟队记者 XXX」「有消息称，尚未证实」。
+- 信息等级要露在字面上：「曼联官方宣布」「据 The Athletic 的 David Ornstein 报道」「据《曼晚》《镜报》报道」「据跟队记者 XXX」「有消息称，尚未证实」。
+- DO 和罗马诺的区别写在句子里：DO 偏「俱乐部在做什么」，罗马诺偏「交易到哪一步」；两人都没官宣，就不许写成「已完成」。
 - 不写「据悉」「据了解」——谁说的都说不清。
 - 每条带 `sources`，链接指向原文，不指向聚合页。
 - 官方没发声的事，写「尚无官方声明」，不替它下结论。
@@ -237,12 +239,10 @@ node --use-env-proxy 脚本.mjs
 | 工作目录（改文件、跑脚本） | `D:\Documents\deepseek-harness\default-workspace\manutd-daily` |
 | Git 仓库（GitHub Desktop 推送用） | `D:\Documents\GitHub\manutd-daily` |
 
-- 改完同步到仓库副本：
+- 改完同步到仓库副本（脚本按 md5 比对，只复制变化；也可以手动 robocopy）：
 
 ```powershell
-robocopy "D:\Documents\deepseek-harness\default-workspace\manutd-daily" `
-         "D:\Documents\GitHub\manutd-daily" `
-         /E /XD tmp _site data-weekly data-deep data-magazine .git /XF *.bak *.log
+node scripts/sync-desktop.mjs          # 默认同步到 D:\Documents\GitHub\manutd-daily
 ```
 
 - 动了 `app.js` / `layout.css` / `index.html` → **把 `index.html` 里的 `app.js?v=N` 加一**，破缓存。

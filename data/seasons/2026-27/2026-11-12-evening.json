@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-12-evening",
+  "date": "2026-11-12",
+  "period": "evening",
+  "issue_number": 555,
+  "title": "曼联晚报",
+  "item_count": 3,
+  "section_count": 2,
+  "hero": {
+    "src": "./media/carrick.jpg",
+    "alt": "卡里克在老特拉福德",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "official-statement",
+          "title": "曼联官宣卡里克下课，五月刚转正",
+          "summary": "周四傍晚，曼联官网发出声明：卡里克不再担任一线队主教练。公告提到 17 场 12 胜、上季第三，也提到「极其艰难的结论」。",
+          "body_html": "<p>11 月 12 日晚上，曼联官网挂出一行标题：《Club statement on Michael Carrick》。正文第一句是「曼联可以确认，迈克尔·卡里克已离任男子一线队主教练一职」。</p><p>公告写了两层。一层是成绩：他 1 月回到俱乐部，带完 2025/26 赛季剩下的 17 场，赢了 12 场，赛季收官时联赛第三，同期积分全联赛最高。另一层是本赛季：「在经历了令人失望的赛季开局后，俱乐部经过极其艰难的考虑，最终认为必须作出改变，才能实现我们的目标。」</p><p>然后是那句被反复引用的话：「卡里克现在是、今后也永远会是曼联传奇。」公告最后一句是，俱乐部计划尽快任命一名正式继任者。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · Club statement on Michael Carrick",
+              "url": "https://www.manutd.com/en/news/club-statement-on-michael-carrick-departure"
+            },
+            {
+              "text": "澎湃新闻 · 公告全文",
+              "url": "https://m.thepaper.cn/newsDetail_forward_34459445"
+            },
+            {
+              "text": "懂球帝 · 官方：卡里克不再担任一线队主教练",
+              "url": "https://www.dongqiudi.com/article/6649079"
+            }
+          ],
+          "source_name": "曼联官方",
+          "published_at": "11-12 21:00",
+          "quote": {
+            "zh": "卡里克现在是、今后也永远会是曼联传奇。",
+            "en": "Michael is, and always will be, a Manchester United legend.",
+            "who": "曼联官方声明",
+            "when": "11 月 12 日"
+          }
+        },
+        {
+          "id": "how-it-happened",
+          "title": "周四上午当面通知，教练组一并离开",
+          "summary": "The Athletic 与 Sky 的版本一致：贝拉达周四上午在卡灵顿通知他，霍兰、伍德盖特、埃文斯等教练组同时离队。",
+          "body_html": "<p>据 The Athletic 与 Sky Sports，通知发生在周四上午的卡灵顿。贝拉达当面向卡里克传达决定，史蒂夫·霍兰、乔纳森·伍德盖特、乔尼·埃文斯等教练组成员一同离开，随后离开训练基地。</p><p>英媒补充的细节更刺人：他当天 7:50 照常到基地，几小时后才被叫去谈话；与球员告别时哭了；离场时对高层有怨言。</p><p>The Athletic 记的数字是：正式主帅任内 16 场，不含季前热身；近 11 场只赢 1 场。</p>",
+          "sources": [
+            {
+              "text": "The Athletic · 卡里克离任",
+              "url": "https://www.nytimes.com/athletic/7683765/2026/11/12/michael-carrick-sacked-manchester-united-head-coach"
+            },
+            {
+              "text": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/13606106/man-utd-sack-michael-carrick-with-mauricio-pochettino-set-to-be-appointed-after-worst-start-to-premier-league-season"
+            },
+            {
+              "text": "腾讯新闻 · 离场细节",
+              "url": "https://view.inews.qq.com/a/20261113A02WYL00"
+            }
+          ],
+          "source_name": "The Athletic · Sky",
+          "published_at": "11-12 22:30"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "数字",
+      "items": [
+        {
+          "id": "cost",
+          "title": "第三季中途换帅，赔偿破 1 亿英镑",
+          "summary": "这是曼联连续第三个赛季在赛季中途换帅；弗格森退休之后，俱乐部为教练组付出的解约金累计已经超过 1 亿英镑。",
+          "body_html": "<p>连续第三个赛季：2024/25 赛季滕哈格，上赛季阿莫林，这个赛季卡里克。三次都发生在赛季中途。</p><p>卡里克 5 月刚签下两年合同，执教不到六个月。据英媒统计，弗格森退休之后，曼联付给教练组的解约金累计已破 1 亿英镑。</p><p>他还是本赛季英超第一位下课的主帅。据《联合早报》，继任者会是 2013 年之后曼联的第 8 任正式主帅。</p>",
+          "sources": [
+            {
+              "text": "Sky Sports · 时间线",
+              "url": "https://www.skysports.com/football/news/13606106/man-utd-sack-michael-carrick-with-mauricio-pochettino-set-to-be-appointed-after-worst-start-to-premier-league-season"
+            },
+            {
+              "text": "澎湃新闻 · 13 年花了一亿炒帅",
+              "url": "https://m.thepaper.cn/newsDetail_forward_34463125"
+            },
+            {
+              "text": "联合早报",
+              "url": "https://www.zaobao.com.sg/news/sports/story20261112-9983399"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "11-12"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "16 场、1 亿英镑、连续第三季中途换帅。解雇一个五月刚转正的人，代价全写在这三个数字里。"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-13-evening",
+  "date": "2026-11-13",
+  "period": "evening",
+  "issue_number": 557,
+  "title": "曼联晚报",
+  "item_count": 3,
+  "section_count": 2,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-13-evening.jpg",
+    "alt": "多古（曼联官网丹麦队消息配图）",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "romano-signed",
+          "title": "罗马诺：波切蒂诺已签字，周末官宣",
+          "summary": "17 时罗马诺说合同已经签下、本周末官宣；此前有报道称他 19 日才正式上任。曼联官网仍未发公告。",
+          "body_html": "<p>11 月 13 日 17 时，罗马诺在社交平台给出新一步：波切蒂诺已经与曼联签下执教合同，官宣放在本周末。</p><p>此前曝出的合同长度是两年半。卡住流程的仍是美国足协那一头——他还在带队打海地的两场国家联赛；《联合早报》引述英媒的说法是，他可能到 11 月 19 日（周四）才正式上任。</p><p>到这一步为止，曼联官网没有新公告。上一个「周末官宣」的说法出自罗马诺本人，俱乐部层面仍未确认。</p><p>从 11 日「正在敲定」到今天「已经签字」，四天换了三个说法，唯一的官方文本还是那份解雇声明。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · 罗马诺：已签下执教合同",
+              "url": "https://www.dongqiudi.com/article/6649192"
+            },
+            {
+              "text": "联合早报",
+              "url": "https://www.zaobao.com.sg/news/sports/story20261112-9983399"
+            },
+            {
+              "text": "Golazo · 两年半合同",
+              "url": "https://golazonews.com/zh/news/bruno-fernandes-declines-latest-manchester-united-contract-proposal-2026-11-13"
+            }
+          ],
+          "source_name": "罗马诺 · 未官宣",
+          "published_at": "11-13 17:08"
+        },
+        {
+          "id": "farewell",
+          "title": "更衣室晒照告别，芒特巴莱巴多古发声",
+          "summary": "17:38 到 17:53，芒特、安德雷、巴莱巴、多古先后晒出与卡里克的合照，配文几乎一样：谢谢你，教练。",
+          "body_html": "<p>从 17:38 开始，曼联球员的社交账号接连更新。芒特发的是拥抱照：「谢谢你，教练。」安德雷、巴莱巴、多古跟着发，配文几乎一样。</p><p>这些动态比俱乐部的公告更直接：被解雇的是一个 1 月才回来救火、5 月刚转正的人。</p><p>俱乐部层面接下来要处理的是教练组空缺和 22 日客场利物浦的备战。新帅什么时候坐到卡灵顿，还没有官方时间表。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · 芒特告别",
+              "url": "https://www.dongqiudi.com/article/6649255"
+            },
+            {
+              "text": "懂球帝 · 巴莱巴告别",
+              "url": "https://www.dongqiudi.com/article/6649265"
+            },
+            {
+              "text": "懂球帝 · 多古告别",
+              "url": "https://www.dongqiudi.com/article/6649290"
+            }
+          ],
+          "source_name": "球员社媒",
+          "published_at": "11-13 17:53"
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "title": "国际比赛日",
+      "items": [
+        {
+          "id": "dorgu-denmark",
+          "title": "多古入选丹麦队，一线队无人进英格兰",
+          "summary": "曼联官网确认多古进入丹麦队本期名单；英格兰成年队没有曼联球员，U20 那边有四个人。",
+          "body_html": "<p>曼联官网 13 日确认，多古入选丹麦队本期名单。他是这个国际比赛日里少数还有比赛的曼联一线队球员。</p><p>英格兰成年队这次没有曼联球员。U20 那边有四个：中卫 Ayden Heaven、左后卫 Harry Amass、边锋 Shea Lacey、中场 Jim Thwaites；Jack Fletcher 本周退出。英格兰 6-1 那场，Lacey 打进的第一球来自 Amass 在左路的传中。</p><p>22 日客场利物浦之前，一线队只剩训练。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · Dorgu links up with Denmark",
+              "url": "https://www.manutd.com/en/news/patrick-dorgu-drafted-into-denmark-squad-november"
+            },
+            {
+              "text": "The Athletic · 英格兰 U20 在曼斯菲尔德",
+              "url": "https://nytimes.com/athletic/7777627/2026/11/13/manchester-united-shea-lacey-harry-amass-youth"
+            }
+          ],
+          "source_name": "国际比赛日",
+          "published_at": "11-13 17:40"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "罗马诺说签了，官网一个字没有。四天里曼联换了一个主帅的说法，却还没换掉「等声明」的习惯。"
+  }
+}

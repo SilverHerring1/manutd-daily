@@ -1,18 +1,54 @@
-﻿# 项目状态
+# 项目状态
 
 > 每次开工先读这份，收工更新这份。聊天记录会丢，这里不会。
+> **新开对话时，直接把下面「开工三句话」贴进去就能开始。**
+
+## 开工三句话（新对话复制即用）
+
+```
+项目在 D:\Documents\deepseek-harness\default-workspace\manutd-daily
+先读 docs/STATUS.md、docs/CONVENTIONS.md、docs/WRITING-FLOW.md
+这一轮要做：<在这里写要干什么>
+```
+
+三条不能破的铁律：
+
+1. **比分主队在前**（`阿森纳 2-0 曼联`，不是 `曼联 0-2 阿森纳`）
+2. **当天视角**（不用「此后」「最终」「后来」）
+3. **加完期次必须重排**：`node tmp/renumber-season.mjs <season>` → `node tmp/renumber-global.mjs` → 重建归档页 `node scripts/gen-archive-issues.mjs --all --pages`
+
+常用命令：
+
+```powershell
+python serve.py 8141                    # 本地预览 ?date=2026-11-09&period=morning
+node scripts/fetch-commentary.mjs 2026-27   # 抓技术统计
+node scripts/gen-archive-issues.mjs --all --pages   # 只重建 archive/*.html
+```
 
 ## 现在到哪了
 
-- 主线：**2026/27 已发 10 期**（07-13 → 11-10），手写；其中 9 期比赛稿已按 writer 重写
+- 主线：**2026/27 已发 15 期**（07-13 → 11-13），手写；其中 9 期比赛稿已按 writer 重写
 - 赛季归档：**9 季全部重写完**
-  - 2018/19 62 · 2019/20 75 · 2020/21 70 · 2021/22 59 · 2022/23 76 · 2023/24 63 · 2024/25 70 · 2025/26 54 · 2026/27 23
-  - 全站 **552 期**，期号跨季连续（1–552）
+  - 2018/19 62 · 2019/20 75 · 2020/21 70 · 2021/22 59 · 2022/23 76 · 2023/24 63 · 2024/25 70 · 2025/26 54 · 2026/27 28
+  - 全站 **557 期**，期号跨季连续（1–557）
 - 写作口径：正文按 football-writer、标题按 football-headline、短评按 football-note
-- 新闻期（转会/场外/纪录）85 期，25 期有真图，其余走无图版式（只配相关的图）
+- 新闻期（转会/场外/纪录）90 期，28 期有真图，其余走无图版式（只配相关的图）
+- 仓库副本 `D:\Documents\GitHub\manutd-daily`：已推送，待提交 0 个
 - 上线地址：https://silverherring1.github.io/manutd-daily/
 - 仓库：https://github.com/SilverHerring1/manutd-daily
-- 最后更新：2026-11-13（九季全量重写 + 新闻期体系 + docs 口径重写）
+- 最后更新：2026-11-13（补 11/11–11/13 五期 · 卡里克下课与波切蒂诺 · DO 进信源分级）
+
+## 2026-11-13 这一轮做了什么（补稿）
+1. 主线补 5 期，553–557，全部是新闻期（11-11～11-13 没有比赛，国际比赛日）
+   - 553 11-11 晚报：DO/The Athletic 独家「曼联正在敲定波切蒂诺」；格拉泽家族 50 亿英镑秘密放盘（未证实）
+   - 554 11-12 早报：罗马诺口头协议、700 万英镑解约金、高层摩纳哥会面；TA 评论
+   - 555 11-12 晚报：曼联官宣卡里克下课（公告中英引语）、离任过程、连续第三季中途换帅与赔偿破 1 亿英镑
+   - 556 11-13 早报：B 费拒绝第二份续约报价（TA + BBC）、伤停与 11-22 复出时间
+   - 557 11-13 晚报：罗马诺「已签字、周末官宣」、更衣室晒照告别、多古入选丹麦队
+2. 信源分级加一层：**The Athletic 的 David Ornstein（DO）** 写进 `docs/CONVENTIONS.md` 与 README，口径是「一线独家，但仍不等于官宣」
+3. 配图 3 张（全部 1200×800，`media/news/`）：波切蒂诺（Wikimedia，CC BY-SA 4.0 Bryan Berlin）、老特拉福德航拍（Wikimedia，CC BY-SA 3.0 de Arne Müseler）、多古（曼联官网）；555 沿用 `carrick.jpg`，556 用 `bruno.jpg`
+4. 脚本：`tmp/patch-news-meta.mjs`（补 kind:news 并重算计数）、`tmp/verify-issues.mjs`（期号连续 / 字数 / 来源 / 配图存在性）、`tmp/shot-news-issues.mjs`（截图核对）
+5. **没跑** `renumber-*.mjs` 与 `gen-archive-issues.mjs --all --pages`：新期都在 552 之后、不挪旧号；`--pages` 会用 archive 的 15 场覆盖 2026/27 的 28 期总目
 
 ## 2026-11-12 这一轮做了什么
 1. **归档生成器** `scripts/gen-archive-issues.mjs`

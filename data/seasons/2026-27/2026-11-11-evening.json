@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-11-evening",
+  "date": "2026-11-11",
+  "period": "evening",
+  "issue_number": 553,
+  "title": "曼联晚报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-11-evening.jpg",
+    "alt": "波切蒂诺在美国队比赛期间",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "pochettino-deal",
+          "title": "曼联敲定波切蒂诺，只差美国足协点头",
+          "summary": "The Athletic 的 David Ornstein 独家：曼联正敲定这份合同，个人条款周二已谈妥，但还没联系美国足协——解约金大约 1000 万美元。",
+          "body_html": "<p>11 月 11 日，The Athletic 刊出 David Ornstein 的独家：曼联正在敲定让波切蒂诺出任主帅，前提是俱乐部决定解雇卡里克。</p><p>细节落在周二那场谈判上。双方已经谈完个人条款，他的团队那边「预计不会出问题」。但曼联还没联系美国足协——波切蒂诺今年 8 月刚续约到 2030 年，合同里有一条约 1000 万美元（约 740 万英镑）的解约金，把教练组一起带走还要加钱。</p><p>同一天《泰晤士报》把他写成「领跑者」，BBC 摆出六个人选。Ornstein 的说法更靠前一步：这份工作已经谈到了合同层面。</p><p>截至发稿，曼联没有就卡里克的去留下任何声明，美国足协也没有收到接触。</p>",
+          "sources": [
+            {
+              "text": "The Athletic · David Ornstein",
+              "url": "https://www.nytimes.com/athletic/7767421/2026/11/11/mauricio-pochettino-manchester-united-manager-usmnt/"
+            },
+            {
+              "text": "懂球帝 · 泰晤士报编译",
+              "url": "https://www.dongqiudi.com/article/6640552"
+            },
+            {
+              "text": "懂球帝 · BBC 六人选帅",
+              "url": "https://www.dongqiudi.com/article/6640366"
+            }
+          ],
+          "source_name": "The Athletic · DO",
+          "published_at": "11-11 16:38"
+        },
+        {
+          "id": "glazers-sale",
+          "title": "格拉泽家族叫价 50 亿英镑，暗中放盘",
+          "summary": "talkSPORT 引述前曼城财务顾问的说法：格拉泽家族已认定卖盘时机到了，正私下放售剩余全部股权，不到 50 亿英镑不放手。尚未证实。",
+          "body_html": "<p>11 月 11 日中午，香港《星島》转引 talkSPORT 的节目内容：前曼城财务顾问 Stefan Borson 说，格拉泽家族私下认定「卖盘时机已到」，正在非公开地放售手上剩余的全部股权。</p><p>叫价 50 亿英镑。Borson 的解释是上一次公开招标只卖出了少数股权，所以这次不再公开；「只有达到 50 亿英镑才放手」。他的底气之一是利物浦近期那笔估值超过 50 亿英镑的交易。</p><p>说法的等级要标清楚：这是一位财务顾问在电台节目里的转述，曼联俱乐部没有任何回应，也没有任何一方证实已经收到报价。</p>",
+          "sources": [
+            {
+              "text": "星島 · talkSPORT 转述",
+              "url": "https://stheadline.com/zh-hans/football-news/3635913/%E8%8B%B1%E8%B6%85%E6%9B%BC%E8%81%94%E4%BC%A0%E5%8A%A0%E6%B2%99%E5%AE%B6%E6%97%8F%E5%AF%86%E8%B0%8B%E5%85%A8%E5%94%AE%E8%82%A1%E6%9D%83%E5%8F%AB%E4%BB%B750%E4%BA%BF%E9%95%91-%E8%B4%A2%E6%94%BF%E4%B8%93%E5%AE%B6%E7%88%86%E6%9B%BC%E8%81%94%E6%9A%97%E4%B8%AD%E6%94%BE%E5%94%AE"
+            }
+          ],
+          "source_name": "传闻 · 未证实",
+          "published_at": "11-11 12:50"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "DO 用的还是「如果」——敲定合同不等于解雇决定。第 18 位的球队先谈继任者、再通知本人，顺序本身就是答案。"
+  }
+}

@@ -29,7 +29,10 @@
 | `villa.jpg` | 多古绝平后倒地 | 11-09 头图 |
 | `villa2.jpg` | 姆贝乌莫 | 11-09 组图 |
 | `fans.jpg` | 球场外三名球迷合影 | 11-09 组图 / 11-10 头图 |
-| `carrick.jpg` | 卡里克赛前发布会 | 11-10 卡里克那条 |
+| `carrick.jpg` | 卡里克赛前发布会 | 11-10 卡里克那条 / 11-12 晚报头图 |
+| `news/news-2026-27-2026-11-11-evening.jpg` | 波切蒂诺在美国队比赛前鼓掌（2026 年 6 月，澳大利亚对美国） | 11-11 晚报头图 |
+| `news/news-2026-27-2026-11-12-morning.jpg` | 老特拉福德航拍（Arne Müseler） | 11-12 早报头图 |
+| `news/news-2026-27-2026-11-13-evening.jpg` | 多古在卡灵顿（曼联官网丹麦队征召稿配图） | 11-13 晚报头图 |
 | `results-dark.svg` / `results-light.svg` | 近八场战绩条（自己画的） | 11-10 数据那条 |
 | `cover.svg` | 品牌封面（自己画的，暂时没用上） | 备用 |
 | `greenwood-psg.jpg` | 格林伍德在王子公园庆祝，粉色客场球衣，背后号码是巴黎字体（PSG 徽在号码里） | 2018/19 第 41 期「场边」 |
@@ -37,4 +40,4 @@
 
 ## 版权
 
-比赛照片来自曼联官网战报页（版权属曼联 / Getty Images），抗议照片来自 Sporting News（Getty Images），`media/archive/` 里归档各期的头图来自 ESPN 图集（授权方多为 Getty / AFP，逐张署名见 `data/images-2018-19.json` 的 `credit`），战绩条和封面是自己画的。仅作个人阅读演示，不要公开分发。
+比赛照片来自曼联官网战报页（版权属曼联 / Getty Images），抗议照片来自 Sporting News（Getty Images），`media/archive/` 里归档各期的头图来自 ESPN 图集（授权方多为 Getty / AFP，逐张署名见 `data/images-2018-19.json` 的 `credit`），战绩条和封面是自己画的。11-11 那期波切蒂诺的照片来自 Wikimedia Commons（Bryan Berlin，CC BY-SA 4.0），11-12 早报的老特拉福德航拍来自 Wikimedia Commons（Arne Müseler，CC BY-SA 3.0 de），11-13 多古的照片来自曼联官网。仅作个人阅读演示，不要公开分发。

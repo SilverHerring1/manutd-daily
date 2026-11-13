@@ -43,6 +43,7 @@
 | 级别 | 来源 |
 |---|---|
 | 事实基准 | 曼联官网（战报、发布会全文） |
+| 一线独家 | The Athletic（David Ornstein / DO）、罗马诺；未官宣的照实写「尚无官方声明」 |
 | 分析评论 | BBC、Sky Sports、曼彻斯特晚报、Evening Standard |
 | 线索与中文表述 | 懂球帝、直播吧 |
 | 赛程与比分 | ESPN 公开接口 |

@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-13-morning",
+  "date": "2026-11-13",
+  "period": "morning",
+  "issue_number": 556,
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/bruno.jpg",
+    "alt": "布鲁诺·费尔南德斯",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "bruno-contract",
+          "title": "B 费拒绝第二份续约报价",
+          "summary": "BBC 与 The Athletic 先后确认：队长拒绝了第二份续约报价，卡在薪水和年限；俱乐部需要在 1 月 1 日前决定是否启动一年续约选项。",
+          "body_html": "<p>11 月 13 日早上，BBC 与 The Athletic 先后确认同一件事：曼联队长 B 费拒绝了俱乐部开出的第二份续约报价。</p><p>过程是：夏天第一份报价被否，俱乐部随后提高条件，他仍然不满意，谈判还要继续。卡住的两点是薪水和合同年限。</p><p>他 32 岁，现有合同到 2027 年 6 月，俱乐部手上还有一年续约选项，可以延到 2028 年。这个选项要在 1 月 1 日之前启动——过了那天，他就能自由与外国俱乐部预签。据 BBC，曼联几乎肯定会动用它。</p><p>这不是第一次僵住：2025 年 6 月他拒绝过沙特 Al Hilal 的报价，今年 8 月加拉塔萨雷也报过价，俱乐部当时的态度是不卖。</p>",
+          "sources": [
+            {
+              "text": "The Athletic · Laurie Whitwell",
+              "url": "https://www.nytimes.com/athletic/7777075/2026/11/12/bruno-fernandes-rejects-second-manchester-united-contract-offer"
+            },
+            {
+              "text": "BBC Sport",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo"
+            },
+            {
+              "text": "Sky Sports",
+              "url": "https://www.skysports.com/share/13611749"
+            }
+          ],
+          "source_name": "The Athletic · BBC",
+          "published_at": "11-13 06:09"
+        },
+        {
+          "id": "injuries",
+          "title": "拉什福德锁定 11 月 22 日复出",
+          "summary": "马奎尔的背伤有机会赶上利物浦；谢什科和乌加特年内无缘，巴莱巴要等到 12 月，肖的伤情俱乐部没说清。",
+          "body_html": "<p>国际比赛日给的是时间，不是答案。伤停名单上最紧的还是中场：巴莱巴腿筋，至少还要几周；乌加特 ACL，本赛季大半报销；谢什科今年无法出场。</p><p>好消息在后防。对维拉半场伤退的马奎尔是背部痉挛，按英媒的说法应该能赶上 11 月 22 日客场利物浦。</p><p>拉什福德自 10 月 13 日之后没再出场，目标同样是安菲尔德。卢克·肖的伤情，俱乐部一直没给明确说法。</p>",
+          "sources": [
+            {
+              "text": "网易 · 曼联伤情与复出时间",
+              "url": "https://163.com/dy/article/LBHAO7OA0529999M.html"
+            },
+            {
+              "text": "Evening Standard 伤病汇总",
+              "url": "https://www.standard.co.uk/sport/football/man-utd-injury-update-maguire-baleba-rashford-latest-news-return-dates-b1304039.html"
+            }
+          ],
+          "source_name": "伤病",
+          "published_at": "11-13"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "队长在合同上僵住，伤员在康复室排队。换帅解决不了这两件事，新帅第一天才发现它们已经烧到门口。"
+  }
+}

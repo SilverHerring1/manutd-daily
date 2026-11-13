@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-morning",
+  "date": "2026-11-12",
+  "period": "morning",
+  "issue_number": 554,
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-12-morning.jpg",
+    "alt": "老特拉福德球场",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "oral-agreement",
+          "title": "口头协议达成，解约金 700 万英镑",
+          "summary": "罗马诺：曼联与波切蒂诺已原则上达成口头协议；贝拉达和威尔科克斯在摩纳哥见过拉特克利夫，卡里克的下课可能在本周四确认。",
+          "body_html": "<p>北京时间 12 日凌晨，罗马诺给出新一步：曼联与波切蒂诺原则上达成口头协议，正式的步骤随后跟进。</p><p>钱的部分是 1000 万美元解约金，约合 700 万英镑，曼联可以直接向美国足协激活。同一晚《每日邮报》的说法是，卡里克的下课可能在当地时间周四得到确认。</p><p>决定是在摩纳哥做出的：CEO 贝拉达和足球总监威尔科克斯在那里与拉特克利夫会面，然后报给联合主席乔尔和阿夫拉姆·格拉泽。The Athletic 也确认，曼联已经正式接触美国足协。</p><p>一个容易被略过的条件：波切蒂诺正随美国队备战对海地的两场国家联赛，曼联愿意让他先带完这两场再回英格兰。</p>",
+          "sources": [
+            {
+              "text": "澎湃新闻 · 体坛联播",
+              "url": "https://thepaper.cn/newsDetail_forward_34457910"
+            },
+            {
+              "text": "懂球帝 · 波切蒂诺即将执掌与格拉泽放盘",
+              "url": "https://www.dongqiudi.com/article/6645046"
+            },
+            {
+              "text": "The Athletic · 美国队帅位连锁反应",
+              "url": "https://www.nytimes.com/athletic/7767421/2026/11/11/mauricio-pochettino-manchester-united-manager-usmnt/"
+            }
+          ],
+          "source_name": "罗马诺 · 综合",
+          "published_at": "11-12 00:01"
+        },
+        {
+          "id": "ta-analysis",
+          "title": "TA 评论：毒酒还是复兴良药",
+          "summary": "The Athletic 把镜头拉回 2024 年那次接触：当时曼联对他的评价是状态和饥饿感都不够；两年后他们又回到同一个人面前。",
+          "body_html": "<p>12 日上午，The Athletic 的评论标题问得很直接：波切蒂诺加曼联，是毒酒还是复兴良药。</p><p>文章翻出 2024 年那次会面。曼联谈完之后「有点失望」，反馈集中在执教状态、饥饿感和工作强度；Ornstein 在播客里说，那场面试对双方都不理想。</p><p>这一次的情况倒过来了：他在美国队待了两年，刚打完世界杯，据说是这些年状态最好的一段时间。而曼联 10 轮 8 分，没有资格再挑。</p><p>文章没有给结论，只留了一个顺序问题——先换帅，还是先修上面那一层。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · TA 评论编译",
+              "url": "https://www.dongqiudi.com/article/6645070"
+            },
+            {
+              "text": "United in Focus · Ornstein 播客原话",
+              "url": "https://unitedinfocus.com/news/david-ornstein-explains-man-utds-u-turn-on-pochettino-under-ineos"
+            }
+          ],
+          "source_name": "分析",
+          "published_at": "11-12 09:45"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "口头协议到官宣之间隔着美国足协和 700 万英镑。这两天曼联谈的不是换帅，是买断。"
+  }
+}
