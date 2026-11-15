@@ -24,13 +24,13 @@
   <link rel="icon" href="./media/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./media/avatar.svg" />
 
-  <link rel="stylesheet" href="./design-tokens.css?v=9" />
-  <link rel="stylesheet" href="./layout.css?v=9" />
+  <link rel="stylesheet" href="./design-tokens.css?v=10" />
+  <link rel="stylesheet" href="./layout.css?v=10" />
 
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
 
-  <script type="module" src="./app.js?v=21"></script>
+  <script type="module" src="./app.js?v=22"></script>
 </head>
 
 <body>
@@ -157,6 +157,21 @@
     <span class="mini-progress" aria-hidden="true"><i id="miniProgress"></i></span>
   </div>
 
+  <!-- ============ 迷你条「目录」：目录 + 编辑短评快速面板 ============ -->
+  <div class="sheet" id="quickMenu" hidden>
+    <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="quickMenuTitle">
+      <div class="sheet-head">
+        <p class="sheet-title" id="quickMenuTitle">本期</p>
+        <button type="button" class="sheet-close" data-close-sheet aria-label="关闭">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </div>
+      <nav class="quick-nav" id="quickNav" aria-label="本期目录"></nav>
+      <div class="quick-note" id="quickNote" hidden></div>
+      <p class="sheet-foot">点一项跳到正文对应位置；右上角关闭。</p>
+    </div>
+  </div>
+
   <!-- ============ 期次选择：年 / 月 / 日 三级 ============ -->
   <div class="sheet" id="dateMenu" hidden>
     <div class="sheet-panel" role="dialog" aria-modal="false" aria-labelledby="dateMenuTitle">
@@ -249,7 +264,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v21";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v22";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");

@@ -113,6 +113,15 @@ git status -sb        # 应显示 [ahead N]，表示 N 个提交等推送
    - 下一季可选：2024/25（70 场）、2023/24（63 场）；归档深写模板见 `tmp/rewrite-2526-batch1..4.mjs`（`PATCH` 表 + 字数断言 + 幂等来源去重）
 8. 「名局」统一改「焦点战」：README、`gen-archive-issues.mjs`、口径文档同步；CONVENTIONS 第七节新增「焦点战（★）」判据；顺手把「归档不挂积分榜」改成「挂当时的积分榜」（跟 `app.js` 实际行为对齐）
 
+## 2026-11-15 · 移动端三处修复
+
+1. **日期面板**：`@media (max-width: 767px)` 里 `.edition-grid` 改单列（`1fr`）、按钮 `min-width: 54px`。375px 下日期 span 从约 9px 变 **211px**，不再和 [早报][晚报] 挤在一起；桌面仍是两列。
+2. **迷你条接通**：`#miniEdition` → 开/关 `#dateMenu`；`#miniSection` → 新面板 `#quickMenu`（今日要点 + 每条正文 + 当时的积分榜锚点 + 编辑短评，没有短评就整块隐藏）。点了锚点会关面板并平滑滚过去。
+3. **面板行为**：新增 `openSheet/closeSheet`，打开时给 `body` 加 `sheet-open` 锁背景滚动；滚动自动收起**只对桌面 popover 生效**，底部面板不再被页面滚动误关；Esc、遮罩点击、右上角 × 都能关。
+4. **side-card 仍按原设计在手机上隐藏（方案 2）**：原注释里的「打卡」全站并没有实现，这次**没有虚构功能**，入口统一走迷你条。
+5. 版本：`layout.css?v=9→10`、`design-tokens.css?v=9→10`、`app.js?v=21→22`、页脚「构建 v22」。
+6. 实测（headless Edge，375×812）：无横向溢出（scrollWidth=375）、两个按钮都能打开面板、锚点跳转后关闭、桌面 1280 popover 仍贴按钮（top 166 / left 594）、console 0 报错。脚本 `tmp/test-mobile-fixes.mjs`。
+
 ## 2026-11-12 这一轮做了什么
 1. **归档生成器** `scripts/gen-archive-issues.mjs`
    - `node scripts/gen-archive-issues.mjs 2018-19` 把 `data/archive/<season>.json` 的每一场变成一期日报

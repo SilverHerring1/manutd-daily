@@ -667,6 +667,50 @@ html.theme-ready body {
   font-size: var(--cap);
 }
 
+/* 面板打开时锁背景滚动：底部面板不会因为页面滚一下就被收起 */
+body.sheet-open { overflow: hidden; }
+
+/* 迷你条「目录」弹出的快速面板：目录锚点 + 编辑短评 */
+.quick-nav {
+  display: grid;
+  gap: 0;
+  margin: 0 0 18px;
+}
+.quick-item {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  width: 100%;
+  padding: 11px 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: none;
+  color: var(--ink);
+  text-align: left;
+  font-family: var(--sans);
+  font-size: var(--ui);
+  cursor: pointer;
+}
+.quick-item:hover { color: var(--accent); }
+.quick-item em {
+  color: var(--faint);
+  font-style: normal;
+  font-family: var(--num);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+.quick-note { padding: 2px 0 0; }
+.quick-note .side-label {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: var(--cap);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.quick-note p { margin: 0 0 8px; }
+
 /* 日期网格：7 天 × 早晚 */
 /* 日期面板：一行一天，左边日期、右边早/晚两个按钮；宽屏两列 */
 .edition-grid {
@@ -1343,6 +1387,10 @@ dialog.image-dialog { width: min(1080px, 96vw); }
 
   .archive-link { font-size: var(--cap); padding: 0 8px; }
   .archive-main { padding: 20px 0 48px; }
+
+  /* 日期面板：手机上改单列，日期 + 早晚报按钮才排得开（两列时日期只剩不到 10px） */
+  .edition-grid { grid-template-columns: 1fr; gap: 2px 0; }
+  .edition-day button { min-width: 54px; }
   .arc-table th:nth-child(2),
   .arc-table td:nth-child(2) { display: none; }   /* 手机上先看比分和结果 */
 

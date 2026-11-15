@@ -395,9 +395,7 @@ async function jumpTo(year, month) {
   await choose(date, cur.period ?? "morning", { scroll: "none" });
 
   const menu = $("dateMenu");
-  menu.hidden = false;
-  $("dateTrigger").setAttribute("aria-expanded", "true");
-  placeSheet();
+  openSheet(menu);
 }
 
 /* ---------------- 日期面板：年 / 月 / 日 三级 ---------------- */
@@ -887,6 +885,66 @@ function placeSheet() {
   panel.style.top = `${rect.bottom + 8}px`;
 }
 
+/** 打开一个面板：桌面日期面板仍贴按钮弹出，其余从底部升起；打开时锁住背景滚动 */
+function openSheet(menu) {
+  if (!menu) return;
+  menu.hidden = false;
+  document.body.classList.add("sheet-open");
+  if (menu.id === "dateMenu") {
+    $("dateTrigger").setAttribute("aria-expanded", "true");
+    placeSheet();
+  }
+}
+
+/** 关闭面板；两个面板都收起来之后才解开背景滚动锁 */
+function closeSheet(menu) {
+  if (!menu) return;
+  menu.hidden = true;
+  if (menu.id === "dateMenu") $("dateTrigger").setAttribute("aria-expanded", "false");
+  const stillOpen = [...document.querySelectorAll(".sheet")].some((el) => !el.hidden);
+  if (!stillOpen) document.body.classList.remove("sheet-open");
+}
+
+/** 迷你条「目录」：把本期要点 / 每条正文 / 积分榜做成锚点，再挂上编辑短评 */
+function renderQuickSheet() {
+  const nav = $("quickNav");
+  if (!nav) return;
+
+  const items = [];
+  if ($("digest")) items.push({ target: "digest", mark: "★", label: "今日要点" });
+  document.querySelectorAll(".story").forEach((story, index) => {
+    const title = story.querySelector(".story-title")?.textContent?.trim();
+    if (!title) return;
+    items.push({ target: story.id, mark: pad(index + 1), label: title });
+  });
+  const board = document.querySelector(".board");
+  if (board) {
+    if (!board.id) board.id = "board";
+    items.push({ target: board.id, mark: "表", label: "当时的积分榜" });
+  }
+
+  nav.innerHTML = items
+    .map(
+      (item) =>
+        `<button type="button" class="quick-item" data-quick-target="${esc(item.target)}">` +
+        `<em>${esc(item.mark)}</em><span>${esc(pangu(item.label))}</span></button>`,
+    )
+    .join("");
+
+  const note = $("quickNote");
+  if (!note) return;
+  const current = state.issue?.note;
+  if (current?.body) {
+    note.hidden = false;
+    note.innerHTML =
+      `<p class="side-label">${esc(pangu(current.title || "编辑短评"))}</p>` +
+      `<p>${esc(pangu(current.body))}</p>`;
+  } else {
+    note.hidden = true;
+    note.innerHTML = "";
+  }
+}
+
 function bind() {
   document.querySelectorAll("[data-open-search]").forEach((el) =>
     el.addEventListener("click", () => {
@@ -902,10 +960,12 @@ function bind() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !$("dateMenu").hidden) {
-      $("dateMenu").hidden = true;
-      $("dateTrigger").setAttribute("aria-expanded", "false");
-      $("dateTrigger").focus();
+    if (event.key === "Escape") {
+      if (!$("dateMenu").hidden) {
+        closeSheet($("dateMenu"));
+        $("dateTrigger").focus();
+      }
+      if (!$("quickMenu").hidden) closeSheet($("quickMenu"));
     }
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
       event.preventDefault();
@@ -921,14 +981,20 @@ function bind() {
     const sheetCloser = event.target.closest("[data-close-sheet]");
     if (sheetCloser) {
       const sheet = sheetCloser.closest(".sheet");
-      if (sheet) sheet.hidden = true;
-      $("dateTrigger").setAttribute("aria-expanded", "false");
+      if (sheet) closeSheet(sheet);
+    }
+
+    const quickTarget = event.target.closest("[data-quick-target]");
+    if (quickTarget) {
+      closeSheet($("quickMenu"));
+      const el = document.getElementById(quickTarget.dataset.quickTarget);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
     }
 
     const picker = event.target.closest("[data-pick-date]");
     if (picker) {
-      $("dateMenu").hidden = true;
-      $("dateTrigger").setAttribute("aria-expanded", "false");
+      closeSheet($("dateMenu"));
       void choose(picker.dataset.pickDate, picker.dataset.pickPeriod, { scroll: "top" });
       return;
     }
@@ -977,9 +1043,34 @@ function bind() {
 
   $("dateTrigger").addEventListener("click", () => {
     const menu = $("dateMenu");
-    menu.hidden = !menu.hidden;
-    $("dateTrigger").setAttribute("aria-expanded", String(!menu.hidden));
-    if (!menu.hidden) placeSheet();
+    if (menu.hidden) openSheet(menu);
+    else closeSheet(menu);
+  });
+
+  // 迷你条：左边换期（底栏日期面板），右边「目录」（目录 + 编辑短评）
+  $("miniEdition")?.addEventListener("click", () => {
+    const menu = $("dateMenu");
+    if (menu.hidden) openSheet(menu);
+    else closeSheet(menu);
+  });
+
+  $("miniSection")?.addEventListener("click", () => {
+    const menu = $("quickMenu");
+    if (!menu) return;
+    if (menu.hidden) {
+      renderQuickSheet();
+      openSheet(menu);
+    } else {
+      closeSheet(menu);
+    }
+  });
+
+  // 底部面板点遮罩关闭（桌面日期面板是 popover，遮罩不接点击，走下面那套判断）
+  document.querySelectorAll(".sheet").forEach((sheet) => {
+    sheet.addEventListener("click", (event) => {
+      if (event.target !== sheet || sheet.classList.contains("is-popover")) return;
+      closeSheet(sheet);
+    });
   });
 
   // 面板外点击关闭。遮罩层不接点击（见 .sheet.is-popover），所以这里统一判断：
@@ -999,23 +1090,21 @@ function bind() {
     if (menu.hidden || !menu.classList.contains("is-popover")) return;
     if (Date.now() - panelPointerAt < 700) return;
     if (event.target.closest(".sheet-panel") || event.target.closest("#dateTrigger")) return;
-    menu.hidden = true;
-    $("dateTrigger").setAttribute("aria-expanded", "false");
+    closeSheet(menu);
   });
 
   window.addEventListener("resize", () => {
     if (!$("dateMenu").hidden) placeSheet();
   });
 
-  // 页面滚动时收起日期面板（面板内部自己滚动不算）
+  // 页面滚动时收起桌面日期浮层（底部面板有遮罩 + 背景锁，不跟着滚）
   window.addEventListener(
     "scroll",
     (event) => {
       const menu = $("dateMenu");
-      if (menu.hidden) return;
+      if (menu.hidden || !menu.classList.contains("is-popover")) return;
       if (event.target instanceof Element && menu.contains(event.target)) return;
-      menu.hidden = true;
-      $("dateTrigger").setAttribute("aria-expanded", "false");
+      closeSheet(menu);
     },
     { capture: true, passive: true },
   );
