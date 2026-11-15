@@ -101,8 +101,9 @@
 *::after { box-sizing: border-box; }
 
 html {
-  /* 锚点跳转时标题不被吸顶栏盖住 —— 少一个都要出事 */
-  scroll-padding-top: calc(var(--topbar-h) + 8px);
+  /* 锚点偏移统一写在落点上（layout.css 的 #digest / .story / .board 的 scroll-margin-top），
+     这里留 0，避免 scroll-padding + scroll-margin 叠加成双倍留白 */
+  scroll-padding-top: 0;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;

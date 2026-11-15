@@ -22,6 +22,8 @@ const DATA = join(ROOT, 'data');
 const ARCHIVE = join(DATA, 'archive');
 const OUT = join(DATA, 'seasons');
 const NAMES = JSON.parse(readFileSync(join(ROOT, 'scripts/teams-cn.json'), 'utf8'));
+// 站点静态资源版本号（只写数字）：改 layout.css / app.js 时跟 index.html 一起递增
+const ASSET_V = '11';
 
 const args = process.argv.slice(2);
 const dry = args.includes('--dry');
@@ -302,8 +304,8 @@ const page = (title, body) => `<!doctype html>
   })();
 </script>
 <link rel="icon" href="../media/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="../design-tokens.css?v=9" />
-<link rel="stylesheet" href="../layout.css?v=9" />
+<link rel="stylesheet" href="../design-tokens.css?v=${ASSET_V}" />
+<link rel="stylesheet" href="../layout.css?v=${ASSET_V}" />
 </head>
 <body class="archive-body">
 <div class="shell">

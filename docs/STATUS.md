@@ -113,6 +113,14 @@ git status -sb        # 应显示 [ahead N]，表示 N 个提交等推送
    - 下一季可选：2024/25（70 场）、2023/24（63 场）；归档深写模板见 `tmp/rewrite-2526-batch1..4.mjs`（`PATCH` 表 + 字数断言 + 幂等来源去重）
 8. 「名局」统一改「焦点战」：README、`gen-archive-issues.mjs`、口径文档同步；CONVENTIONS 第七节新增「焦点战（★）」判据；顺手把「归档不挂积分榜」改成「挂当时的积分榜」（跟 `app.js` 实际行为对齐）
 
+## 2026-11-16 · 锚点 / 手机短评 / 空要点
+
+1. **锚点不再被吸顶栏压住**：`scroll-margin-top` 从 `.story-title` 挪到真正的落点 `#digest, .story, .board`（桌面 `calc(var(--topbar-h) + 24px)`，手机 72px）。同时把 `design-tokens.css` 的 `html { scroll-padding-top }` 归零——原来 72px 的 scroll-padding 和 scroll-margin 会叠加成 160/144px，跳过去留白过大。
+2. **手机短评与桌面共用一套渲染**：新增 `noteHtml(note)`，`renderSide` 和 `renderQuickSheet` 都调它；热评自动加「」、有 `note.credit` 就署名、有 `note.url` 就带链接。CSS 的 `.side-credit` 扩到 `.quick-note .side-credit`。
+3. **空要点兜底**：`renderQuickSheet` 的「★ 今日要点」改成 `$("digest") && !$("digest").hidden`。
+4. 版本：`design-tokens.css?v=10→11`、`layout.css?v=10→11`、`app.js?v=22→23`、页脚「构建 v23」；归档页模板新增 `ASSET_V`，`archive/*.html` 9 个页面全部重新生成到 `?v=11`（只写页面，不动期次）。
+5. 实测（headless Edge）：桌面 1280 下要点/目录/搜索/`?news=` 跳转后目标 top=88（topbar 64）；手机 390 下「目录」面板跳要点/新闻/积分榜 top=72（topbar 56），无横向溢出；紧凑夹具里带 credit 的热评能出「」+「—— 测试球迷」+ 链接；空 sections 的期次面板只剩「当时的积分榜」；console 0 报错。脚本：`tmp/verify-anchors.mjs`、`tmp/verify-credit-note.mjs`、`tmp/verify-empty-digest.mjs`。
+
 ## 2026-11-15 · 移动端三处修复
 
 1. **日期面板**：`@media (max-width: 767px)` 里 `.edition-grid` 改单列（`1fr`）、按钮 `min-width: 54px`。375px 下日期 span 从约 9px 变 **211px**，不再和 [早报][晚报] 挤在一起；桌面仍是两列。

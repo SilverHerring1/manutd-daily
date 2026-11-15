@@ -401,6 +401,13 @@ html.theme-ready body {
   line-height: 1.4;
   letter-spacing: -0.01em;
   text-wrap: balance;
+}
+
+/* 跳转落点：#digest / .story / .board 才是真正的 id 目标（要点链接、目录、搜索、
+   手机目录面板、?news= 都落在这三处），顶部要给吸顶栏留出位置 */
+#digest,
+.story,
+.board {
   scroll-margin-top: calc(var(--topbar-h) + 24px);
 }
 
@@ -508,18 +515,21 @@ html.theme-ready body {
   font-size: var(--cap);
   line-height: 1.7;
 }
-.side-card .side-credit {
+.side-card .side-credit,
+.quick-note .side-credit {
   margin: 0;
   color: var(--faint);
   font-family: var(--sans);
   font-size: var(--cap);
   line-height: 1.6;
 }
-.side-card .side-credit a {
+.side-card .side-credit a,
+.quick-note .side-credit a {
   text-decoration: none;
   border-bottom: 1px solid var(--line);
 }
-.side-card .side-credit a:hover { border-bottom-color: var(--accent); }
+.side-card .side-credit a:hover,
+.quick-note .side-credit a:hover { border-bottom-color: var(--accent); }
 .side-card .side-link {
   padding: 0;
   border: 0;
@@ -1395,7 +1405,10 @@ dialog.image-dialog { width: min(1080px, 96vw); }
   .arc-table td:nth-child(2) { display: none; }   /* 手机上先看比分和结果 */
 
   .story { padding: 26px 0; }
-  .story-title { scroll-margin-top: 72px; }
+  /* 手机吸顶栏 56px：落点留 72px，标题和正文首行不会被压住 */
+  #digest,
+  .story,
+  .board { scroll-margin-top: 72px; }
 }
 
 /* 极窄屏：栏目名会让标题只剩两三个字，直接收掉 */

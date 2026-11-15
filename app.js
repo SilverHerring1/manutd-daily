@@ -176,6 +176,25 @@ function applyTheme(period) {
 /** 侧栏：每期可以写一段自己的短评（issue.note），没写就退回骨架里的默认文案 */
 const DEFAULT_SIDE = document.getElementById("sideCard")?.innerHTML ?? "";
 
+/** 短评正文：热评自动加「」；有 credit 才署名，有 url 才变成可点链接。
+    桌面侧栏和手机「目录」面板共用这一份，别两处各写一套。 */
+function noteHtml(note) {
+  if (!note?.body) return "";
+  const quoted = note.credit ? `「${esc(pangu(note.body))}」` : esc(pangu(note.body));
+  const credit = note.credit
+    ? `<p class="side-credit">—— ${
+        safeUrl(note.url)
+          ? `<a href="${esc(safeUrl(note.url))}" target="_blank" rel="noopener noreferrer">${esc(pangu(note.credit))}</a>`
+          : esc(pangu(note.credit))
+      }</p>`
+    : "";
+  return (
+    `<p class="side-label">${esc(pangu(note.title || "编辑短评"))}</p>` +
+    `<p class="side-body">${quoted}</p>` +
+    credit
+  );
+}
+
 function renderSide(issue) {
   const card = $("sideCard");
   if (!card) return;
@@ -184,20 +203,7 @@ function renderSide(issue) {
     card.innerHTML = DEFAULT_SIDE;
     return;
   }
-  // 热评：正文加引号，下面一个破折号加球迷名；自己写的那句两样都不加
-  const isQuote = Boolean(note.credit);
-  const body = isQuote ? `「${esc(pangu(note.body))}」` : esc(pangu(note.body));
-  const credit = note.credit
-    ? `<p class="side-credit">—— ${
-        safeUrl(note.url)
-          ? `<a href="${esc(safeUrl(note.url))}" target="_blank" rel="noopener noreferrer">${esc(pangu(note.credit))}</a>`
-          : esc(pangu(note.credit))
-      }</p>`
-    : "";
-  card.innerHTML =
-    `<p class="side-label">${esc(pangu(note.title || "编辑短评"))}</p>` +
-    `<p class="side-body">${body}</p>` +
-    credit;
+  card.innerHTML = noteHtml(note);
 }
 
 function renderMasthead(issue) {
@@ -911,7 +917,8 @@ function renderQuickSheet() {
   if (!nav) return;
 
   const items = [];
-  if ($("digest")) items.push({ target: "digest", mark: "★", label: "今日要点" });
+  // 没有要点的期次 renderDigest 只把 #digest 隐藏起来，节点还在，别照样塞进去
+  if ($("digest") && !$("digest").hidden) items.push({ target: "digest", mark: "★", label: "今日要点" });
   document.querySelectorAll(".story").forEach((story, index) => {
     const title = story.querySelector(".story-title")?.textContent?.trim();
     if (!title) return;
@@ -936,9 +943,7 @@ function renderQuickSheet() {
   const current = state.issue?.note;
   if (current?.body) {
     note.hidden = false;
-    note.innerHTML =
-      `<p class="side-label">${esc(pangu(current.title || "编辑短评"))}</p>` +
-      `<p>${esc(pangu(current.body))}</p>`;
+    note.innerHTML = noteHtml(current);
   } else {
     note.hidden = true;
     note.innerHTML = "";
