@@ -55,7 +55,13 @@
             }
           ],
           "source_name": "《曼彻斯特晚报》",
-          "published_at": "11-15 23:41"
+          "published_at": "11-15 23:41",
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-16-shaw.jpg",
+            "alt": "卢克·肖（懂球帝配图）",
+            "width": 1200,
+            "height": 799
+          }
         }
       ]
     },
@@ -79,7 +85,13 @@
             }
           ],
           "source_name": "《曼彻斯特晚报》",
-          "published_at": "11-16 16:58"
+          "published_at": "11-16 16:58",
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-16-binnion.jpg",
+            "alt": "宾尼恩（懂球帝配图）",
+            "width": 1200,
+            "height": 799
+          }
         },
         {
           "id": "liverpool-injuries",
@@ -93,7 +105,13 @@
             }
           ],
           "source_name": "《晚旗报》",
-          "published_at": "11-16 15:40"
+          "published_at": "11-16 15:40",
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-16-liverpool.jpg",
+            "alt": "利物浦球员（懂球帝拼图）",
+            "width": 1200,
+            "height": 750
+          }
         }
       ]
     }
@@ -101,5 +119,11 @@
   "note": {
     "title": "编辑短评",
     "body": "manager 而不是 coach——TA 给出的这几个字，比签约本身更值得看。"
+  },
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-16-evening-ferguson.jpg",
+    "alt": "弗格森与波切蒂诺",
+    "width": 1200,
+    "height": 800
   }
 }

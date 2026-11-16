@@ -673,7 +673,13 @@
       "section_count": 1,
       "season": "2026/27",
       "archive": false,
-      "kind": "news"
+      "kind": "news",
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-14-evening-presser.jpg",
+        "alt": "波切蒂诺在美国队告别发布会",
+        "width": 1200,
+        "height": 800
+      }
     },
     {
       "id": "2026-11-15-evening",
@@ -685,7 +691,13 @@
       "section_count": 2,
       "season": "2026/27",
       "archive": false,
-      "kind": "news"
+      "kind": "news",
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-15-evening-coach.jpg",
+        "alt": "波切蒂诺在美国队比赛前",
+        "width": 1200,
+        "height": 800
+      }
     },
     {
       "id": "2026-11-16-evening",
@@ -697,7 +709,13 @@
       "section_count": 2,
       "season": "2026/27",
       "archive": false,
-      "kind": "news"
+      "kind": "news",
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-16-evening-ferguson.jpg",
+        "alt": "弗格森与波切蒂诺",
+        "width": 1200,
+        "height": 800
+      }
     }
   ]
 }

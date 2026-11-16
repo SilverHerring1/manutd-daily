@@ -37,7 +37,13 @@
             }
           ],
           "source_name": "曼联官方",
-          "published_at": "11-13 21:00"
+          "published_at": "11-13 21:00",
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-14-morning-announce.jpg",
+            "alt": "波切蒂诺（联合早报配图）",
+            "width": 1023,
+            "height": 682
+          }
         },
         {
           "id": "carrick-farewell",
@@ -60,6 +66,12 @@
             "zh": "这份爱永远不会消失。",
             "who": "Michael Carrick（卡里克）",
             "when": "11 月 13 日社媒"
+          },
+          "image": {
+            "src": "./media/carrick.jpg",
+            "alt": "卡里克在老特拉福德",
+            "width": 1200,
+            "height": 800
           }
         }
       ]

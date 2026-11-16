@@ -69,5 +69,11 @@
   "note": {
     "title": "编辑短评",
     "body": "教练组先落地的是体能，不是战术。安菲尔德之前，他能改的只有腿。"
+  },
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-15-evening-coach.jpg",
+    "alt": "波切蒂诺在美国队比赛前",
+    "width": 1200,
+    "height": 800
   }
 }
