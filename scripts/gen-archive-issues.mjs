@@ -23,7 +23,7 @@ const ARCHIVE = join(DATA, 'archive');
 const OUT = join(DATA, 'seasons');
 const NAMES = JSON.parse(readFileSync(join(ROOT, 'scripts/teams-cn.json'), 'utf8'));
 // 站点静态资源版本号（只写数字）：改 layout.css / app.js 时跟 index.html 一起递增
-const ASSET_V = '11';
+const ASSET_V = '12';
 
 const args = process.argv.slice(2);
 const dry = args.includes('--dry');

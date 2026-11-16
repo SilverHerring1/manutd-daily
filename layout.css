@@ -1405,6 +1405,12 @@ dialog.image-dialog { width: min(1080px, 96vw); }
   .arc-table td:nth-child(2) { display: none; }   /* 手机上先看比分和结果 */
 
   .story { padding: 26px 0; }
+  /* 多图相册（例如社媒帖子截图）：手机上一列铺满，缩略图两列时字全糊 */
+  .story-gallery.is-multi img {
+    flex: 1 1 100%;
+    max-width: 100%;
+    max-height: 460px;
+  }
   /* 手机吸顶栏 56px：落点留 72px，标题和正文首行不会被压住 */
   #digest,
   .story,

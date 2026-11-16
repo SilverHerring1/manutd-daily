@@ -65,14 +65,35 @@
           "quote": {
             "zh": "这份爱永远不会消失。",
             "who": "Michael Carrick（卡里克）",
-            "when": "11 月 13 日社媒"
+            "when": "11 月 13 日社媒",
+            "en": "That love never dies."
           },
-          "image": {
-            "src": "./media/news/news-2026-27-2026-11-14-morning-carrick-ig.jpg",
-            "alt": "卡里克社媒告别帖的封面（DEAR UNITED FANS）",
-            "width": 1000,
-            "height": 1000
-          }
+          "images": [
+            {
+              "src": "./media/news/news-2026-27-2026-11-14-morning-carrick-ig-1.jpg",
+              "alt": "卡里克告别帖 1/4：DEAR UNITED FANS",
+              "width": 492,
+              "height": 647
+            },
+            {
+              "src": "./media/news/news-2026-27-2026-11-14-morning-carrick-ig-2.jpg",
+              "alt": "卡里克告别帖 2/4：告别信第一页",
+              "width": 492,
+              "height": 647
+            },
+            {
+              "src": "./media/news/news-2026-27-2026-11-14-morning-carrick-ig-3.jpg",
+              "alt": "卡里克告别帖 3/4：告别信第二页",
+              "width": 492,
+              "height": 647
+            },
+            {
+              "src": "./media/news/news-2026-27-2026-11-14-morning-carrick-ig-4.jpg",
+              "alt": "卡里克告别帖 4/4：在老特拉福德鼓掌",
+              "width": 1200,
+              "height": 1578
+            }
+          ]
         }
       ]
     }
