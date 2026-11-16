@@ -435,11 +435,15 @@ html.theme-ready body {
   background: var(--surface);
   cursor: zoom-in;
 }
+/* 多图相册：flex-basis 会把宽度定死，height:auto 再撞上 max-height 就会压扁比例——
+   这里不设基准宽度，只给上限，让图片自己按原比例缩进 48% × 380 的框里 */
 .story-gallery.is-multi img {
-  flex: 1 1 44%;
+  flex: 0 1 auto;
   min-width: 0;
+  width: auto;
+  height: auto;
   max-width: 48%;
-  max-height: 240px;
+  max-height: 380px;
 }
 
 .story-body { font-size: 1em; }
@@ -1407,7 +1411,7 @@ dialog.image-dialog { width: min(1080px, 96vw); }
   .story { padding: 26px 0; }
   /* 多图相册（例如社媒帖子截图）：手机上一列铺满，缩略图两列时字全糊 */
   .story-gallery.is-multi img {
-    flex: 1 1 100%;
+    flex: 0 1 auto;
     max-width: 100%;
     max-height: 460px;
   }

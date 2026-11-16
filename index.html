@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" href="./media/avatar.svg" />
 
   <link rel="stylesheet" href="./design-tokens.css?v=11" />
-  <link rel="stylesheet" href="./layout.css?v=12" />
+  <link rel="stylesheet" href="./layout.css?v=13" />
 
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
@@ -264,7 +264,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v24";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v25";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");
