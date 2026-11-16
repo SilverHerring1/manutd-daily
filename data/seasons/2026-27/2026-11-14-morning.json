@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-14-morning",
+  "date": "2026-11-14",
+  "period": "morning",
+  "issue_number": 558,
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-11-evening.jpg",
+    "alt": "波切蒂诺在美国队比赛期间",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "pochettino-confirmed",
+          "title": "曼联官宣波切蒂诺，合同到 2029",
+          "summary": "13 日晚俱乐部发布公告：波切蒂诺出任一线队主教练，两年半合同，11 月 18 日履新。",
+          "body_html": "<p>英国时间 13 日（周五）白天，曼联发布公告：毛里西奥·波切蒂诺出任男子一线队主教练，合同两年半，签到 2029 年夏天。</p><p>他 11 月 18 日正式到岗。在那之前，他还会带美国队打完两场对海地的中北美国家联赛；曼联为这笔交易向美国足协支付了约 1000 万美元解约金。</p><p>他是 2013 年弗格森退休之后曼联的第 8 任正式主帅，也是队史第一位阿根廷籍主教练。首场比赛定在 11 月 22 日，客场对利物浦。</p><p>公告里没有提卡里克。那份告别声明两天前已经发过了。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 波切蒂诺出任主教练",
+              "url": "https://www.manutd.com/en/news/mauricio-pochettino-agrees-to-become-united-head-coach"
+            },
+            {
+              "text": "联合早报",
+              "url": "https://www.zaobao.com.sg/news/sports/story20261114-9996151"
+            },
+            {
+              "text": "搜狐 · 官宣细节",
+              "url": "https://www.sohu.com/a/1101380077_121987739"
+            }
+          ],
+          "source_name": "曼联官方",
+          "published_at": "11-13 21:00"
+        },
+        {
+          "id": "carrick-farewell",
+          "title": "卡里克告别：这份爱不会消失",
+          "summary": "离任一天后，卡里克在社媒发文告别：没有抱怨，只写了感谢。",
+          "body_html": "<p>13 日，卡里克在个人社交账号上发了一段告别。他 12 日离开卡灵顿，13 日才开口。</p><p>“这份爱永远不会消失。”他写。还有一句：“我一心只盼曼联成功，这永远不会改变。”</p><p>他 1 月接手，带完上赛季剩下的 17 场，赢了 12 场，联赛第三；本赛季 10 轮 1 胜，球队排在第 18 位。</p><p>今年 5 月他刚签下两年合同，执教不到六个月。</p>",
+          "sources": [
+            {
+              "text": "腾讯新闻 · 卡里克告别",
+              "url": "https://news.qq.com/rain/a/20261114A01M5B00"
+            },
+            {
+              "text": "凤凰网 · 卡里克社媒告别",
+              "url": "https://feng.ifeng.com/c/8y1fr2Skn0r"
+            }
+          ],
+          "source_name": "球员社媒",
+          "published_at": "11-13",
+          "quote": {
+            "zh": "这份爱永远不会消失。",
+            "who": "Michael Carrick（卡里克）",
+            "when": "11 月 13 日社媒"
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "官宣比罗马诺的爆料晚了两小时。这一次，俱乐部没让消息在官网之外过夜。"
+  }
+}

@@ -5,13 +5,16 @@
   "kind": "main",
   "source": "hand-written",
   "generated_at": "2026-11-12T14:46:45+08:00",
-  "count": 28,
+  "count": 32,
   "matchCount": 10,
-  "newsCount": 11,
+  "newsCount": 15,
   "record": null,
   "first": "2026-07-13",
-  "last": "2026-11-13",
+  "last": "2026-11-16",
   "dates": [
+    "2026-11-16",
+    "2026-11-15",
+    "2026-11-14",
     "2026-11-13",
     "2026-11-12",
     "2026-11-11",
@@ -640,6 +643,60 @@
         "width": 1200,
         "height": 900
       },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "period": "morning",
+      "issue_number": 558,
+      "title": "曼联早报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-11-evening.jpg",
+        "alt": "波切蒂诺在美国队比赛期间",
+        "width": 1200,
+        "height": 800
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-14-evening",
+      "date": "2026-11-14",
+      "period": "evening",
+      "issue_number": 559,
+      "title": "曼联晚报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "period": "evening",
+      "issue_number": 560,
+      "title": "曼联晚报",
+      "item_count": 3,
+      "section_count": 2,
+      "season": "2026/27",
+      "archive": false,
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "period": "evening",
+      "issue_number": 561,
+      "title": "曼联晚报",
+      "item_count": 5,
+      "section_count": 2,
+      "season": "2026/27",
+      "archive": false,
       "kind": "news"
     }
   ]

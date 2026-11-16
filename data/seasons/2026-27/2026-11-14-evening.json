@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-14-evening",
+  "date": "2026-11-14",
+  "period": "evening",
+  "issue_number": 559,
+  "title": "曼联晚报",
+  "item_count": 2,
+  "section_count": 1,
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "usmnt-presser",
+          "title": "波切蒂诺告别美国队，发布会落泪",
+          "summary": "首次以曼联主帅身份公开露面，他说离开美国队是执教生涯最艰难的决定之一。",
+          "body_html": "<p>13 日在美国队的告别发布会上，波切蒂诺一开始就说不出话。“现在很难开口，我是个很情绪化的人。”</p><p>他把离开美国队称为“非常悲伤的决定”，也是执教生涯里最难的几个之一：他带队打完 2026 年本土世界杯，止步 16 强，前不久才刚续约到 2030 年。</p><p>谈到曼联，他的说法是“很难拒绝”。“我们是职业的，我们在努力实现自己的梦想。”</p><p>他确认会带完对海地的两场国家联赛，18 日到曼彻斯特报到；在那之前不谈曼联的具体工作。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 波切蒂诺谈任命",
+              "url": "https://www.manutd.com/en/news/pochettino-reacts-to-man-united-appointment-usa-press-conference"
+            },
+            {
+              "text": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/13611887/mauricio-pochettino-new-man-utd-head-coach-in-tears-as-he-labels-leaving-usmnt-toughest-decision-of-career"
+            },
+            {
+              "text": "USMNT 官方账号",
+              "url": "https://x.com/USMNT/status/2121259587055899087"
+            }
+          ],
+          "source_name": "曼联官网 · Sky",
+          "published_at": "11-14 01:30",
+          "quote": {
+            "zh": "现在很难开口，我是个很情绪化的人。这是一个非常悲伤的决定。但我们是职业的，我们在努力实现自己的梦想。",
+            "en": "It's difficult to talk now. I'm a very emotional guy. It's a very sad decision. But we are professionals and we are trying to make our dreams come true.",
+            "who": "Mauricio Pochettino（波切蒂诺）",
+            "when": "11 月 13 日美国队发布会"
+          }
+        },
+        {
+          "id": "us-soccer",
+          "title": "美国足协：他留下了长久的印记",
+          "summary": "美国足协在声明里感谢波切蒂诺，也承认最近的结果不够好。",
+          "body_html": "<p>美国足协在告别声明里写：“毛里西奥以他的领导力、职业精神和对球员与文化的投入，在美国足球留下了长久的印记。”</p><p>他们也承认“最近的结果不够好”。本土世界杯，美国队止步 16 强。</p><p>他 2024 年接手美国队，两年多里把球队带回世界杯 16 强；新帅人选没有公布。</p><p>接下来的两场国家联赛，仍由波切蒂诺指挥。</p>",
+          "sources": [
+            {
+              "text": "Sky Sports · 美国足协声明",
+              "url": "https://news.sky.com/story/manchester-united-agree-two-and-a-half-year-deal-with-mauricio-pochettino-13611788"
+            }
+          ],
+          "source_name": "美国足协",
+          "published_at": "11-14"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "第一次以曼联主帅的身份说话，说的却是告别。眼泪是真的，「很难拒绝」也是真的。"
+  }
+}
