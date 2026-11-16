@@ -38,6 +38,7 @@
 | `news/news-2026-27-2026-11-13-evening.jpg` | 多古在卡灵顿（曼联官网丹麦队征召稿配图） | 11-13 晚报头图 |
 | `news/news-2026-27-2026-11-13-evening-goodbye.jpg` | 芒特、多古的 IG story 截图拼图（左：芒特「Thank you Gaffer」；右：多古「Thank you coach」） | 11-13 晚报 更衣室告别那条 |
 | `news/news-2026-27-2026-11-14-morning-announce.jpg` | 波切蒂诺场边（联合早报配图） | 11-14 早报 官宣那条 |
+| `news/news-2026-27-2026-11-14-morning-carrick-ig.jpg` | 卡里克 IG 告别帖封面（DEAR UNITED FANS，球员本人社媒） | 11-14 早报 卡里克那条 |
 | `news/news-2026-27-2026-11-14-evening-presser.jpg` | 波切蒂诺特写（懂球帝配图） | 11-14 晚报 头图 |
 | `news/news-2026-27-2026-11-15-evening-coach.jpg` | 波切蒂诺在美国队比赛前握拳（Wikimedia，Bryan Berlin，CC BY-SA 4.0） | 11-15 晚报 头图 |
 | `news/news-2026-27-2026-11-16-evening-ferguson.jpg` | 弗格森与波切蒂诺交谈（懂球帝配图） | 11-16 晚报 头图 |
