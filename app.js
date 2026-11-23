@@ -564,8 +564,9 @@ async function renderBoard() {
   // 换期、搜索都会再调一次；不清掉上一次的榜，就会叠出两个积分榜
   host.querySelectorAll(":scope > .board").forEach((el) => el.remove());
 
-  // 有该季的全季比赛数据就用「当时」的榜；没有才退回懂球帝那张当前榜
-  const table = await tableAsOf(state.issue);
+  // 主线赛季（kind=main）用 boards.json 的当前榜；归档赛季才按日期算「当时」的榜
+  const seasonMeta = state.seasons?.find((s) => s.slug === state.issue?.season || s.season === state.issue?.season);
+  const table = seasonMeta?.kind === "main" ? null : await tableAsOf(state.issue);
   if (table) {
     if (!table.rows.length) return;     // 那天地一场没踢（比如夏窗），就不显示
     const [y, m, d] = table.cutoff.split("-");

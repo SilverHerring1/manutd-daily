@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-23-evening",
+  "date": "2026-11-23",
+  "period": "evening",
+  "issue_number": 567,
+  "title": "曼联晚报",
+  "item_count": 3,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-23-evening-lammens.jpg",
+    "alt": "波切蒂诺安慰门将拉门斯",
+    "width": 1200,
+    "height": 675
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "余波",
+      "items": [
+        {
+          "id": "table",
+          "title": "11 轮 8 分，距榜尾只差 1 分",
+          "summary": "输给利物浦后曼联 19 位，11 轮 8 分、净胜球 -9；各项赛事已丢 34 球。",
+          "body_html": "<p>11 轮 8 分，1 胜 5 平 5 负，净胜球 -9，排第 19，距榜尾 1 分。</p><p>联赛已经 9 轮不胜。各项赛事丢了 34 球，是欧洲五大联赛里防守最差的球队。</p><p>11 轮 14 球、23 失球。利物浦升到第 4，21 分。这场之后，曼联与第 4 的差距是 13 分。看台上的不满已经指向老板和管理层。《镜报》的说法是：不面对现实，只会更糟。</p>",
+          "sources": [
+            {
+              "text": "懂球帝 · 晚旗报数据示警",
+              "url": "https://m.dongqiudi.com/article/6687498.html"
+            },
+            {
+              "text": "卫报 · 赛后分析",
+              "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool"
+            }
+          ],
+          "source_name": "数据",
+          "published_at": "11-23"
+        },
+        {
+          "id": "pundits",
+          "title": "基恩：0-4 还说「不算太差」？",
+          "summary": "天空体育演播室里，基恩对「少打一人输 0-4 不算太差」的说法直接爆了。",
+          "body_html": "<p>“怎么会有人说 0-4 不算太差？”基恩在天空体育的演播室里说，“少打一人就可以投降吗？我想骂人。”</p><p>内维尔的说法是另一套：15 分钟就 0-2 少一人，4-0 不算灾难。两人当场对上了。</p><p>安菲尔德的看台唱的是“波切蒂诺明早就下课”，还有“波帅在开车”。</p><p>赛后发布会，波切蒂诺说球队需要“接受现实，提高专注度”。</p>",
+          "sources": [
+            {
+              "text": "卫报 · 直播中的基恩",
+              "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live"
+            },
+            {
+              "text": "Independent · 赛后",
+              "url": "https://www.independent.co.uk/sport/football/liverpool-man-united-mauricio-pochettino-score-result-b3089498.html"
+            }
+          ],
+          "source_name": "天空体育",
+          "published_at": "11-22",
+          "quote": {
+            "zh": "怎么会有人说 0-4 不算太差？少打一人就可以投降吗？",
+            "who": "Roy Keane（基恩）",
+            "when": "11 月 22 日天空体育"
+          }
+        },
+        {
+          "id": "next",
+          "title": "周三客场葡体，周六主场蜜蜂",
+          "summary": "没有时间消化这场 0-4：25 日欧冠客场对葡萄牙体育，28 日联赛主场对布伦特福德。",
+          "body_html": "<p>下一场是 25 日客场对葡萄牙体育，欧冠联赛阶段第 5 轮，里斯本，20:00（当地时间）。</p><p>28 日 15:00 回到老特拉福德对布伦特福德，对手本赛季开局不错。</p><p>两场之间只有两天，轮换不可避免。布伦特福德本赛季由基思·安德鲁斯执教，官网称他们“状态正佳”。波切蒂诺说，他需要先让球员“相信我们相信他们”。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 赛程",
+              "url": "https://www.manutd.com/en/matches/mens-team/sporting-clube-de-portugal-v-manchester-united-uefa-champions-league-20261125"
+            },
+            {
+              "text": "ESPN · 曼联赛程",
+              "url": "https://www.espn.co.uk/football/team/fixtures/_/id/360/manchester-united"
+            }
+          ],
+          "source_name": "赛程",
+          "published_at": "11-23 20:00"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "19 位，8 分，9 轮不胜。换帅没有换掉任何数字。接下来的两周，会决定这是不是又一次重建的开始。"
+  }
+}

@@ -39,6 +39,13 @@
 | `news/news-2026-27-2026-11-13-evening-goodbye.jpg` | 芒特、多古的 IG story 截图拼图（左：芒特「Thank you Gaffer」；右：多古「Thank you coach」） | 11-13 晚报 更衣室告别那条 |
 | `news/news-2026-27-2026-11-14-morning-announce.jpg` | 波切蒂诺场边（联合早报配图） | 11-14 早报 官宣那条 |
 | `news/news-2026-27-2026-11-14-morning-carrick-ig-1..4.jpg` | 卡里克 IG 告别帖四张图（封面 / 告别信两页 / 老特拉福德鼓掌，球员本人社媒） | 11-14 早报 卡里克那条（四图相册） |
+| `news/news-2026-27-2026-11-18-evening-arrival.jpg` | 波切蒂诺到岗（Stretty News via Yahoo） | 11-18 晚报 头图 |
+| `news/news-2026-27-2026-11-19-evening-training.jpg` | 波切蒂诺首堂训练课（NBC Sports） | 11-19 晚报 头图 |
+| `news/news-2026-27-2026-11-19-evening-leak.jpg` | 波切蒂诺（The Peoples Person via Yahoo） | 11-19 晚报 泄露那条 |
+| `news/news-2026-27-2026-11-20-evening-presser.jpg` | 波切蒂诺（The Peoples Person via Yahoo） | 11-20 晚报 头图 |
+| `news/news-2026-27-2026-11-22-evening-preview.jpg` | 伊拉奥拉与波切蒂诺（Getty via Al Jazeera） | 11-22 晚报 头图 |
+| `news/news-2026-27-2026-11-23-morning-anfield.jpg` | 波切蒂诺在安菲尔德（Getty via Independent） | 11-23 早报 头图 |
+| `news/news-2026-27-2026-11-23-evening-lammens.jpg` | 波切蒂诺安慰拉门斯（BBC Sport/Getty） | 11-23 晚报 头图 |
 | `news/news-2026-27-2026-11-14-evening-presser.jpg` | 波切蒂诺特写（懂球帝配图） | 11-14 晚报 头图 |
 | `news/news-2026-27-2026-11-15-evening-coach.jpg` | 波切蒂诺在美国队比赛前握拳（Wikimedia，Bryan Berlin，CC BY-SA 4.0） | 11-15 晚报 头图 |
 | `news/news-2026-27-2026-11-16-evening-ferguson.jpg` | 弗格森与波切蒂诺交谈（懂球帝配图） | 11-16 晚报 头图 |

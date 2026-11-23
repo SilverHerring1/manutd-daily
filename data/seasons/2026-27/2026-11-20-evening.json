@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-20-evening",
+  "date": "2026-11-20",
+  "period": "evening",
+  "issue_number": 564,
+  "title": "曼联晚报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-20-evening-presser.jpg",
+    "alt": "波切蒂诺（11-20 发布会前）",
+    "width": 1200,
+    "height": 675
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "presser",
+          "title": "「从零开始」：第一场发布会",
+          "summary": "20 日首次以曼联主帅身份出席发布会，他说要按自己的想法重建，过去的不会帮忙。",
+          "body_html": "<p>20 日，波切蒂诺第一次以曼联主帅身份出席发布会。开场他说：“我们想从零开始，用我们自己的理念和工作方式。”</p><p>“过去帮不上忙，别去想昨天。”</p><p>被问到上任后的首要目标，他笑着说：“睡觉。”</p><p>他还说，这一周和每名球员单独聊过，“三小时，一个一个聊”。布鲁诺的问题，他答了两次。他 22 日首战，25 日还有一场欧冠客场。</p>",
+          "sources": [
+            {
+              "text": "Reuters · 首场发布会",
+              "url": "https://www.reuters.com/sports/soccer/pochettino-vows-rebuild-manchester-united-from-scratch-ahead-liverpool-test-2026-11-20/"
+            },
+            {
+              "text": "NBC Sports · 发布会实录",
+              "url": "https://www.nbcsports.com/soccer/live/mauricio-pochettino-manchester-united-press-conference-today-quotes-reaction-news-2026-november-20"
+            }
+          ],
+          "source_name": "首场发布会",
+          "published_at": "11-20 17:00",
+          "quote": {
+            "zh": "我们想从零开始，用我们自己的理念和工作方式。",
+            "en": "We arrive with the idea to create something from scratch, from our own ideas and philosophy in the way that we love to work.",
+            "who": "Mauricio Pochettino（波切蒂诺）",
+            "when": "11 月 20 日首场发布会"
+          }
+        },
+        {
+          "id": "bruno",
+          "title": "布鲁诺仍是队长，位置不动",
+          "summary": "发布会上他明确布鲁诺是队长，也说自己要在引援等主要决定上有发言权。",
+          "body_html": "<p>布鲁诺·费尔南德斯的合同还剩一年半，续约没有进展，发布会上的问题绕不开他。</p><p>“布鲁诺是我们的队长，很重要的球员。但其他球员也要感觉到自己重要——从上到下。”</p><p>关于权限，他说：“我整个生涯都是 coach、head coach、manager，变化不大。未来我希望参与所有影响阵容的主要决定。”</p><p>最后一句是：“我们是草皮上的动物，喜欢闻到草的味道。”</p>",
+          "sources": [
+            {
+              "text": "Reuters · 发布会",
+              "url": "https://www.reuters.com/sports/soccer/pochettino-vows-rebuild-manchester-united-from-scratch-ahead-liverpool-test-2026-11-20/"
+            }
+          ],
+          "source_name": "首场发布会",
+          "published_at": "11-20"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "「从零开始」说了三遍。真正的问题是：这支球队还剩多少能用的东西。"
+  }
+}

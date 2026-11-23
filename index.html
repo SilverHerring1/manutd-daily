@@ -30,7 +30,7 @@
   <!-- 首选预连接数据源（跨域时才有意义） -->
   <link rel="preconnect" href="/" />
 
-  <script type="module" src="./app.js?v=23"></script>
+  <script type="module" src="./app.js?v=25"></script>
 </head>
 
 <body>
@@ -264,7 +264,7 @@
   (function () {
     var isFile = location.protocol === "file:";
     var tag = document.getElementById("buildTag");
-    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v25";
+    if (tag) tag.textContent = isFile ? " · file:// 直开，不工作" : " · 构建 v26";
     if (!isFile) return;
     var bar = document.createElement("div");
     bar.setAttribute("style", "position:fixed;inset:0;z-index:9999;background:#0e0f11;color:#f4f1ec;padding:48px 28px;font:16px/1.9 system-ui,-apple-system,'Microsoft YaHei',sans-serif;overflow:auto");

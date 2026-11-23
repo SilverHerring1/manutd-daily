@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-22-evening",
+  "date": "2026-11-22",
+  "period": "evening",
+  "issue_number": 565,
+  "title": "曼联晚报",
+  "item_count": 1,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-22-evening-preview.jpg",
+    "alt": "伊拉奥拉与波切蒂诺（赛前）",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "赛前",
+      "items": [
+        {
+          "id": "preview",
+          "title": "安菲尔德前瞻：拉什福德缺阵",
+          "summary": "波切蒂诺的第一场联赛，缺少拉什福德，马丁内斯解禁；利物浦的索博斯洛伊和范戴克通过体检。",
+          "body_html": "<p>22 日 16:30（英国时间），曼联客场对利物浦。这是波切蒂诺的第一场联赛。</p><p>曼联 10 轮 8 分，排第 18；利物浦 18 分排第 4，但主场只拿到 5 分，是联赛里主场抢分率最低的球队之一。</p><p>拉什福德因髋部伤势预计缺阵；马丁内斯解禁，马奎尔可以出场。</p><p>伊拉奥拉确认索博斯洛伊和范戴克都能上。两队第 219 次交手，上次在 5 月，曼联主场 3-2 赢。</p>",
+          "sources": [
+            {
+              "text": "The Football Faithful · 阵容预测",
+              "url": "https://thefootballfaithful.com/manchester-united-xi-vs-liverpool/"
+            },
+            {
+              "text": "Al Jazeera · 赛前",
+              "url": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups"
+            }
+          ],
+          "source_name": "赛前",
+          "published_at": "11-22 14:00"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "第 219 次交手。五个月前曼联在安菲尔德赢过，这次站在场边的人换了。"
+  }
+}

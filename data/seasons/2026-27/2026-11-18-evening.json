@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-18-evening",
+  "date": "2026-11-18",
+  "period": "evening",
+  "issue_number": 562,
+  "title": "曼联晚报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-18-evening-arrival.jpg",
+    "alt": "波切蒂诺（11-18 到岗）",
+    "width": 1200,
+    "height": 675
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "arrival",
+          "title": "波切蒂诺到岗，首句话会很特别",
+          "summary": "18 日上午，他乘隔夜航班抵达卡灵顿，第一次以主教练身份见到球员和工作人员。",
+          "body_html": "<p>18 日上午，波切蒂诺抵达卡灵顿。他从美国飞来，隔夜航班，落地后直接进训练基地。</p><p>据 Stretty News 的报道，他见到迎接的人时，开口第一句就是下面这句。</p><p>当天他没有带训练。教练组同时到位，19 日才是第一堂课。</p><p>他 11 月 13 日签约，18 日到岗，22 日就是安菲尔德。他的第一场比赛，对手是利物浦。</p>",
+          "sources": [
+            {
+              "text": "Stretty News（Yahoo 转载）",
+              "url": "https://sports.yahoo.com/articles/going-special-man-utd-fans-000000405.html"
+            },
+            {
+              "text": "ESPN · 到岗视频",
+              "url": "https://www.espn.com/video/clip/_/id/50520661/pochettino-arrives-carrington-first-day-man-united-head-coach"
+            }
+          ],
+          "source_name": "综合报道",
+          "published_at": "11-18 10:00",
+          "quote": {
+            "zh": "这会很特别。",
+            "en": "This is going to be special.",
+            "who": "Mauricio Pochettino（波切蒂诺）",
+            "when": "11 月 18 日卡灵顿"
+          }
+        },
+        {
+          "id": "staff",
+          "title": "教练组到位，图亚进一队",
+          "summary": "随他报到的教练组里，体能教练图亚成为曼联男足一队教练组首位女性。",
+          "body_html": "<p>随波切蒂诺一起到岗的教练组：助手赫苏斯·佩雷斯、一队教练达戈斯蒂诺、门将教练希门尼斯、体能教练塞巴斯蒂安·波切蒂诺（他的儿子），以及体能教练西尔维娅·图亚·维尼亚斯。</p><p>图亚是运动科学博士，成为曼联男足一队教练组里的第一位女性。</p><p>这套班子在美国队跟他干了两年多，从 2024 年一直到本土世界杯 16 强。</p>",
+          "sources": [
+            {
+              "text": "Instagram · 教练组确认",
+              "url": "https://www.instagram.com/p/DgFQLTWMg6r/"
+            },
+            {
+              "text": "Yahoo · 教练组名单",
+              "url": "https://sports.yahoo.com/articles/major-embarrassment-man-united-first-221500825.html"
+            }
+          ],
+          "source_name": "球员社媒 · 综合",
+          "published_at": "11-18"
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "第一天没有训练，只有见面。真正的第一堂课在第二天，第一场比赛在第四天。"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-19-evening",
+  "date": "2026-11-19",
+  "period": "evening",
+  "issue_number": 563,
+  "title": "曼联晚报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-19-evening-training.jpg",
+    "alt": "波切蒂诺在卡灵顿首堂训练课",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "news",
+      "title": "场外要闻",
+      "items": [
+        {
+          "id": "first-training",
+          "title": "首练：马奎尔全程，马丁内斯解禁",
+          "summary": "19 日第一堂训练课，马奎尔完成全程，马丁内斯解禁复出；拉什福德因髋部伤势存疑。",
+          "body_html": "<p>19 日上午，波切蒂诺带队完成第一堂训练课。</p><p>马奎尔在维拉那场半场因背部痉挛被换下，这一堂全程参加；利桑德罗·马丁内斯停赛期满，回到合练。</p><p>拉什福德没有参加，髋部伤势让他大概率赶不上安菲尔德。</p><p>训练只开放了前 15 分钟，剩下的部分俱乐部没有公开。马奎尔的那次背伤发生在上周对维拉的半场，他当时被提前换下。</p>",
+          "sources": [
+            {
+              "text": "曼联官网 · 训练更新",
+              "url": "https://www.manutd.com/en/news/training-update-ahead-of-anfield-clash-nov-2026"
+            },
+            {
+              "text": "Evening Standard · 拉什福德伤情",
+              "url": "https://sports.yahoo.com/articles/manchester-united-star-ruled-liverpool-212802421.html"
+            }
+          ],
+          "source_name": "曼联官方 · 伤情",
+          "published_at": "11-19 12:00"
+        },
+        {
+          "id": "leak",
+          "title": "首练视频外泄，俱乐部启动调查",
+          "summary": "一段首堂训练课的视频出现在网上，俱乐部按安全事件处理。",
+          "body_html": "<p>19 日晚，一段波切蒂诺首堂训练课的视频出现在社交媒体上。</p><p>画面里能看到分组、跑位和教练组的站位。俱乐部随后确认这是未经授权的拍摄，已经启动调查。</p><p>据《人民报》（The Peoples Person）的说法，泄密发生在训练基地外围，不涉及内部人员。</p><p>俱乐部把这件事定性为安全漏洞。波切蒂诺到岗第二天就遇上这件事。</p>",
+          "sources": [
+            {
+              "text": "Yahoo · 首练视频外泄",
+              "url": "https://sports.yahoo.com/articles/major-embarrassment-man-united-first-221500825.html"
+            }
+          ],
+          "source_name": "《人民报》转述",
+          "published_at": "11-19 22:15",
+          "image": {
+            "src": "./media/news/news-2026-27-2026-11-19-evening-leak.jpg",
+            "alt": "波切蒂诺（训练场边）",
+            "width": 1200,
+            "height": 675
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "首练第二天就漏了视频。卡灵顿的墙比想象中薄，这事不会就此结束。"
+  }
+}

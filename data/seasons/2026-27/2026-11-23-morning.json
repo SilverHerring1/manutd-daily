@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-23-morning",
+  "date": "2026-11-23",
+  "period": "morning",
+  "issue_number": 566,
+  "title": "曼联早报",
+  "item_count": 2,
+  "section_count": 1,
+  "hero": {
+    "src": "./media/news/news-2026-27-2026-11-23-morning-anfield.jpg",
+    "alt": "波切蒂诺在安菲尔德",
+    "width": 1200,
+    "height": 800
+  },
+  "sections": [
+    {
+      "id": "matches",
+      "title": "昨夜战报",
+      "items": [
+        {
+          "id": "liverpool",
+          "title": "利物浦 4-0 曼联，约罗 8 分钟被罚下",
+          "summary": "开场 8 分钟少打一人，13 分钟丢两球。波切蒂诺的第一场，在安菲尔德变成了 0-4。",
+          "body_html": "<p>第 8 分钟，约罗在禁区前沿放倒伊萨克，主裁直接出示红牌——判他破坏了明显得分机会。曼联从这一刻起少打一人。</p><p>第 10 分钟，索博斯洛伊任意球破门，1-0；第 13 分钟，维尔茨凌空抽射，2-0。半场就是这个比分。</p><p>第 66 分钟，恩古莫哈接巴尔科拉直塞推射，3-0；第 82 分钟，穆尼奥斯接维尔茨做球，4-0。</p><p>18 岁 85 天的恩古莫哈，是英超时代这场对决最年轻的进球者。曼联联赛 9 轮不胜，11 轮 8 分，排第 19。</p>",
+          "sources": [
+            {
+              "text": "卫报 · 比赛直播",
+              "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live"
+            },
+            {
+              "text": "卫报 · 战报",
+              "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
+            },
+            {
+              "text": "BBC · 战报",
+              "url": "https://www.bbc.co.uk/sport/football/live/cm62pqqw6d29t"
+            }
+          ],
+          "source_name": "英超第 11 轮",
+          "published_at": "11-23 00:30"
+        },
+        {
+          "id": "red-card",
+          "title": "波切蒂诺：那一下不该是红牌",
+          "summary": "赛后他批评红牌判罚，也说两分钟前雅凯对姆贝乌莫的接触该是点球。",
+          "body_html": "<p>“很痛，我们非常失望。比赛在第 8 分钟就完全变了。”</p><p>“球是滚向门将的，约罗没有任何碰到伊萨克的意图。”</p><p>他还提到两分钟前雅凯在禁区内对姆贝乌莫的接触：“那该是点球。”</p><p>“我和裁判谈过。尊重最重要，但我必须为俱乐部说话——对任何踢过球的人来说，那都不该是红牌。”他也承认，球队要为自己的表现负责。</p>",
+          "sources": [
+            {
+              "text": "卫报 · 波切蒂诺赛后",
+              "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool"
+            }
+          ],
+          "source_name": "赛后发布会",
+          "published_at": "11-23 01:40",
+          "quote": {
+            "zh": "很痛，我们非常失望。比赛在第 8 分钟就完全变了。",
+            "en": "It's so painful and we're so disappointed. The game changed completely after eight minutes.",
+            "who": "Mauricio Pochettino（波切蒂诺）",
+            "when": "11 月 22 日赛后"
+          }
+        }
+      ]
+    }
+  ],
+  "note": {
+    "title": "编辑短评",
+    "body": "8 分钟，一张红牌，比赛结束。波切蒂诺的第一课，是英超不等人。"
+  }
+}

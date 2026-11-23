@@ -5,13 +5,18 @@
   "kind": "main",
   "source": "hand-written",
   "generated_at": "2026-11-12T14:46:45+08:00",
-  "count": 32,
+  "count": 38,
   "matchCount": 10,
-  "newsCount": 15,
+  "newsCount": 20,
   "record": null,
   "first": "2026-07-13",
-  "last": "2026-11-16",
+  "last": "2026-11-23",
   "dates": [
+    "2026-11-23",
+    "2026-11-22",
+    "2026-11-20",
+    "2026-11-19",
+    "2026-11-18",
     "2026-11-16",
     "2026-11-15",
     "2026-11-14",
@@ -716,6 +721,114 @@
         "width": 1200,
         "height": 800
       }
+    },
+    {
+      "id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "period": "evening",
+      "issue_number": 562,
+      "title": "曼联晚报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-18-evening-arrival.jpg",
+        "alt": "波切蒂诺（11-18 到岗）",
+        "width": 1200,
+        "height": 675
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-19-evening",
+      "date": "2026-11-19",
+      "period": "evening",
+      "issue_number": 563,
+      "title": "曼联晚报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-19-evening-training.jpg",
+        "alt": "波切蒂诺在卡灵顿首堂训练课",
+        "width": 1200,
+        "height": 800
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "period": "evening",
+      "issue_number": 564,
+      "title": "曼联晚报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-20-evening-presser.jpg",
+        "alt": "波切蒂诺（11-20 发布会前）",
+        "width": 1200,
+        "height": 675
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "period": "evening",
+      "issue_number": 565,
+      "title": "曼联晚报",
+      "item_count": 1,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-22-evening-preview.jpg",
+        "alt": "伊拉奥拉与波切蒂诺（赛前）",
+        "width": 1200,
+        "height": 800
+      },
+      "kind": "news"
+    },
+    {
+      "id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "period": "morning",
+      "issue_number": 566,
+      "title": "曼联早报",
+      "item_count": 2,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-23-morning-anfield.jpg",
+        "alt": "波切蒂诺在安菲尔德",
+        "width": 1200,
+        "height": 800
+      },
+      "kind": "match"
+    },
+    {
+      "id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "period": "evening",
+      "issue_number": 567,
+      "title": "曼联晚报",
+      "item_count": 3,
+      "section_count": 1,
+      "season": "2026/27",
+      "archive": false,
+      "hero": {
+        "src": "./media/news/news-2026-27-2026-11-23-evening-lammens.jpg",
+        "alt": "波切蒂诺安慰门将拉门斯",
+        "width": 1200,
+        "height": 675
+      },
+      "kind": "news"
     }
   ]
 }
